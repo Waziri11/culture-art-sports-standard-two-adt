@@ -1,0 +1,1907 @@
+{
+  "accompanied": {
+    "word": "accompanied",
+    "definition": "happening together with something else",
+    "variations": [
+      "accompany",
+      "accompanies",
+      "accompanied",
+      "accompanying"
+    ],
+    "emoji": "🎶🤝"
+  },
+  "acting": {
+    "word": "acting",
+    "definition": "the art of pretending to be another person, animal, or character",
+    "variations": [
+      "act",
+      "acts",
+      "acted",
+      "acting"
+    ],
+    "emoji": "🎭🗣️"
+  },
+  "activity": {
+    "word": "activity",
+    "definition": "something you do to learn, practise, or have fun",
+    "variations": [
+      "activity",
+      "activities"
+    ],
+    "emoji": "📝🎯"
+  },
+  "Adhana": {
+    "word": "Adhana",
+    "definition": "the call or sound that tells Muslims it is time to pray",
+    "variations": [
+      "Adhana"
+    ],
+    "emoji": "🕌🔊"
+  },
+  "aiming": {
+    "word": "aiming",
+    "definition": "pointing or trying carefully to hit a target",
+    "variations": [
+      "aim",
+      "aims",
+      "aimed",
+      "aiming"
+    ],
+    "emoji": "🎯👁️"
+  },
+  "appreciate": {
+    "word": "appreciate",
+    "definition": "to understand the value of something and respect it",
+    "variations": [
+      "appreciate",
+      "appreciates",
+      "appreciated",
+      "appreciating",
+      "appreciation"
+    ],
+    "emoji": "💖👏"
+  },
+  "arrange": {
+    "word": "arrange",
+    "definition": "to put things in the right place or order",
+    "variations": [
+      "arrange",
+      "arranges",
+      "arranged",
+      "arranging"
+    ],
+    "emoji": "📦📐"
+  },
+  "artistic": {
+    "word": "artistic",
+    "definition": "related to art or making creative things",
+    "variations": [
+      "artistic"
+    ],
+    "emoji": "🎨✨"
+  },
+  "artwork": {
+    "word": "artwork",
+    "definition": "an object or piece made as art",
+    "variations": [
+      "artwork",
+      "artworks"
+    ],
+    "emoji": "🖼️🎨"
+  },
+  "attempt": {
+    "word": "attempt",
+    "definition": "an act of trying to do something",
+    "variations": [
+      "attempt",
+      "attempts",
+      "attempted",
+      "attempting"
+    ],
+    "emoji": "🤞🔁"
+  },
+  "attractive": {
+    "word": "attractive",
+    "definition": "nice to look at; beautiful or pleasing",
+    "variations": [
+      "attractive",
+      "attract"
+    ],
+    "emoji": "✨😍"
+  },
+  "audience": {
+    "word": "audience",
+    "definition": "the people who watch or listen to a performance",
+    "variations": [
+      "audience",
+      "audiences"
+    ],
+    "emoji": "👥👏"
+  },
+  "bait": {
+    "word": "bait",
+    "definition": "food or another thing used to attract fish so they can be caught",
+    "variations": [
+      "bait"
+    ],
+    "emoji": "🪱🎣"
+  },
+  "bamboo": {
+    "word": "bamboo",
+    "definition": "a tall plant with hard hollow stems, often used for building",
+    "variations": [
+      "bamboo"
+    ],
+    "emoji": "🎋"
+  },
+  "banana": {
+    "word": "banana",
+    "definition": "a long yellow fruit that grows on a banana plant",
+    "variations": [
+      "banana",
+      "bananas"
+    ],
+    "emoji": "🍌"
+  },
+  "banana leaf": {
+    "word": "banana leaf",
+    "definition": "a large leaf from a banana plant",
+    "variations": [
+      "banana leaf",
+      "banana leaves"
+    ],
+    "emoji": "🍌🍃"
+  },
+  "bark": {
+    "word": "bark",
+    "definition": "the outer covering of a tree",
+    "variations": [
+      "bark"
+    ],
+    "emoji": "🌳"
+  },
+  "behaviour": {
+    "word": "behaviour",
+    "definition": "the way a person acts",
+    "variations": [
+      "behaviour",
+      "behaviours",
+      "behavior",
+      "behaviors"
+    ],
+    "emoji": "🙂👦"
+  },
+  "belief": {
+    "word": "belief",
+    "definition": "an idea or faith that a person accepts as true, especially in religion",
+    "variations": [
+      "belief",
+      "beliefs"
+    ],
+    "emoji": "🙏💭"
+  },
+  "beliefs": {
+    "word": "beliefs",
+    "definition": "ideas or things that people think are true",
+    "variations": [
+      "belief",
+      "beliefs"
+    ],
+    "emoji": "💭🙏"
+  },
+  "bouncing": {
+    "word": "bouncing",
+    "definition": "moving up after hitting the ground or another surface",
+    "variations": [
+      "bounce",
+      "bounces",
+      "bounced",
+      "bouncing"
+    ],
+    "emoji": "🏀⬆️"
+  },
+  "branch": {
+    "word": "branch",
+    "definition": "a part of a tree that grows out from the trunk",
+    "variations": [
+      "branch",
+      "branches"
+    ],
+    "emoji": "🌿🌳"
+  },
+  "building": {
+    "word": "building",
+    "definition": "a structure made for people to use, such as a house or school",
+    "variations": [
+      "building",
+      "buildings",
+      "build"
+    ],
+    "emoji": "🏢🧱"
+  },
+  "business": {
+    "word": "business",
+    "definition": "the activity of buying and selling goods to make money",
+    "variations": [
+      "business",
+      "businesses"
+    ],
+    "emoji": "🏪💼"
+  },
+  "canoe": {
+    "word": "canoe",
+    "definition": "a small narrow boat used on water",
+    "variations": [
+      "canoe",
+      "canoes"
+    ],
+    "emoji": "🛶"
+  },
+  "carve": {
+    "word": "carve",
+    "definition": "to cut or shape something, especially wood, into an item or design",
+    "variations": [
+      "carve",
+      "carved",
+      "carving",
+      "carves"
+    ],
+    "emoji": "🪵🔪"
+  },
+  "carving": {
+    "word": "carving",
+    "definition": "the activity of cutting and shaping wood or stone to make an object",
+    "variations": [
+      "carving",
+      "carve",
+      "carves",
+      "carved"
+    ],
+    "emoji": "🪵🔪🎨"
+  },
+  "cash crop": {
+    "word": "cash crop",
+    "definition": "a crop grown mainly to sell and earn money",
+    "variations": [
+      "cash crop",
+      "cash crops"
+    ],
+    "emoji": "💰🌱"
+  },
+  "catfish": {
+    "word": "catfish",
+    "definition": "a type of fish with long whisker-like parts around its mouth",
+    "variations": [
+      "catfish",
+      "catfishes"
+    ],
+    "emoji": "🐟"
+  },
+  "ceremony": {
+    "word": "ceremony",
+    "definition": "a formal event held for a special reason",
+    "variations": [
+      "ceremony",
+      "ceremonies"
+    ],
+    "emoji": "🎉🙏"
+  },
+  "chalkboard": {
+    "word": "chalkboard",
+    "definition": "a board used for writing or drawing with chalk",
+    "variations": [
+      "chalkboard",
+      "chalkboards"
+    ],
+    "emoji": "🧑‍🏫🖍️"
+  },
+  "charcoal": {
+    "word": "charcoal",
+    "definition": "a black material used for drawing or for making fire",
+    "variations": [
+      "charcoal"
+    ],
+    "emoji": "⚫✍️"
+  },
+  "chisel": {
+    "word": "chisel",
+    "definition": "a tool with a sharp edge used for cutting or shaping wood or stone",
+    "variations": [
+      "chisel",
+      "chisels"
+    ],
+    "emoji": "🛠️🪵"
+  },
+  "church": {
+    "word": "church",
+    "definition": "a place where Christians go to pray and worship",
+    "variations": [
+      "church",
+      "churches"
+    ],
+    "emoji": "⛪🙏"
+  },
+  "circus": {
+    "word": "circus",
+    "definition": "a performance with body movements, tricks, and often music",
+    "variations": [
+      "circus",
+      "circuses"
+    ],
+    "emoji": "🤹🎪"
+  },
+  "clay soil": {
+    "word": "clay soil",
+    "definition": "a type of soil that can be shaped when wet and used to make pots and other items",
+    "variations": [
+      "clay soil"
+    ],
+    "emoji": "🪨🏺"
+  },
+  "collaborate": {
+    "word": "collaborate",
+    "definition": "to work together with other people.",
+    "variations": [
+      "collaborate",
+      "collaborates",
+      "collaborated",
+      "collaborating"
+    ],
+    "emoji": "🤝👥"
+  },
+  "comedy": {
+    "word": "comedy",
+    "definition": "a type of performance or story that is meant to make people laugh",
+    "variations": [
+      "comedy",
+      "comedies",
+      "comic"
+    ],
+    "emoji": "😂🎭"
+  },
+  "community": {
+    "word": "community",
+    "definition": "a group of people living together in one area or sharing something in common",
+    "variations": [
+      "community",
+      "communities"
+    ],
+    "emoji": "🏘️🤝"
+  },
+  "compare": {
+    "word": "compare",
+    "definition": "to look at two or more things to see how they are alike or different",
+    "variations": [
+      "compare",
+      "compares",
+      "comparing",
+      "compared"
+    ],
+    "emoji": "⚖️👀"
+  },
+  "compete": {
+    "word": "compete",
+    "definition": "to try to win against others in a game or contest",
+    "variations": [
+      "compete",
+      "competes",
+      "competed",
+      "competing",
+      "competition"
+    ],
+    "emoji": "🏁🏃"
+  },
+  "cone": {
+    "word": "cone",
+    "definition": "a shaped marker often used to show places or lines in games",
+    "variations": [
+      "cone",
+      "cones"
+    ],
+    "emoji": "🔺🏃"
+  },
+  "cooperative": {
+    "word": "cooperative",
+    "definition": "willing to work together with others",
+    "variations": [
+      "cooperative",
+      "cooperate",
+      "cooperates",
+      "cooperated",
+      "cooperating",
+      "cooperation"
+    ],
+    "emoji": "🤝👥"
+  },
+  "costume": {
+    "word": "costume",
+    "definition": "special clothes worn for a dance, play, or celebration",
+    "variations": [
+      "costume",
+      "costumes"
+    ],
+    "emoji": "👘🎭"
+  },
+  "cow dung": {
+    "word": "cow dung",
+    "definition": "waste from a cow that can be used in building",
+    "variations": [
+      "cow dung"
+    ],
+    "emoji": "🐄🟤"
+  },
+  "crayon": {
+    "word": "crayon",
+    "definition": "a colored stick used for drawing or coloring",
+    "variations": [
+      "crayon",
+      "crayons"
+    ],
+    "emoji": "🖍️🎨"
+  },
+  "creative arts": {
+    "word": "creative arts",
+    "definition": "activities like drawing, dancing, acting, and music that use imagination and skill",
+    "variations": [
+      "creative art",
+      "creative arts"
+    ],
+    "emoji": "🎨🎵✨"
+  },
+  "crop": {
+    "word": "crop",
+    "definition": "a plant grown by people for food or for selling",
+    "variations": [
+      "crop",
+      "crops"
+    ],
+    "emoji": "🌽🍌"
+  },
+  "cultural": {
+    "word": "cultural",
+    "definition": "related to the way of life, beliefs, and customs of a group of people",
+    "variations": [
+      "cultural",
+      "culture",
+      "cultures"
+    ],
+    "emoji": "🌍🏘️"
+  },
+  "culture": {
+    "word": "culture",
+    "definition": "the way of life, beliefs, and customs of a group of people",
+    "variations": [
+      "culture",
+      "cultures",
+      "cultural"
+    ],
+    "emoji": "🌍👥"
+  },
+  "customs": {
+    "word": "customs",
+    "definition": "the usual ways of behaving or doing things in a community",
+    "variations": [
+      "custom",
+      "customs"
+    ],
+    "emoji": "🌍📚"
+  },
+  "decoration": {
+    "word": "decoration",
+    "definition": "something added to make a person, place, or thing look more beautiful or attractive",
+    "variations": [
+      "decoration",
+      "decorations",
+      "decorate",
+      "decorated",
+      "decorating"
+    ],
+    "emoji": "🎀🌸🎨"
+  },
+  "defending zone": {
+    "word": "defending zone",
+    "definition": "the area where players stay to stop the other team from passing or scoring.",
+    "variations": [
+      "defending zone",
+      "defending zones"
+    ],
+    "emoji": "🛡️📍"
+  },
+  "determined": {
+    "word": "determined",
+    "definition": "decided or found out clearly",
+    "variations": [
+      "determine",
+      "determines",
+      "determined",
+      "determining"
+    ],
+    "emoji": "📌✅"
+  },
+  "diameter": {
+    "word": "diameter",
+    "definition": "a straight line across a circle through its centre, or the length of that line",
+    "variations": [
+      "diameter",
+      "diameters"
+    ],
+    "emoji": "⭕📏"
+  },
+  "difference": {
+    "word": "difference",
+    "definition": "the way in which things are not the same",
+    "variations": [
+      "difference",
+      "differences",
+      "different"
+    ],
+    "emoji": "🔍↔️"
+  },
+  "digital program": {
+    "word": "digital program",
+    "definition": "software used on a phone, tablet, or computer to do an activity or learn something.",
+    "variations": [
+      "digital program",
+      "digital programs"
+    ],
+    "emoji": "💻📱"
+  },
+  "direct": {
+    "word": "direct",
+    "definition": "to aim or send something toward a place.",
+    "variations": [
+      "direct",
+      "directs",
+      "directed",
+      "directing"
+    ],
+    "emoji": "➡️🎯"
+  },
+  "directly": {
+    "word": "directly",
+    "definition": "in a straight way, without going around or bouncing first",
+    "variations": [
+      "directly",
+      "direct"
+    ],
+    "emoji": "➡️🎯"
+  },
+  "distance": {
+    "word": "distance",
+    "definition": "the space between two places or points",
+    "variations": [
+      "distance",
+      "distances"
+    ],
+    "emoji": "📏↔️"
+  },
+  "double-click": {
+    "word": "double-click",
+    "definition": "to press a mouse button or tap twice very quickly.",
+    "variations": [
+      "double-click",
+      "double-clicks",
+      "double-clicked",
+      "double-clicking"
+    ],
+    "emoji": "🖱️👆"
+  },
+  "download": {
+    "word": "download",
+    "definition": "to copy an app or file onto your device from the internet.",
+    "variations": [
+      "download",
+      "downloads",
+      "downloaded",
+      "downloading"
+    ],
+    "emoji": "⬇️📲"
+  },
+  "dramatic": {
+    "word": "dramatic",
+    "definition": "full of strong feeling and action, meant to attract attention",
+    "variations": [
+      "dramatic",
+      "drama",
+      "dramatically"
+    ],
+    "emoji": "🎭🔥"
+  },
+  "draw": {
+    "word": "draw",
+    "definition": "to make a picture with a pencil, pen, or other tool",
+    "variations": [
+      "draw",
+      "draws",
+      "drawing",
+      "drew"
+    ],
+    "emoji": "✏️🎨"
+  },
+  "drawing": {
+    "word": "drawing",
+    "definition": "the art of making pictures or images on a surface using tools like a pencil or pen",
+    "variations": [
+      "drawing",
+      "draw",
+      "draws",
+      "drew",
+      "drawn"
+    ],
+    "emoji": "✏️🖼️"
+  },
+  "dribble": {
+    "word": "dribble",
+    "definition": "to move a ball along with small kicks or touches while playing.",
+    "variations": [
+      "dribble",
+      "dribbles",
+      "dribbled",
+      "dribbling"
+    ],
+    "emoji": "⚽👣"
+  },
+  "dribbling": {
+    "word": "dribbling",
+    "definition": "moving a ball by pushing or tapping it along as you move",
+    "variations": [
+      "dribble",
+      "dribbles",
+      "dribbled",
+      "dribbling"
+    ],
+    "emoji": "⚽👣"
+  },
+  "educate": {
+    "word": "educate",
+    "definition": "to teach or give knowledge",
+    "variations": [
+      "educate",
+      "educates",
+      "educated",
+      "educating",
+      "education"
+    ],
+    "emoji": "📘👩‍🏫"
+  },
+  "entertain": {
+    "word": "entertain",
+    "definition": "to make people enjoy themselves",
+    "variations": [
+      "entertain",
+      "entertains",
+      "entertained",
+      "entertaining",
+      "entertainment"
+    ],
+    "emoji": "😄🎉"
+  },
+  "environment": {
+    "word": "environment",
+    "definition": "the natural surroundings where people, animals, and plants live",
+    "variations": [
+      "environment",
+      "environments"
+    ],
+    "emoji": "🌍🌳"
+  },
+  "ethics": {
+    "word": "ethics",
+    "definition": "rules or ideas about what is right and wrong",
+    "variations": [
+      "ethics",
+      "ethical"
+    ],
+    "emoji": "⚖️✅"
+  },
+  "exchange": {
+    "word": "exchange",
+    "definition": "to give something and receive something in return",
+    "variations": [
+      "exchange",
+      "exchanges",
+      "exchanged",
+      "exchanging"
+    ],
+    "emoji": "🔄🤝"
+  },
+  "exchange point": {
+    "word": "exchange point",
+    "definition": "the place where one player gives something, like a stick, to another player",
+    "variations": [
+      "exchange point",
+      "exchange points"
+    ],
+    "emoji": "🔄📍"
+  },
+  "exercise": {
+    "word": "exercise",
+    "definition": "a task or set of questions for practice",
+    "variations": [
+      "exercise",
+      "exercises"
+    ],
+    "emoji": "📘✍️"
+  },
+  "expressive": {
+    "word": "expressive",
+    "definition": "showing feelings or ideas clearly",
+    "variations": [
+      "expressive",
+      "express"
+    ],
+    "emoji": "😊🗣️"
+  },
+  "fabric": {
+    "word": "fabric",
+    "definition": "cloth material used to make clothes and other items",
+    "variations": [
+      "fabric",
+      "fabrics"
+    ],
+    "emoji": "🧵👕"
+  },
+  "facial expression": {
+    "word": "facial expression",
+    "definition": "the look on a person’s face that shows a feeling",
+    "variations": [
+      "facial expression",
+      "facial expressions"
+    ],
+    "emoji": "😀😮😢"
+  },
+  "farming": {
+    "word": "farming",
+    "definition": "the activity of growing crops and producing food",
+    "variations": [
+      "farming",
+      "farm"
+    ],
+    "emoji": "🌾🚜"
+  },
+  "festival": {
+    "word": "festival",
+    "definition": "a special time or event when people celebrate together",
+    "variations": [
+      "festival",
+      "festivals"
+    ],
+    "emoji": "🎊🥁"
+  },
+  "fiber": {
+    "word": "fiber",
+    "definition": "a thin thread-like material from plants, animals, or other sources",
+    "variations": [
+      "fiber",
+      "fibers"
+    ],
+    "emoji": "🧶🌿"
+  },
+  "finish line": {
+    "word": "finish line",
+    "definition": "the line a player must cross to end a race",
+    "variations": [
+      "finish line",
+      "finish lines",
+      "finishing line",
+      "finishing lines"
+    ],
+    "emoji": "🏁🏃"
+  },
+  "finishing line": {
+    "word": "finishing line",
+    "definition": "the line that marks the end of a race",
+    "variations": [
+      "finishing line",
+      "finishing lines"
+    ],
+    "emoji": "🏁🏃"
+  },
+  "fishing": {
+    "word": "fishing",
+    "definition": "the activity of catching fish from water",
+    "variations": [
+      "fishing"
+    ],
+    "emoji": "🎣🐟"
+  },
+  "flat": {
+    "word": "flat",
+    "definition": "level and not raised or curved",
+    "variations": [
+      "flat",
+      "flats"
+    ],
+    "emoji": "⬜"
+  },
+  "flat area": {
+    "word": "flat area",
+    "definition": "a level place on the ground without bumps or slopes.",
+    "variations": [
+      "flat area",
+      "flat areas"
+    ],
+    "emoji": "⬜🌍"
+  },
+  "free zone": {
+    "word": "free zone",
+    "definition": "an area in the game that players are not allowed to enter.",
+    "variations": [
+      "free zone",
+      "free zones"
+    ],
+    "emoji": "🚫⬜"
+  },
+  "gathering": {
+    "word": "gathering",
+    "definition": "a meeting of people in one place",
+    "variations": [
+      "gathering",
+      "gatherings",
+      "gather"
+    ],
+    "emoji": "👨‍👩‍👧‍👦📍"
+  },
+  "GCompris": {
+    "word": "GCompris",
+    "definition": "a digital learning program with educational games and activities.",
+    "variations": [
+      "GCompris"
+    ],
+    "emoji": "💻🎮"
+  },
+  "goalkeeper": {
+    "word": "goalkeeper",
+    "definition": "the player who protects the goal and tries to stop the ball from going in.",
+    "variations": [
+      "goalkeeper",
+      "goalkeepers"
+    ],
+    "emoji": "🥅🧤"
+  },
+  "gradually": {
+    "word": "gradually",
+    "definition": "slowly, little by little over time",
+    "variations": [
+      "gradually",
+      "gradual"
+    ],
+    "emoji": "📈🐢"
+  },
+  "grain": {
+    "word": "grain",
+    "definition": "a small hard seed from plants such as maize, rice, or wheat",
+    "variations": [
+      "grain",
+      "grains"
+    ],
+    "emoji": "🌾🌽"
+  },
+  "grass": {
+    "word": "grass",
+    "definition": "a common green plant with narrow leaves",
+    "variations": [
+      "grass",
+      "grasses"
+    ],
+    "emoji": "🌿"
+  },
+  "greedy": {
+    "word": "greedy",
+    "definition": "wanting more than you need, especially money or things",
+    "variations": [
+      "greedy",
+      "greed"
+    ],
+    "emoji": "🫴💰"
+  },
+  "handcraft": {
+    "word": "handcraft",
+    "definition": "a work of art made by hand",
+    "variations": [
+      "handcraft",
+      "handcrafts"
+    ],
+    "emoji": "✋🎨"
+  },
+  "heroic": {
+    "word": "heroic",
+    "definition": "showing bravery, courage, or greatness",
+    "variations": [
+      "heroic",
+      "heroically",
+      "hero"
+    ],
+    "emoji": "🦸⭐"
+  },
+  "hook": {
+    "word": "hook",
+    "definition": "a curved metal tool used to catch fish",
+    "variations": [
+      "hook",
+      "hooks"
+    ],
+    "emoji": "🪝"
+  },
+  "house": {
+    "word": "house",
+    "definition": "a building where people live",
+    "variations": [
+      "house",
+      "houses"
+    ],
+    "emoji": "🏠"
+  },
+  "ICT": {
+    "word": "ICT",
+    "definition": "the use of computers and other technology to get and share information.",
+    "variations": [
+      "ICT"
+    ],
+    "emoji": "💻📡"
+  },
+  "identify": {
+    "word": "identify",
+    "definition": "to name or recognize something correctly",
+    "variations": [
+      "identify",
+      "identifies",
+      "identifying",
+      "identified"
+    ],
+    "emoji": "✅👀"
+  },
+  "illustration": {
+    "word": "illustration",
+    "definition": "a picture or drawing used to explain something.",
+    "variations": [
+      "illustration",
+      "illustrations"
+    ],
+    "emoji": "🖼️✏️"
+  },
+  "image": {
+    "word": "image",
+    "definition": "a picture or shape of something",
+    "variations": [
+      "image",
+      "images"
+    ],
+    "emoji": "🖼️📷"
+  },
+  "imitate": {
+    "word": "imitate",
+    "definition": "to do the same thing as someone or something else",
+    "variations": [
+      "imitate",
+      "imitates",
+      "imitated",
+      "imitating",
+      "imitation"
+    ],
+    "emoji": "🤹🔁"
+  },
+  "inner circle": {
+    "word": "inner circle",
+    "definition": "the circle in the center area",
+    "variations": [
+      "inner circle",
+      "inner circles"
+    ],
+    "emoji": "🎯⭕"
+  },
+  "involve": {
+    "word": "involve",
+    "definition": "to include or use something as part of an activity",
+    "variations": [
+      "involve",
+      "involves",
+      "involved",
+      "involving"
+    ],
+    "emoji": "➕🧩"
+  },
+  "kicking": {
+    "word": "kicking",
+    "definition": "hitting a ball with your foot",
+    "variations": [
+      "kick",
+      "kicks",
+      "kicked",
+      "kicking"
+    ],
+    "emoji": "🦶⚽"
+  },
+  "kneel": {
+    "word": "kneel",
+    "definition": "to go down onto one or both knees",
+    "variations": [
+      "kneel",
+      "kneels",
+      "knelt",
+      "kneeling"
+    ],
+    "emoji": "🦵⬇️"
+  },
+  "knitting": {
+    "word": "knitting",
+    "definition": "the activity of using thread and needles or sticks to make things like socks, hats, or sweaters",
+    "variations": [
+      "knitting",
+      "knit",
+      "knits"
+    ],
+    "emoji": "🧶🪡"
+  },
+  "livestock": {
+    "word": "livestock",
+    "definition": "animals kept by people for food, money, or other uses",
+    "variations": [
+      "livestock"
+    ],
+    "emoji": "🐄🐐🐑"
+  },
+  "livestock keeping": {
+    "word": "livestock keeping",
+    "definition": "the activity of taking care of animals and birds",
+    "variations": [
+      "livestock keeping"
+    ],
+    "emoji": "🐄🐓"
+  },
+  "log": {
+    "word": "log",
+    "definition": "a thick piece of cut tree trunk",
+    "variations": [
+      "log",
+      "logs"
+    ],
+    "emoji": "🪵"
+  },
+  "maize": {
+    "word": "maize",
+    "definition": "a tall plant that produces corn, used as food",
+    "variations": [
+      "maize"
+    ],
+    "emoji": "🌽"
+  },
+  "mask": {
+    "word": "mask",
+    "definition": "something worn on the face to look like a different person or animal",
+    "variations": [
+      "mask",
+      "masks"
+    ],
+    "emoji": "🎭🐾"
+  },
+  "material": {
+    "word": "material",
+    "definition": "a thing used to make or build something",
+    "variations": [
+      "material",
+      "materials"
+    ],
+    "emoji": "🧱🪵"
+  },
+  "mention": {
+    "word": "mention",
+    "definition": "to say or name something briefly",
+    "variations": [
+      "mention",
+      "mentions",
+      "mentioning",
+      "mentioned"
+    ],
+    "emoji": "💬"
+  },
+  "middle circle": {
+    "word": "middle circle",
+    "definition": "the circle between the inner and outer parts",
+    "variations": [
+      "middle circle",
+      "middle circles"
+    ],
+    "emoji": "⭕2️⃣"
+  },
+  "mirror": {
+    "word": "mirror",
+    "definition": "a smooth object that shows your image when you look at it",
+    "variations": [
+      "mirror",
+      "mirrors"
+    ],
+    "emoji": "🪞👀"
+  },
+  "missed": {
+    "word": "missed",
+    "definition": "did not hit or reach the thing you wanted",
+    "variations": [
+      "miss",
+      "misses",
+      "missed",
+      "missing"
+    ],
+    "emoji": "❌🎯"
+  },
+  "Mosque": {
+    "word": "Mosque",
+    "definition": "a place where Muslims go to pray",
+    "variations": [
+      "Mosque",
+      "Mosques"
+    ],
+    "emoji": "🕌🙏"
+  },
+  "moulding": {
+    "word": "moulding",
+    "definition": "the art of shaping clay or another soft material into different items",
+    "variations": [
+      "moulding",
+      "mould",
+      "moulds",
+      "moulded"
+    ],
+    "emoji": "🏺✋"
+  },
+  "mud": {
+    "word": "mud",
+    "definition": "wet soft earth",
+    "variations": [
+      "mud",
+      "muddy"
+    ],
+    "emoji": "🟤"
+  },
+  "needle": {
+    "word": "needle",
+    "definition": "a small thin tool used with thread for sewing or knitting",
+    "variations": [
+      "needle",
+      "needles"
+    ],
+    "emoji": "🪡🧵"
+  },
+  "net": {
+    "word": "net",
+    "definition": "a tool made of string or rope used to catch fish",
+    "variations": [
+      "net",
+      "nets"
+    ],
+    "emoji": "🕸️🎣"
+  },
+  "ngonjera": {
+    "word": "ngonjera",
+    "definition": "a short performance or poem spoken by two or more people in turns, often with a message",
+    "variations": [
+      "ngonjera",
+      "ngonjeras"
+    ],
+    "emoji": "🎭🗣️"
+  },
+  "obedient": {
+    "word": "obedient",
+    "definition": "willing to do what you are told to do",
+    "variations": [
+      "obedient",
+      "obedience"
+    ],
+    "emoji": "🙋✅"
+  },
+  "observe": {
+    "word": "observe",
+    "definition": "to look at something carefully.",
+    "variations": [
+      "observe",
+      "observes",
+      "observed",
+      "observing"
+    ],
+    "emoji": "👀🔍"
+  },
+  "octopus": {
+    "word": "octopus",
+    "definition": "a sea animal with eight arms",
+    "variations": [
+      "octopus",
+      "octopuses"
+    ],
+    "emoji": "🐙"
+  },
+  "opponent": {
+    "word": "opponent",
+    "definition": "the person or team you are competing against",
+    "variations": [
+      "opponent",
+      "opponents"
+    ],
+    "emoji": "🥇↔️"
+  },
+  "opposing": {
+    "word": "opposing",
+    "definition": "facing another person or team as an opponent.",
+    "variations": [
+      "oppose",
+      "opposed",
+      "opposes",
+      "opposing"
+    ],
+    "emoji": "⚔️👥"
+  },
+  "outer circle": {
+    "word": "outer circle",
+    "definition": "the circle around the outside",
+    "variations": [
+      "outer circle",
+      "outer circles"
+    ],
+    "emoji": "⭕🌐"
+  },
+  "participate": {
+    "word": "participate",
+    "definition": "to take part in an activity or game.",
+    "variations": [
+      "participate",
+      "participates",
+      "participated",
+      "participating"
+    ],
+    "emoji": "🙋🎮"
+  },
+  "patient": {
+    "word": "patient",
+    "definition": "able to stay calm and wait without getting angry",
+    "variations": [
+      "patient",
+      "patients",
+      "patience"
+    ],
+    "emoji": "😌⏳"
+  },
+  "penalty kick": {
+    "word": "penalty kick",
+    "definition": "a kick taken at the goal as part of a football game or practice.",
+    "variations": [
+      "penalty kick",
+      "penalty kicks"
+    ],
+    "emoji": "⚽🥅"
+  },
+  "perform": {
+    "word": "perform",
+    "definition": "to act, sing, recite, or present something before others",
+    "variations": [
+      "perform",
+      "performs",
+      "performed",
+      "performing"
+    ],
+    "emoji": "🎤🎭"
+  },
+  "performing art": {
+    "word": "performing art",
+    "definition": "art that people perform in front of others, such as acting, dancing, or music",
+    "variations": [
+      "performing art",
+      "performing arts"
+    ],
+    "emoji": "🎭💃🎶"
+  },
+  "picture": {
+    "word": "picture",
+    "definition": "an image or drawing that shows something",
+    "variations": [
+      "picture",
+      "pictures"
+    ],
+    "emoji": "🖼️"
+  },
+  "pointed": {
+    "word": "pointed",
+    "definition": "having a sharp or narrow top",
+    "variations": [
+      "pointed"
+    ],
+    "emoji": "🔺"
+  },
+  "pole": {
+    "word": "pole",
+    "definition": "a long piece of wood or other material used for building or support",
+    "variations": [
+      "pole",
+      "poles"
+    ],
+    "emoji": "🪵"
+  },
+  "portray": {
+    "word": "portray",
+    "definition": "to show or act the character, behaviour, or appearance of someone or something",
+    "variations": [
+      "portray",
+      "portrays",
+      "portrayed",
+      "portraying"
+    ],
+    "emoji": "🎭🖼️"
+  },
+  "positioned": {
+    "word": "positioned",
+    "definition": "placed in a particular spot or place.",
+    "variations": [
+      "position",
+      "positions",
+      "positioned",
+      "positioning"
+    ],
+    "emoji": "📍↔️"
+  },
+  "pray": {
+    "word": "pray",
+    "definition": "to speak to God or worship with respect",
+    "variations": [
+      "pray",
+      "prays",
+      "prayed",
+      "praying",
+      "prayer",
+      "prayers"
+    ],
+    "emoji": "🙏🛐"
+  },
+  "prevent": {
+    "word": "prevent",
+    "definition": "to stop something from happening.",
+    "variations": [
+      "prevent",
+      "prevents",
+      "prevented",
+      "preventing"
+    ],
+    "emoji": "🛑✋"
+  },
+  "profit": {
+    "word": "profit",
+    "definition": "the money gained after selling something for more than it cost",
+    "variations": [
+      "profit",
+      "profits"
+    ],
+    "emoji": "💰📈"
+  },
+  "race": {
+    "word": "race",
+    "definition": "a competition to see who can move fastest and finish first",
+    "variations": [
+      "race",
+      "races"
+    ],
+    "emoji": "🏃🏁"
+  },
+  "receiver": {
+    "word": "receiver",
+    "definition": "the person who gets something from another person",
+    "variations": [
+      "receiver",
+      "receivers",
+      "receive",
+      "receives",
+      "received",
+      "receiving"
+    ],
+    "emoji": "🙌📥"
+  },
+  "recitation": {
+    "word": "recitation",
+    "definition": "the act of saying a poem, speech, or text aloud from memory or with expression",
+    "variations": [
+      "recitation",
+      "recitations",
+      "recite",
+      "recited",
+      "reciting"
+    ],
+    "emoji": "🗣️📜"
+  },
+  "record": {
+    "word": "record",
+    "definition": "to write down or keep information about results",
+    "variations": [
+      "record",
+      "records",
+      "recorded",
+      "recording"
+    ],
+    "emoji": "📝📊"
+  },
+  "reed": {
+    "word": "reed",
+    "definition": "a tall grass-like plant that can be used for building",
+    "variations": [
+      "reed",
+      "reeds"
+    ],
+    "emoji": "🌾"
+  },
+  "referee": {
+    "word": "referee",
+    "definition": "a person who makes sure the rules of a game are followed",
+    "variations": [
+      "referee",
+      "referees"
+    ],
+    "emoji": "🧑‍⚖️🏃"
+  },
+  "release": {
+    "word": "release",
+    "definition": "to let go of something.",
+    "variations": [
+      "release",
+      "releases",
+      "released",
+      "releasing"
+    ],
+    "emoji": "✋➡️"
+  },
+  "religion": {
+    "word": "religion",
+    "definition": "a system of beliefs about God or gods and how people worship",
+    "variations": [
+      "religion",
+      "religions",
+      "religious"
+    ],
+    "emoji": "🙏⛪🕌"
+  },
+  "religious": {
+    "word": "religious",
+    "definition": "connected to religion or worship",
+    "variations": [
+      "religious",
+      "religion",
+      "religions"
+    ],
+    "emoji": "🙏⛪"
+  },
+  "religious celebration": {
+    "word": "religious celebration",
+    "definition": "a special event or holiday connected to religion",
+    "variations": [
+      "religious celebration",
+      "religious celebrations"
+    ],
+    "emoji": "🎉🙏"
+  },
+  "religious holiday": {
+    "word": "religious holiday",
+    "definition": "a special day set aside for religious events or worship",
+    "variations": [
+      "religious holiday",
+      "religious holidays"
+    ],
+    "emoji": "📅🙏🎊"
+  },
+  "religious session": {
+    "word": "religious session",
+    "definition": "a time when people meet to learn about religion, beliefs, and good behavior",
+    "variations": [
+      "religious session",
+      "religious sessions"
+    ],
+    "emoji": "🕌⛪📖"
+  },
+  "respectful": {
+    "word": "respectful",
+    "definition": "showing care, politeness, and honor to other people",
+    "variations": [
+      "respectful",
+      "respectfully"
+    ],
+    "emoji": "🤝🙂"
+  },
+  "responsibility": {
+    "word": "responsibility",
+    "definition": "a duty or job that you are expected to do.",
+    "variations": [
+      "responsibility",
+      "responsibilities"
+    ],
+    "emoji": "✅🧠"
+  },
+  "rhythmically": {
+    "word": "rhythmically",
+    "definition": "in a way that follows a steady beat or pattern",
+    "variations": [
+      "rhythm",
+      "rhythms",
+      "rhythmical",
+      "rhythmically"
+    ],
+    "emoji": "🥁🎵"
+  },
+  "rice": {
+    "word": "rice",
+    "definition": "small grains grown in wet fields and cooked for food",
+    "variations": [
+      "rice"
+    ],
+    "emoji": "🍚🌾"
+  },
+  "role-playing": {
+    "word": "role-playing",
+    "definition": "acting like another person or character for learning or performance",
+    "variations": [
+      "role-play",
+      "role-playing",
+      "role-played"
+    ],
+    "emoji": "🎭👥"
+  },
+  "rolling": {
+    "word": "rolling",
+    "definition": "moving a ball along the ground or floor",
+    "variations": [
+      "roll",
+      "rolls",
+      "rolled",
+      "rolling"
+    ],
+    "emoji": "⚽➡️"
+  },
+  "roof": {
+    "word": "roof",
+    "definition": "the top covering of a house or building",
+    "variations": [
+      "roof",
+      "roofs"
+    ],
+    "emoji": "🏠"
+  },
+  "rope": {
+    "word": "rope",
+    "definition": "a strong thick cord made by twisting fibers or strands together",
+    "variations": [
+      "rope",
+      "ropes"
+    ],
+    "emoji": "🪢🧵"
+  },
+  "rotate": {
+    "word": "rotate",
+    "definition": "to turn around in a circle or partly around",
+    "variations": [
+      "rotate",
+      "rotates",
+      "rotated",
+      "rotating"
+    ],
+    "emoji": "🔄🌀"
+  },
+  "sandpaper": {
+    "word": "sandpaper",
+    "definition": "rough paper used to make a surface smooth",
+    "variations": [
+      "sandpaper"
+    ],
+    "emoji": "🪵📄"
+  },
+  "sardine": {
+    "word": "sardine",
+    "definition": "a small fish often eaten as food",
+    "variations": [
+      "sardine",
+      "sardines",
+      "sardiness"
+    ],
+    "emoji": "🐟"
+  },
+  "score": {
+    "word": "score",
+    "definition": "to get points in a game",
+    "variations": [
+      "score",
+      "scores",
+      "scored",
+      "scoring"
+    ],
+    "emoji": "🔢🏆"
+  },
+  "search zone": {
+    "word": "search zone",
+    "definition": "the area behind the other team where the searcher waits for the ball.",
+    "variations": [
+      "search zone",
+      "search zones"
+    ],
+    "emoji": "🔍📍"
+  },
+  "searcher": {
+    "word": "searcher",
+    "definition": "the player who stays in the search zone and tries to receive the ball.",
+    "variations": [
+      "searcher",
+      "searchers"
+    ],
+    "emoji": "🔎🙋"
+  },
+  "selfish": {
+    "word": "selfish",
+    "definition": "caring only about yourself and not about other people",
+    "variations": [
+      "selfish",
+      "selfishly",
+      "selfishness"
+    ],
+    "emoji": "🙅💭"
+  },
+  "sewing": {
+    "word": "sewing",
+    "definition": "the act of joining pieces of cloth using thread and a needle",
+    "variations": [
+      "sewing",
+      "sew",
+      "sews",
+      "sewed"
+    ],
+    "emoji": "🪡🧵"
+  },
+  "shadow": {
+    "word": "shadow",
+    "definition": "a dark shape made when light is blocked by a person or object",
+    "variations": [
+      "shadow",
+      "shadows"
+    ],
+    "emoji": "🌞👤"
+  },
+  "shoot": {
+    "word": "shoot",
+    "definition": "to kick or send the ball toward the goal.",
+    "variations": [
+      "shoot",
+      "shoots",
+      "shot",
+      "shooting"
+    ],
+    "emoji": "⚽🎯"
+  },
+  "sisal": {
+    "word": "sisal",
+    "definition": "a plant whose strong fibers are used to make rope and other products",
+    "variations": [
+      "sisal"
+    ],
+    "emoji": "🌿🧵"
+  },
+  "smartphone": {
+    "word": "smartphone",
+    "definition": "a mobile phone that can run apps and connect to the internet.",
+    "variations": [
+      "smartphone",
+      "smartphones"
+    ],
+    "emoji": "📱"
+  },
+  "soil": {
+    "word": "soil",
+    "definition": "the top layer of earth where plants grow",
+    "variations": [
+      "soil",
+      "soils"
+    ],
+    "emoji": "🌱🟫"
+  },
+  "steal": {
+    "word": "steal",
+    "definition": "to take something that belongs to another person without permission",
+    "variations": [
+      "steal",
+      "steals",
+      "stole",
+      "stolen",
+      "stealing"
+    ],
+    "emoji": "🚫👜"
+  },
+  "stretch": {
+    "word": "stretch",
+    "definition": "to extend your body or body parts to make them ready for activity",
+    "variations": [
+      "stretch",
+      "stretches",
+      "stretched",
+      "stretching"
+    ],
+    "emoji": "🤸💪"
+  },
+  "successful": {
+    "word": "successful",
+    "definition": "done well or finished in the right way",
+    "variations": [
+      "successful",
+      "successfully"
+    ],
+    "emoji": "✅🎉"
+  },
+  "surface": {
+    "word": "surface",
+    "definition": "the outside or top part of something",
+    "variations": [
+      "surface",
+      "surfaces"
+    ],
+    "emoji": "📄⬜"
+  },
+  "swagger": {
+    "word": "swagger",
+    "definition": "a proud and confident way of walking",
+    "variations": [
+      "swagger"
+    ],
+    "emoji": "🚶😎"
+  },
+  "swing": {
+    "word": "swing",
+    "definition": "to move back and forth or from one side to another",
+    "variations": [
+      "swing",
+      "swings",
+      "swung",
+      "swinging"
+    ],
+    "emoji": "↔️💪"
+  },
+  "swipe": {
+    "word": "swipe",
+    "definition": "to move your finger quickly across a screen.",
+    "variations": [
+      "swipe",
+      "swipes",
+      "swiped",
+      "swiping"
+    ],
+    "emoji": "👉📱"
+  },
+  "switch roles": {
+    "word": "switch roles",
+    "definition": "to change jobs or positions with another person.",
+    "variations": [
+      "switch role",
+      "switch roles",
+      "switched roles",
+      "switching roles"
+    ],
+    "emoji": "🔄👫"
+  },
+  "tablet": {
+    "word": "tablet",
+    "definition": "a small flat computer that you use by touching the screen.",
+    "variations": [
+      "tablet",
+      "tablets"
+    ],
+    "emoji": "📱💻"
+  },
+  "target": {
+    "word": "target",
+    "definition": "the thing you aim at and try to hit",
+    "variations": [
+      "target",
+      "targets"
+    ],
+    "emoji": "🎯👀"
+  },
+  "target game": {
+    "word": "target game",
+    "definition": "a game where players try to hit or reach a marked place or object.",
+    "variations": [
+      "target game",
+      "target games"
+    ],
+    "emoji": "🎯🏃"
+  },
+  "teammate": {
+    "word": "teammate",
+    "definition": "a person who is on the same team as you.",
+    "variations": [
+      "teammate",
+      "teammates"
+    ],
+    "emoji": "🤝👥"
+  },
+  "thread": {
+    "word": "thread",
+    "definition": "a long thin strand used for sewing or knitting",
+    "variations": [
+      "thread",
+      "threads"
+    ],
+    "emoji": "🧵"
+  },
+  "throwing": {
+    "word": "throwing",
+    "definition": "sending something through the air with your hand",
+    "variations": [
+      "throw",
+      "throws",
+      "threw",
+      "thrown",
+      "throwing"
+    ],
+    "emoji": "🤾🖐️"
+  },
+  "tilapia": {
+    "word": "tilapia",
+    "definition": "a kind of fish often caught or raised for food",
+    "variations": [
+      "tilapia",
+      "tilapias"
+    ],
+    "emoji": "🐟"
+  },
+  "tourist": {
+    "word": "tourist",
+    "definition": "a person who travels to visit places for pleasure",
+    "variations": [
+      "tourist",
+      "tourists"
+    ],
+    "emoji": "🧳📍"
+  },
+  "traditional": {
+    "word": "traditional",
+    "definition": "following old ways, customs, or ideas from the past",
+    "variations": [
+      "traditional",
+      "traditionally"
+    ],
+    "emoji": "🏺🕰️"
+  },
+  "traditional dance": {
+    "word": "traditional dance",
+    "definition": "a dance from a community or culture that follows its customs",
+    "variations": [
+      "traditional dance",
+      "traditional dances"
+    ],
+    "emoji": "💃🪘🌍"
+  },
+  "type": {
+    "word": "type",
+    "definition": "a kind or group of something",
+    "variations": [
+      "type",
+      "types"
+    ],
+    "emoji": "📚"
+  },
+  "unfaithful": {
+    "word": "unfaithful",
+    "definition": "not loyal, honest, or true to a promise or relationship",
+    "variations": [
+      "unfaithful",
+      "unfaithfulness"
+    ],
+    "emoji": "💔🚫"
+  },
+  "weaving": {
+    "word": "weaving",
+    "definition": "the process of crossing fibers, thread, or grass together to make cloth or other items",
+    "variations": [
+      "weaving",
+      "weave",
+      "weaves",
+      "woven"
+    ],
+    "emoji": "🧵🪢"
+  },
+  "zone": {
+    "word": "zone",
+    "definition": "an area with a special use or purpose in a game.",
+    "variations": [
+      "zone",
+      "zones"
+    ],
+    "emoji": "📍⬛"
+  }
+}
