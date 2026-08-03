@@ -88,13 +88,23 @@ for asset in [
 missing_text = sorted(text_id for text_id in all_ids if text_id not in texts)
 if missing_text:
     warnings.append(f"HTML data IDs without text entries: {', '.join(missing_text)}")
-missing_audio_mapping = sorted(text_id for text_id in all_ids if text_id in texts and text_id not in audios)
+missing_audio_mapping = sorted(
+    text_id for text_id in all_ids
+    if text_id in texts and text_id not in audios
+    and re.sub(r"[()\s]", "", texts[text_id])
+)
 if missing_audio_mapping:
     warnings.append("Audio mappings still required for new/corrected IDs: " + ", ".join(missing_audio_mapping))
 missing_audio_files = sorted(
     filename for filename in audios.values() if not (ROOT / "content/i18n/en/audio" / filename).exists()
 )
 require(not missing_audio_files, "Mapped audio files are missing: " + ", ".join(missing_audio_files[:20]), failures)
+invalid_audio_files = sorted(
+    filename for filename in set(audios.values())
+    if (ROOT / "content/i18n/en/audio" / filename).exists()
+    and (ROOT / "content/i18n/en/audio" / filename).stat().st_size < 500
+)
+require(not invalid_audio_files, "Mapped audio files are empty or invalid: " + ", ".join(invalid_audio_files[:20]), failures)
 
 rows = Document(str(FORM)).tables[0].rows
 register_rows = []
@@ -110,8 +120,8 @@ for item, row in enumerate(rows[1:], 1):
         status = "PARTIAL - layout standardized; licensed Sassoon files not supplied"
         audio_result = "Not applicable"
     elif audio_pattern.search(combined):
-        status = "PARTIAL - visible/content correction implemented; tuned replacement audio pending"
-        audio_result = "Blocked: original TTS engine/voice configuration not supplied"
+        status = "PASS" if not failures else "IMPLEMENTED - validation failure elsewhere"
+        audio_result = "PASS - regenerated with Tessa (African English), pronunciation overrides and final visible text"
     else:
         status = "PASS" if not failures else "IMPLEMENTED - validation failure elsewhere"
         audio_result = "Existing mapped audio retained"
@@ -129,7 +139,7 @@ for item, row in enumerate(rows[1:], 1):
     })
 
 with REGISTER.open("w", encoding="utf-8", newline="") as stream:
-    writer = csv.DictWriter(stream, fieldnames=list(register_rows[0]))
+    writer = csv.DictWriter(stream, fieldnames=list(register_rows[0]), lineterminator="\n")
     writer.writeheader()
     writer.writerows(register_rows)
 

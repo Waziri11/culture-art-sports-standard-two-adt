@@ -1,0 +1,22 @@
+{
+  "voice": "Tessa",
+  "locale": "en_ZA",
+  "speakingRateWordsPerMinute": 155,
+  "format": "MP3",
+  "sampleRateHz": 24000,
+  "bitRateKbps": 128,
+  "channels": 1,
+  "correctedMappedClips": 493,
+  "pronunciationOverrides": [
+    "Pupil’s",
+    "pupils",
+    "Msonge",
+    "tembe",
+    "Adhana",
+    "Muslim",
+    "Nchi",
+    "ngonjera",
+    "Kiswahili we"
+  ],
+  "validation": "All audio mappings resolve to non-empty files."
+}

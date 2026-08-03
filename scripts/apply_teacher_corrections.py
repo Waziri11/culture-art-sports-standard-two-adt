@@ -423,12 +423,13 @@ def main() -> None:
     for path in ROOT.glob("pg*.html"):
         source = path.read_text(encoding="utf-8")
         updated = source.replace('data-section-type="activity_other"', 'data-section-type="text"')
-        updated = updated.replace('src="./assets/offline-preloader.js"', 'src="./assets/offline-preloader.js?v=2"')
+        updated = re.sub(r'src="\./assets/offline-preloader\.js(?:\?v=\d+)?"', 'src="./assets/offline-preloader.js?v=3"', updated)
         if updated != source:
             path.write_text(updated, encoding="utf-8")
     index_path = ROOT / "index.html"
     source = index_path.read_text(encoding="utf-8")
-    index_path.write_text(source.replace('src="./assets/offline-preloader.js"', 'src="./assets/offline-preloader.js?v=2"'), encoding="utf-8")
+    source = re.sub(r'src="\./assets/offline-preloader\.js(?:\?v=\d+)?"', 'src="./assets/offline-preloader.js?v=3"', source)
+    index_path.write_text(source, encoding="utf-8")
 
 
 if __name__ == "__main__":
