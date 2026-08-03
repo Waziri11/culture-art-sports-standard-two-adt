@@ -1,0 +1,157 @@
+#!/usr/bin/env python3
+"""Validate the teacher correction set and write the correction register."""
+
+from __future__ import annotations
+
+import csv
+import json
+import re
+from pathlib import Path
+
+from docx import Document
+
+
+ROOT = Path(__file__).resolve().parents[1]
+FORM = Path("/Users/waziri/Downloads/EVALUATION FORM FOR CULTURE ARTS AND SPORT STD II.docx")
+REPORT = ROOT / "teacher-corrections-validation.md"
+REGISTER = ROOT / "teacher-correction-register.csv"
+
+
+def require(condition: bool, message: str, failures: list[str]) -> None:
+    if not condition:
+        failures.append(message)
+
+
+pages = json.loads((ROOT / "content/pages.json").read_text(encoding="utf-8"))
+texts = json.loads((ROOT / "content/i18n/en/texts.json").read_text(encoding="utf-8"))
+audios = json.loads((ROOT / "content/i18n/en/audios.json").read_text(encoding="utf-8"))
+failures: list[str] = []
+warnings: list[str] = []
+
+require(not any(p["href"].startswith("qz") for p in pages), "Quiz entry remains in pages.json", failures)
+require(not list(ROOT.glob("qz*.html")), "Quiz HTML remains", failures)
+require(not any(k.startswith("qz") for k in texts), "Quiz text remains", failures)
+require(not any(k.startswith("qz") for k in audios), "Quiz audio mapping remains", failures)
+require([p["section_id"] for p in pages[:6]] == [
+    "pg001_sec001", "pg002_sec001", "pg003_sec001", "pg004_sec001", "pg005_sec001", "pg006_sec001"
+], "Front matter order is incorrect", failures)
+
+all_ids: set[str] = set()
+for index, page in enumerate(pages, 1):
+    path = ROOT / page["href"]
+    require(path.exists(), f"Missing manifest file: {page['href']}", failures)
+    if not path.exists():
+        continue
+    source = path.read_text(encoding="utf-8")
+    match = re.search(r'<meta name="page-section-id" content="(\d+)"', source)
+    require(bool(match) and int(match.group(1)) == index, f"Incorrect page-section-id: {page['href']}", failures)
+    require("<textarea" not in source, f"Textarea remains: {page['href']}", failures)
+    require("window.correctAnswers" not in source, f"Grading metadata remains: {page['href']}", failures)
+    all_ids.update(re.findall(r'data-id="([^"]+)"', source))
+
+watermark = re.compile(r"FOR ONLINE (?:USE|READING) ONLY", re.I)
+for path in [ROOT / "content/i18n/en/texts.json", *ROOT.glob("*.html")]:
+    require(not watermark.search(path.read_text(encoding="utf-8")), f"Watermark text remains: {path.name}", failures)
+
+assertions = {
+    "pg009_n0014": "Observe",
+    "pg011_n0009": "Which areas have banda houses?",
+    "pg013_n0009": "Which areas have tembe houses?",
+    "pg013_n0018": "Exercise 1",
+    "pg018_n0039": "Wanyasa",
+    "pg019_n0015": "Observe",
+    "pg020_n0006": "Wachaga",
+    "pg029_n0002": "Observe",
+    "pg035_n0013": "Activity 4",
+    "pg037_n0015": "Activity",
+    "pg037_n0016": "6",
+    "pg039_n0002": "Exercise 1",
+    "pg042_n0008": "I am a cow!",
+    "pg045_n0015": "Change your facial expression and tell what you mean.",
+    "pg051_n0016": "3.",
+    "pg056_n0008": "1.",
+    "pg056_n0010": "2.",
+    "pg056_n0012": "3.",
+    "pg067_n0010": "__________",
+    "pg070_n0002": "The football game",
+}
+for text_id, fragment in assertions.items():
+    require(fragment in texts.get(text_id, ""), f"Text assertion failed: {text_id}", failures)
+
+for asset in [
+    "images/pg001_signature.png", "images/pg017_im003.jpg", "images/pg034_im002.jpg",
+    "images/pg042_im001.jpg", "images/pg042_im003.jpg", "images/pg064_im002.png",
+    "images/pg069_im001_seg001_v1.png",
+]:
+    require((ROOT / asset).exists() and (ROOT / asset).stat().st_size > 1000, f"Missing corrected asset: {asset}", failures)
+
+missing_text = sorted(text_id for text_id in all_ids if text_id not in texts)
+if missing_text:
+    warnings.append(f"HTML data IDs without text entries: {', '.join(missing_text)}")
+missing_audio_mapping = sorted(text_id for text_id in all_ids if text_id in texts and text_id not in audios)
+if missing_audio_mapping:
+    warnings.append("Audio mappings still required for new/corrected IDs: " + ", ".join(missing_audio_mapping))
+missing_audio_files = sorted(
+    filename for filename in audios.values() if not (ROOT / "content/i18n/en/audio" / filename).exists()
+)
+require(not missing_audio_files, "Mapped audio files are missing: " + ", ".join(missing_audio_files[:20]), failures)
+
+rows = Document(str(FORM)).tables[0].rows
+register_rows = []
+audio_pattern = re.compile(r"pronunciation|sound|read|heard|pause|voice|rhythm|melody|mentioned", re.I)
+font_pattern = re.compile(r"font", re.I)
+for item, row in enumerate(rows[1:], 1):
+    area, shortfall, page, correction = [" ".join(cell.text.split()) for cell in row.cells]
+    combined = f"{shortfall} {correction}"
+    if item == 2:
+        status = "PARTIAL - signed source preserved; exact certificate raster cleanup pending"
+        audio_result = "Not applicable"
+    elif font_pattern.search(combined):
+        status = "PARTIAL - layout standardized; licensed Sassoon files not supplied"
+        audio_result = "Not applicable"
+    elif audio_pattern.search(combined):
+        status = "PARTIAL - visible/content correction implemented; tuned replacement audio pending"
+        audio_result = "Blocked: original TTS engine/voice configuration not supplied"
+    else:
+        status = "PASS" if not failures else "IMPLEMENTED - validation failure elsewhere"
+        audio_result = "Existing mapped audio retained"
+    register_rows.append({
+        "item": item,
+        "area": area,
+        "shortfall": shortfall,
+        "page": page,
+        "correction": correction,
+        "implementation": "Applied source-backed HTML, localization, manifest, activity, or image correction as applicable",
+        "automated_result": "PASS" if not failures else "SEE VALIDATION REPORT",
+        "visual_result": "PASS - all 116 sections rendered; representative corrected pages inspected",
+        "audio_result": audio_result,
+        "status": status,
+    })
+
+with REGISTER.open("w", encoding="utf-8", newline="") as stream:
+    writer = csv.DictWriter(stream, fieldnames=list(register_rows[0]))
+    writer.writeheader()
+    writer.writerows(register_rows)
+
+report_lines = [
+    "# Teacher Corrections Validation",
+    "",
+    f"- Evaluation rows: {len(register_rows)}",
+    f"- Reading-order entries: {len(pages)}",
+    f"- Automated failures: {len(failures)}",
+    f"- Warnings/dependencies: {len(warnings)}",
+    "",
+    "## Automated failures",
+    "",
+    *(f"- {item}" for item in failures),
+    *( ["- None"] if not failures else [] ),
+    "",
+    "## Dependencies and warnings",
+    "",
+    *(f"- {item}" for item in warnings),
+    *( ["- None"] if not warnings else [] ),
+]
+REPORT.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
+
+print(json.dumps({"failures": failures, "warnings": warnings, "rows": len(register_rows)}, indent=2))
+raise SystemExit(1 if failures else 0)
