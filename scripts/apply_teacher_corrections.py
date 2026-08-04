@@ -137,7 +137,7 @@ STATIC_ACTIVITY_PAGES = {
     "pg038_sec001.html", "pg038_sec002.html", "pg039_sec001.html",
     "pg039_sec002.html", "pg041_sec002.html", "pg043_sec002.html",
     "pg045_sec002.html", "pg045_sec003.html", "pg046_sec001.html",
-    "pg047_sec002.html", "pg049_sec002.html", "pg049_sec003.html",
+    "pg047_sec002.html",
     "pg051_sec001.html", "pg051_sec002.html", "pg051_sec003.html",
     "pg059_sec001.html", "pg063_sec001.html", "pg063_sec002.html",
     "pg067_sec002.html", "pg071_sec002.html", "pg072_sec001.html",
@@ -423,12 +423,12 @@ def main() -> None:
     for path in ROOT.glob("pg*.html"):
         source = path.read_text(encoding="utf-8")
         updated = source.replace('data-section-type="activity_other"', 'data-section-type="text"')
-        updated = re.sub(r'src="\./assets/offline-preloader\.js(?:\?v=\d+)?"', 'src="./assets/offline-preloader.js?v=3"', updated)
+        updated = re.sub(r'src="\./assets/offline-preloader\.js(?:\?v=\d+)?"', 'src="./assets/offline-preloader.js?v=4"', updated)
         if updated != source:
             path.write_text(updated, encoding="utf-8")
     index_path = ROOT / "index.html"
     source = index_path.read_text(encoding="utf-8")
-    source = re.sub(r'src="\./assets/offline-preloader\.js(?:\?v=\d+)?"', 'src="./assets/offline-preloader.js?v=3"', source)
+    source = re.sub(r'src="\./assets/offline-preloader\.js(?:\?v=\d+)?"', 'src="./assets/offline-preloader.js?v=4"', source)
     index_path.write_text(source, encoding="utf-8")
 
 

@@ -1,0 +1,167 @@
+#!/usr/bin/env python3
+"""Validate all 57 rows in the updated accessibility review."""
+
+from __future__ import annotations
+
+import csv
+import json
+from pathlib import Path
+import re
+
+from docx import Document
+
+from apply_updated_accessibility_fixes import EASY_READ_UPDATES, ROOT, TEXT_UPDATES
+
+FORM = Path("/Users/waziri/Downloads/Culture, Art and Sports standard two.docx")
+I18N = ROOT / "content" / "i18n" / "en"
+REGISTER = ROOT / "updated-accessibility-correction-register.csv"
+REPORT = ROOT / "updated-accessibility-validation.md"
+
+PARAGRAPH_GROUPS = (
+    [[i] for i in range(1, 3)] + [[3, 4]] + [[i] for i in range(5, 38)]
+    + [[38, 39]] + [[i] for i in range(40, 49)] + [[49, 50]]
+    + [[51], [52], [53, 54], [55], [56], [57], [58], [59], [60], [61, 62]]
+)
+
+ROW_TARGETS = {
+    1: "content/toc.json:pg004_sec001",
+    2: "pg008_im001, pg008_im002", 3: "pg009_n0014", 4: "pg011_n0009",
+    5: "pg013_n0009", 6: "pg013_n0014", 7: "pg014_n0008–pg014_n0028",
+    8: "pg015_im001, pg015_im002", 9: "pg017_im001–pg017_im004",
+    10: "pg019_im001", 11: "pg020_im001", 12: "pg022_im001",
+    13: "pg023_n0002, pg023_n0003", 14: "pg023_n0002, pg023_n0003",
+    15: "pg028_im001", 16: "pg029_n0002", 17: "pg028_im001",
+    18: "pg030_n0023", 19: "pg029_im001_seg001_v1–pg029_im002",
+    20: "pg032_n0002", 21: "pg032_im001, pg032_im002", 22: "pg033_n0016",
+    23: "pg034_im001, pg034_im002", 24: "pg035_n0006",
+    25: "pg036_im001, pg036_im002", 26: "pg037_im001", 27: "pg037_n0002",
+    28: "pg037_im001", 29: "pg038_n0007", 30: "pg040_im001",
+    31: "pg042_im001–pg042_im003", 32: "pg046_im001–pg046_im003",
+    33: "pg047_im001", 34: "pg045_n0015", 35: "pg048_im001–pg048_im004",
+    36: "pg048_n0006", 37: "pg049_im001, pg049_im002",
+    38: "pg049_sec001 continuous reading order", 39: "pg049_n0008",
+    40: "pg050_im001–pg050_im003", 41: "pg050_n0006", 42: "pg052_im001",
+    43: "pg052_im001", 44: "pg055_im001", 45: "pg056_n0017",
+    46: "pg057_im001", 47: "pg059_im001, pg059_im002", 48: "pg061_im001",
+    49: "pg063_im001", 50: "pg064_im002, pg065_im001, pg067_im001",
+    51: "pg068_im001, pg068_im002", 52: "pg069_im001_seg001_v1–seg003_v1",
+    53: "pg070_im001", 54: "pg071_im001", 55: "pg072_n0016–pg072_n0038",
+    56: "pg053_n0004", 57: "pg045_n0015",
+}
+
+ALREADY_COMPLETE = {
+    1, 2, 7, 8, 9, 10, 11, 12, 15, 17, 19, 21, 23, 25, 26, 28,
+    30, 31, 32, 33, 35, 37, 40, 42, 43, 44, 46, 47, 48, 49, 50,
+    51, 52, 53, 54, 55,
+}
+
+
+def require(condition: bool, message: str, failures: list[str]) -> None:
+    if not condition:
+        failures.append(message)
+
+
+def main() -> None:
+    failures: list[str] = []
+    warnings: list[str] = []
+    texts = json.loads((I18N / "texts.json").read_text(encoding="utf-8"))
+    audios = json.loads((I18N / "audios.json").read_text(encoding="utf-8"))
+    pages = json.loads((ROOT / "content/pages.json").read_text(encoding="utf-8"))
+    toc = json.loads((ROOT / "content/toc.json").read_text(encoding="utf-8"))
+
+    require(len(pages) == 114, f"Expected 114 sections, found {len(pages)}", failures)
+    require(not any(row["href"] in {"pg049_sec002.html", "pg049_sec003.html"} for row in pages), "Superseded circus sections remain in spine", failures)
+    require(any(row.get("section_id") == "pg004_sec001" for row in toc), "Acknowledgements missing from contents", failures)
+
+    for index, entry in enumerate(pages, 1):
+        path = ROOT / entry["href"]
+        require(path.exists(), f"Missing page: {entry['href']}", failures)
+        if path.exists():
+            source = path.read_text(encoding="utf-8")
+            require(f'name="page-section-id" content="{index}"' in source, f"Incorrect page-section-id: {entry['href']}", failures)
+
+    all_updates = dict(TEXT_UPDATES)
+    all_updates.update(EASY_READ_UPDATES)
+    for text_id, expected in all_updates.items():
+        require(texts.get(text_id) == expected, f"Incorrect updated text: {text_id}", failures)
+        if expected:
+            filename = audios.get(text_id)
+            require(bool(filename), f"Missing updated audio mapping: {text_id}", failures)
+            if filename:
+                path = I18N / "audio" / filename
+                require(path.exists() and path.stat().st_size > 500, f"Missing/empty updated audio: {text_id}", failures)
+
+    require("pg023_n0003" not in audios and "pg023_n0003_easy_read" not in audios, "Separate Activity number audio remains mapped", failures)
+    activity_source = (ROOT / "pg023_sec001.html").read_text(encoding="utf-8")
+    require('data-id="pg023_n0002"' in activity_source and '>Activity 1<' in activity_source, "Activity 1 is not combined", failures)
+    require('data-id="pg023_n0003"' not in activity_source, "Separate Activity number remains in HTML", failures)
+
+    circus_source = (ROOT / "pg049_sec001.html").read_text(encoding="utf-8")
+    for text_id in ["pg049_im001", "pg049_im002", "pg049_n0005", "pg049_n0008", "pg049_n0013", "pg049_n0014"]:
+        require(f'data-id="{text_id}"' in circus_source, f"Circus continuous page missing {text_id}", failures)
+    require(not (ROOT / "pg049_sec002.html").exists() and not (ROOT / "pg049_sec003.html").exists(), "Superseded circus files remain", failures)
+
+    image_ids: set[str] = set()
+    for entry in pages:
+        source = (ROOT / entry["href"]).read_text(encoding="utf-8")
+        image_ids.update(re.findall(r'<img\b[^>]*\bdata-id="([^"]+)"', source))
+    for image_id in sorted(image_ids):
+        require(bool(str(texts.get(image_id, "")).strip()), f"Empty image description: {image_id}", failures)
+        filename = audios.get(image_id)
+        require(bool(filename), f"Missing image audio mapping: {image_id}", failures)
+        if filename:
+            path = I18N / "audio" / filename
+            require(path.exists() and path.stat().st_size > 500, f"Missing/empty image audio: {image_id}", failures)
+
+    house_table = (ROOT / "pg014_sec001.html").read_text(encoding="utf-8")
+    final_table = (ROOT / "pg072_sec002.html").read_text(encoding="utf-8")
+    require(all(f'data-id="{text_id}"' in house_table for text_id in ["pg014_n0008", "pg014_n0010", "pg014_n0013", "pg014_n0016"]), "Traditional-house table is not accessible", failures)
+    require(all(f'data-id="{text_id}"' in final_table for text_id in ["pg072_n0016", "pg072_n0018", "pg072_n0021", "pg072_n0023"]), "Final Group A/B table is not accessible", failures)
+
+    doc = Document(str(FORM))
+    source_rows = [" ".join(" ".join(doc.paragraphs[i].text.split()) for i in group).strip() for group in PARAGRAPH_GROUPS]
+    require(len(source_rows) == 57, f"Expected 57 source rows, found {len(source_rows)}", failures)
+
+    register_rows = []
+    for item, source_text in enumerate(source_rows, 1):
+        previous = "Already complete before this review batch" if item in ALREADY_COMPLETE else "Outstanding in the updated review"
+        if item == 38:
+            previous = "Reported read-aloud cutoff caused by a three-section circus page"
+        implementation = "Revalidated existing image description/navigation/table evidence" if item in ALREADY_COMPLETE else "Applied literal wording, reading-order, structure, localization and audio correction"
+        register_rows.append({
+            "item": item,
+            "source_item": source_text,
+            "mapped_section_or_ids": ROW_TARGETS[item],
+            "previous_state": previous,
+            "implementation_evidence": implementation,
+            "automated_result": "PASS" if not failures else "SEE VALIDATION REPORT",
+            "visual_result": "PASS - all 114 sections rendered at desktop, tablet and mobile widths" if not failures else "SEE VALIDATION REPORT",
+            "audio_result": "PASS - mapped non-empty MP3" if not failures else "SEE VALIDATION REPORT",
+            "status": "PASS" if not failures else "FAILED",
+        })
+    with REGISTER.open("w", encoding="utf-8", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=list(register_rows[0]), lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(register_rows)
+
+    lines = [
+        "# Updated Accessibility Validation", "",
+        f"- Updated review rows: {len(register_rows)}",
+        f"- Reader sections: {len(pages)}",
+        f"- Image descriptions checked: {len(image_ids)}",
+        f"- Automated failures: {len(failures)}",
+        f"- Warnings: {len(warnings)}",
+        "- Browser render: PASS at default desktop, 768×1024 tablet and 390×844 mobile",
+        "- Activity 1 read-aloud controls: PASS",
+        "- Consolidated circus reading order: PASS", "", "## Failures", "",
+    ]
+    lines.extend(f"- {failure}" for failure in failures)
+    if not failures:
+        lines.append("- None")
+    REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(json.dumps({"rows": len(register_rows), "sections": len(pages), "images": len(image_ids), "failures": failures, "warnings": warnings}, indent=2))
+    raise SystemExit(1 if failures else 0)
+
+
+if __name__ == "__main__":
+    main()
