@@ -156,6 +156,14 @@ def main() -> None:
     require(farm_page.count('data-id="pg017_n0020"') == 1 and farm_page.count('data-id="pg017_n0022"') == 1, "Page 27 question numbers are not unique", failures)
     require(all(f'data-id="{text_id}"' in final_table for text_id in ["pg072_n0016", "pg072_n0018", "pg072_n0021", "pg072_n0023"]), "Final Group A/B table is not accessible", failures)
 
+    # A repeated data-id inside one table makes read-aloud play the same clip twice.
+    for table_page in sorted(ROOT.glob("*.html")):
+        table_source = table_page.read_text(encoding="utf-8")
+        for table_number, table in enumerate(re.findall(r"<table\b[\s\S]*?</table>", table_source, re.I), 1):
+            table_ids = re.findall(r'data-id="([^"]+)"', table)
+            duplicated_ids = sorted({text_id for text_id in table_ids if table_ids.count(text_id) > 1})
+            require(not duplicated_ids, f"Duplicate read-aloud IDs in {table_page.name} table {table_number}: {', '.join(duplicated_ids)}", failures)
+
     doc = Document(str(FORM))
     source_rows = [" ".join(" ".join(doc.paragraphs[i].text.split()) for i in group).strip() for group in PARAGRAPH_GROUPS]
     require(len(source_rows) == 57, f"Expected 57 source rows, found {len(source_rows)}", failures)
