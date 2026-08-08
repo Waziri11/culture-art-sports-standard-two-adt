@@ -68,6 +68,24 @@ def main() -> None:
     texts = json.loads((I18N / "texts.json").read_text(encoding="utf-8"))
     audios = json.loads((I18N / "audios.json").read_text(encoding="utf-8"))
     pages = json.loads((ROOT / "content/pages.json").read_text(encoding="utf-8"))
+    swahili_report = json.loads((ROOT / "swahili-pronunciation-audio-report.json").read_text(encoding="utf-8"))
+    swahili_items = {item["textId"]: item for item in swahili_report.get("clips", [])}
+    page41_source = (ROOT / "pg025_sec001.html").read_text(encoding="utf-8")
+    page41_ids = list(dict.fromkeys(re.findall(r'data-id="(pg025_[^"]+)"', page41_source)))
+    page41_ids += [f"{text_id}_easy_read" for text_id in page41_ids if str(texts.get(f"{text_id}_easy_read", "")).strip()]
+    require(len(page41_ids) == 42, f"Expected 42 complete page 41 narration IDs, found {len(page41_ids)}", failures)
+    require(all(text_id in swahili_items for text_id in page41_ids), "Not every page 41 clip was regenerated", failures)
+    require(swahili_report.get("speakingRateWordsPerMinute") == 145, "Kiswahili narration does not use improved pacing", failures)
+    require(swahili_report.get("bookWideDetectedClipCount", 0) > 0, "Recurring Kiswahili terms outside page 41 were not handled", failures)
+    for text_id, item in swahili_items.items():
+        current = str(texts.get(text_id, ""))
+        require(item.get("visibleTextSha256") == hashlib.sha256(current.encode("utf-8")).hexdigest(), f"Kiswahili narration evidence is stale: {text_id}", failures)
+        filename = audios.get(text_id)
+        audio_path = I18N / "audio" / filename if filename else None
+        require(bool(audio_path and audio_path.exists() and audio_path.stat().st_size == item.get("audioBytes") and audio_path.stat().st_size > 768), f"Kiswahili narration file does not match evidence: {text_id}", failures)
+    page41_spoken = " ".join(swahili_items[text_id].get("spokenText", "") for text_id in page41_ids)
+    for rendering in ("m-ZEH-eh", "ah-DHAH-nah", "kah-BOO-lah", "mah-SAHN-jah"):
+        require(rendering in page41_spoken, f"Page 41 narration is missing tuned pronunciation: {rendering}", failures)
     toc = json.loads((ROOT / "content/toc.json").read_text(encoding="utf-8"))
 
     require(len(pages) == 114, f"Expected 114 sections, found {len(pages)}", failures)
@@ -179,7 +197,7 @@ def main() -> None:
         require(item.get("visibleTextSha256") == current_hash, f"Narration report is stale for corrected text: {text_id}", failures)
         filename = audios.get(text_id)
         require(bool(filename), f"Corrected narration is not mapped: {text_id}", failures)
-        if filename and text_id not in page38_superseded_ids:
+        if filename and text_id not in page38_superseded_ids and text_id not in swahili_items:
             audio_path = I18N / "audio" / filename
             require(audio_path.exists() and audio_path.stat().st_size == item.get("audioBytes") and audio_path.stat().st_size > 768, f"Corrected narration file does not match its generation evidence: {text_id}", failures)
     page36_table = (ROOT / "pg021_sec003.html").read_text(encoding="utf-8")

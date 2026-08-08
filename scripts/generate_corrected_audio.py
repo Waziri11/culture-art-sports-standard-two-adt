@@ -14,6 +14,7 @@ import wave
 sys.path.insert(0, "/tmp/adt-lameenc")
 import lameenc  # type: ignore
 from apply_teacher_corrections import TEXT_UPDATES
+from swahili_pronunciations import apply_pronunciations
 
 ROOT = Path(__file__).resolve().parents[1]
 I18N = ROOT / "content" / "i18n" / "en"
@@ -30,18 +31,14 @@ AFFECTED_PAGES = {
 PRONUNCIATIONS = [
     (r"\bPupil[’']s\b", "pyoo puhl's"),
     (r"\bpupils\b", "pyoo puhls"),
-    (r"\bMsonge\b", "M SOHN geh"),
-    (r"\btembe\b", "TEM beh"),
-    (r"\bAdhana\b", "ah DHAH nah"),
     (r"\bMuslim\b", "MOOS lim"),
-    (r"\bNchi\b", "EN chee"),
-    (r"\bngonjera\b", "ngohn JEH rah"),
 ]
 
 
 def speech_text(text_id: str, text: str) -> str:
     text = re.sub(r"_+", " ", text)
     text = text.replace("•", ". ").replace("–", ", ")
+    text = apply_pronunciations(text)
     for pattern, replacement in PRONUNCIATIONS:
         text = re.sub(pattern, replacement, text, flags=re.I)
     if text_id.startswith("pg040_"):

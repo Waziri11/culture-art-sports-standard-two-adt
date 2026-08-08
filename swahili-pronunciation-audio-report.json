@@ -1,0 +1,1984 @@
+{
+  "voice": "Tessa",
+  "locale": "en_ZA",
+  "speakingRateWordsPerMinute": 145,
+  "pronunciations": {
+    "Mzee Masanja": "m-ZEH-eh mah-SAHN-jah",
+    "Mzee": "m-ZEH-eh",
+    "Masanja": "mah-SAHN-jah",
+    "Adhana": "ah-DHAH-nah",
+    "Kabula": "kah-BOO-lah",
+    "Msonge": "m-SOHN-geh",
+    "Tembe": "TEM-beh",
+    "Banda": "BAHN-dah",
+    "Nchi": "n-CHEE",
+    "ngonjera": "ngohn-JEH-rah",
+    "Kiswahili": "kee-swah-HEE-lee",
+    "Kilimanjaro": "kee-lee-mahn-JAH-roh",
+    "Mawenzi": "mah-WEHN-zee",
+    "Kibo": "KEE-boh",
+    "Wanyiramba": "wah-nyee-RAHM-bah",
+    "Wanyaturu": "wah-nyah-TOO-roo",
+    "Wanyamwezi": "wah-nyah-MWEH-zee",
+    "Wanyakyusa": "wah-nyah-KYOO-sah",
+    "Wasukuma": "wah-soo-KOO-mah",
+    "Wamasai": "wah-mah-SIGH",
+    "Wachaga": "wah-CHAH-gah",
+    "Wagogo": "wah-GOH-goh",
+    "Wahaya": "wah-HAH-yah",
+    "Wasafwa": "wah-SAH-fwah",
+    "Wanyasa": "wah-NYAH-sah",
+    "Wanyambo": "wah-NYAHM-boh",
+    "Wapemba": "wah-PEHM-bah",
+    "Wapogoro": "wah-poh-GOH-roh",
+    "Wakinga": "wah-KEEN-gah",
+    "Wakurya": "wah-KOOR-yah",
+    "Wanyisanzu": "wah-nyee-SAHN-zoo",
+    "Wasandawe": "wah-sahn-DAH-weh",
+    "Wazigua": "wah-ZEE-gwah",
+    "Wadigo": "wah-DEE-goh",
+    "Wahehe": "wah-HEH-heh",
+    "Wajita": "wah-JEE-tah",
+    "Wamwera": "wah-MWEH-rah",
+    "Wayao": "wah-YAH-oh",
+    "Samaki": "sah-MAH-kee",
+    "Tuungane": "too-oon-GAH-neh",
+    "Tuwakemee": "too-wah-keh-MEH-eh",
+    "Ufukara": "oo-foo-KAH-rah",
+    "Utajiri": "oo-tah-JEE-ree"
+  },
+  "completePage41ClipCount": 42,
+  "bookWideDetectedClipCount": 139,
+  "clips": [
+    {
+      "textId": "pg025_n0002",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0003",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "570464e94665fb7a623d695fccb1dc9edfaa5d05c7144b70afd769541d834b25",
+      "spokenText": "I’m fine, m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 48000
+    },
+    {
+      "textId": "pg025_n0004",
+      "scope": "complete-page-41",
+      "detectedTerms": [],
+      "visibleTextSha256": "10363d875e9c3dce504a1ad0648f4590896b6255e11312a0d96f5a55289aa18c",
+      "spokenText": "Where are you going, it is very early in the morning.",
+      "audioBytes": 57984
+    },
+    {
+      "textId": "pg025_n0006",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg025_n0007",
+      "scope": "complete-page-41",
+      "detectedTerms": [],
+      "visibleTextSha256": "529cccff38c9d087513f344a451400faa08713035f408d9a378f2e0f8366e9bb",
+      "spokenText": "I’m going to the Mosque to pray.",
+      "audioBytes": 33792
+    },
+    {
+      "textId": "pg025_n0009",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0010",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "e83b19f8e769caef6e6ec972fb4bd421089fe2c0bdcd0698f4ad9ed5f077ab56",
+      "spokenText": "Okay m-ZEH-eh mah-SAHN-jah!",
+      "audioBytes": 38400
+    },
+    {
+      "textId": "pg025_n0011",
+      "scope": "complete-page-41",
+      "detectedTerms": [],
+      "visibleTextSha256": "a1dd2ff2d1ef6bebab69104306ae84d3c67f9a82c853f802e7b3ddc7a9ad247e",
+      "spokenText": "Can I ask you a question?",
+      "audioBytes": 31488
+    },
+    {
+      "textId": "pg025_n0013",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg025_n0014",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "33b5e9cd364af4803829959aeb9a8dc0048eb9c9eb62469e9142713dee7be8fe",
+      "spokenText": "Of course, you may ask, kah-BOO-lah.",
+      "audioBytes": 52992
+    },
+    {
+      "textId": "pg025_n0016",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0017",
+      "scope": "complete-page-41",
+      "detectedTerms": [],
+      "visibleTextSha256": "52e0ca10123415b713d66913589936410b69a3caf7cf872fd0eda2c09032de91",
+      "spokenText": "I usually hear the sound coming from the Mosque early in the morning, What does that sound mean?",
+      "audioBytes": 97920
+    },
+    {
+      "textId": "pg025_n0019",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg025_n0020",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "a20c37c076d8edd005b5ce1edffb7f5ba47717d2b9f07b801794e7ef639d6fe7",
+      "spokenText": "That’s a good question, kah-BOO-lah.",
+      "audioBytes": 43392
+    },
+    {
+      "textId": "pg025_n0021",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Adhana"
+      ],
+      "visibleTextSha256": "726164264bf73a0de2c671ee0e0ac5cb83b003d96a953f8eebf85a01d9f408b7",
+      "spokenText": "That sound is called ah-DHAH-nah.",
+      "audioBytes": 37248
+    },
+    {
+      "textId": "pg025_n0022",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Adhana"
+      ],
+      "visibleTextSha256": "e430520d28a3c2e0c76f8bc0882fa3e20babf86f4ccfcbdf8705c67fe278302c",
+      "spokenText": "For us Muslims, when we hear the ah-DHAH-nah, we prepare and go to the Mosque to pray.",
+      "audioBytes": 100992
+    },
+    {
+      "textId": "pg025_n0024",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0025",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Adhana"
+      ],
+      "visibleTextSha256": "c412868557c3a93f090b2ab98423c86a74061583bb1a927e8d1d4d4bcb27bc38",
+      "spokenText": "Oh! So, the ah-DHAH-nah is like the bell that rings at the church?",
+      "audioBytes": 77568
+    },
+    {
+      "textId": "pg025_n0027",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg025_n0028",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "9f4bfee65aea0af1b6302d19b01c73aa1ce4ee73275edf55e372632fed4b53c5",
+      "spokenText": "Yes, kah-BOO-lah.",
+      "audioBytes": 30336
+    },
+    {
+      "textId": "pg025_n0029",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Adhana"
+      ],
+      "visibleTextSha256": "bd1c802e09a23ea0167373cad7f562a1d18f2b666e042e0afc9a1c0adfd4cb85",
+      "spokenText": "In Churches, they use a bell, and in the Mosque, we use the ah-DHAH-nah to remind people that it is time for prayers.",
+      "audioBytes": 132480
+    },
+    {
+      "textId": "pg025_n0002_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0003_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "64238515872ed24e65d5fe66d5114000a64d1499d98423ff8385d1b6f562fded",
+      "spokenText": "I am fine, m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 51072
+    },
+    {
+      "textId": "pg025_n0004_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [],
+      "visibleTextSha256": "302054e7493773adf5049dd19d56280b372d4dc41b003be294ca851d01d185ec",
+      "spokenText": "Where are you going?. It is very early in the morning.",
+      "audioBytes": 58368
+    },
+    {
+      "textId": "pg025_n0006_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg025_n0007_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [],
+      "visibleTextSha256": "f2432ea780196af16652f3a38f477274a0b0d9d04558c073759bce29428f83e1",
+      "spokenText": "I am going to the Mosque to pray.",
+      "audioBytes": 36864
+    },
+    {
+      "textId": "pg025_n0009_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0010_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "039e3b2042a7bf96dfd356647f2ea475d037c910216469c466bb34d6096fdaf7",
+      "spokenText": "Okay, m-ZEH-eh mah-SAHN-jah!",
+      "audioBytes": 44160
+    },
+    {
+      "textId": "pg025_n0011_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [],
+      "visibleTextSha256": "a1dd2ff2d1ef6bebab69104306ae84d3c67f9a82c853f802e7b3ddc7a9ad247e",
+      "spokenText": "Can I ask you a question?",
+      "audioBytes": 31488
+    },
+    {
+      "textId": "pg025_n0013_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg025_n0014_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "8ca50434f21fcf345e060f23cbc93d8ba475554ae5853965a017785d2e860c6e",
+      "spokenText": "Of course, kah-BOO-lah.. You may ask.",
+      "audioBytes": 54144
+    },
+    {
+      "textId": "pg025_n0016_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0017_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [],
+      "visibleTextSha256": "365c152b83d04a204eecd3b8a94df8a1e818ae7ac5162a08a233e801f52b2c96",
+      "spokenText": "I usually hear a sound from the Mosque early in the morning.. What does that sound mean?",
+      "audioBytes": 91008
+    },
+    {
+      "textId": "pg025_n0019_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg025_n0020_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "e6fbf1348866dfe665ec9f9eae39cc72bae56803e2c46f8d8ab1e08d4b536c26",
+      "spokenText": "That is a good question, kah-BOO-lah.",
+      "audioBytes": 46080
+    },
+    {
+      "textId": "pg025_n0021_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Adhana"
+      ],
+      "visibleTextSha256": "726164264bf73a0de2c671ee0e0ac5cb83b003d96a953f8eebf85a01d9f408b7",
+      "spokenText": "That sound is called ah-DHAH-nah.",
+      "audioBytes": 37248
+    },
+    {
+      "textId": "pg025_n0022_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Adhana"
+      ],
+      "visibleTextSha256": "c817c0145f81e691e3fdcaacb0f62f33989c35368c35f00aac5f47129457098e",
+      "spokenText": "For us Muslims, when we hear the ah-DHAH-nah, we get ready and go to the Mosque to pray.",
+      "audioBytes": 102144
+    },
+    {
+      "textId": "pg025_n0024_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0025_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Adhana"
+      ],
+      "visibleTextSha256": "153dcd176cea457328a44e0d3d835a5ce91d301b8fae3fa5c20be50204be6a88",
+      "spokenText": "Oh! So, is the ah-DHAH-nah like the bell that rings at the church?",
+      "audioBytes": 77184
+    },
+    {
+      "textId": "pg025_n0027_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg025_n0028_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "9f4bfee65aea0af1b6302d19b01c73aa1ce4ee73275edf55e372632fed4b53c5",
+      "spokenText": "Yes, kah-BOO-lah.",
+      "audioBytes": 30336
+    },
+    {
+      "textId": "pg025_n0029_easy_read",
+      "scope": "complete-page-41",
+      "detectedTerms": [
+        "Adhana"
+      ],
+      "visibleTextSha256": "e69be903018145f034941d51c066b23d8a6eb5240f4d24b76abc85ef6c7dd8bd",
+      "spokenText": "In churches, they use a bell.. In the Mosque, we use the ah-DHAH-nah to remind people that it is time to pray.",
+      "audioBytes": 127488
+    },
+    {
+      "textId": "pg007_n0014",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge",
+        "Tembe",
+        "Banda"
+      ],
+      "visibleTextSha256": "227f0f43e01ad01e23d1ec395771cd6a5ad17295f1ccb874b5b19e9f466a3dfb",
+      "spokenText": "Tanzania has different types of traditional houses such as m-SOHN-geh, BAHN-dah and TEM-beh.",
+      "audioBytes": 108288
+    },
+    {
+      "textId": "pg007_n0016",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "af4af9825a4d097428e9ca1f418d1e92fc34add76df69e085fd2c83382c51464",
+      "spokenText": "m-SOHN-geh house",
+      "audioBytes": 23424
+    },
+    {
+      "textId": "pg007_n0018",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "9dc0f6eb68f486d08148ec4172da07425de91d81e6bdb238c74c93f3face83a3",
+      "spokenText": "m-SOHN-geh house is a type of house built with a pointed top.",
+      "audioBytes": 67968
+    },
+    {
+      "textId": "pg007_n0020",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wachaga",
+        "Wahaya",
+        "Wasafwa",
+        "Wanyambo"
+      ],
+      "visibleTextSha256": "010b4088b8cd548ae5797d8fb6d09df46648ddc2636d1de73acd690ce7bfec52",
+      "spokenText": "Some Tanzanian communities that use these houses include the wah-HAH-yah, wah-SAH-fwah, wafipa, wah-CHAH-gah, Waha and wah-NYAHM-boh.",
+      "audioBytes": 196224
+    },
+    {
+      "textId": "pg008_im001",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "729628ea9387a3d2d22112f2052c794cb3f4acd693d12afb4e00acb8e2b755da",
+      "spokenText": "Picture 1. A tall m-SOHN-geh house with a thick grass roof and a dark doorway. Trees and two other thatched houses stand behind it.",
+      "audioBytes": 148224
+    },
+    {
+      "textId": "pg008_n0002",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "fd91bbb5392b0fd43a95d477fdba27b95d99880968ea0876373f703bfacb7c75",
+      "spokenText": "1. m-SOHN-geh house",
+      "audioBytes": 29568
+    },
+    {
+      "textId": "pg008_im002",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "c957272cfcdd1b36bea6d35ce4a92b9d3f7d39faff8c91e9ff288f5be04d768c",
+      "spokenText": "Picture 2. A round m-SOHN-geh house with wooden walls and a wide grass roof. It stands in an open area with trees and small green bushes.",
+      "audioBytes": 164352
+    },
+    {
+      "textId": "pg008_n0004",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "eab8d73b2456257c356e7995c29dc3de8c0a6a30f5a8057ae5a066bfc9a449fb",
+      "spokenText": "2. m-SOHN-geh house",
+      "audioBytes": 28032
+    },
+    {
+      "textId": "pg009_n0010",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "cc0b1ca6a0bb921502e24dff1be0f7f65c23550d84cb40c201f7ae98b5e09103",
+      "spokenText": "3. Compare m-SOHN-geh houses in pictures 1 and 2 with the house you live in.",
+      "audioBytes": 97152
+    },
+    {
+      "textId": "pg009_n0014",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "b92c00ba6010c76fab26e2c46896aa72f6fe254529751ea76d74865737c8cf55",
+      "spokenText": "1. Look at the pictures or watch video clips about m-SOHN-geh houses in Tanzanian communities.",
+      "audioBytes": 115968
+    },
+    {
+      "textId": "pg009_n0015",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "4c2a36ecc1465d8e4c3aaf45a475d064d99a215ec6b29c14e1e39b39ba44d460",
+      "spokenText": "2. Draw a picture of m-SOHN-geh house.",
+      "audioBytes": 52224
+    },
+    {
+      "textId": "pg009_n0017",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "df5d1e064733dfaa003de036f307366794e8b4f00883e1c1eed016c2c64f6545",
+      "spokenText": "BAHN-dah house",
+      "audioBytes": 20352
+    },
+    {
+      "textId": "pg009_n0019",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "35cd7e330270e8316f1e43c9630c2463983a11945ae70fddaffcb252d6f6139d",
+      "spokenText": "BAHN-dah house is a type of house with a two-sided roof.",
+      "audioBytes": 65280
+    },
+    {
+      "textId": "pg009_n0021",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wanyamwezi",
+        "Wanyakyusa",
+        "Wasukuma",
+        "Wamwera"
+      ],
+      "visibleTextSha256": "f17c7018498f376fb1f75f1c6613d6bc4727940d5933e0c4f925a2c4ed8366f2",
+      "spokenText": "Some Tanzanian communities that use these houses include the wah-nyah-MWEH-zee, wah-soo-KOO-mah, wah-nyah-KYOO-sah and wah-MWEH-rah.",
+      "audioBytes": 207744
+    },
+    {
+      "textId": "pg010_im001",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "06230d28c6038ceee4f7adeffbb5eb6e38766501ca4c7df19a1c7412ac02df46",
+      "spokenText": "A traditional BAHN-dah house made of bamboo walls and a thick grass roof.",
+      "audioBytes": 79104
+    },
+    {
+      "textId": "pg010_n0002",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "0411f693d2f039fa12e2c1ffb63dfa8255ba6882aedb7bafaac1489d9b2c7181",
+      "spokenText": "1. BAHN-dah house",
+      "audioBytes": 31104
+    },
+    {
+      "textId": "pg010_im002",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "bff189af251bcb309e77f9a1f18ab4df84b7bbb9d251ba6e9dfafef8c63bb396",
+      "spokenText": "A BAHN-dah house with mud walls, a wide thatched roof, and one dark doorway.",
+      "audioBytes": 91392
+    },
+    {
+      "textId": "pg010_n0004",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "b9f07442593d94fa2f24ca0b1c74fc673db87ace9e2b732d8a1ec306244d4f07",
+      "spokenText": "2. BAHN-dah house",
+      "audioBytes": 31104
+    },
+    {
+      "textId": "pg011_n0009",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "4eead507111a9002874f3ae5c546232179b4e7657451ba7285576ecbb3e4cddd",
+      "spokenText": "3. In which areas have you observe BAHN-dah houses?",
+      "audioBytes": 67584
+    },
+    {
+      "textId": "pg011_n0011",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "dad8cdbb11b740660732bc1b5a6fa08132c99fc949abb03b1f92f06c186e37e1",
+      "spokenText": "4. Which Tanzanian communities use BAHN-dah houses?",
+      "audioBytes": 71808
+    },
+    {
+      "textId": "pg011_n0015",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "65d4219f84a0d10f822949625b658134c2ee4fbe2e2727c3c68bae5dfff508dc",
+      "spokenText": "1. Observe the pictures or watch video clips about BAHN-dah houses in Tanzanian communities.",
+      "audioBytes": 112896
+    },
+    {
+      "textId": "pg011_n0016",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "bc5020e914f3d005be2cc896bff2821c417b81039e24455f1d1721655a9b1970",
+      "spokenText": "2. Draw a picture of BAHN-dah house.",
+      "audioBytes": 48384
+    },
+    {
+      "textId": "pg011_n0018",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "7df6e9cd6d6614b72a93984591af6be0473adcf07149e741b591f53b3a3ae2f2",
+      "spokenText": "TEM-beh house",
+      "audioBytes": 17664
+    },
+    {
+      "textId": "pg011_n0020",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "5bf8f65d78fabeb373599ca2235a3f517825f38cbcb212405f0ba46c3aef3815",
+      "spokenText": "TEM-beh house is a type of house with a flat roof covered with grass and mud.",
+      "audioBytes": 77952
+    },
+    {
+      "textId": "pg011_n0022",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wanyiramba",
+        "Wanyaturu",
+        "Wagogo",
+        "Wanyisanzu",
+        "Wasandawe"
+      ],
+      "visibleTextSha256": "7b4dbe2bab2a3b42eebf154d00f73e75acf93a90dfb16c7c5512fa3c930fcbd4",
+      "spokenText": "Tanzanian communities that use these houses include the wah-GOH-goh, wah-nyah-TOO-roo, wah-nyee-RAHM-bah, wah-sahn-DAH-weh and wah-nyee-SAHN-zoo.",
+      "audioBytes": 185472
+    },
+    {
+      "textId": "pg012_im001",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "dd4c59a9a239f4757fdb6298125d0b510c6b6b5de117ff20fec82fcc3b7db4f6",
+      "spokenText": "A long TEM-beh house made of sticks and mud stands under green trees.",
+      "audioBytes": 75264
+    },
+    {
+      "textId": "pg012_n0002",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "5398def144078273fea97e4a6843fc25236f68ac271b71e22d9ccb5c2a1cc531",
+      "spokenText": "1. TEM-beh house",
+      "audioBytes": 28800
+    },
+    {
+      "textId": "pg012_im002",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "63534d5349559348dbc137e5ce50b547047671da469a5e7b948fbb87636d4865",
+      "spokenText": "Two TEM-beh houses stand on sandy ground under tall trees.",
+      "audioBytes": 69120
+    },
+    {
+      "textId": "pg012_n0004",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "58300007eb7e8f01607352ec0a0c6732914bdf27894f9c55d5eba5cf3dc85596",
+      "spokenText": "2. TEM-beh house",
+      "audioBytes": 28800
+    },
+    {
+      "textId": "pg013_n0009",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "fa486a57880053a88c94cc34db5e20c48aabfdc47add698aa67488e66df6daf9",
+      "spokenText": "Which areas have you identify a TEM-beh house?",
+      "audioBytes": 56448
+    },
+    {
+      "textId": "pg013_n0014",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "172fe2aad6311e715467c3fd513bb65bc3f3ec744e1ea8019751a4692814861b",
+      "spokenText": "Study of the pictures or watch video clips about TEM-beh houses in Tanzanian communities.",
+      "audioBytes": 101760
+    },
+    {
+      "textId": "pg013_n0016",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "a9b6cd4d995fb1462143d5cd5eba7f13a8ce5bce2f33463b14c1516a96aa12be",
+      "spokenText": "Draw a picture of TEM-beh house.",
+      "audioBytes": 35712
+    },
+    {
+      "textId": "pg013_n0023",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge",
+        "Tembe",
+        "Banda"
+      ],
+      "visibleTextSha256": "26cc21709905a579cf15e2e178e7cda33dc33980ae880a0ce589dbe1b255ee01",
+      "spokenText": "Explain the differences between a BAHN-dah, m-SOHN-geh and TEM-beh house.",
+      "audioBytes": 84096
+    },
+    {
+      "textId": "pg014_n0013",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "1b75fb530c0b91a56e5cdb71a667fa150e08845a1021cb8d6ac66102af01af31",
+      "spokenText": "1. The m-SOHN-geh house",
+      "audioBytes": 38016
+    },
+    {
+      "textId": "pg014_n0019",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "39044c1fc1d6a06abf989fa4819850c7cb7ad47c49f699823fa56f43eb1350df",
+      "spokenText": "2. The TEM-beh house",
+      "audioBytes": 31872
+    },
+    {
+      "textId": "pg014_n0025",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "eae992ba47558f6012336710ec603321ca3ae19b5a7e72d0da37118a5b506021",
+      "spokenText": "3. The BAHN-dah house",
+      "audioBytes": 34944
+    },
+    {
+      "textId": "pg014_n0016",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wanyiramba",
+        "Wanyaturu",
+        "Wagogo"
+      ],
+      "visibleTextSha256": "e484fe7f7d8bfa494aaf5b70db436177ec6c6fba82329c12fff797f3771221d0",
+      "spokenText": "(a) wah-nyee-RAHM-bah, wah-nyah-TOO-roo and wah-GOH-goh",
+      "audioBytes": 79872
+    },
+    {
+      "textId": "pg014_n0022",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wanyamwezi",
+        "Wasukuma",
+        "Wamwera"
+      ],
+      "visibleTextSha256": "3d26d68dd6d043911cf6bbc46ed2523f50de386251983265f4f8ca76f2f7d88f",
+      "spokenText": "(b) wah-soo-KOO-mah, wah-MWEH-rah and wah-nyah-MWEH-zee",
+      "audioBytes": 111744
+    },
+    {
+      "textId": "pg014_n0028",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wachaga",
+        "Wahaya",
+        "Wasafwa"
+      ],
+      "visibleTextSha256": "ddf44770423f3856c0262b8e83decf1f605e32b22464eb7df2940780527d8d3a",
+      "spokenText": "(c) wah-HAH-yah, wah-SAH-fwah and wah-CHAH-gah",
+      "audioBytes": 74112
+    },
+    {
+      "textId": "pg014_im002",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge",
+        "Tembe",
+        "Banda",
+        "Wanyiramba",
+        "Wanyaturu",
+        "Wanyamwezi",
+        "Wasukuma",
+        "Wachaga",
+        "Wagogo",
+        "Wahaya",
+        "Wasafwa",
+        "Wamwera"
+      ],
+      "visibleTextSha256": "92fc7e2acf6de74494c2a38137d7daf533105b1e00d1ab09b3d7dd22c575203f",
+      "spokenText": "Matching exercise table. Group A lists the m-SOHN-geh house, TEM-beh house, and BAHN-dah house, and Group B lists ethnic groups. wah-nyee-RAHM-bah, wah-nyah-TOO-roo and wah-GOH-goh; wah-soo-KOO-mah, wah-MWEH-rah and wah-nyah-MWEH-zee; and wah-HAH-yah, wah-SAH-fwah and wah-CHAH-gah.",
+      "audioBytes": 402048
+    },
+    {
+      "textId": "pg014_n0043",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wanyaturu",
+        "Wasukuma",
+        "Wamasai",
+        "Wagogo",
+        "Wanyambo",
+        "Wakurya"
+      ],
+      "visibleTextSha256": "7f7964b9259079b935887671c865df91117a1f791030447b7be5c41b38776633",
+      "spokenText": "Some of the communities that are involved in livestock keeping activities include wah-mah-SIGH wah-soo-KOO-mah, wah-KOOR-yah, wah-NYAHM-boh, wah-nyah-TOO-roo and wah-GOH-goh.",
+      "audioBytes": 226944
+    },
+    {
+      "textId": "pg016_n0026",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wanyamwezi",
+        "Wanyakyusa",
+        "Wasukuma",
+        "Wahaya",
+        "Wapogoro",
+        "Wazigua",
+        "Wahehe",
+        "Wayao"
+      ],
+      "visibleTextSha256": "43eef13ea8219221ac32db47a1992bc8674a32a9511558713294cafbc868574b",
+      "spokenText": "Some of the communities that are involved in farming include wah-HEH-heh, wah-nyah-KYOO-sah, wah-nyah-MWEH-zee, wah-HAH-yah, wah-ZEE-gwah, wah-soo-KOO-mah, wah-poh-GOH-roh, wah-YAH-oh and Waha.",
+      "audioBytes": 280704
+    },
+    {
+      "textId": "pg018_n0039",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wanyasa",
+        "Wapemba",
+        "Wadigo",
+        "Wajita"
+      ],
+      "visibleTextSha256": "84ab908cc5aa67658909bc4f057910bf116921c5c4756313420c12906899feb2",
+      "spokenText": "wah-NYAH-sah, wah-PEHM-bah, wah-DEE-goh, wah-JEE-tah and Waha are some of the communities that engage in fishing activities.",
+      "audioBytes": 170880
+    },
+    {
+      "textId": "pg020_n0006",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wachaga",
+        "Wapemba",
+        "Wakinga"
+      ],
+      "visibleTextSha256": "88d41075221acae23a3266e1d88641c25ff7038f4ddd520f9b40df7e60cf8d34",
+      "spokenText": "wah-CHAH-gah, wah-KEEN-gah and wah-PEHM-bah are some of the well-known communities involved in business.",
+      "audioBytes": 129024
+    },
+    {
+      "textId": "pg024_n0023",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg024_n0024",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "92ccc4a59d5f7a66df3d5c64c6dfcc2b7c906a91bad56977d2e27e95e1465bfb",
+      "spokenText": "Good morning! m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 42240
+    },
+    {
+      "textId": "pg024_n0025",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg024_n0026",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "c3d8d80100f22e5805ddd14349fb6026f5ce43ef82bc21951bf45f14b1358449",
+      "spokenText": "Good morning kah-BOO-lah. How are you?",
+      "audioBytes": 48000
+    },
+    {
+      "textId": "pg026_n0003",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg026_n0004",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Adhana"
+      ],
+      "visibleTextSha256": "ddb2cea725292f6f10379373aac6406a804a71d6a84aef1b0f548d8886bd2462",
+      "spokenText": "Oh! I see! Therefore, the ah-DHAH-nah and the bell should be respected in the community.",
+      "audioBytes": 100992
+    },
+    {
+      "textId": "pg026_n0005",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Adhana"
+      ],
+      "visibleTextSha256": "bd14c240a4dde5e1e61b1bd2b9e8ffa43e27242ba2c4666b4f46fb9cebe9c95e",
+      "spokenText": "Also, the ah-DHAH-nah helps me wake up early to get ready for school.",
+      "audioBytes": 80640
+    },
+    {
+      "textId": "pg026_n0007",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg026_n0008",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "9cbd13d9fa2778a905d5d8843aba69c5d7826a4c2d530563eaf17525e943b989",
+      "spokenText": "Oh! Okay, kah-BOO-lah, let me hurry to the Mosque.",
+      "audioBytes": 72960
+    },
+    {
+      "textId": "pg026_n0010",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg026_n0011",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "7bf3574c3b1a9a9d1676cb53cf633a43113a5093520dea345658a76ef0ef0144",
+      "spokenText": "Thank you very much, m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 57984
+    },
+    {
+      "textId": "pg026_n0015",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg026_n0016",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "0d3a7748cfa0ec58d32b8f2e27bab1b8050e3f579ad174678628eb8f03fc85b2",
+      "spokenText": "Okay, kah-BOO-lah! Thank you.",
+      "audioBytes": 49536
+    },
+    {
+      "textId": "pg040_n0004",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "ngonjera"
+      ],
+      "visibleTextSha256": "c79588aff05f6cbeb860e8a8299405364810b694cead4290f8cbad4a6606da91",
+      "spokenText": "Read the following ngohn-JEH-rah, then answer the questions.",
+      "audioBytes": 66048
+    },
+    {
+      "textId": "pg040_n0009",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Nchi"
+      ],
+      "visibleTextSha256": "7ae9a495b672922d0de699315cd27125a12a93d8d2de2b09b345f49f178135d0",
+      "spokenText": "n-CHEE yenye mali nyingi, na wanyama kwa mamia,",
+      "audioBytes": 72576
+    },
+    {
+      "textId": "pg040_n0017",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Samaki"
+      ],
+      "visibleTextSha256": "c580a1666dc4f54cfd3e7ae85311a18382b1b40eebd590834d4e8b5da6c60da6",
+      "spokenText": "Nenda na huko ziwani, na sah-MAH-kee pokelewe,",
+      "audioBytes": 67584
+    },
+    {
+      "textId": "pg040_n0023",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Utajiri"
+      ],
+      "visibleTextSha256": "cb457051d8a8f8fbfbc0bb27ff520df9aefc5be5805085b85d72571b01eb93a1",
+      "spokenText": "Huo oo-tah-JEE-ree wapi, uwe makini kusema,",
+      "audioBytes": 76416
+    },
+    {
+      "textId": "pg040_n0025",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Ufukara"
+      ],
+      "visibleTextSha256": "7d9714c6d2e527698451ca39b7fc4a342941a15d1dd380f5491961b7826ef46a",
+      "spokenText": "oo-foo-KAH-rah umetanda, ndiyo maana sielewi.",
+      "audioBytes": 72192
+    },
+    {
+      "textId": "pg040_n0031",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Utajiri"
+      ],
+      "visibleTextSha256": "203d09b6774fc966833deb5673808d94c62a9ae07d60833d6de10d6bb5e1ead4",
+      "spokenText": "oo-tah-JEE-ree kwetu pambo, mapato tunakusanya,",
+      "audioBytes": 76032
+    },
+    {
+      "textId": "pg041_n0004",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Nchi"
+      ],
+      "visibleTextSha256": "9a58098e843bfa1abe5776caf859a1d37e31998ef3b2bf966336cea7e60e830a",
+      "spokenText": "n-CHEE kavu twasafiri, baharini meli zetu,",
+      "audioBytes": 63744
+    },
+    {
+      "textId": "pg041_n0009",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tuungane"
+      ],
+      "visibleTextSha256": "4c36f03792d9222fabe82712f7a1b9984029fc1294004b0df48c1fc91a2460c2",
+      "spokenText": "too-oon-GAH-neh kwa pamoja, kuwapinga wahujumu,",
+      "audioBytes": 66432
+    },
+    {
+      "textId": "pg041_n0011",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tuwakemee"
+      ],
+      "visibleTextSha256": "790af3d98c07e399ca6b6843210ca17732a5266b34c7ffa7109f58ace3545a84",
+      "spokenText": "too-wah-keh-MEH-eh wakija, warudisha gurudumu,",
+      "audioBytes": 62976
+    },
+    {
+      "textId": "pg041_n0017",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Nchi",
+        "Utajiri"
+      ],
+      "visibleTextSha256": "c432b4ed4e5b3f187ac820984eb42b9f3fc375a8141a1ef268deb9a3bc2f3888",
+      "spokenText": "oo-tah-JEE-ree mwaujua, wa n-CHEE yetu hazina,",
+      "audioBytes": 69888
+    },
+    {
+      "textId": "pg041_n0018",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Nchi"
+      ],
+      "visibleTextSha256": "c85c6094a139d856a02f692243d13eb92d7823160ea302c41265c58373e90f7e",
+      "spokenText": "Daima nitaipenda, n-CHEE yangu Tanzania.",
+      "audioBytes": 59520
+    },
+    {
+      "textId": "pg041_n0023",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "ngonjera"
+      ],
+      "visibleTextSha256": "2186e67b71391862ba6b1abf5771e998d855eb55d97c681f79780069ab9fc177",
+      "spokenText": "1. What have you learnt from this ngohn-JEH-rah?",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg041_n0025",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "ngonjera"
+      ],
+      "visibleTextSha256": "98f51ea43269bfe1d0597d29b7336bdcdc31805471d70c6f962347491985b685",
+      "spokenText": "2. What issues are mentioned in this ngohn-JEH-rah?",
+      "audioBytes": 60672
+    },
+    {
+      "textId": "pg041_n0027",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "ngonjera"
+      ],
+      "visibleTextSha256": "ac6f87349e4782030cf45d9b531e76fb2123e699a7a4c59a81d8a9b8eae21d1c",
+      "spokenText": "3. What did you enjoy while reciting ngohn-JEH-rah?",
+      "audioBytes": 66816
+    },
+    {
+      "textId": "pg041_n0031",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "ngonjera"
+      ],
+      "visibleTextSha256": "211289ddb3be44030947cbb5bd2ce4160fa022484dc691329608bb25d836d281",
+      "spokenText": "Recite the ngohn-JEH-rah you have read.",
+      "audioBytes": 39168
+    },
+    {
+      "textId": "pg043_n0024",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mawenzi",
+        "Kibo"
+      ],
+      "visibleTextSha256": "875bd2bb0cf4d338aa2edd74ef62a4edbe5ceb2a75272a20866ae94cd0d98adb",
+      "spokenText": "KEE-boh and mah-WEHN-zee",
+      "audioBytes": 29568
+    },
+    {
+      "textId": "pg043_n0026",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mawenzi"
+      ],
+      "visibleTextSha256": "aa67d975ab4e7f1287f3cc26ca8cf77b19cc988acd8ce536ada570be1989c493",
+      "spokenText": "mah-WEHN-zee was crying.",
+      "audioBytes": 29568
+    },
+    {
+      "textId": "pg043_n0027",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kibo"
+      ],
+      "visibleTextSha256": "569c61edbfbf8f0c44e274c9eb498d4c6f7a7b610a4a74828c83de9fecce1851",
+      "spokenText": "On the way met KEE-boh.",
+      "audioBytes": 29184
+    },
+    {
+      "textId": "pg043_n0028",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kibo"
+      ],
+      "visibleTextSha256": "cf8818608e78033969939528cb4baf5bb52da9903687c4e3c1d8d5ae20fc0df3",
+      "spokenText": "KEE-boh asked, Hello! Friend, why are you crying?",
+      "audioBytes": 71040
+    },
+    {
+      "textId": "pg043_n0029",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mawenzi"
+      ],
+      "visibleTextSha256": "3457324ca3b56b0bd7a287114766ee64980ff844d40281c7e45f3858e8625536",
+      "spokenText": "mah-WEHN-zee replied, I had two one thousand shillings, one to buy flour and the other to buy vegetables.",
+      "audioBytes": 124032
+    },
+    {
+      "textId": "pg045_n0008",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mawenzi",
+        "Kibo"
+      ],
+      "visibleTextSha256": "588fd11b75a40682802b6ad4be8df6f857e01769ee7e22ef75e1b1a21d633430",
+      "spokenText": "2. If you were KEE-boh, what would you advise mah-WEHN-zee to do?",
+      "audioBytes": 84864
+    },
+    {
+      "textId": "gl004",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Adhana"
+      ],
+      "visibleTextSha256": "199bbad5dfba144704bb536c0e8e181e9e253184ec280b00ebd2b598de551f63",
+      "spokenText": "ah-DHAH-nah",
+      "audioBytes": 15744
+    },
+    {
+      "textId": "gl123",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "ngonjera"
+      ],
+      "visibleTextSha256": "9947ba69fd79309c5ba383f93785aec5e5e233532b3eb4c938f99da8b3e89ca4",
+      "spokenText": "ngohn-JEH-rah",
+      "audioBytes": 18432
+    },
+    {
+      "textId": "pg007_n0014_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge",
+        "Tembe",
+        "Banda"
+      ],
+      "visibleTextSha256": "8705ee88ddde6d7cfe2317b00886fceca8d85a3e1d433c0a8ae5fdb496213241",
+      "spokenText": "Tanzania has different types of traditional houses.. These include.; m-SOHN-geh; BAHN-dah; TEM-beh",
+      "audioBytes": 127104
+    },
+    {
+      "textId": "pg007_n0018_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "8031c44a0c4c2152ebaaa48dcd8f0f538e01626c70a63ba7d45652f49b6bcaa3",
+      "spokenText": "A m-SOHN-geh house is a type of house with a pointed top.",
+      "audioBytes": 64512
+    },
+    {
+      "textId": "pg007_n0019_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "9695934dde742a2cdd0d762d55294148cf7887014dec3baa47bb10601ecf4f74",
+      "spokenText": "m-SOHN-geh houses are built with.; poles; banana leaves; tree bark; mud; plant branches; tough grass",
+      "audioBytes": 142080
+    },
+    {
+      "textId": "pg007_n0020_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wachaga",
+        "Wahaya",
+        "Wasafwa",
+        "Wanyambo"
+      ],
+      "visibleTextSha256": "c7aeb48a9a4d25d6aafd413f2c0b50b1189587f006f1ea322090a328f07ea3da",
+      "spokenText": "Some Tanzanian communities use these houses.. These communities include.; the wah-HAH-yah; wah-SAH-fwah; wafipa; wah-CHAH-gah; Waha; wah-NYAHM-boh",
+      "audioBytes": 224256
+    },
+    {
+      "textId": "pg008_n0002_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "fd91bbb5392b0fd43a95d477fdba27b95d99880968ea0876373f703bfacb7c75",
+      "spokenText": "1. m-SOHN-geh house",
+      "audioBytes": 29568
+    },
+    {
+      "textId": "pg008_n0004_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "eab8d73b2456257c356e7995c29dc3de8c0a6a30f5a8057ae5a066bfc9a449fb",
+      "spokenText": "2. m-SOHN-geh house",
+      "audioBytes": 28032
+    },
+    {
+      "textId": "pg009_n0010_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "6ef1e93ca0f8b6e7393796eb841a49accaff1aa86ee23aae2851b962a3ba58d6",
+      "spokenText": "3. Compare the m-SOHN-geh houses in pictures 1 and 2 with the house you live in.",
+      "audioBytes": 98304
+    },
+    {
+      "textId": "pg009_n0014_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "b92c00ba6010c76fab26e2c46896aa72f6fe254529751ea76d74865737c8cf55",
+      "spokenText": "1. Look at the pictures or watch video clips about m-SOHN-geh houses in Tanzanian communities.",
+      "audioBytes": 115968
+    },
+    {
+      "textId": "pg009_n0015_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "eff4d0cb44953b7cf20905f79b68bed01d0b2c129cd6a1009d96d59053121169",
+      "spokenText": "2. Draw a picture of a m-SOHN-geh house.",
+      "audioBytes": 52992
+    },
+    {
+      "textId": "pg009_n0019_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "0442e9009804c117c72be226a6fc98c8f1ea930df2262bdd8a0411a7b836728b",
+      "spokenText": "A BAHN-dah house is a type of house.. It has a roof with 2 sides.",
+      "audioBytes": 76416
+    },
+    {
+      "textId": "pg009_n0020_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "969311bab73502dff938ae95d56c3c6cfce9420afb8ec555cfc06bcb923eb5a3",
+      "spokenText": "A BAHN-dah house is built with.; poles; bamboo; reeds; logs; soil; cow dung; grass; plant branches",
+      "audioBytes": 153216
+    },
+    {
+      "textId": "pg009_n0021_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda",
+        "Wanyamwezi",
+        "Wanyakyusa",
+        "Wasukuma",
+        "Wamwera"
+      ],
+      "visibleTextSha256": "6268fa9c10ad0ea567ccaf0f29282d382b643eb480479b228549c5df27dec131",
+      "spokenText": "Some Tanzanian communities use BAHN-dah houses.; wah-nyah-MWEH-zee; wah-soo-KOO-mah; wah-nyah-KYOO-sah; wah-MWEH-rah",
+      "audioBytes": 206208
+    },
+    {
+      "textId": "pg010_n0002_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "0411f693d2f039fa12e2c1ffb63dfa8255ba6882aedb7bafaac1489d9b2c7181",
+      "spokenText": "1. BAHN-dah house",
+      "audioBytes": 31104
+    },
+    {
+      "textId": "pg010_n0004_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "b9f07442593d94fa2f24ca0b1c74fc673db87ace9e2b732d8a1ec306244d4f07",
+      "spokenText": "2. BAHN-dah house",
+      "audioBytes": 31104
+    },
+    {
+      "textId": "pg011_n0009_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "4eead507111a9002874f3ae5c546232179b4e7657451ba7285576ecbb3e4cddd",
+      "spokenText": "3. In which areas have you observe BAHN-dah houses?",
+      "audioBytes": 67584
+    },
+    {
+      "textId": "pg011_n0011_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "dad8cdbb11b740660732bc1b5a6fa08132c99fc949abb03b1f92f06c186e37e1",
+      "spokenText": "4. Which Tanzanian communities use BAHN-dah houses?",
+      "audioBytes": 71808
+    },
+    {
+      "textId": "pg011_n0015_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "46fe3a1a41ec8970464d548f6cf350e6b1f9492486767362f62779d612d1a168",
+      "spokenText": "1. Observe the pictures.. Or watch video clips about BAHN-dah houses in Tanzanian communities.",
+      "audioBytes": 118656
+    },
+    {
+      "textId": "pg011_n0016_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "520446356f059ec9a9d27aae367c9d32e844692c4f9d60e9b711538be0ce0baa",
+      "spokenText": "2. Draw a picture of a BAHN-dah house.",
+      "audioBytes": 49536
+    },
+    {
+      "textId": "pg011_n0020_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "fd15c2de8a1caa270f6ea0bb0ca136c2b3f89bed0eb844b077180852fafff2cb",
+      "spokenText": "A TEM-beh house is a type of house.. It has a flat roof.. Grass and mud cover the roof.",
+      "audioBytes": 102144
+    },
+    {
+      "textId": "pg011_n0021_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "49e1e3bda98c3ac70cc82767d525eacef459e0689fd30e055062c32d5d719686",
+      "spokenText": "A TEM-beh house is built with poles, soil, and grass.",
+      "audioBytes": 70656
+    },
+    {
+      "textId": "pg011_n0022_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe",
+        "Wanyiramba",
+        "Wanyaturu",
+        "Wagogo",
+        "Wanyisanzu",
+        "Wasandawe"
+      ],
+      "visibleTextSha256": "a7e3e0e16cb380743f7f0a2a11ed89807aa5fb1c2fc834cf1c509b441f12ae1a",
+      "spokenText": "These Tanzanian communities use TEM-beh houses.; wah-GOH-goh; wah-nyah-TOO-roo; wah-nyee-RAHM-bah; wah-sahn-DAH-weh; wah-nyee-SAHN-zoo",
+      "audioBytes": 188160
+    },
+    {
+      "textId": "pg012_n0002_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "5398def144078273fea97e4a6843fc25236f68ac271b71e22d9ccb5c2a1cc531",
+      "spokenText": "1. TEM-beh house",
+      "audioBytes": 28800
+    },
+    {
+      "textId": "pg012_n0004_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "58300007eb7e8f01607352ec0a0c6732914bdf27894f9c55d5eba5cf3dc85596",
+      "spokenText": "2. TEM-beh house",
+      "audioBytes": 28800
+    },
+    {
+      "textId": "pg013_n0009_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "fa486a57880053a88c94cc34db5e20c48aabfdc47add698aa67488e66df6daf9",
+      "spokenText": "Which areas have you identify a TEM-beh house?",
+      "audioBytes": 56448
+    },
+    {
+      "textId": "pg013_n0014_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "172fe2aad6311e715467c3fd513bb65bc3f3ec744e1ea8019751a4692814861b",
+      "spokenText": "Study of the pictures or watch video clips about TEM-beh houses in Tanzanian communities.",
+      "audioBytes": 101760
+    },
+    {
+      "textId": "pg013_n0016_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "6b3f416dff86528bbd4d5752662eba5d6755cc19a5867865d1a9a5be42d8ca5b",
+      "spokenText": "Draw a picture of a TEM-beh house.",
+      "audioBytes": 36864
+    },
+    {
+      "textId": "pg013_n0023_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge",
+        "Tembe",
+        "Banda"
+      ],
+      "visibleTextSha256": "c877772d499051dfe3e724c4c3627e725b02c06767ef43688981f551f893f358",
+      "spokenText": "Explain the differences between a BAHN-dah house, a m-SOHN-geh house, and a TEM-beh house.",
+      "audioBytes": 105984
+    },
+    {
+      "textId": "pg014_n0013_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Msonge"
+      ],
+      "visibleTextSha256": "1b75fb530c0b91a56e5cdb71a667fa150e08845a1021cb8d6ac66102af01af31",
+      "spokenText": "1. The m-SOHN-geh house",
+      "audioBytes": 38016
+    },
+    {
+      "textId": "pg014_n0019_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Tembe"
+      ],
+      "visibleTextSha256": "39044c1fc1d6a06abf989fa4819850c7cb7ad47c49f699823fa56f43eb1350df",
+      "spokenText": "2. The TEM-beh house",
+      "audioBytes": 31872
+    },
+    {
+      "textId": "pg014_n0025_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Banda"
+      ],
+      "visibleTextSha256": "eae992ba47558f6012336710ec603321ca3ae19b5a7e72d0da37118a5b506021",
+      "spokenText": "3. The BAHN-dah house",
+      "audioBytes": 34944
+    },
+    {
+      "textId": "pg014_n0016_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wanyiramba",
+        "Wanyaturu",
+        "Wagogo"
+      ],
+      "visibleTextSha256": "e484fe7f7d8bfa494aaf5b70db436177ec6c6fba82329c12fff797f3771221d0",
+      "spokenText": "(a) wah-nyee-RAHM-bah, wah-nyah-TOO-roo and wah-GOH-goh",
+      "audioBytes": 79872
+    },
+    {
+      "textId": "pg014_n0022_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wanyamwezi",
+        "Wasukuma",
+        "Wamwera"
+      ],
+      "visibleTextSha256": "3d26d68dd6d043911cf6bbc46ed2523f50de386251983265f4f8ca76f2f7d88f",
+      "spokenText": "(b) wah-soo-KOO-mah, wah-MWEH-rah and wah-nyah-MWEH-zee",
+      "audioBytes": 111744
+    },
+    {
+      "textId": "pg014_n0028_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wachaga",
+        "Wahaya",
+        "Wasafwa"
+      ],
+      "visibleTextSha256": "ddf44770423f3856c0262b8e83decf1f605e32b22464eb7df2940780527d8d3a",
+      "spokenText": "(c) wah-HAH-yah, wah-SAH-fwah and wah-CHAH-gah",
+      "audioBytes": 74112
+    },
+    {
+      "textId": "pg014_n0043_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wanyaturu",
+        "Wasukuma",
+        "Wamasai",
+        "Wagogo",
+        "Wanyambo",
+        "Wakurya"
+      ],
+      "visibleTextSha256": "de99018afedbdef7eb1051b2bb8fbc0d57c5b19359904a6f1d74bb17e6388807",
+      "spokenText": "Some communities that do livestock keeping are.; wah-mah-SIGH; wah-soo-KOO-mah; wah-KOOR-yah; wah-NYAHM-boh; wah-nyah-TOO-roo; wah-GOH-goh",
+      "audioBytes": 211200
+    },
+    {
+      "textId": "pg016_n0026_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wanyamwezi",
+        "Wanyakyusa",
+        "Wasukuma",
+        "Wahaya",
+        "Wapogoro",
+        "Wazigua",
+        "Wahehe",
+        "Wayao"
+      ],
+      "visibleTextSha256": "eda8d2cb7f0fdbfb5bacbb0c692d68b2431bb950bbaea579eb5f1121988359df",
+      "spokenText": "Some communities are involved in farming.. These communities include.; wah-HEH-heh; wah-nyah-KYOO-sah; wah-nyah-MWEH-zee; wah-HAH-yah; wah-ZEE-gwah; wah-soo-KOO-mah; wah-poh-GOH-roh; wah-YAH-oh; Waha",
+      "audioBytes": 307200
+    },
+    {
+      "textId": "pg018_n0039_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wanyasa",
+        "Wapemba",
+        "Wadigo",
+        "Wajita"
+      ],
+      "visibleTextSha256": "c667c07b2836364c8134bf15c2acbee60e958c25bbcb4b8a58a2a9bba53c83f5",
+      "spokenText": "Some communities that fish are.; wah-NYAH-sah; wah-PEHM-bah; wah-DEE-goh; wah-JEE-tah; Waha",
+      "audioBytes": 148608
+    },
+    {
+      "textId": "pg020_n0006_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Wachaga",
+        "Wapemba",
+        "Wakinga"
+      ],
+      "visibleTextSha256": "4ec01a6d2e8ddb3c28524e8f43f06cdaec6a44c2aaeac6104c775f2f9e76b052",
+      "spokenText": "wah-CHAH-gah, wah-KEEN-gah, and wah-PEHM-bah are some well-known communities involved in business.",
+      "audioBytes": 130560
+    },
+    {
+      "textId": "pg024_n0023_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg024_n0024_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ff1f5a4c7d6894df6d0a706619fe6cc08eb2c3d2f9d6ed2f69efc52a69e992ca",
+      "spokenText": "Good morning, m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 46848
+    },
+    {
+      "textId": "pg024_n0025_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg024_n0026_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "53337c5ce4bc354ada6f782995619b51018e22679cbff337d95ef0f38469f79b",
+      "spokenText": "Good morning, kah-BOO-lah.. How are you?",
+      "audioBytes": 53376
+    },
+    {
+      "textId": "pg026_n0003_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg026_n0004_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Adhana"
+      ],
+      "visibleTextSha256": "9ad31a487807bbfeab21efaac7c3c98b97ee62d8ff462e1d1c56db3998d2cff9",
+      "spokenText": "Oh! I see!. So, people in the community should respect the ah-DHAH-nah and the bell.",
+      "audioBytes": 100608
+    },
+    {
+      "textId": "pg026_n0005_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Adhana"
+      ],
+      "visibleTextSha256": "438b8e8329b1ff2210613879594a5b700c312de35aeb17a6fdbd680ba9e3d7f1",
+      "spokenText": "Also, the ah-DHAH-nah helps me wake up early and get ready for school.",
+      "audioBytes": 82944
+    },
+    {
+      "textId": "pg026_n0007_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg026_n0008_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "4c41363b7b4a1254643a021e9eae40a93c768290865ed6e4f37c206c647a3c01",
+      "spokenText": "Oh! Okay, kah-BOO-lah.. Let me hurry to the Mosque.",
+      "audioBytes": 72960
+    },
+    {
+      "textId": "pg026_n0010_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg026_n0011_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "7bf3574c3b1a9a9d1676cb53cf633a43113a5093520dea345658a76ef0ef0144",
+      "spokenText": "Thank you very much, m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 57984
+    },
+    {
+      "textId": "pg026_n0015_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mzee Masanja",
+        "Mzee",
+        "Masanja"
+      ],
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "m-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg026_n0016_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kabula"
+      ],
+      "visibleTextSha256": "0d3a7748cfa0ec58d32b8f2e27bab1b8050e3f579ad174678628eb8f03fc85b2",
+      "spokenText": "Okay, kah-BOO-lah! Thank you.",
+      "audioBytes": 49536
+    },
+    {
+      "textId": "pg041_n0023_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "ngonjera"
+      ],
+      "visibleTextSha256": "2186e67b71391862ba6b1abf5771e998d855eb55d97c681f79780069ab9fc177",
+      "spokenText": "1. What have you learnt from this ngohn-JEH-rah?",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg041_n0025_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "ngonjera"
+      ],
+      "visibleTextSha256": "98f51ea43269bfe1d0597d29b7336bdcdc31805471d70c6f962347491985b685",
+      "spokenText": "2. What issues are mentioned in this ngohn-JEH-rah?",
+      "audioBytes": 60672
+    },
+    {
+      "textId": "pg041_n0027_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "ngonjera"
+      ],
+      "visibleTextSha256": "ac6f87349e4782030cf45d9b531e76fb2123e699a7a4c59a81d8a9b8eae21d1c",
+      "spokenText": "3. What did you enjoy while reciting ngohn-JEH-rah?",
+      "audioBytes": 66816
+    },
+    {
+      "textId": "pg041_n0031_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "ngonjera"
+      ],
+      "visibleTextSha256": "ab0a67e25d665c9fac7f5dd4a9d825f83105aecd2ea20d8abeb9d966995aabf2",
+      "spokenText": "Say the ngohn-JEH-rah you have read.",
+      "audioBytes": 36096
+    },
+    {
+      "textId": "pg043_n0026_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mawenzi"
+      ],
+      "visibleTextSha256": "aa67d975ab4e7f1287f3cc26ca8cf77b19cc988acd8ce536ada570be1989c493",
+      "spokenText": "mah-WEHN-zee was crying.",
+      "audioBytes": 29568
+    },
+    {
+      "textId": "pg043_n0027_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mawenzi",
+        "Kibo"
+      ],
+      "visibleTextSha256": "0865a1432c51f531eeeaaaac6fdd490fa255fc404a2475aa5583751bc9e5e041",
+      "spokenText": "On the way, mah-WEHN-zee met KEE-boh.",
+      "audioBytes": 49152
+    },
+    {
+      "textId": "pg043_n0028_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Kibo"
+      ],
+      "visibleTextSha256": "d8c13a0f08d200fcb8b8aa625959178ed81ba5b9c3b7389240e2af422899a030",
+      "spokenText": "KEE-boh asked, Hello, friend, why are you crying?",
+      "audioBytes": 70272
+    },
+    {
+      "textId": "pg043_n0029_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mawenzi"
+      ],
+      "visibleTextSha256": "3166c240c3692cad30fb4f7d987befb513950bbaf364814c8c50bfcfaa68c5cf",
+      "spokenText": "mah-WEHN-zee replied, I had 2 amounts of 1,000 shillings. One was to buy flour. The other was to buy vegetables.",
+      "audioBytes": 145152
+    },
+    {
+      "textId": "pg045_n0008_easy_read",
+      "scope": "book-wide-term-scan",
+      "detectedTerms": [
+        "Mawenzi",
+        "Kibo"
+      ],
+      "visibleTextSha256": "588fd11b75a40682802b6ad4be8df6f857e01769ee7e22ef75e1b1a21d633430",
+      "spokenText": "2. If you were KEE-boh, what would you advise mah-WEHN-zee to do?",
+      "audioBytes": 84864
+    }
+  ]
+}
