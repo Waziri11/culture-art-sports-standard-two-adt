@@ -1,0 +1,205 @@
+{
+  "voice": "Tessa",
+  "locale": "en_ZA",
+  "speakingRateWordsPerMinute": 145,
+  "pronunciations": {
+    "Amani": "Ah-mah-nee",
+    "Furaha": "Foo-rah-ha",
+    "Tumaini": "Too-mah-ee-nee",
+    "Baraka": "Bah-rah-kah"
+  },
+  "clips": [
+    {
+      "textId": "pg023_n0002",
+      "visibleTextSha256": "7bf54fdbdce7ef8f7bb3fcd89519c3cc42e38a06e7a19ffc0958dadd21a177aa",
+      "spokenText": "Activity one.",
+      "audioBytes": 20352
+    },
+    {
+      "textId": "pg023_n0005",
+      "visibleTextSha256": "300e43b19c52b7f4c5636efdddeaa46c00006686a8af8c102f6e4802a4751c7e",
+      "spokenText": "Write down what you learn when you go to places of prayer.",
+      "audioBytes": 64512
+    },
+    {
+      "textId": "pg023_n0007",
+      "visibleTextSha256": "1c0ad5fdf7d5a485c341ec292bab1054ffb1130a4b790a45c76ec236d171eaa4",
+      "spokenText": "Read the story and answer the questions that follows.",
+      "audioBytes": 57600
+    },
+    {
+      "textId": "pg023_n0009",
+      "visibleTextSha256": "b9451901e8fcffdb589d148d2ad4421bf338b23f9b55df5a9df07794aac8dafe",
+      "spokenText": "At Ah-mah-nee Primary School there were three pyoo-puhls named Foo-rah-ha, Too-mah-ee-nee and Bah-rah-kah.",
+      "audioBytes": 128640
+    },
+    {
+      "textId": "pg023_n0010",
+      "visibleTextSha256": "a044ae7819f6ff39981b08354c2e878e70bf278e9ffe87c403ec9d6859ef588e",
+      "spokenText": "These pyoo-puhls were in Standard Two and had different beliefs.",
+      "audioBytes": 71040
+    },
+    {
+      "textId": "pg023_n0011",
+      "visibleTextSha256": "776ec1d9ffb2be374108e7db1e06cf2fdb13f1742346b6d595656cb8536e91c0",
+      "spokenText": "They attended different sessions in school, including religious.",
+      "audioBytes": 69504
+    },
+    {
+      "textId": "pg023_n0012",
+      "visibleTextSha256": "05d9d3221a367b6df0f4f908f323c7f45f008fd6dd4bc4fa1f3dc32c73f9061e",
+      "spokenText": "In the religious session they learn to be loving, patient, cooperative and care for others.",
+      "audioBytes": 97152
+    },
+    {
+      "textId": "pg023_n0013",
+      "visibleTextSha256": "fcfcaedeea39ba5a3e316eb8e9266560e0a4980eeaec0699d193f4e28f250b8a",
+      "spokenText": "Foo-rah-ha and Too-mah-ee-nee were obedient and eager to attend all sessions.",
+      "audioBytes": 91008
+    },
+    {
+      "textId": "pg023_n0014",
+      "visibleTextSha256": "daa7aff82e19ff30c265a4f68e9727038f82cde2efc462ab223ccfaff6f3032d",
+      "spokenText": "Bah-rah-kah did not like to participate in religious sessions.",
+      "audioBytes": 71424
+    },
+    {
+      "textId": "pg023_n0015",
+      "visibleTextSha256": "b7ea88698cd6bab946c25ea61191100884aeeb71f3e5a12760718fc8c352fa34",
+      "spokenText": "During the session, he would rather run away and hide behind the classroom.",
+      "audioBytes": 77952
+    },
+    {
+      "textId": "pg023_n0016",
+      "visibleTextSha256": "a8c2a5af2871e6ed9ba5a36b4a1e5201620e2ab24739a7d921ece0efb237ffc2",
+      "spokenText": "Because of this behaviour, Bah-rah-kah was naughty, selfish and did not care about others.",
+      "audioBytes": 104832
+    },
+    {
+      "textId": "pg023_n0017",
+      "visibleTextSha256": "59490fadcc94b4e56c25c28789bf5f5757a817612e5e3331e7a503d8a267413c",
+      "spokenText": "One day, the teacher told them the effects of not attending religious sessions.",
+      "audioBytes": 86016
+    },
+    {
+      "textId": "pg023_n0018",
+      "visibleTextSha256": "4a2f5f1fc7a62e24613200cd6f6c2ae6df7b7df3dcee997af0692db2ffc36dba",
+      "spokenText": "The teacher said, If you miss the religious sessions you cannot learn good things for the community. Therefore, you will not be a well-behaved child and not accepted by the community.",
+      "audioBytes": 193920
+    },
+    {
+      "textId": "pg023_n0019",
+      "visibleTextSha256": "033fb69fa59c6e0f596d32c9dcd8863f46adea6d1c158332905205b75669265c",
+      "spokenText": "Foo-rah-ha and Too-mah-ee-nee decided to talk to Bah-rah-kah.",
+      "audioBytes": 77568
+    },
+    {
+      "textId": "pg023_n0020",
+      "visibleTextSha256": "c37674b2534b2083e1ea80c2020177b76c8a3b201e32c42c9cbf255b19227bee",
+      "spokenText": "They advised him to attend religious sessions to learn many good things for the community.",
+      "audioBytes": 90624
+    },
+    {
+      "textId": "pg023_n0021",
+      "visibleTextSha256": "e63eb577c6381db07b247de36d8f040584c1cccdebcb404998406c2f876c8b7c",
+      "spokenText": "Bah-rah-kah agreed and started attending religious",
+      "audioBytes": 57216
+    },
+    {
+      "textId": "pg023_n0002_easy_read",
+      "visibleTextSha256": "7bf54fdbdce7ef8f7bb3fcd89519c3cc42e38a06e7a19ffc0958dadd21a177aa",
+      "spokenText": "Activity one.",
+      "audioBytes": 20352
+    },
+    {
+      "textId": "pg023_n0005_easy_read",
+      "visibleTextSha256": "63308a1d7899d14ff42419e2324cb02304c93a4cc1ef943ea299a35f5b721475",
+      "spokenText": "Write what you learn when you go to places of prayer.",
+      "audioBytes": 59136
+    },
+    {
+      "textId": "pg023_n0007_easy_read",
+      "visibleTextSha256": "9b1800c90864ffc5ea01dfa919de20e355b2de17ee588fb0d1ae955ac80c7f44",
+      "spokenText": "Read the story.. Then answer the questions that follow.",
+      "audioBytes": 61440
+    },
+    {
+      "textId": "pg023_n0009_easy_read",
+      "visibleTextSha256": "1722ec2e7710d6b6b89b8498ed206a3380d0e4084b3c1494c2abff1066f20161",
+      "spokenText": "At Ah-mah-nee Primary School, there were three pyoo-puhls called Foo-rah-ha, Too-mah-ee-nee, and Bah-rah-kah.",
+      "audioBytes": 142080
+    },
+    {
+      "textId": "pg023_n0010_easy_read",
+      "visibleTextSha256": "792d0617377b9f901c154824ed7c663152a7d93b5825413c0161a57c24daf294",
+      "spokenText": "The three pyoo-puhls were in Standard Two.. They had different beliefs.",
+      "audioBytes": 79872
+    },
+    {
+      "textId": "pg023_n0011_easy_read",
+      "visibleTextSha256": "4f4a0c9c415ccc2367d00def0e0a84e5c7e07c024279758ecdf0c552a770459b",
+      "spokenText": "The pyoo-puhls went to different school sessions, including religious sessions.",
+      "audioBytes": 89472
+    },
+    {
+      "textId": "pg023_n0012_easy_read",
+      "visibleTextSha256": "12b24d4dff85c518fb1b90792c692e1b5a2891f38ab6a47f49cabe9bce880423",
+      "spokenText": "In the religious session, the pyoo-puhls learn to.; be loving; be patient; cooperate; care for others",
+      "audioBytes": 129024
+    },
+    {
+      "textId": "pg023_n0013_easy_read",
+      "visibleTextSha256": "8b84611d5d86db0459a4a76cd2ded0f0190eb06ae088e70d327ae8609b1a96bf",
+      "spokenText": "Foo-rah-ha and Too-mah-ee-nee were obedient.. They were eager to attend all sessions.",
+      "audioBytes": 100608
+    },
+    {
+      "textId": "pg023_n0014_easy_read",
+      "visibleTextSha256": "9e6cdea4025527e053f20f5a00de66ab2f5a47cef8c27d909ddbf75991f84fa2",
+      "spokenText": "Bah-rah-kah did not like to take part in religious sessions.",
+      "audioBytes": 68736
+    },
+    {
+      "textId": "pg023_n0015_easy_read",
+      "visibleTextSha256": "806113dc28b2bf7ecfb7c42d4ab99c3b308142377e7371c4cddd43b1ea7b7b91",
+      "spokenText": "During the session, Bah-rah-kah would run away and hide behind the classroom.",
+      "audioBytes": 82944
+    },
+    {
+      "textId": "pg023_n0016_easy_read",
+      "visibleTextSha256": "8f43e6f9fab2f8d94da98817a9c31e91b8a29def3f4155bf09f0e7d1aac1f15e",
+      "spokenText": "Because of this behaviour, Bah-rah-kah was naughty and selfish.. He did not care about others.",
+      "audioBytes": 109056
+    },
+    {
+      "textId": "pg023_n0017_easy_read",
+      "visibleTextSha256": "bb13e48532eaeb3eaf1ae2fea45d8a5943c30242747b9117680d3972922e554e",
+      "spokenText": "One day, the teacher told the pyoo-puhls the effects of not attending religious sessions.",
+      "audioBytes": 100608
+    },
+    {
+      "textId": "pg023_n0018_easy_read",
+      "visibleTextSha256": "e87b4582aae0ce7ae086025b6cb2f69e778fcb63ad8c96dc2bd7caa323d0a615",
+      "spokenText": "The teacher said, If you miss the religious sessions, you cannot learn good things for the community. Therefore, you will not be a well-behaved child, and the community will not accept you.",
+      "audioBytes": 208128
+    },
+    {
+      "textId": "pg023_n0019_easy_read",
+      "visibleTextSha256": "033fb69fa59c6e0f596d32c9dcd8863f46adea6d1c158332905205b75669265c",
+      "spokenText": "Foo-rah-ha and Too-mah-ee-nee decided to talk to Bah-rah-kah.",
+      "audioBytes": 77568
+    },
+    {
+      "textId": "pg023_n0020_easy_read",
+      "visibleTextSha256": "57fd1d6a7bc0e1cad66ee7f1ea119a7ac3e3f3ccf53ad8c232fbec107d27d74c",
+      "spokenText": "Foo-rah-ha and Too-mah-ee-nee advised Bah-rah-kah to attend religious sessions.. They said he could learn many good things for the community.",
+      "audioBytes": 155136
+    },
+    {
+      "textId": "pg023_n0021_easy_read",
+      "visibleTextSha256": "e63eb577c6381db07b247de36d8f040584c1cccdebcb404998406c2f876c8b7c",
+      "spokenText": "Bah-rah-kah agreed and started attending religious",
+      "audioBytes": 57216
+    }
+  ]
+}

@@ -170,6 +170,7 @@ def main() -> None:
                 require(audio_path.exists() and audio_path.stat().st_size > 20_000, f"Page 31 question audio is missing, empty or implausibly short: {audio_id}", failures)
     changed_audio_report = json.loads((ROOT / "changed-text-audio-report.json").read_text(encoding="utf-8"))
     changed_audio_items = {item["textId"]: item for item in changed_audio_report.get("clips", [])}
+    page38_superseded_ids = {"pg023_n0002", "pg023_n0002_easy_read"}
     require(len(changed_audio_items) == 64, f"Expected 64 regenerated corrected-text clips, found {len(changed_audio_items)}", failures)
     require("pg019_n0015" in changed_audio_items and "pg019_n0015_easy_read" in changed_audio_items, "Fishing Activity 6 narration was not regenerated", failures)
     for text_id, item in changed_audio_items.items():
@@ -178,7 +179,7 @@ def main() -> None:
         require(item.get("visibleTextSha256") == current_hash, f"Narration report is stale for corrected text: {text_id}", failures)
         filename = audios.get(text_id)
         require(bool(filename), f"Corrected narration is not mapped: {text_id}", failures)
-        if filename:
+        if filename and text_id not in page38_superseded_ids:
             audio_path = I18N / "audio" / filename
             require(audio_path.exists() and audio_path.stat().st_size == item.get("audioBytes") and audio_path.stat().st_size > 768, f"Corrected narration file does not match its generation evidence: {text_id}", failures)
     page36_table = (ROOT / "pg021_sec003.html").read_text(encoding="utf-8")
@@ -199,6 +200,21 @@ def main() -> None:
             filename = audios.get(audio_id)
             audio_path = I18N / "audio" / filename if filename else None
             require(bool(audio_path and audio_path.exists() and audio_path.stat().st_size > 20_000), f"Page 36 letter narration is missing or too short: {audio_id}", failures)
+    page38_audio_report = json.loads((ROOT / "page38-audio-report.json").read_text(encoding="utf-8"))
+    page38_audio_items = {item["textId"]: item for item in page38_audio_report.get("clips", [])}
+    require(len(page38_audio_items) == 32, f"Expected 32 complete page 38 narration clips, found {len(page38_audio_items)}", failures)
+    require(page38_audio_report.get("speakingRateWordsPerMinute") == 145, "Page 38 narration does not use the improved slower pacing", failures)
+    expected_pronunciations = {"Amani": "Ah-mah-nee", "Furaha": "Foo-rah-ha", "Tumaini": "Too-mah-ee-nee", "Baraka": "Bah-rah-kah"}
+    require(page38_audio_report.get("pronunciations") == expected_pronunciations, "Page 38 Tanzanian-name pronunciation overrides are incomplete", failures)
+    for text_id, item in page38_audio_items.items():
+        current_text = str(texts.get(text_id, ""))
+        current_hash = hashlib.sha256(current_text.encode("utf-8")).hexdigest()
+        require(item.get("visibleTextSha256") == current_hash, f"Page 38 narration is stale: {text_id}", failures)
+        filename = audios.get(text_id)
+        audio_path = I18N / "audio" / filename if filename else None
+        require(bool(audio_path and audio_path.exists() and audio_path.stat().st_size == item.get("audioBytes") and audio_path.stat().st_size > 10_000), f"Page 38 narration file is missing, too short or does not match evidence: {text_id}", failures)
+    story_spoken = " ".join(item.get("spokenText", "") for item in page38_audio_items.values())
+    require(all(pronunciation in story_spoken for pronunciation in expected_pronunciations.values()), "Page 38 spoken scripts do not use every approved name pronunciation", failures)
     require(all(f'data-id="{text_id}"' in final_table for text_id in ["pg072_n0016", "pg072_n0018", "pg072_n0021", "pg072_n0023"]), "Final Group A/B table is not accessible", failures)
 
     # A repeated data-id inside one table makes read-aloud play the same clip twice.
