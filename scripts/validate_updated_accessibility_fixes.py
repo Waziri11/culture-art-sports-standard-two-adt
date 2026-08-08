@@ -71,18 +71,21 @@ def main() -> None:
     study_report = json.loads((ROOT / "study-at-pictures-audio-report.json").read_text(encoding="utf-8"))
     study_items = {item["textId"]: item for item in study_report.get("clips", [])}
     expected_study_ids = {
-        "pg013_n0014", "pg029_n0002", "pg033_n0016", "pg048_n0006", "pg050_n0006",
+        "pg013_n0014", "pg029_n0002", "pg033_n0016", "pg035_n0006",
+        "pg037_n0002", "pg038_n0007", "pg048_n0006", "pg050_n0006",
         "pg013_n0014_easy_read", "pg029_n0002_easy_read", "pg033_n0016_easy_read",
+        "pg035_n0006_easy_read", "pg037_n0002_easy_read", "pg038_n0007_easy_read",
         "pg048_n0006_easy_read", "pg050_n0006_easy_read",
     }
     require(set(study_items) == expected_study_ids, "Book-wide Study-at narration evidence is incomplete", failures)
-    require(not any("study of the pictures" in str(value).lower() for value in texts.values()), "'Study of the pictures' remains in localized text", failures)
-    require(not any("study of the pictures" in path.read_text(encoding="utf-8").lower() for path in ROOT.glob("*.html")), "'Study of the pictures' remains in page HTML", failures)
+    old_study_pattern = re.compile(r"study\s+of(?:\s+the|\s+this)?\s+pictures?", re.IGNORECASE)
+    require(not any(old_study_pattern.search(str(value)) for value in texts.values()), "A 'Study of ... picture' variant remains in localized text", failures)
+    require(not any(old_study_pattern.search(path.read_text(encoding="utf-8")) for path in ROOT.glob("*.html")), "A 'Study of ... picture' variant remains in page HTML", failures)
     for text_id, item in study_items.items():
         visible = str(texts.get(text_id, ""))
-        require("Study at the pictures" in visible, f"Required Study-at wording is missing: {text_id}", failures)
+        require("Study at" in visible, f"Required Study-at wording is missing: {text_id}", failures)
         require(item.get("visibleTextSha256") == hashlib.sha256(visible.encode("utf-8")).hexdigest(), f"Study-at narration evidence is stale: {text_id}", failures)
-        require("Study at the pictures" in item.get("spokenText", ""), f"Study-at wording is not spoken: {text_id}", failures)
+        require("Study at" in item.get("spokenText", ""), f"Study-at wording is not spoken: {text_id}", failures)
         filename = audios.get(text_id)
         path = I18N / "audio" / filename if filename else None
         require(bool(path and path.exists() and path.stat().st_size == item.get("audioBytes") and path.stat().st_size > 768), f"Study-at narration file does not match evidence: {text_id}", failures)
@@ -112,7 +115,7 @@ def main() -> None:
     require(set(numbered_items) == expected_numbered_ids, "Book-wide numbered narration audit is incomplete", failures)
     require(len(numbered_items) == 244, f"Expected 244 numbered narration clips, found {len(numbered_items)}", failures)
     for text_id, item in numbered_items.items():
-        if text_id in blank_items:
+        if text_id in blank_items or text_id in study_items:
             continue
         visible = str(texts.get(text_id, ""))
         require(item.get("visibleTextSha256") == hashlib.sha256(visible.encode("utf-8")).hexdigest(), f"Numbered narration evidence is stale: {text_id}", failures)

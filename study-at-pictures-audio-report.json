@@ -21,6 +21,24 @@
       "audioBytes": 61824
     },
     {
+      "textId": "pg035_n0006",
+      "visibleTextSha256": "226423e6a04165628b1779dc621ac7742e84d373d48c74f56cea933d1d79c0c1",
+      "spokenText": "Number one. Study at pictures 1 and 2.",
+      "audioBytes": 56832
+    },
+    {
+      "textId": "pg037_n0002",
+      "visibleTextSha256": "1df4e336ef300730ac84ba349ad4e3e4c0d5d56577cff374565bebf55307376c",
+      "spokenText": "Study at the picture and answer the questions that follow:",
+      "audioBytes": 60672
+    },
+    {
+      "textId": "pg038_n0007",
+      "visibleTextSha256": "af2710fbabc1f3722f33244e866af91662db67d621df986dbf71c6ae9beaf82c",
+      "spokenText": "Study at this picture and answer the questions that follow:",
+      "audioBytes": 62592
+    },
+    {
       "textId": "pg048_n0006",
       "visibleTextSha256": "97402faa41093f1423bd88080ddbef056ea731d1ea2cc51e084206c3068c7cde",
       "spokenText": "Study at the pictures and answer the following questions:",
@@ -49,6 +67,24 @@
       "visibleTextSha256": "3eded3461026e0bc314c668470faf525d0eb19b74ef7685e85575e481c7cd33a",
       "spokenText": "Study at the pictures and answer the questions that follow:",
       "audioBytes": 61824
+    },
+    {
+      "textId": "pg035_n0006_easy_read",
+      "visibleTextSha256": "226423e6a04165628b1779dc621ac7742e84d373d48c74f56cea933d1d79c0c1",
+      "spokenText": "Number one. Study at pictures 1 and 2.",
+      "audioBytes": 56832
+    },
+    {
+      "textId": "pg037_n0002_easy_read",
+      "visibleTextSha256": "1df4e336ef300730ac84ba349ad4e3e4c0d5d56577cff374565bebf55307376c",
+      "spokenText": "Study at the picture and answer the questions that follow:",
+      "audioBytes": 60672
+    },
+    {
+      "textId": "pg038_n0007_easy_read",
+      "visibleTextSha256": "af2710fbabc1f3722f33244e866af91662db67d621df986dbf71c6ae9beaf82c",
+      "spokenText": "Study at this picture and answer the questions that follow:",
+      "audioBytes": 62592
     },
     {
       "textId": "pg048_n0006_easy_read",

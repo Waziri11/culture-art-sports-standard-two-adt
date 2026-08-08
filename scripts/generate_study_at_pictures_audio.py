@@ -6,6 +6,7 @@ from __future__ import annotations
 import hashlib
 import json
 from pathlib import Path
+import re
 import subprocess
 import tempfile
 
@@ -14,7 +15,7 @@ from swahili_pronunciations import apply_pronunciations
 
 ROOT = Path(__file__).resolve().parents[1]
 I18N = ROOT / "content" / "i18n" / "en"
-BASE_IDS = ("pg013_n0014", "pg029_n0002", "pg033_n0016", "pg048_n0006", "pg050_n0006")
+BASE_IDS = ("pg013_n0014", "pg029_n0002", "pg033_n0016", "pg035_n0006", "pg037_n0002", "pg038_n0007", "pg048_n0006", "pg050_n0006")
 IDS = BASE_IDS + tuple(f"{text_id}_easy_read" for text_id in BASE_IDS)
 
 
@@ -28,6 +29,7 @@ def main() -> None:
         for text_id in IDS:
             visible = str(texts[text_id])
             spoken = apply_pronunciations(visible)
+            spoken = re.sub(r"^1\.\s*", "Number one. ", spoken)
             wav_path = temp_dir / f"{text_id}.wav"
             subprocess.run(["/usr/bin/say", "-v", "Tessa", "-r", "145", "-o", str(wav_path), "--data-format=LEI16@24000", spoken], check=True)
             filename = f"{text_id}.mp3"
