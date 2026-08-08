@@ -158,6 +158,15 @@ def main() -> None:
     require('relative mt-8 rounded-[28px] border-4 border-sky-300' in activity_five_page, "Activity 5 content is not enclosed in the standard activity panel", failures)
     require('absolute left-8 -top-7' in activity_five_page, "Activity 5 badge does not overlap the activity panel", failures)
     require(activity_five_page.count('data-id="pg018_n0029"') == 1 and activity_five_page.count('data-id="pg018_n0030"') == 1, "Activity 5 read-aloud IDs are not unique", failures)
+    page31_audio_script = (ROOT / "scripts/generate_page31_question_audio.py").read_text(encoding="utf-8")
+    for question_id, spoken_number in (("pg019_n0007", "Question one."), ("pg019_n0009", "Question two.")):
+        require(spoken_number in page31_audio_script, f"Page 31 narration does not explicitly speak {spoken_number}", failures)
+        for audio_id in (question_id, f"{question_id}_easy_read"):
+            filename = audios.get(audio_id)
+            require(bool(filename), f"Page 31 question audio is not mapped: {audio_id}", failures)
+            if filename:
+                audio_path = I18N / "audio" / filename
+                require(audio_path.exists() and audio_path.stat().st_size > 20_000, f"Page 31 question audio is missing, empty or implausibly short: {audio_id}", failures)
     require(all(f'data-id="{text_id}"' in final_table for text_id in ["pg072_n0016", "pg072_n0018", "pg072_n0021", "pg072_n0023"]), "Final Group A/B table is not accessible", failures)
 
     # A repeated data-id inside one table makes read-aloud play the same clip twice.
