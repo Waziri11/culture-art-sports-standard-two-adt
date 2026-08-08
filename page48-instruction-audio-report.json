@@ -1,0 +1,18 @@
+{
+  "voice": "Tessa",
+  "speakingRateWordsPerMinute": 145,
+  "clips": [
+    {
+      "textId": "pg030_n0023",
+      "visibleTextSha256": "1df4e336ef300730ac84ba349ad4e3e4c0d5d56577cff374565bebf55307376c",
+      "spokenText": "Study at the picture and answer the questions that follow:",
+      "audioBytes": 60672
+    },
+    {
+      "textId": "pg030_n0023_easy_read",
+      "visibleTextSha256": "1df4e336ef300730ac84ba349ad4e3e4c0d5d56577cff374565bebf55307376c",
+      "spokenText": "Study at the picture and answer the questions that follow:",
+      "audioBytes": 60672
+    }
+  ]
+}

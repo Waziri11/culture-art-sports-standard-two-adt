@@ -105,6 +105,18 @@ def main() -> None:
     require(original_knitting_image.exists() and original_knitting_image.stat().st_size == 74861, "Complete original knitting image is missing or altered", failures)
     for image_id in ("pg029_im001_seg001_v1", "pg029_im001_seg002_v1", "pg029_im001_seg003_v1", "pg029_im001_seg004_v1"):
         require(f'data-id="{image_id}"' in knitting_page, f"Knitting panel description remains unavailable: {image_id}", failures)
+    page48_source = (ROOT / "pg030_sec001.html").read_text(encoding="utf-8")
+    page48_report = json.loads((ROOT / "page48-instruction-audio-report.json").read_text(encoding="utf-8"))
+    page48_items = {item["textId"]: item for item in page48_report.get("clips", [])}
+    expected_page48_instruction = "Study at the picture and answer the questions that follow:"
+    require(expected_page48_instruction in page48_source and "Study of the picture" not in page48_source, "Page 48 visible instruction is incorrect", failures)
+    for text_id in ("pg030_n0023", "pg030_n0023_easy_read"):
+        require(texts.get(text_id) == expected_page48_instruction, f"Page 48 localized instruction is incorrect: {text_id}", failures)
+        item = page48_items.get(text_id, {})
+        require(item.get("spokenText") == expected_page48_instruction, f"Page 48 narration does not match visible text: {text_id}", failures)
+        filename = audios.get(text_id)
+        path = I18N / "audio" / filename if filename else None
+        require(bool(path and path.exists() and path.stat().st_size == item.get("audioBytes") and path.stat().st_size > 768), f"Page 48 narration evidence is invalid: {text_id}", failures)
     toc = json.loads((ROOT / "content/toc.json").read_text(encoding="utf-8"))
 
     require(len(pages) == 114, f"Expected 114 sections, found {len(pages)}", failures)
@@ -207,16 +219,21 @@ def main() -> None:
                 require(audio_path.exists() and audio_path.stat().st_size > 20_000, f"Page 31 question audio is missing, empty or implausibly short: {audio_id}", failures)
     changed_audio_report = json.loads((ROOT / "changed-text-audio-report.json").read_text(encoding="utf-8"))
     changed_audio_items = {item["textId"]: item for item in changed_audio_report.get("clips", [])}
-    page38_superseded_ids = {"pg023_n0002", "pg023_n0002_easy_read"}
+    newer_audio_evidence_ids = {
+        "pg023_n0002", "pg023_n0002_easy_read",
+        "pg030_n0023", "pg030_n0023_easy_read",
+    }
     require(len(changed_audio_items) == 64, f"Expected 64 regenerated corrected-text clips, found {len(changed_audio_items)}", failures)
     require("pg019_n0015" in changed_audio_items and "pg019_n0015_easy_read" in changed_audio_items, "Fishing Activity 6 narration was not regenerated", failures)
     for text_id, item in changed_audio_items.items():
+        if text_id in newer_audio_evidence_ids:
+            continue
         current_text = str(texts.get(text_id, ""))
         current_hash = hashlib.sha256(current_text.encode("utf-8")).hexdigest()
         require(item.get("visibleTextSha256") == current_hash, f"Narration report is stale for corrected text: {text_id}", failures)
         filename = audios.get(text_id)
         require(bool(filename), f"Corrected narration is not mapped: {text_id}", failures)
-        if filename and text_id not in page38_superseded_ids and text_id not in swahili_items:
+        if filename and text_id not in swahili_items:
             audio_path = I18N / "audio" / filename
             require(audio_path.exists() and audio_path.stat().st_size == item.get("audioBytes") and audio_path.stat().st_size > 768, f"Corrected narration file does not match its generation evidence: {text_id}", failures)
     page36_table = (ROOT / "pg021_sec003.html").read_text(encoding="utf-8")

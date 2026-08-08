@@ -18,7 +18,7 @@ TEXT_UPDATES = {
     "pg023_n0002": "Activity 1",
     "pg023_n0003": "",
     "pg029_n0002": "Study of the pictures and answer the questions that follow:",
-    "pg030_n0023": "Study of the picture and answer the questions that follow:",
+    "pg030_n0023": "Study at the picture and answer the questions that follow:",
     "pg032_n0002": "Study of the pictures and answer the questions that follow:",
     "pg033_n0016": "Study of the pictures and answer the questions that follow:",
     "pg035_n0006": "1. Study of pictures 1 and 2.",
