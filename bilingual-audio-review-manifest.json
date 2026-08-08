@@ -1,0 +1,542 @@
+{
+  "reviewStatus": "approved-2026-08-08",
+  "termCount": 105,
+  "coveredTerms": 103,
+  "terms": [
+    {
+      "term": "Mzee Masanja",
+      "textId": "pg024_n0024",
+      "audioFile": "pg024_n0024.mp3"
+    },
+    {
+      "term": "Mzee",
+      "textId": "pg024_n0024",
+      "audioFile": "pg024_n0024.mp3"
+    },
+    {
+      "term": "Masanja",
+      "textId": "pg024_n0024",
+      "audioFile": "pg024_n0024.mp3"
+    },
+    {
+      "term": "Adhana",
+      "textId": "pg025_n0021",
+      "audioFile": "pg025_n0021.mp3"
+    },
+    {
+      "term": "Kabula",
+      "textId": "pg024_n0023",
+      "audioFile": "pg024_n0023.mp3"
+    },
+    {
+      "term": "Msonge",
+      "textId": "pg007_n0014",
+      "audioFile": "pg007_n0014.mp3"
+    },
+    {
+      "term": "Tembe",
+      "textId": "pg001_n0018",
+      "audioFile": "pg001_n0018.mp3"
+    },
+    {
+      "term": "Banda",
+      "textId": "pg007_n0014",
+      "audioFile": "pg007_n0014.mp3"
+    },
+    {
+      "term": "Nchi",
+      "textId": "pg040_n0009",
+      "audioFile": "pg040_n0009.mp3"
+    },
+    {
+      "term": "ngonjera",
+      "textId": "pg040_n0004",
+      "audioFile": "pg040_n0004.mp3"
+    },
+    {
+      "term": "Kiswahili",
+      "textId": null,
+      "audioFile": null
+    },
+    {
+      "term": "Kilimanjaro",
+      "textId": null,
+      "audioFile": null
+    },
+    {
+      "term": "Mawenzi",
+      "textId": "pg043_n0024",
+      "audioFile": "pg043_n0024.mp3"
+    },
+    {
+      "term": "Kibo",
+      "textId": "pg043_n0024",
+      "audioFile": "pg043_n0024.mp3"
+    },
+    {
+      "term": "Wanyiramba",
+      "textId": "pg011_n0022",
+      "audioFile": "pg011_n0022.mp3"
+    },
+    {
+      "term": "Wanyaturu",
+      "textId": "pg011_n0022",
+      "audioFile": "pg011_n0022.mp3"
+    },
+    {
+      "term": "Wanyamwezi",
+      "textId": "pg009_n0021",
+      "audioFile": "pg009_n0021.mp3"
+    },
+    {
+      "term": "Wanyakyusa",
+      "textId": "pg009_n0021",
+      "audioFile": "pg009_n0021.mp3"
+    },
+    {
+      "term": "Wasukuma",
+      "textId": "pg009_n0021",
+      "audioFile": "pg009_n0021.mp3"
+    },
+    {
+      "term": "Wamasai",
+      "textId": "pg014_n0043",
+      "audioFile": "pg014_n0043.mp3"
+    },
+    {
+      "term": "Wachaga",
+      "textId": "pg007_n0020",
+      "audioFile": "pg007_n0020.mp3"
+    },
+    {
+      "term": "Wagogo",
+      "textId": "pg011_n0022",
+      "audioFile": "pg011_n0022.mp3"
+    },
+    {
+      "term": "Wahaya",
+      "textId": "pg007_n0020",
+      "audioFile": "pg007_n0020.mp3"
+    },
+    {
+      "term": "Wasafwa",
+      "textId": "pg007_n0020",
+      "audioFile": "pg007_n0020.mp3"
+    },
+    {
+      "term": "Wanyasa",
+      "textId": "pg018_n0039",
+      "audioFile": "pg018_n0039.mp3"
+    },
+    {
+      "term": "Wanyambo",
+      "textId": "pg007_n0020",
+      "audioFile": "pg007_n0020.mp3"
+    },
+    {
+      "term": "Wapemba",
+      "textId": "pg018_n0039",
+      "audioFile": "pg018_n0039.mp3"
+    },
+    {
+      "term": "Wapogoro",
+      "textId": "pg016_n0026",
+      "audioFile": "pg016_n0026.mp3"
+    },
+    {
+      "term": "Wakinga",
+      "textId": "pg020_n0006",
+      "audioFile": "pg020_n0006.mp3"
+    },
+    {
+      "term": "Wakurya",
+      "textId": "pg014_n0043",
+      "audioFile": "pg014_n0043.mp3"
+    },
+    {
+      "term": "Wanyisanzu",
+      "textId": "pg011_n0022",
+      "audioFile": "pg011_n0022.mp3"
+    },
+    {
+      "term": "Wasandawe",
+      "textId": "pg011_n0022",
+      "audioFile": "pg011_n0022.mp3"
+    },
+    {
+      "term": "Wazigua",
+      "textId": "pg016_n0026",
+      "audioFile": "pg016_n0026.mp3"
+    },
+    {
+      "term": "Wadigo",
+      "textId": "pg018_n0039",
+      "audioFile": "pg018_n0039.mp3"
+    },
+    {
+      "term": "Wahehe",
+      "textId": "pg016_n0026",
+      "audioFile": "pg016_n0026.mp3"
+    },
+    {
+      "term": "Wajita",
+      "textId": "pg018_n0039",
+      "audioFile": "pg018_n0039.mp3"
+    },
+    {
+      "term": "Wamwera",
+      "textId": "pg009_n0021",
+      "audioFile": "pg009_n0021.mp3"
+    },
+    {
+      "term": "Wayao",
+      "textId": "pg016_n0026",
+      "audioFile": "pg016_n0026.mp3"
+    },
+    {
+      "term": "Samaki",
+      "textId": "pg040_n0017",
+      "audioFile": "pg040_n0017.mp3"
+    },
+    {
+      "term": "Tuungane",
+      "textId": "pg041_n0009",
+      "audioFile": "pg041_n0009.mp3"
+    },
+    {
+      "term": "Tuwakemee",
+      "textId": "pg041_n0011",
+      "audioFile": "pg041_n0011.mp3"
+    },
+    {
+      "term": "Ufukara",
+      "textId": "pg040_n0025",
+      "audioFile": "pg040_n0025.mp3"
+    },
+    {
+      "term": "Utajiri",
+      "textId": "pg040_n0023",
+      "audioFile": "pg040_n0023.mp3"
+    },
+    {
+      "term": "Tanzania",
+      "textId": "pg001_n0009",
+      "audioFile": "pg001_n0009.mp3"
+    },
+    {
+      "term": "watu",
+      "textId": "pg040_n0008",
+      "audioFile": "pg040_n0008.mp3"
+    },
+    {
+      "term": "wengi",
+      "textId": "pg040_n0008",
+      "audioFile": "pg040_n0008.mp3"
+    },
+    {
+      "term": "waipenda",
+      "textId": "pg040_n0008",
+      "audioFile": "pg040_n0008.mp3"
+    },
+    {
+      "term": "yenye",
+      "textId": "pg040_n0009",
+      "audioFile": "pg040_n0009.mp3"
+    },
+    {
+      "term": "mali",
+      "textId": "pg040_n0009",
+      "audioFile": "pg040_n0009.mp3"
+    },
+    {
+      "term": "nyingi",
+      "textId": "pg040_n0009",
+      "audioFile": "pg040_n0009.mp3"
+    },
+    {
+      "term": "wanyama",
+      "textId": "pg040_n0009",
+      "audioFile": "pg040_n0009.mp3"
+    },
+    {
+      "term": "kwa",
+      "textId": "pg040_n0009",
+      "audioFile": "pg040_n0009.mp3"
+    },
+    {
+      "term": "mamia",
+      "textId": "pg040_n0009",
+      "audioFile": "pg040_n0009.mp3"
+    },
+    {
+      "term": "mnaona",
+      "textId": "pg040_n0010",
+      "audioFile": "pg040_n0010.mp3"
+    },
+    {
+      "term": "pia",
+      "textId": "pg018_n0037",
+      "audioFile": "pg018_n0037.mp3"
+    },
+    {
+      "term": "ninyi",
+      "textId": "pg040_n0010",
+      "audioFile": "pg040_n0010.mp3"
+    },
+    {
+      "term": "hakuna",
+      "textId": "pg040_n0010",
+      "audioFile": "pg040_n0010.mp3"
+    },
+    {
+      "term": "kubishia",
+      "textId": "pg040_n0010",
+      "audioFile": "pg040_n0010.mp3"
+    },
+    {
+      "term": "haki",
+      "textId": "pg040_n0011",
+      "audioFile": "pg040_n0011.mp3"
+    },
+    {
+      "term": "na",
+      "textId": "pg006_n0006",
+      "audioFile": "pg006_n0006.mp3"
+    },
+    {
+      "term": "wajibu",
+      "textId": "pg040_n0011",
+      "audioFile": "pg040_n0011.mp3"
+    },
+    {
+      "term": "wetu",
+      "textId": "pg040_n0011",
+      "audioFile": "pg040_n0011.mp3"
+    },
+    {
+      "term": "kukuza",
+      "textId": "pg040_n0011",
+      "audioFile": "pg040_n0011.mp3"
+    },
+    {
+      "term": "uchumi",
+      "textId": "pg040_n0011",
+      "audioFile": "pg040_n0011.mp3"
+    },
+    {
+      "term": "pita",
+      "textId": "pg035_im002",
+      "audioFile": "pg035_im002.mp3"
+    },
+    {
+      "term": "huko",
+      "textId": "pg040_n0015",
+      "audioFile": "pg040_n0015.mp3"
+    },
+    {
+      "term": "migodini",
+      "textId": "pg040_n0015",
+      "audioFile": "pg040_n0015.mp3"
+    },
+    {
+      "term": "utayaona",
+      "textId": "pg040_n0015",
+      "audioFile": "pg040_n0015.mp3"
+    },
+    {
+      "term": "mwenyewe",
+      "textId": "pg040_n0015",
+      "audioFile": "pg040_n0015.mp3"
+    },
+    {
+      "term": "madini",
+      "textId": "pg040_n0016",
+      "audioFile": "pg040_n0016.mp3"
+    },
+    {
+      "term": "yamesheheni",
+      "textId": "pg040_n0016",
+      "audioFile": "pg040_n0016.mp3"
+    },
+    {
+      "term": "wahi",
+      "textId": "pg040_n0016",
+      "audioFile": "pg040_n0016.mp3"
+    },
+    {
+      "term": "usichelewe",
+      "textId": "pg040_n0016",
+      "audioFile": "pg040_n0016.mp3"
+    },
+    {
+      "term": "nenda",
+      "textId": "pg040_n0017",
+      "audioFile": "pg040_n0017.mp3"
+    },
+    {
+      "term": "ziwani",
+      "textId": "pg040_n0017",
+      "audioFile": "pg040_n0017.mp3"
+    },
+    {
+      "term": "pokelewe",
+      "textId": "pg040_n0017",
+      "audioFile": "pg040_n0017.mp3"
+    },
+    {
+      "term": "dada",
+      "textId": "pg040_n0022",
+      "audioFile": "pg040_n0022.mp3"
+    },
+    {
+      "term": "kaka",
+      "textId": "pg040_n0022",
+      "audioFile": "pg040_n0022.mp3"
+    },
+    {
+      "term": "sielewi",
+      "textId": "pg040_n0022",
+      "audioFile": "pg040_n0022.mp3"
+    },
+    {
+      "term": "maneno",
+      "textId": "pg040_n0022",
+      "audioFile": "pg040_n0022.mp3"
+    },
+    {
+      "term": "unayosema",
+      "textId": "pg040_n0022",
+      "audioFile": "pg040_n0022.mp3"
+    },
+    {
+      "term": "huo",
+      "textId": "pg040_n0023",
+      "audioFile": "pg040_n0023.mp3"
+    },
+    {
+      "term": "wapi",
+      "textId": "pg040_n0023",
+      "audioFile": "pg040_n0023.mp3"
+    },
+    {
+      "term": "uwe",
+      "textId": "pg040_n0023",
+      "audioFile": "pg040_n0023.mp3"
+    },
+    {
+      "term": "makini",
+      "textId": "pg040_n0023",
+      "audioFile": "pg040_n0023.mp3"
+    },
+    {
+      "term": "kusema",
+      "textId": "pg040_n0023",
+      "audioFile": "pg040_n0023.mp3"
+    },
+    {
+      "term": "mbona",
+      "textId": "pg040_n0024",
+      "audioFile": "pg040_n0024.mp3"
+    },
+    {
+      "term": "shule",
+      "textId": "pg040_n0024",
+      "audioFile": "pg040_n0024.mp3"
+    },
+    {
+      "term": "ninapotaka",
+      "textId": "pg040_n0024",
+      "audioFile": "pg040_n0024.mp3"
+    },
+    {
+      "term": "kusoma",
+      "textId": "pg040_n0024",
+      "audioFile": "pg040_n0024.mp3"
+    },
+    {
+      "term": "umetanda",
+      "textId": "pg040_n0025",
+      "audioFile": "pg040_n0025.mp3"
+    },
+    {
+      "term": "ndiyo",
+      "textId": "pg040_n0025",
+      "audioFile": "pg040_n0025.mp3"
+    },
+    {
+      "term": "maana",
+      "textId": "pg040_n0025",
+      "audioFile": "pg040_n0025.mp3"
+    },
+    {
+      "term": "unasema",
+      "textId": "pg040_n0029",
+      "audioFile": "pg040_n0029.mp3"
+    },
+    {
+      "term": "mambo",
+      "textId": "pg040_n0029",
+      "audioFile": "pg040_n0029.mp3"
+    },
+    {
+      "term": "ambayo",
+      "textId": "pg040_n0029",
+      "audioFile": "pg040_n0029.mp3"
+    },
+    {
+      "term": "yanachanganya",
+      "textId": "pg040_n0029",
+      "audioFile": "pg040_n0029.mp3"
+    },
+    {
+      "term": "kutoelewa",
+      "textId": "pg040_n0030",
+      "audioFile": "pg040_n0030.mp3"
+    },
+    {
+      "term": "ni",
+      "textId": "pg001_n0009",
+      "audioFile": "pg001_n0009.mp3"
+    },
+    {
+      "term": "uzembe",
+      "textId": "pg040_n0030",
+      "audioFile": "pg040_n0030.mp3"
+    },
+    {
+      "term": "umefanya",
+      "textId": "pg040_n0030",
+      "audioFile": "pg040_n0030.mp3"
+    },
+    {
+      "term": "kwetu",
+      "textId": "pg040_n0031",
+      "audioFile": "pg040_n0031.mp3"
+    },
+    {
+      "term": "pambo",
+      "textId": "pg040_n0031",
+      "audioFile": "pg040_n0031.mp3"
+    },
+    {
+      "term": "mapato",
+      "textId": "pg040_n0031",
+      "audioFile": "pg040_n0031.mp3"
+    },
+    {
+      "term": "tunakusanya",
+      "textId": "pg040_n0031",
+      "audioFile": "pg040_n0031.mp3"
+    }
+  ],
+  "representativeTextIds": [
+    "pg001_n0002",
+    "pg007_n0014",
+    "pg011_n0022",
+    "pg025_n0021",
+    "pg025_n0022",
+    "pg040_n0009",
+    "pg040_n0015",
+    "pg014_n0043"
+  ]
+}
