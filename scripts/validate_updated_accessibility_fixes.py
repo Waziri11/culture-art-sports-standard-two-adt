@@ -152,6 +152,8 @@ def main() -> None:
     farm_page = (ROOT / "pg017_sec001.html").read_text(encoding="utf-8")
     require('data-id="pg017_im003" class="block h-80' in farm_page, "Rice farm image is missing its aligned fixed-height layout", failures)
     require(farm_page.count('style="max-width: 100%; height: auto;"') == 0, "Farm image heights are not aligned", failures)
+    require('aria-hidden="true" class="flex h-14 w-14' not in farm_page, "Circled duplicate question numbers remain on page 27", failures)
+    require(farm_page.count('data-id="pg017_n0020"') == 1 and farm_page.count('data-id="pg017_n0022"') == 1, "Page 27 question numbers are not unique", failures)
     require(all(f'data-id="{text_id}"' in final_table for text_id in ["pg072_n0016", "pg072_n0018", "pg072_n0021", "pg072_n0023"]), "Final Group A/B table is not accessible", failures)
 
     doc = Document(str(FORM))
