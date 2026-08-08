@@ -55,6 +55,10 @@ page5_signature = ROOT / "images/pg005_signature.jpg"
 require(page5_signature.exists() and page5_signature.stat().st_size > 9_000, "Authentic page-five signature is missing", failures)
 require("teachers and standard two pupils" in texts.get("pg005_n0002", ""), "Page-five wording does not match the PDF", failures)
 
+page6_source = (ROOT / "pg006_sec001.html").read_text(encoding="utf-8")
+require(page6_source.count('alt="Introduction"') == 1, "Introduction banner is missing or duplicated", failures)
+require('data-id="pg006_n0002"' not in page6_source, "Duplicate visible Introduction title remains", failures)
+
 require(not any(p["href"].startswith("qz") for p in pages), "Quiz entry remains in pages.json", failures)
 require(not list(ROOT.glob("qz*.html")), "Quiz HTML remains", failures)
 require(not any(k.startswith("qz") for k in texts), "Quiz text remains", failures)
