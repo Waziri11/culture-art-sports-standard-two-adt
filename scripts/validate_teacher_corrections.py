@@ -42,6 +42,8 @@ require('data-id="pg003_n0002" class="sr-only"' in toc_source, "Duplicate visibl
 require(toc_source.count('class="toc-entry') == 6, "Table-of-contents dotted rows are incomplete", failures)
 require(toc_source.count('class="toc-leader"') == 6, "Table-of-contents dotted leaders are incomplete", failures)
 require(texts.get("pg003_n0006") == "iv" and texts.get("pg003_n0008") == "vi", "Roman page numbers are not separated", failures)
+for stale_id in ("pg003_n0005", "pg003_n0007", "pg003_n0011", "pg003_n0016", "pg003_n0020", "pg003_n0024"):
+    require(f'data-id="{stale_id}"' not in toc_source, f"Cached combined contents ID remains: {stale_id}", failures)
 toc_audio_report = json.loads((ROOT / "toc-audio-report.json").read_text(encoding="utf-8"))
 require(toc_audio_report.get("romanNumerals") == {"iv": "Roman four", "vi": "Roman six"}, "Roman numeral narration is incorrect", failures)
 

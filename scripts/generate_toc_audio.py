@@ -14,17 +14,17 @@ from generate_corrected_audio import encode_mp3
 ROOT = Path(__file__).resolve().parents[1]
 I18N = ROOT / "content" / "i18n" / "en"
 SPOKEN = {
-    "pg003_n0005": "Acknowledgments",
+    "pg003_n0026": "Acknowledgments",
     "pg003_n0006": "Roman four",
-    "pg003_n0007": "Introduction",
+    "pg003_n0027": "Introduction",
     "pg003_n0008": "Roman six",
-    "pg003_n0011": "Our culture",
+    "pg003_n0028": "Our culture",
     "pg003_n0012": "Page one",
-    "pg003_n0016": "and ethics",
+    "pg003_n0029": "and ethics",
     "pg003_n0017": "Page sixteen",
-    "pg003_n0020": "Creating works of art",
+    "pg003_n0030": "Creating works of art",
     "pg003_n0021": "Page twenty two",
-    "pg003_n0024": "Playing simple games",
+    "pg003_n0031": "Playing simple games",
     "pg003_n0025": "Page forty six",
 }
 
