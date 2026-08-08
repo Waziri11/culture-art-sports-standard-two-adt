@@ -15,5 +15,19 @@ for tid in by:
     if tid not in tc: errors.append(f"missing timecode {tid}")
 sw=sum(any(s["language"]=="sw" for s in x["spans"]) for x in by.values())
 if sw<173: errors.append(f"only {sw} Kiswahili clips")
+roman_ids={
+    tid for tid,item in by.items()
+    if "Roman " in " ".join(span["text"] for span in item["spans"])
+}
+expected_roman_ids={
+    "pg003_n0006", "pg003_n0008",
+    "pg003_n0006_easy_read", "pg003_n0008_easy_read",
+}
+if roman_ids != expected_roman_ids:
+    errors.append(
+        "Roman numeral scope mismatch: "
+        f"unexpected={sorted(roman_ids-expected_roman_ids)} "
+        f"missing={sorted(expected_roman_ids-roman_ids)}"
+    )
 print(json.dumps({"mapped":len(by),"kiswahiliClips":sw,"errors":errors[:20]},indent=2))
 raise SystemExit(bool(errors))

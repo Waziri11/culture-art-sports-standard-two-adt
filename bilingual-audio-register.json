@@ -253,11 +253,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Dr Lyabwene Roman 1000. Mtahabwa"
+          "text": "Dr Lyabwene M. Mtahabwa"
         }
       ],
-      "duration": 4.158,
-      "fileSize": 31104,
+      "duration": 2.265,
+      "fileSize": 19728,
       "status": "passed"
     },
     {
@@ -725,7 +725,7 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 recognise the traditional houses of"
+          "text": "I recognise the traditional houses of"
         },
         {
           "language": "sw",
@@ -733,8 +733,8 @@
           "text": "Tanzania"
         }
       ],
-      "duration": 4.207,
-      "fileSize": 102144,
+      "duration": 3.663,
+      "fileSize": 93696,
       "status": "passed"
     },
     {
@@ -2269,7 +2269,7 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 100"
+          "text": "letter C"
         },
         {
           "language": "sw",
@@ -2287,8 +2287,8 @@
           "text": "Wachaga"
         }
       ],
-      "duration": 4.774,
-      "fileSize": 145920,
+      "duration": 3.836,
+      "fileSize": 130560,
       "status": "passed"
     },
     {
@@ -2387,11 +2387,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 identify the activities of Tanzanian communities"
+          "text": "I identify the activities of Tanzanian communities"
         }
       ],
-      "duration": 4.004,
-      "fileSize": 30384,
+      "duration": 3.46,
+      "fileSize": 27216,
       "status": "passed"
     },
     {
@@ -3678,11 +3678,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 100 Candy, pencil, donut, shirt, dress"
+          "text": "letter C Candy, pencil, donut, shirt, dress"
         }
       ],
-      "duration": 4.751,
-      "fileSize": 34704,
+      "duration": 4.153,
+      "fileSize": 31104,
       "status": "passed"
     },
     {
@@ -3692,11 +3692,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 500 Catfish, sardiness, tilapia"
+          "text": "letter D Catfish, sardiness, tilapia"
         }
       ],
-      "duration": 4.031,
-      "fileSize": 30240,
+      "duration": 3.202,
+      "fileSize": 25344,
       "status": "passed"
     },
     {
@@ -3762,11 +3762,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 recognise and appreciate the beliefs of other people"
+          "text": "I recognise and appreciate the beliefs of other people"
         }
       ],
-      "duration": 3.759,
-      "fileSize": 28800,
+      "duration": 3.243,
+      "fileSize": 25632,
       "status": "passed"
     },
     {
@@ -4042,11 +4042,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Baraka Roman 999 not like to participate in religious sessions"
+          "text": "Baraka did not like to participate in religious sessions"
         }
       ],
-      "duration": 4.833,
-      "fileSize": 35280,
+      "duration": 3.718,
+      "fileSize": 28512,
       "status": "passed"
     },
     {
@@ -4070,11 +4070,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Because of this behaviour, Baraka was naughty, selfish and Roman 999 not care about others"
+          "text": "Because of this behaviour, Baraka was naughty, selfish and did not care about others"
         }
       ],
-      "duration": 6.829,
-      "fileSize": 47376,
+      "duration": 5.864,
+      "fileSize": 41472,
       "status": "passed"
     },
     {
@@ -4224,11 +4224,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "2 Who Roman 999 not like to attend religious sessions?"
+          "text": "2 Who did not like to attend religious sessions?"
         }
       ],
-      "duration": 4.208,
-      "fileSize": 31392,
+      "duration": 3.189,
+      "fileSize": 25344,
       "status": "passed"
     },
     {
@@ -4294,11 +4294,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 appreciate actions related to the beliefs of others"
+          "text": "I appreciate actions related to the beliefs of others"
         }
       ],
-      "duration": 3.895,
-      "fileSize": 29664,
+      "duration": 3.487,
+      "fileSize": 27072,
       "status": "passed"
     },
     {
@@ -4407,7 +4407,7 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1’Roman 1000 fine,"
+          "text": "I’m fine,"
         },
         {
           "language": "sw",
@@ -4415,8 +4415,8 @@
           "text": "Mzee Masanja"
         }
       ],
-      "duration": 3.752,
-      "fileSize": 92928,
+      "duration": 2.176,
+      "fileSize": 67968,
       "status": "passed"
     },
     {
@@ -4454,11 +4454,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ElimuNeural",
-          "text": "Roman 1’Roman 1000 going to the Mosque to pray"
+          "text": "I’m going to the Mosque to pray"
         }
       ],
-      "duration": 2.998,
-      "fileSize": 24192,
+      "duration": 1.64,
+      "fileSize": 16128,
       "status": "passed"
     },
     {
@@ -4501,11 +4501,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Can Roman 1 ask you a question?"
+          "text": "Can I ask you a question?"
         }
       ],
-      "duration": 2.142,
-      "fileSize": 19152,
+      "duration": 1.599,
+      "fileSize": 15984,
       "status": "passed"
     },
     {
@@ -4562,11 +4562,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 usually hear the sound coming from the Mosque early in the morning, What does that sound mean?"
+          "text": "I usually hear the sound coming from the Mosque early in the morning, What does that sound mean?"
         }
       ],
-      "duration": 6.028,
-      "fileSize": 42192,
+      "duration": 5.43,
+      "fileSize": 38592,
       "status": "passed"
     },
     {
@@ -4761,7 +4761,7 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Oh! Roman 1 see! Therefore, the"
+          "text": "Oh! I see! Therefore, the"
         },
         {
           "language": "sw",
@@ -4774,8 +4774,8 @@
           "text": "and the bell should be respected in the community"
         }
       ],
-      "duration": 8.11,
-      "fileSize": 182016,
+      "duration": 7.485,
+      "fileSize": 172032,
       "status": "passed"
     },
     {
@@ -4880,11 +4880,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Now Roman 1 understand what the sound means"
+          "text": "Now I understand what the sound means"
         }
       ],
-      "duration": 3.039,
-      "fileSize": 24192,
+      "duration": 2.591,
+      "fileSize": 21600,
       "status": "passed"
     },
     {
@@ -4894,11 +4894,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 will also hurry to get ready for school"
+          "text": "I will also hurry to get ready for school"
         }
       ],
-      "duration": 3.026,
-      "fileSize": 24480,
+      "duration": 2.468,
+      "fileSize": 21024,
       "status": "passed"
     },
     {
@@ -5184,11 +5184,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 participate in handcraft work"
+          "text": "I participate in handcraft work"
         }
       ],
-      "duration": 2.781,
-      "fileSize": 22752,
+      "duration": 2.197,
+      "fileSize": 19296,
       "status": "passed"
     },
     {
@@ -5450,11 +5450,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "If yes, what challenges Roman 999 you face?"
+          "text": "If yes, what challenges did you face?"
         }
       ],
-      "duration": 3.718,
-      "fileSize": 28368,
+      "duration": 2.754,
+      "fileSize": 22608,
       "status": "passed"
     },
     {
@@ -5660,11 +5660,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "If yes, what challenges Roman 999 you face?"
+          "text": "If yes, what challenges did you face?"
         }
       ],
-      "duration": 3.718,
-      "fileSize": 28368,
+      "duration": 2.754,
+      "fileSize": 22608,
       "status": "passed"
     },
     {
@@ -6248,11 +6248,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 100"
+          "text": "C"
         }
       ],
-      "duration": 1.395,
-      "fileSize": 14688,
+      "duration": 0.444,
+      "fileSize": 10656,
       "status": "passed"
     },
     {
@@ -6276,11 +6276,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 500"
+          "text": "D"
         }
       ],
-      "duration": 1.381,
-      "fileSize": 14688,
+      "duration": 0.36,
+      "fileSize": 10656,
       "status": "passed"
     },
     {
@@ -6332,11 +6332,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "What colour would you like to use to decorate the hall shape Roman 500?"
+          "text": "What colour would you like to use to decorate the hall shape D?"
         }
       ],
-      "duration": 4.316,
-      "fileSize": 31968,
+      "duration": 3.406,
+      "fileSize": 26784,
       "status": "passed"
     },
     {
@@ -6388,11 +6388,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Mention the colour that has been used to decorate the hall shape Roman 100"
+          "text": "Mention the colour that has been used to decorate the hall shape C"
         }
       ],
-      "duration": 4.629,
-      "fileSize": 33840,
+      "duration": 3.732,
+      "fileSize": 28800,
       "status": "passed"
     },
     {
@@ -7046,11 +7046,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 100 Decorating"
+          "text": "letter C Decorating"
         }
       ],
-      "duration": 2.319,
-      "fileSize": 20160,
+      "duration": 1.545,
+      "fileSize": 15552,
       "status": "passed"
     },
     {
@@ -7074,11 +7074,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 500 Weaving"
+          "text": "letter D Weaving"
         }
       ],
-      "duration": 2.115,
-      "fileSize": 19008,
+      "duration": 1.204,
+      "fileSize": 13392,
       "status": "passed"
     },
     {
@@ -7144,11 +7144,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 participate in sound designing"
+          "text": "I participate in sound designing"
         }
       ],
-      "duration": 2.632,
-      "fileSize": 21888,
+      "duration": 2.156,
+      "fileSize": 19008,
       "status": "passed"
     },
     {
@@ -7824,7 +7824,7 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "3 What Roman 999 you enjoy while reciting"
+          "text": "3 What did you enjoy while reciting"
         },
         {
           "language": "sw",
@@ -7832,8 +7832,8 @@
           "text": "ngonjera?"
         }
       ],
-      "duration": 4.257,
-      "fileSize": 103680,
+      "duration": 3.374,
+      "fileSize": 89856,
       "status": "passed"
     },
     {
@@ -7951,11 +7951,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Moo! Moo! Moo! Roman 1 am a cow!"
+          "text": "Moo! Moo! Moo! I am a cow!"
         }
       ],
-      "duration": 5.747,
-      "fileSize": 40608,
+      "duration": 4.864,
+      "fileSize": 35280,
       "status": "passed"
     },
     {
@@ -7965,11 +7965,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 give you milk and meat"
+          "text": "I give you milk and meat"
         }
       ],
-      "duration": 2.061,
-      "fileSize": 19008,
+      "duration": 1.504,
+      "fileSize": 15696,
       "status": "passed"
     },
     {
@@ -8007,11 +8007,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Ha! Ha! Ha! Roman 1 am the tallest of all animals, with attractive neck"
+          "text": "Ha! Ha! Ha! I am the tallest of all animals, with attractive neck"
         }
       ],
-      "duration": 8.152,
-      "fileSize": 55008,
+      "duration": 7.514,
+      "fileSize": 51264,
       "status": "passed"
     },
     {
@@ -8077,11 +8077,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Ohi! Ohi! Ohi! Roman 1 am the most attractive with ordered colours"
+          "text": "Ohi! Ohi! Ohi! I am the most attractive with ordered colours"
         }
       ],
-      "duration": 8.546,
-      "fileSize": 57456,
+      "duration": 7.704,
+      "fileSize": 52416,
       "status": "passed"
     },
     {
@@ -8373,11 +8373,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "replied, “Roman 1 had two one thousand shillings, one to buy flour and the other to buy vegetables"
+          "text": "replied, “I had two one thousand shillings, one to buy flour and the other to buy vegetables"
         }
       ],
-      "duration": 7.26,
-      "fileSize": 151680,
+      "duration": 6.757,
+      "fileSize": 143616,
       "status": "passed"
     },
     {
@@ -8387,11 +8387,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Now, Roman 1 have mixed them and Roman 1 don’t know which one is for flour and which one is for vegetables.”"
+          "text": "Now, I have mixed them and I don’t know which one is for flour and which one is for vegetables.”"
         }
       ],
-      "duration": 7.007,
-      "fileSize": 48240,
+      "duration": 5.906,
+      "fileSize": 41616,
       "status": "passed"
     },
     {
@@ -8457,11 +8457,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Rabbit got angry and said to the image, “Why do you imitate everything Roman 1 do?”"
+          "text": "Rabbit got angry and said to the image, “Why do you imitate everything I do?”"
         }
       ],
-      "duration": 5.335,
-      "fileSize": 38016,
+      "duration": 4.955,
+      "fileSize": 35712,
       "status": "passed"
     },
     {
@@ -8897,11 +8897,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 participate in art activities that involve the body movements"
+          "text": "I participate in art activities that involve the body movements"
         }
       ],
-      "duration": 4.479,
-      "fileSize": 32832,
+      "duration": 3.99,
+      "fileSize": 29952,
       "status": "passed"
     },
     {
@@ -9093,11 +9093,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "If yes, what Roman 999 you act about?"
+          "text": "If yes, what did you act about?"
         }
       ],
-      "duration": 3.379,
-      "fileSize": 27072,
+      "duration": 2.36,
+      "fileSize": 21024,
       "status": "passed"
     },
     {
@@ -10017,11 +10017,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 participate in running with a stick game"
+          "text": "I participate in running with a stick game"
         }
       ],
-      "duration": 3.08,
-      "fileSize": 24624,
+      "duration": 2.604,
+      "fileSize": 21744,
       "status": "passed"
     },
     {
@@ -10199,11 +10199,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 100"
+          "text": "letter C"
         }
       ],
-      "duration": 1.748,
-      "fileSize": 16848,
+      "duration": 0.81,
+      "fileSize": 11088,
       "status": "passed"
     },
     {
@@ -10759,11 +10759,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 am hitting the target"
+          "text": "I am hitting the target"
         }
       ],
-      "duration": 2.428,
-      "fileSize": 21312,
+      "duration": 1.612,
+      "fileSize": 16416,
       "status": "passed"
     },
     {
@@ -11921,11 +11921,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 am looking for the ball"
+          "text": "I am looking for the ball"
         }
       ],
-      "duration": 2.319,
-      "fileSize": 20160,
+      "duration": 1.613,
+      "fileSize": 15984,
       "status": "passed"
     },
     {
@@ -12803,11 +12803,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 use digital programs to learn different games"
+          "text": "I use digital programs to learn different games"
         }
       ],
-      "duration": 3.732,
-      "fileSize": 28512,
+      "duration": 3.202,
+      "fileSize": 25344,
       "status": "passed"
     },
     {
@@ -13629,11 +13629,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 100 Running with a stick game"
+          "text": "letter C Running with a stick game"
         }
       ],
-      "duration": 2.998,
-      "fileSize": 24192,
+      "duration": 2.265,
+      "fileSize": 19728,
       "status": "passed"
     },
     {
@@ -13657,11 +13657,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 500 Target game"
+          "text": "letter D Target game"
         }
       ],
-      "duration": 2.482,
-      "fileSize": 21024,
+      "duration": 1.558,
+      "fileSize": 15552,
       "status": "passed"
     },
     {
@@ -16933,11 +16933,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 999 not hit or reach the thing you wanted"
+          "text": "did not hit or reach the thing you wanted"
         }
       ],
-      "duration": 3.786,
-      "fileSize": 28800,
+      "duration": 2.523,
+      "fileSize": 21456,
       "status": "passed"
     },
     {
@@ -19390,11 +19390,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Dr Lyabwene Roman 1000. Mtahabwa"
+          "text": "Dr Lyabwene M. Mtahabwa"
         }
       ],
-      "duration": 4.158,
-      "fileSize": 31104,
+      "duration": 2.265,
+      "fileSize": 19728,
       "status": "passed"
     },
     {
@@ -19792,7 +19792,7 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 recognise the traditional houses of"
+          "text": "I recognise the traditional houses of"
         },
         {
           "language": "sw",
@@ -19800,8 +19800,8 @@
           "text": "Tanzania"
         }
       ],
-      "duration": 4.207,
-      "fileSize": 102144,
+      "duration": 3.663,
+      "fileSize": 93696,
       "status": "passed"
     },
     {
@@ -21091,7 +21091,7 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 100"
+          "text": "letter C"
         },
         {
           "language": "sw",
@@ -21109,8 +21109,8 @@
           "text": "Wachaga"
         }
       ],
-      "duration": 4.774,
-      "fileSize": 145920,
+      "duration": 3.836,
+      "fileSize": 130560,
       "status": "passed"
     },
     {
@@ -22196,11 +22196,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 100 Candy, pencil, donut, shirt, dress"
+          "text": "letter C Candy, pencil, donut, shirt, dress"
         }
       ],
-      "duration": 4.751,
-      "fileSize": 34704,
+      "duration": 4.153,
+      "fileSize": 31104,
       "status": "passed"
     },
     {
@@ -22210,11 +22210,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 500 Catfish, sardiness, tilapia"
+          "text": "letter D Catfish, sardiness, tilapia"
         }
       ],
-      "duration": 4.031,
-      "fileSize": 30240,
+      "duration": 3.202,
+      "fileSize": 25344,
       "status": "passed"
     },
     {
@@ -22266,11 +22266,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 recognise and appreciate other people's beliefs"
+          "text": "I recognise and appreciate other people's beliefs"
         }
       ],
-      "duration": 3.759,
-      "fileSize": 28512,
+      "duration": 3.216,
+      "fileSize": 25344,
       "status": "passed"
     },
     {
@@ -22546,11 +22546,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Baraka Roman 999 not like to take part in religious sessions"
+          "text": "Baraka did not like to take part in religious sessions"
         }
       ],
-      "duration": 4.67,
-      "fileSize": 34128,
+      "duration": 3.61,
+      "fileSize": 27792,
       "status": "passed"
     },
     {
@@ -22574,11 +22574,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Because of this behaviour, Baraka was naughty and selfish.. He Roman 999 not care about others"
+          "text": "Because of this behaviour, Baraka was naughty and selfish.. He did not care about others"
         }
       ],
-      "duration": 8.22,
-      "fileSize": 55584,
+      "duration": 6.957,
+      "fileSize": 47808,
       "status": "passed"
     },
     {
@@ -22714,11 +22714,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "1 What Roman 999 you learn from the story?"
+          "text": "1 What did you learn from the story?"
         }
       ],
-      "duration": 3.121,
-      "fileSize": 25200,
+      "duration": 2.115,
+      "fileSize": 19152,
       "status": "passed"
     },
     {
@@ -22728,11 +22728,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "2 Who Roman 999 not like to go to religious sessions?"
+          "text": "2 Who did not like to go to religious sessions?"
         }
       ],
-      "duration": 4.126,
-      "fileSize": 30960,
+      "duration": 3.121,
+      "fileSize": 24912,
       "status": "passed"
     },
     {
@@ -22784,11 +22784,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 value actions that respect other people's beliefs"
+          "text": "I value actions that respect other people's beliefs"
         }
       ],
-      "duration": 3.936,
-      "fileSize": 29664,
+      "duration": 3.379,
+      "fileSize": 26352,
       "status": "passed"
     },
     {
@@ -22897,7 +22897,7 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 am fine,"
+          "text": "I am fine,"
         },
         {
           "language": "sw",
@@ -22905,8 +22905,8 @@
           "text": "Mzee Masanja"
         }
       ],
-      "duration": 3.127,
-      "fileSize": 83328,
+      "duration": 2.339,
+      "fileSize": 70272,
       "status": "passed"
     },
     {
@@ -22944,11 +22944,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ElimuNeural",
-          "text": "Roman 1 am going to the Mosque to pray"
+          "text": "I am going to the Mosque to pray"
         }
       ],
-      "duration": 2.387,
-      "fileSize": 20592,
+      "duration": 1.762,
+      "fileSize": 16848,
       "status": "passed"
     },
     {
@@ -22991,11 +22991,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Can Roman 1 ask you a question?"
+          "text": "Can I ask you a question?"
         }
       ],
-      "duration": 2.142,
-      "fileSize": 19152,
+      "duration": 1.599,
+      "fileSize": 15984,
       "status": "passed"
     },
     {
@@ -23057,11 +23057,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 usually hear a sound from the Mosque early in the morning.. What does that sound mean?"
+          "text": "I usually hear a sound from the Mosque early in the morning.. What does that sound mean?"
         }
       ],
-      "duration": 6.685,
-      "fileSize": 46224,
+      "duration": 6.196,
+      "fileSize": 43344,
       "status": "passed"
     },
     {
@@ -23256,7 +23256,7 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Oh! Roman 1 see!. So, people in the community should respect the"
+          "text": "Oh! I see!. So, people in the community should respect the"
         },
         {
           "language": "sw",
@@ -23269,8 +23269,8 @@
           "text": "and the bell"
         }
       ],
-      "duration": 8.002,
-      "fileSize": 179712,
+      "duration": 7.377,
+      "fileSize": 169728,
       "status": "passed"
     },
     {
@@ -23375,11 +23375,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Now Roman 1 understand the meaning of the sound"
+          "text": "Now I understand the meaning of the sound"
         }
       ],
-      "duration": 2.971,
-      "fileSize": 24336,
+      "duration": 2.536,
+      "fileSize": 21744,
       "status": "passed"
     },
     {
@@ -23389,11 +23389,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 will also hurry to get ready for school"
+          "text": "I will also hurry to get ready for school"
         }
       ],
-      "duration": 3.026,
-      "fileSize": 24480,
+      "duration": 2.468,
+      "fileSize": 21024,
       "status": "passed"
     },
     {
@@ -23469,11 +23469,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "What Roman 999 you learn from this dialogue?"
+          "text": "What did you learn from this dialogue?"
         }
       ],
-      "duration": 3.161,
-      "fileSize": 24768,
+      "duration": 2.265,
+      "fileSize": 19152,
       "status": "passed"
     },
     {
@@ -23651,11 +23651,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 take part in handcraft work"
+          "text": "I take part in handcraft work"
         }
       ],
-      "duration": 2.699,
-      "fileSize": 22320,
+      "duration": 2.197,
+      "fileSize": 19296,
       "status": "passed"
     },
     {
@@ -23833,11 +23833,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "If yes, what challenges Roman 999 you face?"
+          "text": "If yes, what challenges did you face?"
         }
       ],
-      "duration": 3.718,
-      "fileSize": 28368,
+      "duration": 2.754,
+      "fileSize": 22608,
       "status": "passed"
     },
     {
@@ -23987,11 +23987,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "If yes, what challenges Roman 999 you face?"
+          "text": "If yes, what challenges did you face?"
         }
       ],
-      "duration": 3.718,
-      "fileSize": 28368,
+      "duration": 2.754,
+      "fileSize": 22608,
       "status": "passed"
     },
     {
@@ -24421,11 +24421,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 100"
+          "text": "C"
         }
       ],
-      "duration": 1.395,
-      "fileSize": 14688,
+      "duration": 0.444,
+      "fileSize": 10656,
       "status": "passed"
     },
     {
@@ -24435,11 +24435,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 500"
+          "text": "D"
         }
       ],
-      "duration": 1.381,
-      "fileSize": 14688,
+      "duration": 0.36,
+      "fileSize": 10656,
       "status": "passed"
     },
     {
@@ -24477,11 +24477,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Which colour would you like to use to decorate hall shape Roman 500?"
+          "text": "Which colour would you like to use to decorate hall shape D?"
         }
       ],
-      "duration": 4.207,
-      "fileSize": 31392,
+      "duration": 3.351,
+      "fileSize": 26352,
       "status": "passed"
     },
     {
@@ -24533,11 +24533,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Say the colour used to decorate hall shape Roman 100"
+          "text": "Say the colour used to decorate hall shape C"
         }
       ],
-      "duration": 3.583,
-      "fileSize": 27648,
+      "duration": 2.767,
+      "fileSize": 23040,
       "status": "passed"
     },
     {
@@ -25065,11 +25065,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 100 Decorating"
+          "text": "letter C Decorating"
         }
       ],
-      "duration": 2.319,
-      "fileSize": 20160,
+      "duration": 1.545,
+      "fileSize": 15552,
       "status": "passed"
     },
     {
@@ -25093,11 +25093,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 500 Weaving"
+          "text": "letter D Weaving"
         }
       ],
-      "duration": 2.115,
-      "fileSize": 19008,
+      "duration": 1.204,
+      "fileSize": 13392,
       "status": "passed"
     },
     {
@@ -25135,11 +25135,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 take part in sound design"
+          "text": "I take part in sound design"
         }
       ],
-      "duration": 2.523,
-      "fileSize": 21024,
+      "duration": 2.02,
+      "fileSize": 18144,
       "status": "passed"
     },
     {
@@ -25303,11 +25303,11 @@
         {
           "language": "sw",
           "voice": "sw-TZ-DaudiNeural",
-          "text": "Sister, brother, Roman 1 do not understand the words you are saying"
+          "text": "Sister, brother, I do not understand the words you are saying"
         }
       ],
-      "duration": 4.884,
-      "fileSize": 35136,
+      "duration": 4.183,
+      "fileSize": 31104,
       "status": "passed"
     },
     {
@@ -25331,11 +25331,11 @@
         {
           "language": "sw",
           "voice": "sw-TZ-DaudiNeural",
-          "text": "Why do Roman 1 not understand at school when Roman 1 want to study?"
+          "text": "Why do I not understand at school when I want to study?"
         }
       ],
-      "duration": 5.256,
-      "fileSize": 37584,
+      "duration": 3.954,
+      "fileSize": 29808,
       "status": "passed"
     },
     {
@@ -25345,11 +25345,11 @@
         {
           "language": "sw",
           "voice": "sw-TZ-DaudiNeural",
-          "text": "Poverty has spread everywhere. That is why Roman 1 do not understand"
+          "text": "Poverty has spread everywhere. That is why I do not understand"
         }
       ],
-      "duration": 6.064,
-      "fileSize": 42336,
+      "duration": 5.449,
+      "fileSize": 38592,
       "status": "passed"
     },
     {
@@ -25583,11 +25583,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 have heard all the words you said"
+          "text": "I have heard all the words you said"
         }
       ],
-      "duration": 2.618,
-      "fileSize": 22032,
+      "duration": 2.074,
+      "fileSize": 18864,
       "status": "passed"
     },
     {
@@ -25625,7 +25625,7 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 will always love my country,"
+          "text": "I will always love my country,"
         },
         {
           "language": "sw",
@@ -25633,8 +25633,8 @@
           "text": "Tanzania"
         }
       ],
-      "duration": 3.351,
-      "fileSize": 90240,
+      "duration": 2.862,
+      "fileSize": 82176,
       "status": "passed"
     },
     {
@@ -25696,7 +25696,7 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "3 What Roman 999 you enjoy while reciting"
+          "text": "3 What did you enjoy while reciting"
         },
         {
           "language": "sw",
@@ -25704,8 +25704,8 @@
           "text": "ngonjera?"
         }
       ],
-      "duration": 4.257,
-      "fileSize": 103680,
+      "duration": 3.374,
+      "fileSize": 89856,
       "status": "passed"
     },
     {
@@ -25795,11 +25795,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Moo! Moo! Moo! Roman 1 am a cow!"
+          "text": "Moo! Moo! Moo! I am a cow!"
         }
       ],
-      "duration": 5.747,
-      "fileSize": 40608,
+      "duration": 4.864,
+      "fileSize": 35280,
       "status": "passed"
     },
     {
@@ -25809,11 +25809,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 give you milk and meat"
+          "text": "I give you milk and meat"
         }
       ],
-      "duration": 2.061,
-      "fileSize": 19008,
+      "duration": 1.504,
+      "fileSize": 15696,
       "status": "passed"
     },
     {
@@ -25851,11 +25851,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Ha! Ha! Ha! Roman 1 am the tallest of all animals.. Roman 1 have an attractive neck"
+          "text": "Ha! Ha! Ha! I am the tallest of all animals.. I have an attractive neck"
         }
       ],
-      "duration": 10.0,
-      "fileSize": 66096,
+      "duration": 8.777,
+      "fileSize": 58752,
       "status": "passed"
     },
     {
@@ -25893,11 +25893,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Ohi! Ohi! Ohi! Roman 1 am the most attractive.. Roman 1 have ordered colours"
+          "text": "Ohi! Ohi! Ohi! I am the most attractive.. I have ordered colours"
         }
       ],
-      "duration": 10.625,
-      "fileSize": 69984,
+      "duration": 9.226,
+      "fileSize": 61488,
       "status": "passed"
     },
     {
@@ -26147,11 +26147,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "replied, \"Roman 1 had 2 amounts of 1,000 shillings. One was to buy flour. The other was to buy vegetables"
+          "text": "replied, \"I had 2 amounts of 1,000 shillings. One was to buy flour. The other was to buy vegetables"
         }
       ],
-      "duration": 10.511,
-      "fileSize": 203904,
+      "duration": 9.9,
+      "fileSize": 193920,
       "status": "passed"
     },
     {
@@ -26161,11 +26161,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Now Roman 1 have mixed them, and Roman 1 do not know which one is for flour and which one is for vegetables.\""
+          "text": "Now I have mixed them, and I do not know which one is for flour and which one is for vegetables.\""
         }
       ],
-      "duration": 6.871,
-      "fileSize": 47376,
+      "duration": 5.987,
+      "fileSize": 42048,
       "status": "passed"
     },
     {
@@ -26217,11 +26217,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Rabbit got angry and said to the image, \"Why do you imitate everything Roman 1 do?\""
+          "text": "Rabbit got angry and said to the image, \"Why do you imitate everything I do?\""
         }
       ],
-      "duration": 5.335,
-      "fileSize": 38016,
+      "duration": 4.955,
+      "fileSize": 35712,
       "status": "passed"
     },
     {
@@ -26573,11 +26573,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 take part in art activities that use body movements"
+          "text": "I take part in art activities that use body movements"
         }
       ],
-      "duration": 4.208,
-      "fileSize": 31392,
+      "duration": 3.664,
+      "fileSize": 27936,
       "status": "passed"
     },
     {
@@ -26727,11 +26727,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "If yes, what Roman 999 you act in?"
+          "text": "If yes, what did you act in?"
         }
       ],
-      "duration": 3.352,
-      "fileSize": 26208,
+      "duration": 2.373,
+      "fileSize": 20304,
       "status": "passed"
     },
     {
@@ -27441,11 +27441,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 take part in a game of running with a stick"
+          "text": "I take part in a game of running with a stick"
         }
       ],
-      "duration": 3.161,
-      "fileSize": 25056,
+      "duration": 2.686,
+      "fileSize": 22176,
       "status": "passed"
     },
     {
@@ -27623,11 +27623,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter Roman 100"
+          "text": "letter C"
         }
       ],
-      "duration": 1.748,
-      "fileSize": 16848,
+      "duration": 0.81,
+      "fileSize": 11088,
       "status": "passed"
     },
     {
@@ -28099,11 +28099,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 am hitting the target"
+          "text": "I am hitting the target"
         }
       ],
-      "duration": 2.428,
-      "fileSize": 21312,
+      "duration": 1.612,
+      "fileSize": 16416,
       "status": "passed"
     },
     {
@@ -29037,11 +29037,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 am looking for the ball"
+          "text": "I am looking for the ball"
         }
       ],
-      "duration": 2.319,
-      "fileSize": 20160,
+      "duration": 1.613,
+      "fileSize": 15984,
       "status": "passed"
     },
     {
@@ -29849,11 +29849,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Roman 1 use digital programs to learn different games"
+          "text": "I use digital programs to learn different games"
         }
       ],
-      "duration": 3.732,
-      "fileSize": 28512,
+      "duration": 3.202,
+      "fileSize": 25344,
       "status": "passed"
     },
     {
@@ -30799,11 +30799,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Translators: Ms Joyce Roman 100. Chamuhulo (TIE), Mr Charles Manyama (TIE) and Mr Given A. Mbakilwa (TIE)"
+          "text": "Translators: Ms Joyce C. Chamuhulo (TIE), Mr Charles Manyama (TIE) and Mr Given A. Mbakilwa (TIE)"
         }
       ],
-      "duration": 10.34,
-      "fileSize": 68256,
+      "duration": 8.257,
+      "fileSize": 55728,
       "status": "passed"
     },
     {
@@ -30855,11 +30855,11 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "Coordinators: Ms Joyce Roman 100. Chamuhulo (TIE) and Mr Charles Manyama (TIE)"
+          "text": "Coordinators: Ms Joyce C. Chamuhulo (TIE) and Mr Charles Manyama (TIE)"
         }
       ],
-      "duration": 7.812,
-      "fileSize": 53136,
+      "duration": 5.92,
+      "fileSize": 41760,
       "status": "passed"
     },
     {

@@ -508,27 +508,22 @@
           {
             "text": "Dr",
             "start": 0.104,
-            "end": 0.512
+            "end": 0.498
           },
           {
             "text": "Lyabwene",
-            "start": 0.539,
-            "end": 1.028
+            "start": 0.526,
+            "end": 1.11
           },
           {
-            "text": "Roman",
-            "start": 1.083,
-            "end": 1.436
-          },
-          {
-            "text": "1000",
-            "start": 1.531,
-            "end": 2.265
+            "text": "M",
+            "start": 1.164,
+            "end": 1.354
           },
           {
             "text": "Mtahabwa",
-            "start": 3.315,
-            "end": 4.158
+            "start": 1.531,
+            "end": 2.265
           }
         ]
       }
@@ -1768,44 +1763,39 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.539
-          },
-          {
-            "text": "1",
-            "start": 0.607,
-            "end": 0.811
+            "end": 0.24
           },
           {
             "text": "recognise",
-            "start": 0.852,
-            "end": 1.49
+            "start": 0.295,
+            "end": 0.947
           },
           {
             "text": "the",
-            "start": 1.531,
-            "end": 1.612
+            "start": 0.988,
+            "end": 1.083
           },
           {
             "text": "traditional",
-            "start": 1.68,
-            "end": 2.319
+            "start": 1.151,
+            "end": 1.776
           },
           {
             "text": "houses",
-            "start": 2.36,
-            "end": 2.835
+            "start": 1.816,
+            "end": 2.305
           },
           {
             "text": "of",
-            "start": 2.903,
-            "end": 3.229
+            "start": 2.373,
+            "end": 2.686
           },
           {
             "text": "Tanzania",
-            "start": 3.477,
-            "end": 4.207
+            "start": 2.934,
+            "end": 3.663
           }
         ]
       }
@@ -5413,38 +5403,33 @@
         "word_timestamps": [
           {
             "text": "letter",
-            "start": 0.104,
-            "end": 0.526
+            "start": 0.103,
+            "end": 0.497
           },
           {
-            "text": "Roman",
-            "start": 0.553,
-            "end": 0.933
-          },
-          {
-            "text": "100",
-            "start": 1.015,
-            "end": 1.748
+            "text": "C",
+            "start": 0.565,
+            "end": 0.81
           },
           {
             "text": "Wahaya",
-            "start": 2.011,
-            "end": 2.468
+            "start": 1.072,
+            "end": 1.53
           },
           {
             "text": "Wasafwa",
-            "start": 2.697,
-            "end": 3.398
+            "start": 1.759,
+            "end": 2.459
           },
           {
             "text": "and",
-            "start": 3.557,
-            "end": 3.897
+            "start": 2.619,
+            "end": 2.958
           },
           {
             "text": "Wachaga",
-            "start": 4.159,
-            "end": 4.774
+            "start": 3.221,
+            "end": 3.836
           }
         ]
       }
@@ -5630,44 +5615,39 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.539
-          },
-          {
-            "text": "1",
-            "start": 0.593,
-            "end": 0.797
+            "end": 0.267
           },
           {
             "text": "identify",
-            "start": 0.852,
-            "end": 1.49
+            "start": 0.308,
+            "end": 0.974
           },
           {
             "text": "the",
-            "start": 1.572,
-            "end": 1.626
+            "start": 1.055,
+            "end": 1.096
           },
           {
             "text": "activities",
-            "start": 1.68,
-            "end": 2.428
+            "start": 1.137,
+            "end": 1.884
           },
           {
             "text": "of",
-            "start": 2.441,
-            "end": 2.536
+            "start": 1.898,
+            "end": 1.993
           },
           {
             "text": "Tanzanian",
-            "start": 2.618,
-            "end": 3.216
+            "start": 2.074,
+            "end": 2.672
           },
           {
             "text": "communities",
-            "start": 3.229,
-            "end": 4.004
+            "start": 2.686,
+            "end": 3.46
           }
         ]
       }
@@ -10223,42 +10203,37 @@
           {
             "text": "letter",
             "start": 0.104,
-            "end": 0.553
+            "end": 0.539
           },
           {
-            "text": "Roman",
+            "text": "C",
             "start": 0.58,
-            "end": 0.96
-          },
-          {
-            "text": "100",
-            "start": 1.028,
-            "end": 1.599
+            "end": 0.756
           },
           {
             "text": "Candy",
-            "start": 1.64,
-            "end": 1.979
+            "start": 0.852,
+            "end": 1.232
           },
           {
             "text": "pencil",
-            "start": 2.224,
-            "end": 2.699
+            "start": 1.517,
+            "end": 2.047
           },
           {
             "text": "donut",
-            "start": 3.026,
-            "end": 3.42
+            "start": 2.373,
+            "end": 2.795
           },
           {
             "text": "shirt",
-            "start": 3.678,
-            "end": 3.99
+            "start": 3.053,
+            "end": 3.365
           },
           {
             "text": "dress",
-            "start": 4.262,
-            "end": 4.751
+            "start": 3.678,
+            "end": 4.153
           }
         ]
       }
@@ -10272,32 +10247,27 @@
           {
             "text": "letter",
             "start": 0.104,
-            "end": 0.553
+            "end": 0.539
           },
           {
-            "text": "Roman",
-            "start": 0.58,
-            "end": 0.974
-          },
-          {
-            "text": "500",
-            "start": 1.015,
-            "end": 1.653
+            "text": "D",
+            "start": 0.634,
+            "end": 0.716
           },
           {
             "text": "Catfish",
-            "start": 1.721,
-            "end": 2.333
+            "start": 0.811,
+            "end": 1.449
           },
           {
             "text": "sardiness",
-            "start": 2.523,
-            "end": 3.216
+            "start": 1.653,
+            "end": 2.373
           },
           {
             "text": "tilapia",
-            "start": 3.447,
-            "end": 4.031
+            "start": 2.604,
+            "end": 3.202
           }
         ]
       }
@@ -10440,54 +10410,49 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.553
-          },
-          {
-            "text": "1",
-            "start": 0.621,
-            "end": 0.811
+            "end": 0.24
           },
           {
             "text": "recognise",
-            "start": 0.865,
-            "end": 1.504
+            "start": 0.295,
+            "end": 0.96
           },
           {
             "text": "and",
-            "start": 1.517,
-            "end": 1.653
+            "start": 0.974,
+            "end": 1.11
           },
           {
             "text": "appreciate",
-            "start": 1.653,
-            "end": 2.197
+            "start": 1.11,
+            "end": 1.68
           },
           {
             "text": "the",
-            "start": 2.346,
-            "end": 2.414
+            "start": 1.816,
+            "end": 1.884
           },
           {
             "text": "beliefs",
-            "start": 2.496,
-            "end": 2.903
+            "start": 1.966,
+            "end": 2.373
           },
           {
             "text": "of",
-            "start": 2.903,
-            "end": 3.026
+            "start": 2.373,
+            "end": 2.496
           },
           {
             "text": "other",
-            "start": 3.053,
-            "end": 3.284
+            "start": 2.509,
+            "end": 2.754
           },
           {
             "text": "people",
-            "start": 3.365,
-            "end": 3.759
+            "start": 2.835,
+            "end": 3.243
           }
         ]
       }
@@ -11657,52 +11622,47 @@
           {
             "text": "Baraka",
             "start": 0.104,
-            "end": 0.675
+            "end": 0.661
           },
           {
-            "text": "Roman",
-            "start": 0.716,
-            "end": 1.055
-          },
-          {
-            "text": "999",
-            "start": 1.151,
-            "end": 1.966
+            "text": "did",
+            "start": 0.743,
+            "end": 0.824
           },
           {
             "text": "not",
-            "start": 2.034,
-            "end": 2.265
+            "start": 0.865,
+            "end": 1.11
           },
           {
             "text": "like",
-            "start": 2.305,
-            "end": 2.496
+            "start": 1.178,
+            "end": 1.354
           },
           {
             "text": "to",
-            "start": 2.577,
-            "end": 2.645
+            "start": 1.436,
+            "end": 1.517
           },
           {
             "text": "participate",
-            "start": 2.713,
-            "end": 3.406
+            "start": 1.599,
+            "end": 2.265
           },
           {
             "text": "in",
-            "start": 3.447,
-            "end": 3.515
+            "start": 2.278,
+            "end": 2.346
           },
           {
             "text": "religious",
-            "start": 3.596,
-            "end": 4.18
+            "start": 2.428,
+            "end": 3.066
           },
           {
             "text": "sessions",
-            "start": 4.18,
-            "end": 4.833
+            "start": 3.066,
+            "end": 3.718
           }
         ]
       }
@@ -11790,12 +11750,12 @@
           {
             "text": "Because",
             "start": 0.103,
-            "end": 0.592
+            "end": 0.606
           },
           {
             "text": "of",
-            "start": 0.606,
-            "end": 0.687
+            "start": 0.62,
+            "end": 0.701
           },
           {
             "text": "this",
@@ -11805,62 +11765,57 @@
           {
             "text": "behaviour",
             "start": 1.109,
-            "end": 1.693
+            "end": 1.72
           },
           {
             "text": "Baraka",
-            "start": 1.951,
-            "end": 2.399
+            "start": 1.978,
+            "end": 2.44
           },
           {
             "text": "was",
-            "start": 2.44,
-            "end": 2.63
+            "start": 2.481,
+            "end": 2.671
           },
           {
             "text": "naughty",
-            "start": 2.658,
-            "end": 3.011
+            "start": 2.698,
+            "end": 3.052
           },
           {
             "text": "selfish",
-            "start": 3.174,
-            "end": 3.826
+            "start": 3.215,
+            "end": 3.88
           },
           {
             "text": "and",
-            "start": 3.908,
-            "end": 4.03
+            "start": 3.976,
+            "end": 4.111
           },
           {
-            "text": "Roman",
-            "start": 4.084,
-            "end": 4.424
-          },
-          {
-            "text": "999",
-            "start": 4.478,
-            "end": 5.28
+            "text": "did",
+            "start": 4.179,
+            "end": 4.288
           },
           {
             "text": "not",
-            "start": 5.348,
-            "end": 5.606
+            "start": 4.315,
+            "end": 4.587
           },
           {
             "text": "care",
-            "start": 5.688,
-            "end": 5.878
+            "start": 4.668,
+            "end": 4.859
           },
           {
             "text": "about",
-            "start": 5.932,
-            "end": 6.285
+            "start": 4.913,
+            "end": 5.293
           },
           {
             "text": "others",
-            "start": 6.367,
-            "end": 6.829
+            "start": 5.389,
+            "end": 5.864
           }
         ]
       }
@@ -12534,52 +12489,47 @@
           {
             "text": "2",
             "start": 0.104,
-            "end": 0.295
+            "end": 0.308
           },
           {
             "text": "Who",
             "start": 0.349,
-            "end": 0.553
+            "end": 0.498
           },
           {
-            "text": "Roman",
+            "text": "did",
             "start": 0.58,
-            "end": 0.933
-          },
-          {
-            "text": "999",
-            "start": 1.015,
-            "end": 1.776
+            "end": 0.675
           },
           {
             "text": "not",
-            "start": 1.843,
-            "end": 2.061
+            "start": 0.716,
+            "end": 0.96
           },
           {
             "text": "like",
-            "start": 2.115,
-            "end": 2.305
+            "start": 1.015,
+            "end": 1.205
           },
           {
             "text": "to",
-            "start": 2.387,
-            "end": 2.468
+            "start": 1.3,
+            "end": 1.395
           },
           {
             "text": "attend",
-            "start": 2.536,
-            "end": 2.93
+            "start": 1.463,
+            "end": 1.871
           },
           {
             "text": "religious",
-            "start": 2.985,
-            "end": 3.569
+            "start": 1.939,
+            "end": 2.55
           },
           {
             "text": "sessions",
-            "start": 3.569,
-            "end": 4.208
+            "start": 2.55,
+            "end": 3.189
           }
         ]
       }
@@ -12787,54 +12737,49 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.526
-          },
-          {
-            "text": "1",
-            "start": 0.593,
-            "end": 0.784
+            "end": 0.281
           },
           {
             "text": "appreciate",
-            "start": 0.811,
-            "end": 1.449
+            "start": 0.281,
+            "end": 0.974
           },
           {
             "text": "actions",
-            "start": 1.531,
-            "end": 1.979
+            "start": 1.083,
+            "end": 1.545
           },
           {
             "text": "related",
-            "start": 2.034,
-            "end": 2.496
+            "start": 1.599,
+            "end": 2.074
           },
           {
             "text": "to",
-            "start": 2.509,
-            "end": 2.55
+            "start": 2.102,
+            "end": 2.156
           },
           {
             "text": "the",
-            "start": 2.618,
-            "end": 2.713
+            "start": 2.237,
+            "end": 2.319
           },
           {
             "text": "beliefs",
-            "start": 2.795,
-            "end": 3.175
+            "start": 2.401,
+            "end": 2.795
           },
           {
             "text": "of",
-            "start": 3.189,
-            "end": 3.311
+            "start": 2.795,
+            "end": 2.917
           },
           {
             "text": "others",
-            "start": 3.379,
-            "end": 3.895
+            "start": 2.971,
+            "end": 3.487
           }
         ]
       }
@@ -13010,34 +12955,24 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I’m",
             "start": 0.104,
-            "end": 0.553
-          },
-          {
-            "text": "1’Roman",
-            "start": 0.621,
-            "end": 1.232
-          },
-          {
-            "text": "1000",
-            "start": 1.3,
-            "end": 1.939
+            "end": 0.335
           },
           {
             "text": "fine",
-            "start": 2.007,
-            "end": 2.36
+            "start": 0.39,
+            "end": 0.784
           },
           {
             "text": "Mzee",
-            "start": 2.593,
-            "end": 2.865
+            "start": 1.017,
+            "end": 1.289
           },
           {
             "text": "Masanja",
-            "start": 2.965,
-            "end": 3.752
+            "start": 1.389,
+            "end": 2.176
           }
         ]
       }
@@ -13132,49 +13067,39 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I’m",
             "start": 0.104,
-            "end": 0.471
-          },
-          {
-            "text": "1’Roman",
-            "start": 0.526,
-            "end": 1.015
-          },
-          {
-            "text": "1000",
-            "start": 1.069,
-            "end": 1.653
+            "end": 0.308
           },
           {
             "text": "going",
-            "start": 1.735,
-            "end": 1.966
+            "start": 0.403,
+            "end": 0.634
           },
           {
             "text": "to",
-            "start": 2.007,
-            "end": 2.074
+            "start": 0.675,
+            "end": 0.729
           },
           {
             "text": "the",
-            "start": 2.142,
-            "end": 2.21
+            "start": 0.797,
+            "end": 0.865
           },
           {
             "text": "Mosque",
-            "start": 2.251,
-            "end": 2.523
+            "start": 0.906,
+            "end": 1.164
           },
           {
             "text": "to",
-            "start": 2.618,
-            "end": 2.686
+            "start": 1.246,
+            "end": 1.314
           },
           {
             "text": "pray",
-            "start": 2.781,
-            "end": 2.998
+            "start": 1.409,
+            "end": 1.64
           }
         ]
       }
@@ -13226,37 +13151,32 @@
           {
             "text": "Can",
             "start": 0.104,
-            "end": 0.322
+            "end": 0.335
           },
           {
-            "text": "Roman",
-            "start": 0.376,
-            "end": 0.743
-          },
-          {
-            "text": "1",
-            "start": 0.811,
-            "end": 1.015
+            "text": "I",
+            "start": 0.349,
+            "end": 0.444
           },
           {
             "text": "ask",
-            "start": 1.069,
-            "end": 1.382
+            "start": 0.526,
+            "end": 0.852
           },
           {
             "text": "you",
-            "start": 1.409,
-            "end": 1.449
+            "start": 0.879,
+            "end": 0.933
           },
           {
             "text": "a",
-            "start": 1.449,
-            "end": 1.531
+            "start": 0.933,
+            "end": 1.015
           },
           {
             "text": "question",
-            "start": 1.613,
-            "end": 2.142
+            "start": 1.096,
+            "end": 1.599
           }
         ]
       }
@@ -13340,99 +13260,94 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.526
-          },
-          {
-            "text": "1",
-            "start": 0.607,
-            "end": 0.797
+            "end": 0.267
           },
           {
             "text": "usually",
-            "start": 0.865,
-            "end": 1.259
+            "start": 0.335,
+            "end": 0.743
           },
           {
             "text": "hear",
-            "start": 1.314,
-            "end": 1.572
+            "start": 0.797,
+            "end": 1.042
           },
           {
             "text": "the",
-            "start": 1.64,
-            "end": 1.735
+            "start": 1.11,
+            "end": 1.191
           },
           {
             "text": "sound",
-            "start": 1.816,
-            "end": 2.088
+            "start": 1.259,
+            "end": 1.531
           },
           {
             "text": "coming",
-            "start": 2.142,
-            "end": 2.482
+            "start": 1.599,
+            "end": 1.939
           },
           {
             "text": "from",
-            "start": 2.509,
-            "end": 2.686
+            "start": 1.966,
+            "end": 2.142
           },
           {
             "text": "the",
-            "start": 2.767,
-            "end": 2.835
+            "start": 2.224,
+            "end": 2.292
           },
           {
             "text": "Mosque",
-            "start": 2.862,
-            "end": 3.229
+            "start": 2.319,
+            "end": 2.699
           },
           {
             "text": "early",
-            "start": 3.284,
-            "end": 3.528
+            "start": 2.754,
+            "end": 2.998
           },
           {
             "text": "in",
-            "start": 3.623,
-            "end": 3.705
+            "start": 3.093,
+            "end": 3.175
           },
           {
             "text": "the",
-            "start": 3.786,
-            "end": 3.854
+            "start": 3.243,
+            "end": 3.311
           },
           {
             "text": "morning",
-            "start": 3.882,
-            "end": 4.357
+            "start": 3.338,
+            "end": 3.8
           },
           {
             "text": "What",
-            "start": 4.561,
-            "end": 4.792
+            "start": 4.004,
+            "end": 4.248
           },
           {
             "text": "does",
-            "start": 4.887,
-            "end": 5.064
+            "start": 4.33,
+            "end": 4.493
           },
           {
             "text": "that",
-            "start": 5.118,
-            "end": 5.281
+            "start": 4.547,
+            "end": 4.697
           },
           {
             "text": "sound",
-            "start": 5.335,
-            "end": 5.634
+            "start": 4.765,
+            "end": 5.036
           },
           {
             "text": "mean",
-            "start": 5.729,
-            "end": 6.028
+            "start": 5.118,
+            "end": 5.43
           }
         ]
       }
@@ -13894,79 +13809,74 @@
             "end": 0.267
           },
           {
-            "text": "Roman",
+            "text": "I",
             "start": 1.277,
-            "end": 1.712
-          },
-          {
-            "text": "1",
-            "start": 1.793,
-            "end": 2.038
+            "end": 1.44
           },
           {
             "text": "see",
-            "start": 2.12,
-            "end": 2.351
+            "start": 1.495,
+            "end": 1.753
           },
           {
             "text": "Therefore",
-            "start": 3.383,
-            "end": 4.062
+            "start": 2.758,
+            "end": 3.437
           },
           {
             "text": "the",
-            "start": 4.402,
-            "end": 4.565
+            "start": 3.777,
+            "end": 3.94
           },
           {
             "text": "Adhana",
-            "start": 4.813,
-            "end": 5.342
+            "start": 4.188,
+            "end": 4.717
           },
           {
             "text": "and",
-            "start": 5.502,
-            "end": 5.651
+            "start": 4.877,
+            "end": 5.026
           },
           {
             "text": "the",
-            "start": 5.733,
-            "end": 5.801
+            "start": 5.108,
+            "end": 5.176
           },
           {
             "text": "bell",
-            "start": 5.896,
-            "end": 6.113
+            "start": 5.271,
+            "end": 5.488
           },
           {
             "text": "should",
-            "start": 6.14,
-            "end": 6.33
+            "start": 5.515,
+            "end": 5.705
           },
           {
             "text": "be",
-            "start": 6.453,
-            "end": 6.521
+            "start": 5.828,
+            "end": 5.896
           },
           {
             "text": "respected",
-            "start": 6.575,
-            "end": 7.2
+            "start": 5.95,
+            "end": 6.575
           },
           {
             "text": "in",
-            "start": 7.214,
-            "end": 7.282
+            "start": 6.589,
+            "end": 6.657
           },
           {
             "text": "the",
-            "start": 7.336,
-            "end": 7.404
+            "start": 6.711,
+            "end": 6.779
           },
           {
             "text": "community",
-            "start": 7.472,
-            "end": 8.11
+            "start": 6.847,
+            "end": 7.485
           }
         ]
       }
@@ -14180,42 +14090,37 @@
           {
             "text": "Now",
             "start": 0.104,
-            "end": 0.444
+            "end": 0.458
           },
           {
-            "text": "Roman",
-            "start": 0.471,
-            "end": 0.852
-          },
-          {
-            "text": "1",
-            "start": 0.92,
-            "end": 1.123
+            "text": "I",
+            "start": 0.553,
+            "end": 0.661
           },
           {
             "text": "understand",
-            "start": 1.164,
-            "end": 1.762
+            "start": 0.729,
+            "end": 1.314
           },
           {
             "text": "what",
-            "start": 1.803,
-            "end": 1.925
+            "start": 1.354,
+            "end": 1.463
           },
           {
             "text": "the",
-            "start": 2.02,
-            "end": 2.102
+            "start": 1.558,
+            "end": 1.626
           },
           {
             "text": "sound",
-            "start": 2.197,
-            "end": 2.469
+            "start": 1.721,
+            "end": 2.007
           },
           {
             "text": "means",
-            "start": 2.536,
-            "end": 3.039
+            "start": 2.074,
+            "end": 2.591
           }
         ]
       }
@@ -14227,54 +14132,49 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.553
-          },
-          {
-            "text": "1",
-            "start": 0.621,
-            "end": 0.811
+            "end": 0.24
           },
           {
             "text": "will",
-            "start": 0.879,
-            "end": 1.028
+            "start": 0.295,
+            "end": 0.458
           },
           {
             "text": "also",
-            "start": 1.069,
-            "end": 1.368
+            "start": 0.498,
+            "end": 0.811
           },
           {
             "text": "hurry",
-            "start": 1.409,
-            "end": 1.68
+            "start": 0.852,
+            "end": 1.123
           },
           {
             "text": "to",
-            "start": 1.762,
-            "end": 1.843
+            "start": 1.205,
+            "end": 1.3
           },
           {
             "text": "get",
-            "start": 1.911,
-            "end": 2.129
+            "start": 1.368,
+            "end": 1.585
           },
           {
             "text": "ready",
-            "start": 2.21,
-            "end": 2.428
+            "start": 1.667,
+            "end": 1.884
           },
           {
             "text": "for",
-            "start": 2.455,
-            "end": 2.631
+            "start": 1.911,
+            "end": 2.088
           },
           {
             "text": "school",
-            "start": 2.699,
-            "end": 3.026
+            "start": 2.156,
+            "end": 2.468
           }
         ]
       }
@@ -15032,34 +14932,29 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.539
-          },
-          {
-            "text": "1",
-            "start": 0.607,
-            "end": 0.784
+            "end": 0.213
           },
           {
             "text": "participate",
-            "start": 0.852,
-            "end": 1.517
+            "start": 0.281,
+            "end": 0.947
           },
           {
             "text": "in",
-            "start": 1.545,
-            "end": 1.667
+            "start": 0.974,
+            "end": 1.083
           },
           {
             "text": "handcraft",
-            "start": 1.68,
-            "end": 2.333
+            "start": 1.096,
+            "end": 1.762
           },
           {
             "text": "work",
-            "start": 2.414,
-            "end": 2.781
+            "start": 1.83,
+            "end": 2.197
           }
         ]
       }
@@ -16120,37 +16015,32 @@
           {
             "text": "yes",
             "start": 0.39,
-            "end": 0.729
+            "end": 0.716
           },
           {
             "text": "what",
-            "start": 0.947,
-            "end": 1.137
+            "start": 0.92,
+            "end": 1.11
           },
           {
             "text": "challenges",
-            "start": 1.151,
-            "end": 1.83
+            "start": 1.123,
+            "end": 1.803
           },
           {
-            "text": "Roman",
-            "start": 1.884,
-            "end": 2.197
-          },
-          {
-            "text": "999",
-            "start": 2.265,
-            "end": 3.08
+            "text": "did",
+            "start": 1.871,
+            "end": 2.047
           },
           {
             "text": "you",
-            "start": 3.134,
-            "end": 3.216
+            "start": 2.102,
+            "end": 2.183
           },
           {
             "text": "face",
-            "start": 3.257,
-            "end": 3.718
+            "start": 2.265,
+            "end": 2.754
           }
         ]
       }
@@ -16850,37 +16740,32 @@
           {
             "text": "yes",
             "start": 0.39,
-            "end": 0.729
+            "end": 0.716
           },
           {
             "text": "what",
-            "start": 0.947,
-            "end": 1.137
+            "start": 0.92,
+            "end": 1.11
           },
           {
             "text": "challenges",
-            "start": 1.151,
-            "end": 1.83
+            "start": 1.123,
+            "end": 1.803
           },
           {
-            "text": "Roman",
-            "start": 1.884,
-            "end": 2.197
-          },
-          {
-            "text": "999",
-            "start": 2.265,
-            "end": 3.08
+            "text": "did",
+            "start": 1.871,
+            "end": 2.047
           },
           {
             "text": "you",
-            "start": 3.134,
-            "end": 3.216
+            "start": 2.102,
+            "end": 2.183
           },
           {
             "text": "face",
-            "start": 3.257,
-            "end": 3.718
+            "start": 2.265,
+            "end": 2.754
           }
         ]
       }
@@ -19221,14 +19106,9 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "C",
             "start": 0.104,
-            "end": 0.566
-          },
-          {
-            "text": "100",
-            "start": 0.634,
-            "end": 1.395
+            "end": 0.444
           }
         ]
       }
@@ -19324,14 +19204,9 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
-            "start": 0.104,
-            "end": 0.553
-          },
-          {
-            "text": "500",
-            "start": 0.593,
-            "end": 1.381
+            "text": "D",
+            "start": 0.102,
+            "end": 0.36
           }
         ]
       }
@@ -19467,36 +19342,36 @@
           {
             "text": "What",
             "start": 0.104,
-            "end": 0.362
+            "end": 0.376
           },
           {
             "text": "colour",
-            "start": 0.444,
-            "end": 0.757
+            "start": 0.458,
+            "end": 0.77
           },
           {
             "text": "would",
-            "start": 0.797,
-            "end": 0.987
+            "start": 0.811,
+            "end": 0.988
           },
           {
             "text": "you",
             "start": 1.042,
-            "end": 1.083
+            "end": 1.096
           },
           {
             "text": "like",
-            "start": 1.11,
-            "end": 1.3
+            "start": 1.123,
+            "end": 1.314
           },
           {
             "text": "to",
-            "start": 1.382,
-            "end": 1.463
+            "start": 1.395,
+            "end": 1.477
           },
           {
             "text": "use",
-            "start": 1.558,
+            "start": 1.572,
             "end": 1.803
           },
           {
@@ -19512,27 +19387,22 @@
           {
             "text": "the",
             "start": 2.577,
-            "end": 2.645
+            "end": 2.631
           },
           {
             "text": "hall",
-            "start": 2.659,
-            "end": 2.903
+            "start": 2.645,
+            "end": 2.89
           },
           {
             "text": "shape",
             "start": 2.958,
-            "end": 3.202
+            "end": 3.161
           },
           {
-            "text": "Roman",
-            "start": 3.284,
-            "end": 3.596
-          },
-          {
-            "text": "500",
-            "start": 3.637,
-            "end": 4.316
+            "text": "D",
+            "start": 3.297,
+            "end": 3.406
           }
         ]
       }
@@ -19623,16 +19493,16 @@
           {
             "text": "Mention",
             "start": 0.104,
-            "end": 0.553
+            "end": 0.566
           },
           {
             "text": "the",
-            "start": 0.648,
-            "end": 0.716
+            "start": 0.661,
+            "end": 0.729
           },
           {
             "text": "colour",
-            "start": 0.797,
+            "start": 0.811,
             "end": 1.083
           },
           {
@@ -19658,16 +19528,16 @@
           {
             "text": "to",
             "start": 2.129,
-            "end": 2.197
+            "end": 2.21
           },
           {
             "text": "decorate",
-            "start": 2.278,
-            "end": 2.727
+            "start": 2.292,
+            "end": 2.74
           },
           {
             "text": "the",
-            "start": 2.835,
+            "start": 2.849,
             "end": 2.917
           },
           {
@@ -19678,17 +19548,12 @@
           {
             "text": "shape",
             "start": 3.243,
-            "end": 3.474
+            "end": 3.447
           },
           {
-            "text": "Roman",
-            "start": 3.555,
-            "end": 3.895
-          },
-          {
-            "text": "100",
-            "start": 3.977,
-            "end": 4.629
+            "text": "C",
+            "start": 3.528,
+            "end": 3.732
           }
         ]
       }
@@ -21501,22 +21366,17 @@
           {
             "text": "letter",
             "start": 0.104,
-            "end": 0.539
+            "end": 0.485
           },
           {
-            "text": "Roman",
-            "start": 0.566,
-            "end": 0.933
-          },
-          {
-            "text": "100",
-            "start": 1.001,
-            "end": 1.49
+            "text": "C",
+            "start": 0.553,
+            "end": 0.702
           },
           {
             "text": "Decorating",
-            "start": 1.585,
-            "end": 2.319
+            "start": 0.797,
+            "end": 1.545
           }
         ]
       }
@@ -21573,23 +21433,18 @@
         "word_timestamps": [
           {
             "text": "letter",
-            "start": 0.104,
-            "end": 0.526
+            "start": 0.103,
+            "end": 0.511
           },
           {
-            "text": "Roman",
-            "start": 0.553,
-            "end": 0.933
-          },
-          {
-            "text": "500",
-            "start": 0.974,
-            "end": 1.626
+            "text": "D",
+            "start": 0.606,
+            "end": 0.701
           },
           {
             "text": "Weaving",
-            "start": 1.694,
-            "end": 2.115
+            "start": 0.742,
+            "end": 1.204
           }
         ]
       }
@@ -21942,34 +21797,29 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.553
-          },
-          {
-            "text": "1",
-            "start": 0.621,
-            "end": 0.797
+            "end": 0.227
           },
           {
             "text": "participate",
-            "start": 0.865,
-            "end": 1.504
+            "start": 0.308,
+            "end": 0.987
           },
           {
             "text": "in",
-            "start": 1.517,
-            "end": 1.64
+            "start": 1.001,
+            "end": 1.137
           },
           {
             "text": "sound",
-            "start": 1.68,
-            "end": 1.939
+            "start": 1.191,
+            "end": 1.463
           },
           {
             "text": "designing",
-            "start": 2.007,
-            "end": 2.632
+            "start": 1.545,
+            "end": 2.156
           }
         ]
       }
@@ -23249,47 +23099,42 @@
           {
             "text": "3",
             "start": 0.104,
-            "end": 0.349
+            "end": 0.376
           },
           {
             "text": "What",
-            "start": 0.403,
-            "end": 0.634
+            "start": 0.417,
+            "end": 0.661
           },
           {
-            "text": "Roman",
-            "start": 0.743,
-            "end": 1.055
-          },
-          {
-            "text": "999",
-            "start": 1.123,
-            "end": 1.925
+            "text": "did",
+            "start": 0.784,
+            "end": 0.947
           },
           {
             "text": "you",
-            "start": 1.979,
-            "end": 2.047
+            "start": 1.015,
+            "end": 1.083
           },
           {
             "text": "enjoy",
-            "start": 2.047,
-            "end": 2.414
+            "start": 1.096,
+            "end": 1.477
           },
           {
             "text": "while",
-            "start": 2.468,
-            "end": 2.672
+            "start": 1.531,
+            "end": 1.748
           },
           {
             "text": "reciting",
-            "start": 2.713,
-            "end": 3.365
+            "start": 1.789,
+            "end": 2.482
           },
           {
             "text": "ngonjera",
-            "start": 3.613,
-            "end": 4.257
+            "start": 2.73,
+            "end": 3.374
           }
         ]
       }
@@ -23654,24 +23499,24 @@
             "end": 3.057
           },
           {
-            "text": "Roman",
+            "text": "I",
             "start": 4.062,
-            "end": 4.497
+            "end": 4.321
           },
           {
-            "text": "1 am",
-            "start": 4.579,
-            "end": 5.217
+            "text": "am",
+            "start": 4.321,
+            "end": 4.443
           },
           {
             "text": "a",
-            "start": 5.272,
-            "end": 5.408
+            "start": 4.443,
+            "end": 4.524
           },
           {
             "text": "cow",
-            "start": 5.503,
-            "end": 5.747
+            "start": 4.62,
+            "end": 4.864
           }
         ]
       }
@@ -23683,39 +23528,34 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.512
-          },
-          {
-            "text": "1",
-            "start": 0.58,
-            "end": 0.838
+            "end": 0.24
           },
           {
             "text": "give",
-            "start": 0.865,
-            "end": 1.055
+            "start": 0.335,
+            "end": 0.512
           },
           {
             "text": "you",
-            "start": 1.096,
-            "end": 1.151
+            "start": 0.566,
+            "end": 0.621
           },
           {
             "text": "milk",
-            "start": 1.205,
-            "end": 1.517
+            "start": 0.675,
+            "end": 0.974
           },
           {
             "text": "and",
-            "start": 1.572,
-            "end": 1.721
+            "start": 1.015,
+            "end": 1.164
           },
           {
             "text": "meat",
-            "start": 1.762,
-            "end": 2.061
+            "start": 1.205,
+            "end": 1.504
           }
         ]
       }
@@ -23815,54 +23655,54 @@
             "end": 2.866
           },
           {
-            "text": "Roman",
+            "text": "I",
             "start": 3.859,
-            "end": 4.28
+            "end": 4.117
           },
           {
-            "text": "1 am",
-            "start": 4.348,
-            "end": 5.0
+            "text": "am",
+            "start": 4.117,
+            "end": 4.198
           },
           {
             "text": "the",
-            "start": 5.095,
-            "end": 5.163
+            "start": 4.28,
+            "end": 4.361
           },
           {
             "text": "tallest",
-            "start": 5.245,
-            "end": 5.693
+            "start": 4.443,
+            "end": 4.905
           },
           {
             "text": "of",
-            "start": 5.72,
-            "end": 5.87
+            "start": 4.959,
+            "end": 5.109
           },
           {
             "text": "all",
-            "start": 5.938,
-            "end": 6.141
+            "start": 5.177,
+            "end": 5.394
           },
           {
             "text": "animals",
-            "start": 6.196,
-            "end": 6.834
+            "start": 5.462,
+            "end": 6.101
           },
           {
             "text": "with",
-            "start": 7.052,
-            "end": 7.215
+            "start": 6.304,
+            "end": 6.467
           },
           {
             "text": "attractive",
-            "start": 7.215,
-            "end": 7.812
+            "start": 6.481,
+            "end": 7.133
           },
           {
             "text": "neck",
-            "start": 7.853,
-            "end": 8.152
+            "start": 7.174,
+            "end": 7.514
           }
         ]
       }
@@ -24125,44 +23965,44 @@
             "end": 3.966
           },
           {
-            "text": "Roman",
+            "text": "I",
             "start": 5.041,
-            "end": 5.462
+            "end": 5.285
           },
           {
-            "text": "1 am",
-            "start": 5.53,
-            "end": 6.155
+            "text": "am",
+            "start": 5.285,
+            "end": 5.367
           },
           {
             "text": "the",
-            "start": 6.25,
-            "end": 6.318
+            "start": 5.448,
+            "end": 5.516
           },
           {
             "text": "most",
-            "start": 6.345,
-            "end": 6.698
+            "start": 5.543,
+            "end": 5.883
           },
           {
             "text": "attractive",
-            "start": 6.726,
-            "end": 7.351
+            "start": 5.924,
+            "end": 6.522
           },
           {
             "text": "with",
-            "start": 7.364,
-            "end": 7.514
+            "start": 6.535,
+            "end": 6.685
           },
           {
             "text": "ordered",
-            "start": 7.582,
-            "end": 7.948
+            "start": 6.753,
+            "end": 7.147
           },
           {
             "text": "colours",
-            "start": 8.003,
-            "end": 8.546
+            "start": 7.174,
+            "end": 7.704
           }
         ]
       }
@@ -24943,92 +24783,87 @@
           {
             "text": "replied",
             "start": 0.996,
-            "end": 1.567
+            "end": 1.58
           },
           {
-            "text": "Roman",
-            "start": 1.838,
-            "end": 2.178
-          },
-          {
-            "text": "1",
-            "start": 2.26,
-            "end": 2.45
+            "text": "I",
+            "start": 1.866,
+            "end": 1.974
           },
           {
             "text": "had",
-            "start": 2.477,
-            "end": 2.681
+            "start": 1.988,
+            "end": 2.219
           },
           {
             "text": "two",
-            "start": 2.789,
-            "end": 2.939
+            "start": 2.314,
+            "end": 2.463
           },
           {
             "text": "one",
-            "start": 2.966,
-            "end": 3.143
+            "start": 2.504,
+            "end": 2.667
           },
           {
             "text": "thousand",
-            "start": 3.197,
-            "end": 3.591
+            "start": 2.721,
+            "end": 3.116
           },
           {
             "text": "shillings",
-            "start": 3.632,
-            "end": 4.23
+            "start": 3.156,
+            "end": 3.727
           },
           {
             "text": "one",
-            "start": 4.461,
-            "end": 4.664
+            "start": 3.958,
+            "end": 4.162
           },
           {
             "text": "to",
-            "start": 4.705,
-            "end": 4.787
+            "start": 4.202,
+            "end": 4.284
           },
           {
             "text": "buy",
-            "start": 4.855,
-            "end": 4.963
+            "start": 4.352,
+            "end": 4.474
           },
           {
             "text": "flour",
-            "start": 4.991,
-            "end": 5.425
+            "start": 4.501,
+            "end": 4.936
           },
           {
             "text": "and",
-            "start": 5.48,
-            "end": 5.588
+            "start": 4.991,
+            "end": 5.099
           },
           {
             "text": "the",
-            "start": 5.656,
-            "end": 5.711
+            "start": 5.167,
+            "end": 5.221
           },
           {
             "text": "other",
-            "start": 5.806,
-            "end": 6.05
+            "start": 5.317,
+            "end": 5.548
           },
           {
             "text": "to",
-            "start": 6.132,
-            "end": 6.213
+            "start": 5.629,
+            "end": 5.711
           },
           {
             "text": "buy",
-            "start": 6.295,
-            "end": 6.417
+            "start": 5.792,
+            "end": 5.914
           },
           {
             "text": "vegetables",
-            "start": 6.458,
-            "end": 7.26
+            "start": 5.955,
+            "end": 6.757
           }
         ]
       }
@@ -25042,112 +24877,102 @@
           {
             "text": "Now",
             "start": 0.104,
-            "end": 0.512
+            "end": 0.485
           },
           {
-            "text": "Roman",
-            "start": 0.811,
-            "end": 1.151
-          },
-          {
-            "text": "1",
-            "start": 1.218,
-            "end": 1.395
+            "text": "I",
+            "start": 0.77,
+            "end": 0.892
           },
           {
             "text": "have",
-            "start": 1.422,
-            "end": 1.667
+            "start": 0.892,
+            "end": 1.164
           },
           {
             "text": "mixed",
-            "start": 1.68,
-            "end": 2.047
+            "start": 1.191,
+            "end": 1.531
           },
           {
             "text": "them",
-            "start": 2.115,
-            "end": 2.333
+            "start": 1.599,
+            "end": 1.816
           },
           {
             "text": "and",
-            "start": 2.373,
-            "end": 2.496
+            "start": 1.857,
+            "end": 2.007
           },
           {
-            "text": "Roman",
-            "start": 2.564,
-            "end": 2.89
-          },
-          {
-            "text": "1",
-            "start": 2.958,
-            "end": 3.134
+            "text": "I",
+            "start": 2.007,
+            "end": 2.088
           },
           {
             "text": "don’t",
-            "start": 3.216,
-            "end": 3.542
+            "start": 2.17,
+            "end": 2.468
           },
           {
             "text": "know",
-            "start": 3.555,
-            "end": 3.759
+            "start": 2.468,
+            "end": 2.672
           },
           {
             "text": "which",
-            "start": 3.814,
-            "end": 4.072
+            "start": 2.727,
+            "end": 2.985
           },
           {
             "text": "one",
-            "start": 4.112,
-            "end": 4.33
+            "start": 3.012,
+            "end": 3.257
           },
           {
             "text": "is",
-            "start": 4.357,
-            "end": 4.534
+            "start": 3.284,
+            "end": 3.46
           },
           {
             "text": "for",
-            "start": 4.547,
-            "end": 4.67
+            "start": 3.474,
+            "end": 3.61
           },
           {
             "text": "flour",
-            "start": 4.697,
-            "end": 5.104
+            "start": 3.637,
+            "end": 4.045
           },
           {
             "text": "and",
-            "start": 5.159,
-            "end": 5.322
+            "start": 4.099,
+            "end": 4.248
           },
           {
             "text": "which",
-            "start": 5.362,
-            "end": 5.621
+            "start": 4.289,
+            "end": 4.534
           },
           {
             "text": "one",
-            "start": 5.661,
-            "end": 5.892
+            "start": 4.574,
+            "end": 4.805
           },
           {
             "text": "is",
-            "start": 5.92,
-            "end": 6.083
+            "start": 4.833,
+            "end": 4.982
           },
           {
             "text": "for",
-            "start": 6.096,
-            "end": 6.205
+            "start": 4.996,
+            "end": 5.104
           },
           {
             "text": "vegetables",
-            "start": 6.232,
-            "end": 7.007
+            "start": 5.132,
+            "end": 5.906
           }
         ]
       }
@@ -25377,57 +25202,52 @@
           {
             "text": "to",
             "start": 1.898,
-            "end": 1.952
+            "end": 1.966
           },
           {
             "text": "the",
-            "start": 2.02,
-            "end": 2.088
+            "start": 2.034,
+            "end": 2.102
           },
           {
             "text": "image",
             "start": 2.197,
-            "end": 2.577
+            "end": 2.591
           },
           {
             "text": "Why",
-            "start": 2.876,
-            "end": 3.039
+            "start": 2.89,
+            "end": 3.053
           },
           {
             "text": "do",
-            "start": 3.134,
-            "end": 3.216
+            "start": 3.148,
+            "end": 3.229
           },
           {
             "text": "you",
-            "start": 3.243,
-            "end": 3.352
+            "start": 3.257,
+            "end": 3.365
           },
           {
             "text": "imitate",
-            "start": 3.406,
-            "end": 3.895
+            "start": 3.433,
+            "end": 3.922
           },
           {
             "text": "everything",
-            "start": 3.963,
-            "end": 4.439
+            "start": 3.99,
+            "end": 4.52
           },
           {
-            "text": "Roman",
-            "start": 4.507,
-            "end": 4.819
-          },
-          {
-            "text": "1",
-            "start": 4.914,
-            "end": 5.104
+            "text": "I",
+            "start": 4.574,
+            "end": 4.697
           },
           {
             "text": "do",
-            "start": 5.199,
-            "end": 5.335
+            "start": 4.805,
+            "end": 4.955
           }
         ]
       }
@@ -26990,59 +26810,54 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.526
-          },
-          {
-            "text": "1",
-            "start": 0.58,
-            "end": 0.756
+            "end": 0.213
           },
           {
             "text": "participate",
-            "start": 0.811,
-            "end": 1.477
+            "start": 0.281,
+            "end": 0.933
           },
           {
             "text": "in",
-            "start": 1.49,
-            "end": 1.626
+            "start": 0.96,
+            "end": 1.096
           },
           {
             "text": "art",
-            "start": 1.68,
-            "end": 1.911
+            "start": 1.151,
+            "end": 1.381
           },
           {
             "text": "activities",
-            "start": 1.911,
-            "end": 2.591
+            "start": 1.395,
+            "end": 2.088
           },
           {
             "text": "that",
-            "start": 2.632,
-            "end": 2.835
+            "start": 2.129,
+            "end": 2.333
           },
           {
             "text": "involve",
-            "start": 2.89,
-            "end": 3.256
+            "start": 2.373,
+            "end": 2.74
           },
           {
             "text": "the",
-            "start": 3.324,
-            "end": 3.392
+            "start": 2.808,
+            "end": 2.876
           },
           {
             "text": "body",
-            "start": 3.474,
-            "end": 3.718
+            "start": 2.958,
+            "end": 3.216
           },
           {
             "text": "movements",
-            "start": 3.759,
-            "end": 4.479
+            "start": 3.257,
+            "end": 3.99
           }
         ]
       }
@@ -27773,42 +27588,37 @@
           {
             "text": "If",
             "start": 0.104,
-            "end": 0.349
+            "end": 0.335
           },
           {
             "text": "yes",
-            "start": 0.39,
+            "start": 0.376,
             "end": 0.716
           },
           {
             "text": "what",
-            "start": 0.933,
-            "end": 1.191
+            "start": 0.906,
+            "end": 1.164
           },
           {
-            "text": "Roman",
-            "start": 1.314,
-            "end": 1.599
-          },
-          {
-            "text": "999",
-            "start": 1.667,
-            "end": 2.482
+            "text": "did",
+            "start": 1.3,
+            "end": 1.463
           },
           {
             "text": "you",
-            "start": 2.536,
-            "end": 2.618
+            "start": 1.517,
+            "end": 1.599
           },
           {
             "text": "act",
-            "start": 2.699,
-            "end": 2.971
+            "start": 1.68,
+            "end": 1.952
           },
           {
             "text": "about",
-            "start": 2.985,
-            "end": 3.379
+            "start": 1.966,
+            "end": 2.36
           }
         ]
       }
@@ -30670,49 +30480,44 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.512
-          },
-          {
-            "text": "1",
-            "start": 0.58,
-            "end": 0.743
+            "end": 0.24
           },
           {
             "text": "participate",
-            "start": 0.811,
-            "end": 1.477
+            "start": 0.322,
+            "end": 1.001
           },
           {
             "text": "in",
-            "start": 1.477,
-            "end": 1.585
+            "start": 1.001,
+            "end": 1.123
           },
           {
             "text": "running",
-            "start": 1.653,
-            "end": 2.006
+            "start": 1.191,
+            "end": 1.517
           },
           {
             "text": "with",
-            "start": 2.061,
-            "end": 2.21
+            "start": 1.572,
+            "end": 1.721
           },
           {
             "text": "a",
-            "start": 2.21,
-            "end": 2.292
+            "start": 1.721,
+            "end": 1.803
           },
           {
             "text": "stick",
-            "start": 2.387,
-            "end": 2.645
+            "start": 1.898,
+            "end": 2.183
           },
           {
             "text": "game",
-            "start": 2.767,
-            "end": 3.08
+            "start": 2.292,
+            "end": 2.604
           }
         ]
       }
@@ -31258,18 +31063,13 @@
         "word_timestamps": [
           {
             "text": "letter",
-            "start": 0.104,
-            "end": 0.526
+            "start": 0.103,
+            "end": 0.497
           },
           {
-            "text": "Roman",
-            "start": 0.553,
-            "end": 0.933
-          },
-          {
-            "text": "100",
-            "start": 1.015,
-            "end": 1.748
+            "text": "C",
+            "start": 0.565,
+            "end": 0.81
           }
         ]
       }
@@ -33337,29 +33137,29 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.553
+            "end": 0.362
           },
           {
-            "text": "1 am",
-            "start": 0.634,
-            "end": 1.327
+            "text": "am",
+            "start": 0.362,
+            "end": 0.512
           },
           {
             "text": "hitting",
-            "start": 1.341,
-            "end": 1.708
+            "start": 0.526,
+            "end": 0.865
           },
           {
             "text": "the",
-            "start": 1.776,
-            "end": 1.843
+            "start": 0.96,
+            "end": 1.028
           },
           {
             "text": "target",
-            "start": 1.925,
-            "end": 2.428
+            "start": 1.11,
+            "end": 1.612
           }
         ]
       }
@@ -37699,34 +37499,34 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.553
+            "end": 0.376
           },
           {
-            "text": "1 am",
-            "start": 0.621,
-            "end": 1.218
+            "text": "am",
+            "start": 0.376,
+            "end": 0.512
           },
           {
             "text": "looking",
-            "start": 1.246,
-            "end": 1.612
+            "start": 0.566,
+            "end": 0.92
           },
           {
             "text": "for",
-            "start": 1.64,
-            "end": 1.776
+            "start": 0.933,
+            "end": 1.069
           },
           {
             "text": "the",
-            "start": 1.816,
-            "end": 1.911
+            "start": 1.123,
+            "end": 1.205
           },
           {
             "text": "ball",
-            "start": 2.007,
-            "end": 2.319
+            "start": 1.3,
+            "end": 1.613
           }
         ]
       }
@@ -41301,49 +41101,44 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.553
-          },
-          {
-            "text": "1",
-            "start": 0.621,
-            "end": 0.811
+            "end": 0.254
           },
           {
             "text": "use",
-            "start": 0.892,
-            "end": 1.11
+            "start": 0.322,
+            "end": 0.553
           },
           {
             "text": "digital",
-            "start": 1.191,
-            "end": 1.612
+            "start": 0.634,
+            "end": 1.055
           },
           {
             "text": "programs",
-            "start": 1.708,
-            "end": 2.292
+            "start": 1.151,
+            "end": 1.708
           },
           {
             "text": "to",
-            "start": 2.333,
-            "end": 2.414
+            "start": 1.748,
+            "end": 1.843
           },
           {
             "text": "learn",
-            "start": 2.441,
-            "end": 2.699
+            "start": 1.871,
+            "end": 2.129
           },
           {
             "text": "different",
-            "start": 2.767,
-            "end": 3.202
+            "start": 2.197,
+            "end": 2.645
           },
           {
             "text": "games",
-            "start": 3.284,
-            "end": 3.732
+            "start": 2.727,
+            "end": 3.202
           }
         ]
       }
@@ -44384,42 +44179,37 @@
           {
             "text": "letter",
             "start": 0.104,
-            "end": 0.553
+            "end": 0.526
           },
           {
-            "text": "Roman",
-            "start": 0.58,
-            "end": 0.933
-          },
-          {
-            "text": "100",
-            "start": 1.001,
-            "end": 1.504
+            "text": "C",
+            "start": 0.593,
+            "end": 0.756
           },
           {
             "text": "Running",
-            "start": 1.599,
-            "end": 1.925
+            "start": 0.824,
+            "end": 1.191
           },
           {
             "text": "with",
-            "start": 1.979,
-            "end": 2.115
+            "start": 1.232,
+            "end": 1.368
           },
           {
             "text": "a",
-            "start": 2.115,
-            "end": 2.197
+            "start": 1.368,
+            "end": 1.463
           },
           {
             "text": "stick",
-            "start": 2.292,
-            "end": 2.55
+            "start": 1.558,
+            "end": 1.857
           },
           {
             "text": "game",
-            "start": 2.672,
-            "end": 2.998
+            "start": 1.966,
+            "end": 2.265
           }
         ]
       }
@@ -44492,27 +44282,22 @@
           {
             "text": "letter",
             "start": 0.104,
-            "end": 0.539
+            "end": 0.498
           },
           {
-            "text": "Roman",
-            "start": 0.566,
-            "end": 0.947
-          },
-          {
-            "text": "500",
-            "start": 0.988,
-            "end": 1.599
+            "text": "D",
+            "start": 0.58,
+            "end": 0.648
           },
           {
             "text": "Target",
-            "start": 1.653,
-            "end": 2.088
+            "start": 0.729,
+            "end": 1.178
           },
           {
             "text": "game",
-            "start": 2.17,
-            "end": 2.482
+            "start": 1.259,
+            "end": 1.558
           }
         ]
       }
@@ -52846,54 +52631,49 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "did",
             "start": 0.104,
-            "end": 0.498
-          },
-          {
-            "text": "999",
-            "start": 0.58,
-            "end": 1.64
+            "end": 0.295
           },
           {
             "text": "not",
-            "start": 1.708,
-            "end": 1.925
+            "start": 0.335,
+            "end": 0.593
           },
           {
             "text": "hit",
-            "start": 1.993,
-            "end": 2.17
+            "start": 0.689,
+            "end": 0.879
           },
           {
             "text": "or",
-            "start": 2.237,
-            "end": 2.373
+            "start": 0.974,
+            "end": 1.11
           },
           {
             "text": "reach",
-            "start": 2.401,
-            "end": 2.686
+            "start": 1.123,
+            "end": 1.395
           },
           {
             "text": "the",
-            "start": 2.754,
-            "end": 2.835
+            "start": 1.463,
+            "end": 1.545
           },
           {
             "text": "thing",
-            "start": 2.917,
-            "end": 3.134
+            "start": 1.626,
+            "end": 1.843
           },
           {
             "text": "you",
-            "start": 3.189,
-            "end": 3.229
+            "start": 1.898,
+            "end": 1.952
           },
           {
             "text": "wanted",
-            "start": 3.311,
-            "end": 3.786
+            "start": 2.034,
+            "end": 2.523
           }
         ]
       }
@@ -59095,27 +58875,22 @@
           {
             "text": "Dr",
             "start": 0.104,
-            "end": 0.512
+            "end": 0.498
           },
           {
             "text": "Lyabwene",
-            "start": 0.539,
-            "end": 1.028
+            "start": 0.526,
+            "end": 1.11
           },
           {
-            "text": "Roman",
-            "start": 1.083,
-            "end": 1.436
-          },
-          {
-            "text": "1000",
-            "start": 1.531,
-            "end": 2.265
+            "text": "M",
+            "start": 1.164,
+            "end": 1.354
           },
           {
             "text": "Mtahabwa",
-            "start": 3.315,
-            "end": 4.158
+            "start": 1.531,
+            "end": 2.265
           }
         ]
       }
@@ -60135,44 +59910,39 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.539
-          },
-          {
-            "text": "1",
-            "start": 0.607,
-            "end": 0.811
+            "end": 0.24
           },
           {
             "text": "recognise",
-            "start": 0.852,
-            "end": 1.49
+            "start": 0.295,
+            "end": 0.947
           },
           {
             "text": "the",
-            "start": 1.531,
-            "end": 1.612
+            "start": 0.988,
+            "end": 1.083
           },
           {
             "text": "traditional",
-            "start": 1.68,
-            "end": 2.319
+            "start": 1.151,
+            "end": 1.776
           },
           {
             "text": "houses",
-            "start": 2.36,
-            "end": 2.835
+            "start": 1.816,
+            "end": 2.305
           },
           {
             "text": "of",
-            "start": 2.903,
-            "end": 3.229
+            "start": 2.373,
+            "end": 2.686
           },
           {
             "text": "Tanzania",
-            "start": 3.477,
-            "end": 4.207
+            "start": 2.934,
+            "end": 3.663
           }
         ]
       }
@@ -63005,38 +62775,33 @@
         "word_timestamps": [
           {
             "text": "letter",
-            "start": 0.104,
-            "end": 0.526
+            "start": 0.103,
+            "end": 0.497
           },
           {
-            "text": "Roman",
-            "start": 0.553,
-            "end": 0.933
-          },
-          {
-            "text": "100",
-            "start": 1.015,
-            "end": 1.748
+            "text": "C",
+            "start": 0.565,
+            "end": 0.81
           },
           {
             "text": "Wahaya",
-            "start": 2.011,
-            "end": 2.468
+            "start": 1.072,
+            "end": 1.53
           },
           {
             "text": "Wasafwa",
-            "start": 2.697,
-            "end": 3.398
+            "start": 1.759,
+            "end": 2.459
           },
           {
             "text": "and",
-            "start": 3.557,
-            "end": 3.897
+            "start": 2.619,
+            "end": 2.958
           },
           {
             "text": "Wachaga",
-            "start": 4.159,
-            "end": 4.774
+            "start": 3.221,
+            "end": 3.836
           }
         ]
       }
@@ -66576,42 +66341,37 @@
           {
             "text": "letter",
             "start": 0.104,
-            "end": 0.553
+            "end": 0.539
           },
           {
-            "text": "Roman",
+            "text": "C",
             "start": 0.58,
-            "end": 0.96
-          },
-          {
-            "text": "100",
-            "start": 1.028,
-            "end": 1.599
+            "end": 0.756
           },
           {
             "text": "Candy",
-            "start": 1.64,
-            "end": 1.979
+            "start": 0.852,
+            "end": 1.232
           },
           {
             "text": "pencil",
-            "start": 2.224,
-            "end": 2.699
+            "start": 1.517,
+            "end": 2.047
           },
           {
             "text": "donut",
-            "start": 3.026,
-            "end": 3.42
+            "start": 2.373,
+            "end": 2.795
           },
           {
             "text": "shirt",
-            "start": 3.678,
-            "end": 3.99
+            "start": 3.053,
+            "end": 3.365
           },
           {
             "text": "dress",
-            "start": 4.262,
-            "end": 4.751
+            "start": 3.678,
+            "end": 4.153
           }
         ]
       }
@@ -66625,32 +66385,27 @@
           {
             "text": "letter",
             "start": 0.104,
-            "end": 0.553
+            "end": 0.539
           },
           {
-            "text": "Roman",
-            "start": 0.58,
-            "end": 0.974
-          },
-          {
-            "text": "500",
-            "start": 1.015,
-            "end": 1.653
+            "text": "D",
+            "start": 0.634,
+            "end": 0.716
           },
           {
             "text": "Catfish",
-            "start": 1.721,
-            "end": 2.333
+            "start": 0.811,
+            "end": 1.449
           },
           {
             "text": "sardiness",
-            "start": 2.523,
-            "end": 3.216
+            "start": 1.653,
+            "end": 2.373
           },
           {
             "text": "tilapia",
-            "start": 3.447,
-            "end": 4.031
+            "start": 2.604,
+            "end": 3.202
           }
         ]
       }
@@ -66719,44 +66474,39 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.566
-          },
-          {
-            "text": "1",
-            "start": 0.634,
-            "end": 0.811
+            "end": 0.254
           },
           {
             "text": "recognise",
-            "start": 0.865,
-            "end": 1.517
+            "start": 0.295,
+            "end": 0.974
           },
           {
             "text": "and",
-            "start": 1.531,
-            "end": 1.667
+            "start": 0.988,
+            "end": 1.123
           },
           {
             "text": "appreciate",
-            "start": 1.667,
-            "end": 2.319
+            "start": 1.123,
+            "end": 1.789
           },
           {
             "text": "other",
-            "start": 2.387,
-            "end": 2.618
+            "start": 1.857,
+            "end": 2.102
           },
           {
             "text": "people's",
-            "start": 2.699,
-            "end": 3.093
+            "start": 2.183,
+            "end": 2.55
           },
           {
             "text": "beliefs",
-            "start": 3.161,
-            "end": 3.759
+            "start": 2.618,
+            "end": 3.216
           }
         ]
       }
@@ -67921,57 +67671,52 @@
           {
             "text": "Baraka",
             "start": 0.104,
-            "end": 0.675
+            "end": 0.661
           },
           {
-            "text": "Roman",
-            "start": 0.716,
-            "end": 1.055
-          },
-          {
-            "text": "999",
-            "start": 1.151,
-            "end": 1.925
+            "text": "did",
+            "start": 0.743,
+            "end": 0.824
           },
           {
             "text": "not",
-            "start": 1.993,
-            "end": 2.21
+            "start": 0.865,
+            "end": 1.096
           },
           {
             "text": "like",
-            "start": 2.265,
-            "end": 2.441
+            "start": 1.164,
+            "end": 1.341
           },
           {
             "text": "to",
-            "start": 2.523,
-            "end": 2.604
+            "start": 1.422,
+            "end": 1.517
           },
           {
             "text": "take",
-            "start": 2.672,
-            "end": 2.917
+            "start": 1.585,
+            "end": 1.816
           },
           {
             "text": "part",
-            "start": 2.998,
-            "end": 3.243
+            "start": 1.898,
+            "end": 2.156
           },
           {
             "text": "in",
-            "start": 3.284,
-            "end": 3.324
+            "start": 2.17,
+            "end": 2.237
           },
           {
             "text": "religious",
-            "start": 3.406,
-            "end": 4.004
+            "start": 2.319,
+            "end": 2.958
           },
           {
             "text": "sessions",
-            "start": 4.004,
-            "end": 4.67
+            "start": 2.958,
+            "end": 3.61
           }
         ]
       }
@@ -68102,34 +67847,29 @@
             "end": 5.109
           },
           {
-            "text": "Roman",
-            "start": 5.136,
-            "end": 5.476
-          },
-          {
-            "text": "999",
-            "start": 5.557,
-            "end": 6.63
+            "text": "did",
+            "start": 5.177,
+            "end": 5.285
           },
           {
             "text": "not",
-            "start": 6.698,
-            "end": 6.943
+            "start": 5.312,
+            "end": 5.543
           },
           {
             "text": "care",
-            "start": 6.997,
-            "end": 7.187
+            "start": 5.639,
+            "end": 5.87
           },
           {
             "text": "about",
-            "start": 7.242,
-            "end": 7.622
+            "start": 5.924,
+            "end": 6.318
           },
           {
             "text": "others",
-            "start": 7.717,
-            "end": 8.22
+            "start": 6.399,
+            "end": 6.957
           }
         ]
       }
@@ -68812,39 +68552,34 @@
             "end": 0.621
           },
           {
-            "text": "Roman",
-            "start": 0.729,
-            "end": 1.028
-          },
-          {
-            "text": "999",
-            "start": 1.11,
-            "end": 1.925
+            "text": "did",
+            "start": 0.743,
+            "end": 0.892
           },
           {
             "text": "you",
-            "start": 1.966,
-            "end": 2.02
+            "start": 0.933,
+            "end": 0.974
           },
           {
             "text": "learn",
-            "start": 2.061,
-            "end": 2.305
+            "start": 1.015,
+            "end": 1.259
           },
           {
             "text": "from",
-            "start": 2.346,
-            "end": 2.509
+            "start": 1.3,
+            "end": 1.49
           },
           {
             "text": "the",
-            "start": 2.591,
-            "end": 2.672
+            "start": 1.572,
+            "end": 1.653
           },
           {
             "text": "story",
-            "start": 2.754,
-            "end": 3.121
+            "start": 1.735,
+            "end": 2.115
           }
         ]
       }
@@ -68858,57 +68593,52 @@
           {
             "text": "2",
             "start": 0.104,
-            "end": 0.295
+            "end": 0.308
           },
           {
             "text": "Who",
             "start": 0.349,
-            "end": 0.553
+            "end": 0.498
           },
           {
-            "text": "Roman",
+            "text": "did",
             "start": 0.58,
-            "end": 0.933
-          },
-          {
-            "text": "999",
-            "start": 1.015,
-            "end": 1.762
+            "end": 0.675
           },
           {
             "text": "not",
-            "start": 1.83,
-            "end": 2.047
+            "start": 0.716,
+            "end": 0.96
           },
           {
             "text": "like",
-            "start": 2.102,
-            "end": 2.278
+            "start": 1.028,
+            "end": 1.218
           },
           {
             "text": "to",
-            "start": 2.36,
-            "end": 2.455
+            "start": 1.314,
+            "end": 1.409
           },
           {
             "text": "go",
-            "start": 2.536,
-            "end": 2.686
+            "start": 1.49,
+            "end": 1.626
           },
           {
             "text": "to",
-            "start": 2.754,
-            "end": 2.849
+            "start": 1.694,
+            "end": 1.803
           },
           {
             "text": "religious",
-            "start": 2.89,
-            "end": 3.487
+            "start": 1.843,
+            "end": 2.468
           },
           {
             "text": "sessions",
-            "start": 3.487,
-            "end": 4.126
+            "start": 2.468,
+            "end": 3.121
           }
         ]
       }
@@ -69062,49 +68792,44 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.526
-          },
-          {
-            "text": "1",
-            "start": 0.593,
-            "end": 0.784
+            "end": 0.267
           },
           {
             "text": "value",
-            "start": 0.838,
-            "end": 1.137
+            "start": 0.295,
+            "end": 0.634
           },
           {
             "text": "actions",
-            "start": 1.218,
-            "end": 1.708
+            "start": 0.716,
+            "end": 1.218
           },
           {
             "text": "that",
-            "start": 1.735,
-            "end": 1.911
+            "start": 1.246,
+            "end": 1.409
           },
           {
             "text": "respect",
-            "start": 2.007,
-            "end": 2.441
+            "start": 1.504,
+            "end": 1.952
           },
           {
             "text": "other",
-            "start": 2.523,
-            "end": 2.74
+            "start": 2.02,
+            "end": 2.251
           },
           {
             "text": "people's",
-            "start": 2.822,
-            "end": 3.243
+            "start": 2.333,
+            "end": 2.727
           },
           {
             "text": "beliefs",
-            "start": 3.324,
-            "end": 3.936
+            "start": 2.795,
+            "end": 3.379
           }
         ]
       }
@@ -69275,29 +69000,29 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.553
+            "end": 0.39
           },
           {
-            "text": "1 am",
-            "start": 0.634,
-            "end": 1.314
+            "text": "am",
+            "start": 0.39,
+            "end": 0.526
           },
           {
             "text": "fine",
-            "start": 1.354,
-            "end": 1.735
+            "start": 0.566,
+            "end": 0.947
           },
           {
             "text": "Mzee",
-            "start": 1.968,
-            "end": 2.24
+            "start": 1.18,
+            "end": 1.452
           },
           {
             "text": "Masanja",
-            "start": 2.34,
-            "end": 3.127
+            "start": 1.552,
+            "end": 2.339
           }
         ]
       }
@@ -69392,44 +69117,44 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.458
+            "end": 0.281
           },
           {
-            "text": "1 am",
-            "start": 0.512,
-            "end": 1.055
+            "text": "am",
+            "start": 0.308,
+            "end": 0.444
           },
           {
             "text": "going",
-            "start": 1.123,
-            "end": 1.354
+            "start": 0.526,
+            "end": 0.743
           },
           {
             "text": "to",
-            "start": 1.409,
-            "end": 1.463
+            "start": 0.784,
+            "end": 0.838
           },
           {
             "text": "the",
-            "start": 1.531,
-            "end": 1.585
+            "start": 0.906,
+            "end": 0.974
           },
           {
             "text": "Mosque",
-            "start": 1.626,
-            "end": 1.911
+            "start": 1.015,
+            "end": 1.273
           },
           {
             "text": "to",
-            "start": 2.007,
-            "end": 2.074
+            "start": 1.354,
+            "end": 1.422
           },
           {
             "text": "pray",
-            "start": 2.17,
-            "end": 2.387
+            "start": 1.517,
+            "end": 1.762
           }
         ]
       }
@@ -69481,37 +69206,32 @@
           {
             "text": "Can",
             "start": 0.104,
-            "end": 0.322
+            "end": 0.335
           },
           {
-            "text": "Roman",
-            "start": 0.376,
-            "end": 0.743
-          },
-          {
-            "text": "1",
-            "start": 0.811,
-            "end": 1.015
+            "text": "I",
+            "start": 0.349,
+            "end": 0.444
           },
           {
             "text": "ask",
-            "start": 1.069,
-            "end": 1.382
+            "start": 0.526,
+            "end": 0.852
           },
           {
             "text": "you",
-            "start": 1.409,
-            "end": 1.449
+            "start": 0.879,
+            "end": 0.933
           },
           {
             "text": "a",
-            "start": 1.449,
-            "end": 1.531
+            "start": 0.933,
+            "end": 1.015
           },
           {
             "text": "question",
-            "start": 1.613,
-            "end": 2.142
+            "start": 1.096,
+            "end": 1.599
           }
         ]
       }
@@ -69595,94 +69315,89 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.512
-          },
-          {
-            "text": "1",
-            "start": 0.593,
-            "end": 0.784
+            "end": 0.267
           },
           {
             "text": "usually",
-            "start": 0.852,
-            "end": 1.246
+            "start": 0.335,
+            "end": 0.729
           },
           {
             "text": "hear",
-            "start": 1.314,
-            "end": 1.585
+            "start": 0.797,
+            "end": 1.083
           },
           {
             "text": "a",
-            "start": 1.64,
-            "end": 1.735
+            "start": 1.137,
+            "end": 1.246
           },
           {
             "text": "sound",
-            "start": 1.803,
-            "end": 2.088
+            "start": 1.3,
+            "end": 1.599
           },
           {
             "text": "from",
-            "start": 2.129,
-            "end": 2.292
+            "start": 1.64,
+            "end": 1.843
           },
           {
             "text": "the",
-            "start": 2.373,
-            "end": 2.441
+            "start": 1.925,
+            "end": 1.993
           },
           {
             "text": "Mosque",
-            "start": 2.468,
-            "end": 2.849
+            "start": 2.02,
+            "end": 2.401
           },
           {
             "text": "early",
-            "start": 2.917,
-            "end": 3.161
+            "start": 2.455,
+            "end": 2.699
           },
           {
             "text": "in",
-            "start": 3.257,
-            "end": 3.338
+            "start": 2.795,
+            "end": 2.876
           },
           {
             "text": "the",
-            "start": 3.42,
-            "end": 3.487
+            "start": 2.944,
+            "end": 3.012
           },
           {
             "text": "morning",
-            "start": 3.515,
-            "end": 4.045
+            "start": 3.039,
+            "end": 3.542
           },
           {
             "text": "What",
-            "start": 5.041,
-            "end": 5.299
+            "start": 4.552,
+            "end": 4.81
           },
           {
             "text": "does",
-            "start": 5.421,
-            "end": 5.625
+            "start": 4.932,
+            "end": 5.136
           },
           {
             "text": "that",
-            "start": 5.679,
-            "end": 5.87
+            "start": 5.19,
+            "end": 5.38
           },
           {
             "text": "sound",
-            "start": 5.951,
-            "end": 6.277
+            "start": 5.462,
+            "end": 5.788
           },
           {
             "text": "mean",
-            "start": 6.359,
-            "end": 6.685
+            "start": 5.87,
+            "end": 6.196
           }
         ]
       }
@@ -70149,79 +69864,74 @@
             "end": 0.267
           },
           {
-            "text": "Roman",
+            "text": "I",
             "start": 1.277,
-            "end": 1.712
-          },
-          {
-            "text": "1",
-            "start": 1.793,
-            "end": 2.038
+            "end": 1.44
           },
           {
             "text": "see",
-            "start": 2.12,
-            "end": 2.351
+            "start": 1.495,
+            "end": 1.753
           },
           {
             "text": "So",
-            "start": 3.383,
-            "end": 3.736
+            "start": 2.758,
+            "end": 3.111
           },
           {
             "text": "people",
-            "start": 4.035,
-            "end": 4.416
+            "start": 3.41,
+            "end": 3.791
           },
           {
             "text": "in",
-            "start": 4.429,
-            "end": 4.552
+            "start": 3.804,
+            "end": 3.927
           },
           {
             "text": "the",
-            "start": 4.633,
-            "end": 4.701
+            "start": 4.008,
+            "end": 4.076
           },
           {
             "text": "community",
-            "start": 4.769,
-            "end": 5.34
+            "start": 4.144,
+            "end": 4.715
           },
           {
             "text": "should",
-            "start": 5.353,
-            "end": 5.598
+            "start": 4.728,
+            "end": 4.973
           },
           {
             "text": "respect",
-            "start": 5.625,
-            "end": 6.168
+            "start": 5.0,
+            "end": 5.543
           },
           {
             "text": "the",
-            "start": 6.264,
-            "end": 6.372
+            "start": 5.639,
+            "end": 5.747
           },
           {
             "text": "Adhana",
-            "start": 6.62,
-            "end": 7.149
+            "start": 5.995,
+            "end": 6.524
           },
           {
             "text": "and",
-            "start": 7.309,
-            "end": 7.458
+            "start": 6.684,
+            "end": 6.833
           },
           {
             "text": "the",
-            "start": 7.54,
-            "end": 7.608
+            "start": 6.915,
+            "end": 6.983
           },
           {
             "text": "bell",
-            "start": 7.716,
-            "end": 8.002
+            "start": 7.091,
+            "end": 7.377
           }
         ]
       }
@@ -70435,47 +70145,42 @@
           {
             "text": "Now",
             "start": 0.104,
-            "end": 0.417
+            "end": 0.444
           },
           {
-            "text": "Roman",
-            "start": 0.458,
-            "end": 0.838
-          },
-          {
-            "text": "1",
-            "start": 0.906,
-            "end": 1.11
+            "text": "I",
+            "start": 0.539,
+            "end": 0.634
           },
           {
             "text": "understand",
-            "start": 1.151,
-            "end": 1.68
+            "start": 0.702,
+            "end": 1.218
           },
           {
             "text": "the",
-            "start": 1.776,
-            "end": 1.857
+            "start": 1.314,
+            "end": 1.381
           },
           {
             "text": "meaning",
-            "start": 1.884,
-            "end": 2.251
+            "start": 1.409,
+            "end": 1.789
           },
           {
             "text": "of",
-            "start": 2.278,
-            "end": 2.387
+            "start": 1.816,
+            "end": 1.925
           },
           {
             "text": "the",
-            "start": 2.441,
-            "end": 2.536
+            "start": 1.979,
+            "end": 2.074
           },
           {
             "text": "sound",
-            "start": 2.632,
-            "end": 2.971
+            "start": 2.183,
+            "end": 2.536
           }
         ]
       }
@@ -70487,54 +70192,49 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.553
-          },
-          {
-            "text": "1",
-            "start": 0.621,
-            "end": 0.811
+            "end": 0.24
           },
           {
             "text": "will",
-            "start": 0.879,
-            "end": 1.028
+            "start": 0.295,
+            "end": 0.458
           },
           {
             "text": "also",
-            "start": 1.069,
-            "end": 1.368
+            "start": 0.498,
+            "end": 0.811
           },
           {
             "text": "hurry",
-            "start": 1.409,
-            "end": 1.68
+            "start": 0.852,
+            "end": 1.123
           },
           {
             "text": "to",
-            "start": 1.762,
-            "end": 1.843
+            "start": 1.205,
+            "end": 1.3
           },
           {
             "text": "get",
-            "start": 1.911,
-            "end": 2.129
+            "start": 1.368,
+            "end": 1.585
           },
           {
             "text": "ready",
-            "start": 2.21,
-            "end": 2.428
+            "start": 1.667,
+            "end": 1.884
           },
           {
             "text": "for",
-            "start": 2.455,
-            "end": 2.631
+            "start": 1.911,
+            "end": 2.088
           },
           {
             "text": "school",
-            "start": 2.699,
-            "end": 3.026
+            "start": 2.156,
+            "end": 2.468
           }
         ]
       }
@@ -70627,39 +70327,34 @@
             "end": 0.403
           },
           {
-            "text": "Roman",
-            "start": 0.498,
-            "end": 0.797
-          },
-          {
-            "text": "999",
-            "start": 0.879,
-            "end": 1.694
+            "text": "did",
+            "start": 0.526,
+            "end": 0.675
           },
           {
             "text": "you",
-            "start": 1.735,
-            "end": 1.789
+            "start": 0.729,
+            "end": 0.797
           },
           {
             "text": "learn",
-            "start": 1.83,
-            "end": 2.047
+            "start": 0.838,
+            "end": 1.083
           },
           {
             "text": "from",
-            "start": 2.088,
-            "end": 2.278
+            "start": 1.123,
+            "end": 1.341
           },
           {
             "text": "this",
-            "start": 2.36,
-            "end": 2.604
+            "start": 1.436,
+            "end": 1.68
           },
           {
             "text": "dialogue",
-            "start": 2.672,
-            "end": 3.161
+            "start": 1.748,
+            "end": 2.265
           }
         ]
       }
@@ -71184,39 +70879,34 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.553
-          },
-          {
-            "text": "1",
-            "start": 0.621,
-            "end": 0.852
+            "end": 0.267
           },
           {
             "text": "take",
-            "start": 0.879,
-            "end": 1.096
+            "start": 0.349,
+            "end": 0.566
           },
           {
             "text": "part",
-            "start": 1.191,
-            "end": 1.449
+            "start": 0.661,
+            "end": 0.92
           },
           {
             "text": "in",
-            "start": 1.504,
-            "end": 1.612
+            "start": 0.96,
+            "end": 1.069
           },
           {
             "text": "handcraft",
-            "start": 1.626,
-            "end": 2.278
+            "start": 1.083,
+            "end": 1.762
           },
           {
             "text": "work",
-            "start": 2.346,
-            "end": 2.699
+            "start": 1.83,
+            "end": 2.197
           }
         ]
       }
@@ -71808,37 +71498,32 @@
           {
             "text": "yes",
             "start": 0.39,
-            "end": 0.729
+            "end": 0.716
           },
           {
             "text": "what",
-            "start": 0.947,
-            "end": 1.137
+            "start": 0.92,
+            "end": 1.11
           },
           {
             "text": "challenges",
-            "start": 1.151,
-            "end": 1.83
+            "start": 1.123,
+            "end": 1.803
           },
           {
-            "text": "Roman",
-            "start": 1.884,
-            "end": 2.197
-          },
-          {
-            "text": "999",
-            "start": 2.265,
-            "end": 3.08
+            "text": "did",
+            "start": 1.871,
+            "end": 2.047
           },
           {
             "text": "you",
-            "start": 3.134,
-            "end": 3.216
+            "start": 2.102,
+            "end": 2.183
           },
           {
             "text": "face",
-            "start": 3.257,
-            "end": 3.718
+            "start": 2.265,
+            "end": 2.754
           }
         ]
       }
@@ -72297,37 +71982,32 @@
           {
             "text": "yes",
             "start": 0.39,
-            "end": 0.729
+            "end": 0.716
           },
           {
             "text": "what",
-            "start": 0.947,
-            "end": 1.137
+            "start": 0.92,
+            "end": 1.11
           },
           {
             "text": "challenges",
-            "start": 1.151,
-            "end": 1.83
+            "start": 1.123,
+            "end": 1.803
           },
           {
-            "text": "Roman",
-            "start": 1.884,
-            "end": 2.197
-          },
-          {
-            "text": "999",
-            "start": 2.265,
-            "end": 3.08
+            "text": "did",
+            "start": 1.871,
+            "end": 2.047
           },
           {
             "text": "you",
-            "start": 3.134,
-            "end": 3.216
+            "start": 2.102,
+            "end": 2.183
           },
           {
             "text": "face",
-            "start": 3.257,
-            "end": 3.718
+            "start": 2.265,
+            "end": 2.754
           }
         ]
       }
@@ -73794,14 +73474,9 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "C",
             "start": 0.104,
-            "end": 0.566
-          },
-          {
-            "text": "100",
-            "start": 0.634,
-            "end": 1.395
+            "end": 0.444
           }
         ]
       }
@@ -73813,14 +73488,9 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
-            "start": 0.104,
-            "end": 0.553
-          },
-          {
-            "text": "500",
-            "start": 0.593,
-            "end": 1.381
+            "text": "D",
+            "start": 0.102,
+            "end": 0.36
           }
         ]
       }
@@ -73862,21 +73532,21 @@
           {
             "text": "Which",
             "start": 0.103,
-            "end": 0.375
+            "end": 0.402
           },
           {
             "text": "colour",
-            "start": 0.443,
-            "end": 0.769
+            "start": 0.47,
+            "end": 0.783
           },
           {
             "text": "would",
-            "start": 0.81,
-            "end": 1.0
+            "start": 0.823,
+            "end": 1.014
           },
           {
             "text": "you",
-            "start": 1.054,
+            "start": 1.068,
             "end": 1.122
           },
           {
@@ -73886,43 +73556,38 @@
           },
           {
             "text": "to",
-            "start": 1.421,
-            "end": 1.503
+            "start": 1.435,
+            "end": 1.516
           },
           {
             "text": "use",
-            "start": 1.598,
-            "end": 1.842
+            "start": 1.611,
+            "end": 1.856
           },
           {
             "text": "to",
-            "start": 1.897,
-            "end": 1.978
+            "start": 1.91,
+            "end": 1.992
           },
           {
             "text": "decorate",
-            "start": 2.06,
-            "end": 2.549
+            "start": 2.073,
+            "end": 2.562
           },
           {
             "text": "hall",
-            "start": 2.59,
-            "end": 2.807
+            "start": 2.617,
+            "end": 2.834
           },
           {
             "text": "shape",
-            "start": 2.861,
-            "end": 3.092
+            "start": 2.889,
+            "end": 3.106
           },
           {
-            "text": "Roman",
-            "start": 3.174,
-            "end": 3.486
-          },
-          {
-            "text": "500",
-            "start": 3.527,
-            "end": 4.207
+            "text": "D",
+            "start": 3.242,
+            "end": 3.351
           }
         ]
       }
@@ -74018,42 +73683,37 @@
           {
             "text": "colour",
             "start": 0.607,
-            "end": 0.906
+            "end": 0.92
           },
           {
             "text": "used",
-            "start": 0.96,
-            "end": 1.191
+            "start": 0.988,
+            "end": 1.218
           },
           {
             "text": "to",
-            "start": 1.232,
-            "end": 1.314
+            "start": 1.259,
+            "end": 1.341
           },
           {
             "text": "decorate",
-            "start": 1.395,
-            "end": 1.898
+            "start": 1.422,
+            "end": 1.925
           },
           {
             "text": "hall",
-            "start": 1.939,
-            "end": 2.156
+            "start": 1.966,
+            "end": 2.183
           },
           {
             "text": "shape",
-            "start": 2.197,
+            "start": 2.237,
             "end": 2.455
           },
           {
-            "text": "Roman",
+            "text": "C",
             "start": 2.536,
-            "end": 2.862
-          },
-          {
-            "text": "100",
-            "start": 2.944,
-            "end": 3.583
+            "end": 2.767
           }
         ]
       }
@@ -75560,22 +75220,17 @@
           {
             "text": "letter",
             "start": 0.104,
-            "end": 0.539
+            "end": 0.485
           },
           {
-            "text": "Roman",
-            "start": 0.566,
-            "end": 0.933
-          },
-          {
-            "text": "100",
-            "start": 1.001,
-            "end": 1.49
+            "text": "C",
+            "start": 0.553,
+            "end": 0.702
           },
           {
             "text": "Decorating",
-            "start": 1.585,
-            "end": 2.319
+            "start": 0.797,
+            "end": 1.545
           }
         ]
       }
@@ -75632,23 +75287,18 @@
         "word_timestamps": [
           {
             "text": "letter",
-            "start": 0.104,
-            "end": 0.526
+            "start": 0.103,
+            "end": 0.511
           },
           {
-            "text": "Roman",
-            "start": 0.553,
-            "end": 0.933
-          },
-          {
-            "text": "500",
-            "start": 0.974,
-            "end": 1.626
+            "text": "D",
+            "start": 0.606,
+            "end": 0.701
           },
           {
             "text": "Weaving",
-            "start": 1.694,
-            "end": 2.115
+            "start": 0.742,
+            "end": 1.204
           }
         ]
       }
@@ -75723,39 +75373,34 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.539
-          },
-          {
-            "text": "1",
-            "start": 0.621,
-            "end": 0.852
+            "end": 0.267
           },
           {
             "text": "take",
-            "start": 0.892,
-            "end": 1.11
+            "start": 0.349,
+            "end": 0.553
           },
           {
             "text": "part",
-            "start": 1.191,
-            "end": 1.436
+            "start": 0.648,
+            "end": 0.892
           },
           {
             "text": "in",
-            "start": 1.477,
-            "end": 1.613
+            "start": 0.96,
+            "end": 1.11
           },
           {
             "text": "sound",
-            "start": 1.667,
-            "end": 1.952
+            "start": 1.164,
+            "end": 1.449
           },
           {
             "text": "design",
-            "start": 2.034,
-            "end": 2.523
+            "start": 1.531,
+            "end": 2.02
           }
         ]
       }
@@ -76287,63 +75932,58 @@
         "word_timestamps": [
           {
             "text": "Sister",
-            "start": 0.179,
+            "start": 0.193,
             "end": 0.536
           },
           {
             "text": "brother",
             "start": 0.694,
-            "end": 1.18
+            "end": 1.194
           },
           {
-            "text": "Roman",
-            "start": 1.309,
-            "end": 1.752
-          },
-          {
-            "text": "1",
-            "start": 1.781,
-            "end": 2.138
+            "text": "I",
+            "start": 1.337,
+            "end": 1.437
           },
           {
             "text": "do",
-            "start": 2.181,
-            "end": 2.353
+            "start": 1.48,
+            "end": 1.652
           },
           {
             "text": "not",
-            "start": 2.396,
-            "end": 2.653
+            "start": 1.695,
+            "end": 1.952
           },
           {
             "text": "understand",
-            "start": 2.696,
-            "end": 3.311
+            "start": 1.995,
+            "end": 2.61
           },
           {
             "text": "the",
-            "start": 3.354,
-            "end": 3.497
+            "start": 2.653,
+            "end": 2.796
           },
           {
             "text": "words",
-            "start": 3.54,
-            "end": 3.826
+            "start": 2.839,
+            "end": 3.125
           },
           {
             "text": "you",
-            "start": 3.869,
-            "end": 4.097
+            "start": 3.168,
+            "end": 3.382
           },
           {
             "text": "are",
-            "start": 4.155,
-            "end": 4.384
+            "start": 3.425,
+            "end": 3.654
           },
           {
             "text": "saying",
-            "start": 4.426,
-            "end": 4.884
+            "start": 3.697,
+            "end": 4.183
           }
         ]
       }
@@ -76401,67 +76041,57 @@
           {
             "text": "do",
             "start": 0.408,
-            "end": 0.579
+            "end": 0.622
           },
           {
-            "text": "Roman",
-            "start": 0.622,
-            "end": 1.008
-          },
-          {
-            "text": "1",
-            "start": 1.037,
-            "end": 1.394
+            "text": "I",
+            "start": 0.665,
+            "end": 0.794
           },
           {
             "text": "not",
-            "start": 1.437,
-            "end": 1.723
+            "start": 0.837,
+            "end": 1.094
           },
           {
             "text": "understand",
-            "start": 1.766,
-            "end": 2.438
+            "start": 1.137,
+            "end": 1.823
           },
           {
             "text": "at",
-            "start": 2.496,
-            "end": 2.724
+            "start": 1.881,
+            "end": 2.095
           },
           {
             "text": "school",
-            "start": 2.753,
-            "end": 3.139
+            "start": 2.124,
+            "end": 2.496
           },
           {
             "text": "when",
-            "start": 3.182,
-            "end": 3.454
+            "start": 2.539,
+            "end": 2.839
           },
           {
-            "text": "Roman",
-            "start": 3.497,
-            "end": 3.883
-          },
-          {
-            "text": "1",
-            "start": 3.912,
-            "end": 4.269
+            "text": "I",
+            "start": 2.882,
+            "end": 2.968
           },
           {
             "text": "want",
-            "start": 4.312,
-            "end": 4.584
+            "start": 3.011,
+            "end": 3.282
           },
           {
             "text": "to",
-            "start": 4.627,
-            "end": 4.741
+            "start": 3.339,
+            "end": 3.454
           },
           {
             "text": "study",
-            "start": 4.784,
-            "end": 5.256
+            "start": 3.482,
+            "end": 3.954
           }
         ]
       }
@@ -76500,37 +76130,32 @@
           {
             "text": "is",
             "start": 3.475,
-            "end": 3.761
+            "end": 3.747
           },
           {
             "text": "why",
             "start": 3.79,
-            "end": 3.947
+            "end": 3.99
           },
           {
-            "text": "Roman",
-            "start": 3.99,
-            "end": 4.405
-          },
-          {
-            "text": "1",
-            "start": 4.448,
-            "end": 4.82
+            "text": "I",
+            "start": 4.033,
+            "end": 4.176
           },
           {
             "text": "do",
-            "start": 4.863,
-            "end": 5.034
+            "start": 4.219,
+            "end": 4.405
           },
           {
             "text": "not",
-            "start": 5.077,
-            "end": 5.349
+            "start": 4.448,
+            "end": 4.72
           },
           {
             "text": "understand",
-            "start": 5.392,
-            "end": 6.064
+            "start": 4.763,
+            "end": 5.449
           }
         ]
       }
@@ -77336,49 +76961,44 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.539
-          },
-          {
-            "text": "1",
-            "start": 0.607,
-            "end": 0.784
+            "end": 0.254
           },
           {
             "text": "have",
-            "start": 0.811,
-            "end": 1.042
+            "start": 0.267,
+            "end": 0.498
           },
           {
             "text": "heard",
-            "start": 1.055,
-            "end": 1.341
+            "start": 0.539,
+            "end": 0.838
           },
           {
             "text": "all",
-            "start": 1.422,
-            "end": 1.572
+            "start": 0.92,
+            "end": 1.055
           },
           {
             "text": "the",
-            "start": 1.653,
-            "end": 1.721
+            "start": 1.123,
+            "end": 1.191
           },
           {
             "text": "words",
-            "start": 1.762,
-            "end": 2.129
+            "start": 1.232,
+            "end": 1.599
           },
           {
             "text": "you",
-            "start": 2.156,
-            "end": 2.237
+            "start": 1.613,
+            "end": 1.694
           },
           {
             "text": "said",
-            "start": 2.36,
-            "end": 2.618
+            "start": 1.803,
+            "end": 2.074
           }
         ]
       }
@@ -77493,44 +77113,39 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.553
-          },
-          {
-            "text": "1",
-            "start": 0.607,
-            "end": 0.797
+            "end": 0.267
           },
           {
             "text": "will",
-            "start": 0.865,
-            "end": 1.001
+            "start": 0.322,
+            "end": 0.498
           },
           {
             "text": "always",
-            "start": 1.055,
-            "end": 1.422
+            "start": 0.553,
+            "end": 0.92
           },
           {
             "text": "love",
-            "start": 1.449,
-            "end": 1.721
+            "start": 0.933,
+            "end": 1.218
           },
           {
             "text": "my",
-            "start": 1.748,
-            "end": 1.884
+            "start": 1.246,
+            "end": 1.382
           },
           {
             "text": "country",
-            "start": 1.952,
-            "end": 2.373
+            "start": 1.449,
+            "end": 1.884
           },
           {
             "text": "Tanzania",
-            "start": 2.621,
-            "end": 3.351
+            "start": 2.132,
+            "end": 2.862
           }
         ]
       }
@@ -77656,47 +77271,42 @@
           {
             "text": "3",
             "start": 0.104,
-            "end": 0.349
+            "end": 0.376
           },
           {
             "text": "What",
-            "start": 0.403,
-            "end": 0.634
+            "start": 0.417,
+            "end": 0.661
           },
           {
-            "text": "Roman",
-            "start": 0.743,
-            "end": 1.055
-          },
-          {
-            "text": "999",
-            "start": 1.123,
-            "end": 1.925
+            "text": "did",
+            "start": 0.784,
+            "end": 0.947
           },
           {
             "text": "you",
-            "start": 1.979,
-            "end": 2.047
+            "start": 1.015,
+            "end": 1.083
           },
           {
             "text": "enjoy",
-            "start": 2.047,
-            "end": 2.414
+            "start": 1.096,
+            "end": 1.477
           },
           {
             "text": "while",
-            "start": 2.468,
-            "end": 2.672
+            "start": 1.531,
+            "end": 1.748
           },
           {
             "text": "reciting",
-            "start": 2.713,
-            "end": 3.365
+            "start": 1.789,
+            "end": 2.482
           },
           {
             "text": "ngonjera",
-            "start": 3.613,
-            "end": 4.257
+            "start": 2.73,
+            "end": 3.374
           }
         ]
       }
@@ -77968,24 +77578,24 @@
             "end": 3.057
           },
           {
-            "text": "Roman",
+            "text": "I",
             "start": 4.062,
-            "end": 4.497
+            "end": 4.321
           },
           {
-            "text": "1 am",
-            "start": 4.579,
-            "end": 5.217
+            "text": "am",
+            "start": 4.321,
+            "end": 4.443
           },
           {
             "text": "a",
-            "start": 5.272,
-            "end": 5.408
+            "start": 4.443,
+            "end": 4.524
           },
           {
             "text": "cow",
-            "start": 5.503,
-            "end": 5.747
+            "start": 4.62,
+            "end": 4.864
           }
         ]
       }
@@ -77997,39 +77607,34 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.512
-          },
-          {
-            "text": "1",
-            "start": 0.58,
-            "end": 0.838
+            "end": 0.24
           },
           {
             "text": "give",
-            "start": 0.865,
-            "end": 1.055
+            "start": 0.335,
+            "end": 0.512
           },
           {
             "text": "you",
-            "start": 1.096,
-            "end": 1.151
+            "start": 0.566,
+            "end": 0.621
           },
           {
             "text": "milk",
-            "start": 1.205,
-            "end": 1.517
+            "start": 0.675,
+            "end": 0.974
           },
           {
             "text": "and",
-            "start": 1.572,
-            "end": 1.721
+            "start": 1.015,
+            "end": 1.164
           },
           {
             "text": "meat",
-            "start": 1.762,
-            "end": 2.061
+            "start": 1.205,
+            "end": 1.504
           }
         ]
       }
@@ -78134,69 +77739,64 @@
             "end": 2.866
           },
           {
-            "text": "Roman",
+            "text": "I",
             "start": 3.859,
-            "end": 4.307
+            "end": 4.13
           },
           {
-            "text": "1 am",
-            "start": 4.375,
-            "end": 5.0
+            "text": "am",
+            "start": 4.13,
+            "end": 4.198
           },
           {
             "text": "the",
-            "start": 5.082,
-            "end": 5.149
+            "start": 4.28,
+            "end": 4.348
           },
           {
             "text": "tallest",
-            "start": 5.217,
-            "end": 5.666
+            "start": 4.429,
+            "end": 4.891
           },
           {
             "text": "of",
-            "start": 5.693,
-            "end": 5.842
+            "start": 4.932,
+            "end": 5.068
           },
           {
             "text": "all",
-            "start": 5.897,
-            "end": 6.101
+            "start": 5.136,
+            "end": 5.353
           },
           {
             "text": "animals",
-            "start": 6.155,
-            "end": 6.861
+            "start": 5.421,
+            "end": 6.141
           },
           {
-            "text": "Roman",
-            "start": 7.88,
-            "end": 8.329
-          },
-          {
-            "text": "1",
-            "start": 8.397,
-            "end": 8.573
+            "text": "I",
+            "start": 7.16,
+            "end": 7.31
           },
           {
             "text": "have",
-            "start": 8.601,
-            "end": 8.845
+            "start": 7.323,
+            "end": 7.568
           },
           {
             "text": "an",
-            "start": 8.859,
-            "end": 8.981
+            "start": 7.595,
+            "end": 7.717
           },
           {
             "text": "attractive",
-            "start": 8.981,
-            "end": 9.606
+            "start": 7.717,
+            "end": 8.356
           },
           {
             "text": "neck",
-            "start": 9.647,
-            "end": 10.0
+            "start": 8.397,
+            "end": 8.777
           }
         ]
       }
@@ -78326,54 +77926,49 @@
             "end": 3.966
           },
           {
-            "text": "Roman",
+            "text": "I",
             "start": 5.041,
-            "end": 5.503
+            "end": 5.299
           },
           {
-            "text": "1 am",
-            "start": 5.584,
-            "end": 6.196
+            "text": "am",
+            "start": 5.299,
+            "end": 5.408
           },
           {
             "text": "the",
-            "start": 6.291,
-            "end": 6.359
+            "start": 5.489,
+            "end": 5.557
           },
           {
             "text": "most",
-            "start": 6.386,
-            "end": 6.739
+            "start": 5.584,
+            "end": 5.924
           },
           {
             "text": "attractive",
-            "start": 6.78,
-            "end": 7.514
+            "start": 5.978,
+            "end": 6.712
           },
           {
-            "text": "Roman",
-            "start": 8.533,
-            "end": 8.995
-          },
-          {
-            "text": "1",
-            "start": 9.049,
-            "end": 9.266
+            "text": "I",
+            "start": 7.731,
+            "end": 7.894
           },
           {
             "text": "have",
-            "start": 9.293,
-            "end": 9.565
+            "start": 7.908,
+            "end": 8.193
           },
           {
             "text": "ordered",
-            "start": 9.62,
-            "end": 10.027
+            "start": 8.261,
+            "end": 8.614
           },
           {
             "text": "colours",
-            "start": 10.068,
-            "end": 10.625
+            "start": 8.682,
+            "end": 9.226
           }
         ]
       }
@@ -79110,99 +78705,94 @@
             "end": 1.58
           },
           {
-            "text": "Roman",
-            "start": 1.852,
-            "end": 2.205
-          },
-          {
-            "text": "1",
-            "start": 2.287,
-            "end": 2.491
+            "text": "I",
+            "start": 1.838,
+            "end": 1.947
           },
           {
             "text": "had",
-            "start": 2.518,
-            "end": 2.721
+            "start": 1.961,
+            "end": 2.205
           },
           {
             "text": "2",
-            "start": 2.83,
-            "end": 3.02
+            "start": 2.287,
+            "end": 2.463
           },
           {
             "text": "amounts",
-            "start": 3.088,
-            "end": 3.55
+            "start": 2.531,
+            "end": 2.98
           },
           {
             "text": "of",
-            "start": 3.605,
-            "end": 3.781
+            "start": 3.007,
+            "end": 3.183
           },
           {
             "text": "1,000",
-            "start": 3.781,
-            "end": 4.42
+            "start": 3.183,
+            "end": 3.808
           },
           {
             "text": "shillings",
-            "start": 4.474,
-            "end": 5.14
+            "start": 3.863,
+            "end": 4.529
           },
           {
             "text": "One",
-            "start": 6.136,
-            "end": 6.422
+            "start": 5.525,
+            "end": 5.81
           },
           {
             "text": "was",
-            "start": 6.489,
-            "end": 6.707
+            "start": 5.878,
+            "end": 6.095
           },
           {
             "text": "to",
-            "start": 6.748,
-            "end": 6.815
+            "start": 6.136,
+            "end": 6.204
           },
           {
             "text": "buy",
-            "start": 6.897,
-            "end": 7.019
+            "start": 6.286,
+            "end": 6.408
           },
           {
             "text": "flour",
-            "start": 7.046,
-            "end": 7.576
+            "start": 6.435,
+            "end": 6.965
           },
           {
             "text": "The",
-            "start": 8.595,
-            "end": 8.786
+            "start": 7.984,
+            "end": 8.174
           },
           {
             "text": "other",
-            "start": 8.881,
-            "end": 9.18
+            "start": 8.269,
+            "end": 8.568
           },
           {
             "text": "was",
-            "start": 9.22,
-            "end": 9.397
+            "start": 8.609,
+            "end": 8.786
           },
           {
             "text": "to",
-            "start": 9.451,
-            "end": 9.519
+            "start": 8.84,
+            "end": 8.908
           },
           {
             "text": "buy",
-            "start": 9.601,
-            "end": 9.737
+            "start": 8.989,
+            "end": 9.125
           },
           {
             "text": "vegetables",
-            "start": 9.764,
-            "end": 10.511
+            "start": 9.152,
+            "end": 9.9
           }
         ]
       }
@@ -79216,117 +78806,107 @@
           {
             "text": "Now",
             "start": 0.104,
-            "end": 0.43
+            "end": 0.417
           },
           {
-            "text": "Roman",
-            "start": 0.471,
-            "end": 0.838
-          },
-          {
-            "text": "1",
-            "start": 0.906,
-            "end": 1.083
+            "text": "I",
+            "start": 0.498,
+            "end": 0.621
           },
           {
             "text": "have",
-            "start": 1.11,
-            "end": 1.354
+            "start": 0.634,
+            "end": 0.892
           },
           {
             "text": "mixed",
-            "start": 1.368,
-            "end": 1.694
+            "start": 0.92,
+            "end": 1.259
           },
           {
             "text": "them",
-            "start": 1.762,
-            "end": 2.034
+            "start": 1.354,
+            "end": 1.64
           },
           {
             "text": "and",
-            "start": 2.237,
-            "end": 2.373
+            "start": 1.857,
+            "end": 2.007
           },
           {
-            "text": "Roman",
-            "start": 2.441,
-            "end": 2.781
-          },
-          {
-            "text": "1",
-            "start": 2.862,
-            "end": 3.039
+            "text": "I",
+            "start": 2.007,
+            "end": 2.115
           },
           {
             "text": "do",
-            "start": 3.093,
-            "end": 3.175
+            "start": 2.197,
+            "end": 2.265
           },
           {
             "text": "not",
-            "start": 3.202,
-            "end": 3.515
+            "start": 2.292,
+            "end": 2.591
           },
           {
             "text": "know",
-            "start": 3.528,
-            "end": 3.718
+            "start": 2.604,
+            "end": 2.795
           },
           {
             "text": "which",
-            "start": 3.773,
-            "end": 4.017
+            "start": 2.849,
+            "end": 3.107
           },
           {
             "text": "one",
-            "start": 4.058,
-            "end": 4.262
+            "start": 3.134,
+            "end": 3.365
           },
           {
             "text": "is",
-            "start": 4.289,
-            "end": 4.452
+            "start": 3.392,
+            "end": 3.569
           },
           {
             "text": "for",
-            "start": 4.466,
-            "end": 4.574
+            "start": 3.583,
+            "end": 3.691
           },
           {
             "text": "flour",
-            "start": 4.602,
-            "end": 5.009
+            "start": 3.718,
+            "end": 4.126
           },
           {
             "text": "and",
-            "start": 5.064,
-            "end": 5.227
+            "start": 4.18,
+            "end": 4.33
           },
           {
             "text": "which",
-            "start": 5.267,
-            "end": 5.512
+            "start": 4.384,
+            "end": 4.629
           },
           {
             "text": "one",
-            "start": 5.553,
-            "end": 5.77
+            "start": 4.67,
+            "end": 4.887
           },
           {
             "text": "is",
-            "start": 5.797,
-            "end": 5.96
+            "start": 4.914,
+            "end": 5.064
           },
           {
             "text": "for",
-            "start": 5.974,
-            "end": 6.083
+            "start": 5.077,
+            "end": 5.186
           },
           {
             "text": "vegetables",
-            "start": 6.11,
-            "end": 6.871
+            "start": 5.213,
+            "end": 5.987
           }
         ]
       }
@@ -79537,57 +79117,52 @@
           {
             "text": "to",
             "start": 1.898,
-            "end": 1.952
+            "end": 1.966
           },
           {
             "text": "the",
-            "start": 2.02,
-            "end": 2.088
+            "start": 2.034,
+            "end": 2.102
           },
           {
             "text": "image",
             "start": 2.197,
-            "end": 2.577
+            "end": 2.591
           },
           {
             "text": "Why",
-            "start": 2.876,
-            "end": 3.039
+            "start": 2.89,
+            "end": 3.053
           },
           {
             "text": "do",
-            "start": 3.134,
-            "end": 3.216
+            "start": 3.148,
+            "end": 3.229
           },
           {
             "text": "you",
-            "start": 3.243,
-            "end": 3.352
+            "start": 3.257,
+            "end": 3.365
           },
           {
             "text": "imitate",
-            "start": 3.406,
-            "end": 3.895
+            "start": 3.433,
+            "end": 3.922
           },
           {
             "text": "everything",
-            "start": 3.963,
-            "end": 4.439
+            "start": 3.99,
+            "end": 4.52
           },
           {
-            "text": "Roman",
-            "start": 4.507,
-            "end": 4.819
-          },
-          {
-            "text": "1",
-            "start": 4.914,
-            "end": 5.104
+            "text": "I",
+            "start": 4.574,
+            "end": 4.697
           },
           {
             "text": "do",
-            "start": 5.199,
-            "end": 5.335
+            "start": 4.805,
+            "end": 4.955
           }
         ]
       }
@@ -80906,59 +80481,54 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.539
-          },
-          {
-            "text": "1",
-            "start": 0.607,
-            "end": 0.824
+            "end": 0.254
           },
           {
             "text": "take",
-            "start": 0.865,
-            "end": 1.069
+            "start": 0.335,
+            "end": 0.539
           },
           {
             "text": "part",
-            "start": 1.151,
-            "end": 1.409
+            "start": 0.634,
+            "end": 0.879
           },
           {
             "text": "in",
-            "start": 1.449,
-            "end": 1.585
+            "start": 0.92,
+            "end": 1.055
           },
           {
             "text": "art",
-            "start": 1.64,
-            "end": 1.871
+            "start": 1.11,
+            "end": 1.327
           },
           {
             "text": "activities",
-            "start": 1.884,
-            "end": 2.591
+            "start": 1.341,
+            "end": 2.034
           },
           {
             "text": "that",
-            "start": 2.632,
-            "end": 2.862
+            "start": 2.074,
+            "end": 2.319
           },
           {
             "text": "use",
-            "start": 2.89,
-            "end": 3.08
+            "start": 2.346,
+            "end": 2.536
           },
           {
             "text": "body",
-            "start": 3.161,
-            "end": 3.433
+            "start": 2.618,
+            "end": 2.862
           },
           {
             "text": "movements",
-            "start": 3.474,
-            "end": 4.208
+            "start": 2.903,
+            "end": 3.664
           }
         ]
       }
@@ -81482,37 +81052,32 @@
           {
             "text": "yes",
             "start": 0.376,
-            "end": 0.702
+            "end": 0.716
           },
           {
             "text": "what",
-            "start": 0.92,
-            "end": 1.178
+            "start": 0.906,
+            "end": 1.164
           },
           {
-            "text": "Roman",
-            "start": 1.3,
-            "end": 1.585
-          },
-          {
-            "text": "999",
-            "start": 1.64,
-            "end": 2.496
+            "text": "did",
+            "start": 1.286,
+            "end": 1.449
           },
           {
             "text": "you",
-            "start": 2.55,
-            "end": 2.632
+            "start": 1.504,
+            "end": 1.585
           },
           {
             "text": "act",
-            "start": 2.713,
-            "end": 2.998
+            "start": 1.68,
+            "end": 1.993
           },
           {
             "text": "in",
-            "start": 3.134,
-            "end": 3.352
+            "start": 2.115,
+            "end": 2.373
           }
         ]
       }
@@ -83489,64 +83054,59 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.539
-          },
-          {
-            "text": "1",
-            "start": 0.607,
-            "end": 0.824
+            "end": 0.254
           },
           {
             "text": "take",
-            "start": 0.852,
-            "end": 1.055
+            "start": 0.335,
+            "end": 0.539
           },
           {
             "text": "part",
-            "start": 1.137,
-            "end": 1.382
+            "start": 0.634,
+            "end": 0.852
           },
           {
             "text": "in",
-            "start": 1.409,
-            "end": 1.531
+            "start": 0.879,
+            "end": 1.001
           },
           {
             "text": "a",
-            "start": 1.531,
-            "end": 1.612
+            "start": 1.001,
+            "end": 1.096
           },
           {
             "text": "game",
-            "start": 1.694,
-            "end": 1.884
+            "start": 1.178,
+            "end": 1.381
           },
           {
             "text": "of",
-            "start": 1.911,
-            "end": 2.074
+            "start": 1.409,
+            "end": 1.558
           },
           {
             "text": "running",
-            "start": 2.115,
-            "end": 2.428
+            "start": 1.613,
+            "end": 1.925
           },
           {
             "text": "with",
-            "start": 2.482,
-            "end": 2.618
+            "start": 1.979,
+            "end": 2.129
           },
           {
             "text": "a",
-            "start": 2.618,
-            "end": 2.699
+            "start": 2.129,
+            "end": 2.21
           },
           {
             "text": "stick",
-            "start": 2.808,
-            "end": 3.161
+            "start": 2.319,
+            "end": 2.686
           }
         ]
       }
@@ -84107,18 +83667,13 @@
         "word_timestamps": [
           {
             "text": "letter",
-            "start": 0.104,
-            "end": 0.526
+            "start": 0.103,
+            "end": 0.497
           },
           {
-            "text": "Roman",
-            "start": 0.553,
-            "end": 0.933
-          },
-          {
-            "text": "100",
-            "start": 1.015,
-            "end": 1.748
+            "text": "C",
+            "start": 0.565,
+            "end": 0.81
           }
         ]
       }
@@ -85627,29 +85182,29 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.553
+            "end": 0.362
           },
           {
-            "text": "1 am",
-            "start": 0.634,
-            "end": 1.327
+            "text": "am",
+            "start": 0.362,
+            "end": 0.512
           },
           {
             "text": "hitting",
-            "start": 1.341,
-            "end": 1.708
+            "start": 0.526,
+            "end": 0.865
           },
           {
             "text": "the",
-            "start": 1.776,
-            "end": 1.843
+            "start": 0.96,
+            "end": 1.028
           },
           {
             "text": "target",
-            "start": 1.925,
-            "end": 2.428
+            "start": 1.11,
+            "end": 1.612
           }
         ]
       }
@@ -89010,34 +88565,34 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.553
+            "end": 0.376
           },
           {
-            "text": "1 am",
-            "start": 0.621,
-            "end": 1.218
+            "text": "am",
+            "start": 0.376,
+            "end": 0.512
           },
           {
             "text": "looking",
-            "start": 1.246,
-            "end": 1.612
+            "start": 0.566,
+            "end": 0.92
           },
           {
             "text": "for",
-            "start": 1.64,
-            "end": 1.776
+            "start": 0.933,
+            "end": 1.069
           },
           {
             "text": "the",
-            "start": 1.816,
-            "end": 1.911
+            "start": 1.123,
+            "end": 1.205
           },
           {
             "text": "ball",
-            "start": 2.007,
-            "end": 2.319
+            "start": 1.3,
+            "end": 1.613
           }
         ]
       }
@@ -92007,49 +91562,44 @@
       {
         "word_timestamps": [
           {
-            "text": "Roman",
+            "text": "I",
             "start": 0.104,
-            "end": 0.553
-          },
-          {
-            "text": "1",
-            "start": 0.621,
-            "end": 0.811
+            "end": 0.254
           },
           {
             "text": "use",
-            "start": 0.892,
-            "end": 1.11
+            "start": 0.322,
+            "end": 0.553
           },
           {
             "text": "digital",
-            "start": 1.191,
-            "end": 1.612
+            "start": 0.634,
+            "end": 1.055
           },
           {
             "text": "programs",
-            "start": 1.708,
-            "end": 2.292
+            "start": 1.151,
+            "end": 1.708
           },
           {
             "text": "to",
-            "start": 2.333,
-            "end": 2.414
+            "start": 1.748,
+            "end": 1.843
           },
           {
             "text": "learn",
-            "start": 2.441,
-            "end": 2.699
+            "start": 1.871,
+            "end": 2.129
           },
           {
             "text": "different",
-            "start": 2.767,
-            "end": 3.202
+            "start": 2.197,
+            "end": 2.645
           },
           {
             "text": "games",
-            "start": 3.284,
-            "end": 3.732
+            "start": 2.727,
+            "end": 3.202
           }
         ]
       }
@@ -95224,87 +94774,82 @@
           {
             "text": "Translators",
             "start": 0.104,
-            "end": 1.055
+            "end": 1.015
           },
           {
             "text": "Ms",
-            "start": 1.273,
-            "end": 1.558
+            "start": 1.246,
+            "end": 1.531
           },
           {
             "text": "Joyce",
-            "start": 1.64,
-            "end": 1.979
+            "start": 1.613,
+            "end": 1.925
           },
           {
-            "text": "Roman",
-            "start": 2.02,
-            "end": 2.387
-          },
-          {
-            "text": "100",
-            "start": 2.455,
-            "end": 3.189
+            "text": "C",
+            "start": 1.925,
+            "end": 2.115
           },
           {
             "text": "Chamuhulo",
-            "start": 4.212,
-            "end": 5.014
+            "start": 2.333,
+            "end": 3.08
           },
           {
             "text": "TIE",
-            "start": 5.299,
-            "end": 5.557
+            "start": 3.352,
+            "end": 3.596
           },
           {
             "text": "Mr",
-            "start": 5.815,
-            "end": 6.141
+            "start": 3.841,
+            "end": 4.18
           },
           {
             "text": "Charles",
-            "start": 6.209,
-            "end": 6.603
+            "start": 4.235,
+            "end": 4.615
           },
           {
             "text": "Manyama",
-            "start": 6.63,
-            "end": 7.133
+            "start": 4.642,
+            "end": 5.145
           },
           {
             "text": "TIE",
-            "start": 7.391,
-            "end": 7.649
+            "start": 5.417,
+            "end": 5.675
           },
           {
             "text": "and",
-            "start": 7.894,
-            "end": 8.016
+            "start": 5.892,
+            "end": 6.015
           },
           {
             "text": "Mr",
-            "start": 8.071,
-            "end": 8.383
+            "start": 6.069,
+            "end": 6.382
           },
           {
             "text": "Given",
-            "start": 8.465,
-            "end": 8.804
+            "start": 6.463,
+            "end": 6.789
           },
           {
             "text": "A",
-            "start": 8.872,
-            "end": 9.008
+            "start": 6.857,
+            "end": 6.966
           },
           {
             "text": "Mbakilwa",
-            "start": 9.185,
-            "end": 9.823
+            "start": 7.142,
+            "end": 7.781
           },
           {
             "text": "TIE",
-            "start": 10.095,
-            "end": 10.34
+            "start": 8.039,
+            "end": 8.257
           }
         ]
       }
@@ -95500,62 +95045,57 @@
           {
             "text": "Coordinators",
             "start": 0.104,
-            "end": 1.083
+            "end": 1.11
           },
           {
             "text": "Ms",
-            "start": 1.3,
-            "end": 1.585
+            "start": 1.354,
+            "end": 1.64
           },
           {
             "text": "Joyce",
-            "start": 1.667,
-            "end": 1.979
+            "start": 1.721,
+            "end": 2.047
           },
           {
-            "text": "Roman",
-            "start": 2.02,
-            "end": 2.373
-          },
-          {
-            "text": "100",
-            "start": 2.455,
-            "end": 3.175
+            "text": "C",
+            "start": 2.047,
+            "end": 2.237
           },
           {
             "text": "Chamuhulo",
-            "start": 4.212,
-            "end": 5.041
+            "start": 2.441,
+            "end": 3.189
           },
           {
             "text": "TIE",
-            "start": 5.353,
-            "end": 5.598
+            "start": 3.515,
+            "end": 3.773
           },
           {
             "text": "and",
-            "start": 5.815,
-            "end": 5.965
+            "start": 4.017,
+            "end": 4.153
           },
           {
             "text": "Mr",
-            "start": 6.019,
-            "end": 6.332
+            "start": 4.194,
+            "end": 4.493
           },
           {
             "text": "Charles",
-            "start": 6.399,
-            "end": 6.793
+            "start": 4.561,
+            "end": 4.914
           },
           {
             "text": "Manyama",
-            "start": 6.821,
-            "end": 7.31
+            "start": 4.941,
+            "end": 5.417
           },
           {
             "text": "TIE",
-            "start": 7.582,
-            "end": 7.812
+            "start": 5.675,
+            "end": 5.92
           }
         ]
       }

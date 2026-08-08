@@ -27,9 +27,35 @@ def clean(text: str) -> str:
     text = text.replace("\n", ". ").replace("•", " ")
     text = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", text)
     text = re.sub(r"(?<=\d)\.(?=\s|$)", "", text) # never say “six dot”
+    text = speak_roman_numerals(text)
     text = re.sub(r"\(([a-z])\)", lambda m: f" letter {m.group(1).upper()} ", text)
-    text = re.sub(r"\b([ivxlcdm]+)\b", lambda m: "Roman " + str(roman(m.group(1))), text, flags=re.I)
     return re.sub(r"\s+", " ", text).strip(" .")
+
+def speak_roman_numerals(text: str) -> str:
+    """Expand Roman numerals only when their position proves they are numerals.
+
+    A Roman-looking sequence inside ordinary prose is not sufficient: English
+    words and labels such as I, did, C, D and initials must remain untouched.
+    The book uses Roman numerals as standalone contents-page numbers and may use
+    i-x as an explicit leading list marker.
+    """
+    stripped = text.strip()
+    if re.fullmatch(r"(?:ii|iii|iv|vi|vii|viii|ix|xi|xii|xiii|xiv|xv)", stripped):
+        return "Roman " + str(roman(stripped))
+
+    list_numerals = r"i|ii|iii|iv|v|vi|vii|viii|ix|x"
+    text = re.sub(
+        rf"^\s*\(({list_numerals})\)(?=\s)",
+        lambda m: "Roman " + str(roman(m.group(1))) + ".",
+        text,
+        flags=re.I,
+    )
+    return re.sub(
+        rf"^\s*({list_numerals})\.(?=\s)",
+        lambda m: "Roman " + str(roman(m.group(1))) + ".",
+        text,
+        flags=re.I,
+    )
 
 def roman(value: str) -> int:
     nums={"i":1,"v":5,"x":10,"l":50,"c":100,"d":500,"m":1000}; total=prev=0
