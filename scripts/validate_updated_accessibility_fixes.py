@@ -145,6 +145,10 @@ def main() -> None:
     require((ROOT / "images/pg014_mouse.png").exists(), "Original community-activity character asset is missing", failures)
     require('style="border-radius: 50%;"' in community_page, "Community-activity speech bubble is not oval", failures)
     require(community_page.count('clip-path: polygon(100% 0, 0 50%, 100% 100%)') == 2, "Community-activity speech bubble tail is incomplete", failures)
+    question_page = (ROOT / "pg016_sec001.html").read_text(encoding="utf-8")
+    proportional_number_class = 'text-[1.15rem] leading-[1.75]'
+    require(question_page.count(proportional_number_class) == 3, "Livestock question numbers are not proportionally sized", failures)
+    require('text-[2.15rem]' not in question_page, "Oversized livestock question numbers remain", failures)
     require(all(f'data-id="{text_id}"' in final_table for text_id in ["pg072_n0016", "pg072_n0018", "pg072_n0021", "pg072_n0023"]), "Final Group A/B table is not accessible", failures)
 
     doc = Document(str(FORM))
