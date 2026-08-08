@@ -98,6 +98,13 @@ def main() -> None:
         path = I18N / "audio" / filename if filename else None
         require(bool(path and path.exists() and path.stat().st_size == item.get("audioBytes") and path.stat().st_size > 768), f"Page 43 answer-line narration evidence is invalid: {text_id}", failures)
     require("[[blank:item-2]]" not in page43_source and "[[blank:item-3]]" not in page43_source, "Page 43 HTML still exposes blank codes", failures)
+    knitting_page = (ROOT / "pg029_sec001.html").read_text(encoding="utf-8")
+    original_knitting_image = ROOT / "images" / "pg029_im001_original.jpg"
+    require('src="images/pg029_im001_original.jpg"' in knitting_page, "Page 47 does not use the complete original knitting image", failures)
+    require('grid grid-cols-2 gap-0' not in knitting_page, "Page 47 still visually reconstructs the original image from cut tiles", failures)
+    require(original_knitting_image.exists() and original_knitting_image.stat().st_size == 74861, "Complete original knitting image is missing or altered", failures)
+    for image_id in ("pg029_im001_seg001_v1", "pg029_im001_seg002_v1", "pg029_im001_seg003_v1", "pg029_im001_seg004_v1"):
+        require(f'data-id="{image_id}"' in knitting_page, f"Knitting panel description remains unavailable: {image_id}", failures)
     toc = json.loads((ROOT / "content/toc.json").read_text(encoding="utf-8"))
 
     require(len(pages) == 114, f"Expected 114 sections, found {len(pages)}", failures)
