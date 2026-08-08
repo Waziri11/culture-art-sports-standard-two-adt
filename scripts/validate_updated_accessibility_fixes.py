@@ -157,6 +157,18 @@ def main() -> None:
         filename = audios.get(text_id)
         path = I18N / "audio" / filename if filename else None
         require(bool(path and path.exists() and path.stat().st_size == item.get("audioBytes") and path.stat().st_size > 768), f"Page 48 narration evidence is invalid: {text_id}", failures)
+    page52_source = (ROOT / "pg032_sec001.html").read_text(encoding="utf-8")
+    page52_report = json.loads((ROOT / "page52-instruction-audio-report.json").read_text(encoding="utf-8"))
+    page52_items = {item["textId"]: item for item in page52_report.get("clips", [])}
+    expected_page52_instruction = "Study at the pictures and answer the questions that follow:"
+    require(expected_page52_instruction in page52_source and "Study of the pictures" not in page52_source, "Page 52 visible instruction is incorrect", failures)
+    for text_id in ("pg032_n0002", "pg032_n0002_easy_read"):
+        require(texts.get(text_id) == expected_page52_instruction, f"Page 52 localized instruction is incorrect: {text_id}", failures)
+        item = page52_items.get(text_id, {})
+        require(item.get("spokenText") == expected_page52_instruction, f"Page 52 narration does not match visible text: {text_id}", failures)
+        filename = audios.get(text_id)
+        path = I18N / "audio" / filename if filename else None
+        require(bool(path and path.exists() and path.stat().st_size == item.get("audioBytes") and path.stat().st_size > 768), f"Page 52 narration evidence is invalid: {text_id}", failures)
     toc = json.loads((ROOT / "content/toc.json").read_text(encoding="utf-8"))
 
     require(len(pages) == 114, f"Expected 114 sections, found {len(pages)}", failures)
@@ -262,6 +274,7 @@ def main() -> None:
     newer_audio_evidence_ids = {
         "pg023_n0002", "pg023_n0002_easy_read",
         "pg030_n0023", "pg030_n0023_easy_read",
+        "pg032_n0002", "pg032_n0002_easy_read",
     }
     require(len(changed_audio_items) == 64, f"Expected 64 regenerated corrected-text clips, found {len(changed_audio_items)}", failures)
     require("pg019_n0015" in changed_audio_items and "pg019_n0015_easy_read" in changed_audio_items, "Fishing Activity 6 narration was not regenerated", failures)
