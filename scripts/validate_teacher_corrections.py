@@ -85,7 +85,7 @@ for path in [ROOT / "content/i18n/en/texts.json", *ROOT.glob("*.html")]:
     require(not watermark.search(path.read_text(encoding="utf-8")), f"Watermark text remains: {path.name}", failures)
 
 assertions = {
-    "pg009_n0014": "Study of",
+    "pg009_n0014": "Look at the pictures",
     "pg011_n0009": "observe banda houses",
     "pg013_n0009": "identify a tembe house",
     "pg013_n0018": "Exercise 1",

@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 I18N = ROOT / "content" / "i18n" / "en"
 
 TEXT_UPDATES = {
-    "pg009_n0014": "1. Study of the pictures or watch video clips about Msonge houses in Tanzanian communities.",
+    "pg009_n0014": "1. Look at the pictures or watch video clips about Msonge houses in Tanzanian communities.",
     "pg011_n0009": "3. In which areas have you observe banda houses?",
     "pg013_n0009": "Which areas have you identify a tembe house?",
     "pg013_n0014": "Study of the pictures or watch video clips about tembe houses in Tanzanian communities.",
