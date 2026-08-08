@@ -68,6 +68,24 @@ def main() -> None:
     texts = json.loads((I18N / "texts.json").read_text(encoding="utf-8"))
     audios = json.loads((I18N / "audios.json").read_text(encoding="utf-8"))
     pages = json.loads((ROOT / "content/pages.json").read_text(encoding="utf-8"))
+    study_report = json.loads((ROOT / "study-at-pictures-audio-report.json").read_text(encoding="utf-8"))
+    study_items = {item["textId"]: item for item in study_report.get("clips", [])}
+    expected_study_ids = {
+        "pg013_n0014", "pg029_n0002", "pg033_n0016", "pg048_n0006", "pg050_n0006",
+        "pg013_n0014_easy_read", "pg029_n0002_easy_read", "pg033_n0016_easy_read",
+        "pg048_n0006_easy_read", "pg050_n0006_easy_read",
+    }
+    require(set(study_items) == expected_study_ids, "Book-wide Study-at narration evidence is incomplete", failures)
+    require(not any("study of the pictures" in str(value).lower() for value in texts.values()), "'Study of the pictures' remains in localized text", failures)
+    require(not any("study of the pictures" in path.read_text(encoding="utf-8").lower() for path in ROOT.glob("*.html")), "'Study of the pictures' remains in page HTML", failures)
+    for text_id, item in study_items.items():
+        visible = str(texts.get(text_id, ""))
+        require("Study at the pictures" in visible, f"Required Study-at wording is missing: {text_id}", failures)
+        require(item.get("visibleTextSha256") == hashlib.sha256(visible.encode("utf-8")).hexdigest(), f"Study-at narration evidence is stale: {text_id}", failures)
+        require("Study at the pictures" in item.get("spokenText", ""), f"Study-at wording is not spoken: {text_id}", failures)
+        filename = audios.get(text_id)
+        path = I18N / "audio" / filename if filename else None
+        require(bool(path and path.exists() and path.stat().st_size == item.get("audioBytes") and path.stat().st_size > 768), f"Study-at narration file does not match evidence: {text_id}", failures)
     blank_report = json.loads((ROOT / "bookwide-blank-audio-report.json").read_text(encoding="utf-8"))
     blank_items = {item["textId"]: item for item in blank_report.get("clips", [])}
     expected_blank_ids = {"pg033_n0005", "pg033_n0005_easy_read", "pg051_n0034", "pg051_n0034_easy_read", "pg067_n0010_easy_read"}
@@ -138,11 +156,13 @@ def main() -> None:
     require(swahili_report.get("speakingRateWordsPerMinute") == 145, "Kiswahili narration does not use improved pacing", failures)
     require(swahili_report.get("bookWideDetectedClipCount", 0) > 0, "Recurring Kiswahili terms outside page 41 were not handled", failures)
     for text_id, item in swahili_items.items():
+        if text_id in study_items:
+            continue
         current = str(texts.get(text_id, ""))
         require(item.get("visibleTextSha256") == hashlib.sha256(current.encode("utf-8")).hexdigest(), f"Kiswahili narration evidence is stale: {text_id}", failures)
         filename = audios.get(text_id)
         audio_path = I18N / "audio" / filename if filename else None
-        if text_id not in numbered_items and text_id not in dialogue_items:
+        if text_id not in numbered_items and text_id not in dialogue_items and text_id not in study_items:
             require(bool(audio_path and audio_path.exists() and audio_path.stat().st_size == item.get("audioBytes") and audio_path.stat().st_size > 768), f"Kiswahili narration file does not match evidence: {text_id}", failures)
     page43_source = (ROOT / "pg026_sec002.html").read_text(encoding="utf-8")
     page43_blank_report = json.loads((ROOT / "page43-blank-audio-report.json").read_text(encoding="utf-8"))
@@ -297,7 +317,7 @@ def main() -> None:
     require(len(changed_audio_items) == 64, f"Expected 64 regenerated corrected-text clips, found {len(changed_audio_items)}", failures)
     require("pg019_n0015" in changed_audio_items and "pg019_n0015_easy_read" in changed_audio_items, "Fishing Activity 6 narration was not regenerated", failures)
     for text_id, item in changed_audio_items.items():
-        if text_id in newer_audio_evidence_ids or text_id in numbered_items or text_id in dialogue_items or text_id in blank_items:
+        if text_id in newer_audio_evidence_ids or text_id in numbered_items or text_id in dialogue_items or text_id in blank_items or text_id in study_items:
             continue
         current_text = str(texts.get(text_id, ""))
         current_hash = hashlib.sha256(current_text.encode("utf-8")).hexdigest()

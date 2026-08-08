@@ -92,7 +92,7 @@ assertions = {
     "pg018_n0039": "Wanyasa",
     "pg019_n0015": "Observe",
     "pg020_n0006": "Wachaga",
-    "pg029_n0002": "Study of",
+    "pg029_n0002": "Study at",
     "pg035_n0013": "Activity 4",
     "pg037_n0015": "Activity",
     "pg037_n0016": "6",
