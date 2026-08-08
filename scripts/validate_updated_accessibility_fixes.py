@@ -181,6 +181,24 @@ def main() -> None:
         if filename:
             audio_path = I18N / "audio" / filename
             require(audio_path.exists() and audio_path.stat().st_size == item.get("audioBytes") and audio_path.stat().st_size > 768, f"Corrected narration file does not match its generation evidence: {text_id}", failures)
+    page36_table = (ROOT / "pg021_sec003.html").read_text(encoding="utf-8")
+    require('rounded-[22px] border-2 border-pink-400' not in page36_table, "Page 36 table still has a redundant outer frame", failures)
+    require(page36_table.count('overflow-hidden rounded-[16px] border-2 border-pink-300') == 1, "Page 36 table does not have exactly one frame", failures)
+    expected_page36_rows = {
+        "pg021_n0022": "(a) Potatoes, millet, sugarcane, spinach",
+        "pg021_n0026": "(b) Rabbit, dove, duck, sheep",
+        "pg021_n0030": "(c) Candy, pencil, donut, shirt, dress",
+        "pg021_n0034": "(d) Catfish, sardiness, tilapia",
+    }
+    page36_audio_script = (ROOT / "scripts/generate_page36_table_audio.py").read_text(encoding="utf-8")
+    require('return f"Letter {LETTERS[match.group(1).lower()]}' in page36_audio_script, "Page 36 narration does not explicitly speak row letters", failures)
+    for text_id, expected_text in expected_page36_rows.items():
+        require(texts.get(text_id) == expected_text and texts.get(f"{text_id}_easy_read") == expected_text, f"Page 36 row lettering is incorrect: {text_id}", failures)
+        require(page36_table.count(f'data-id="{text_id}"') == 1 and expected_text in page36_table, f"Page 36 row is missing or duplicated in HTML: {text_id}", failures)
+        for audio_id in (text_id, f"{text_id}_easy_read"):
+            filename = audios.get(audio_id)
+            audio_path = I18N / "audio" / filename if filename else None
+            require(bool(audio_path and audio_path.exists() and audio_path.stat().st_size > 20_000), f"Page 36 letter narration is missing or too short: {audio_id}", failures)
     require(all(f'data-id="{text_id}"' in final_table for text_id in ["pg072_n0016", "pg072_n0018", "pg072_n0021", "pg072_n0023"]), "Final Group A/B table is not accessible", failures)
 
     # A repeated data-id inside one table makes read-aloud play the same clip twice.
