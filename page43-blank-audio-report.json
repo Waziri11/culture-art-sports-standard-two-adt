@@ -1,0 +1,30 @@
+{
+  "voice": "Tessa",
+  "speakingRateWordsPerMinute": 145,
+  "clips": [
+    {
+      "textId": "pg026_n0023",
+      "visibleTextSha256": "50a022927154934ac1104f0207f423c3f970cf91e277be7bfa90097993c68c89",
+      "spokenText": "The sound heard from the Mosque is called. .",
+      "audioBytes": 39552
+    },
+    {
+      "textId": "pg026_n0025",
+      "visibleTextSha256": "88752cd2688ff60efd8a969d9d71f98d172008b44951edabf74a95c15d87b635",
+      "spokenText": "The instrument used to call Christians to go to church is called. .",
+      "audioBytes": 68352
+    },
+    {
+      "textId": "pg026_n0023_easy_read",
+      "visibleTextSha256": "50a022927154934ac1104f0207f423c3f970cf91e277be7bfa90097993c68c89",
+      "spokenText": "The sound heard from the Mosque is called. .",
+      "audioBytes": 39552
+    },
+    {
+      "textId": "pg026_n0025_easy_read",
+      "visibleTextSha256": "88752cd2688ff60efd8a969d9d71f98d172008b44951edabf74a95c15d87b635",
+      "spokenText": "The instrument used to call Christians to go to church is called. .",
+      "audioBytes": 68352
+    }
+  ]
+}

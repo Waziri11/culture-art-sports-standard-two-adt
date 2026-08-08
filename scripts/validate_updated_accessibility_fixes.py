@@ -86,6 +86,18 @@ def main() -> None:
     page41_spoken = " ".join(swahili_items[text_id].get("spokenText", "") for text_id in page41_ids)
     for rendering in ("m-ZEH-eh", "ah-DHAH-nah", "kah-BOO-lah", "mah-SAHN-jah"):
         require(rendering in page41_spoken, f"Page 41 narration is missing tuned pronunciation: {rendering}", failures)
+    page43_source = (ROOT / "pg026_sec002.html").read_text(encoding="utf-8")
+    blank_report = json.loads((ROOT / "page43-blank-audio-report.json").read_text(encoding="utf-8"))
+    blank_items = {item["textId"]: item for item in blank_report.get("clips", [])}
+    for text_id in ("pg026_n0023", "pg026_n0025", "pg026_n0023_easy_read", "pg026_n0025_easy_read"):
+        require("[[blank:" not in str(texts.get(text_id, "")), f"Exposed blank placeholder remains: {text_id}", failures)
+        require("__________" in str(texts.get(text_id, "")), f"Printed answer line is missing: {text_id}", failures)
+        item = blank_items.get(text_id, {})
+        require("_" not in item.get("spokenText", "") and "blank" not in item.get("spokenText", "").lower(), f"Answer-line markup is spoken: {text_id}", failures)
+        filename = audios.get(text_id)
+        path = I18N / "audio" / filename if filename else None
+        require(bool(path and path.exists() and path.stat().st_size == item.get("audioBytes") and path.stat().st_size > 768), f"Page 43 answer-line narration evidence is invalid: {text_id}", failures)
+    require("[[blank:item-2]]" not in page43_source and "[[blank:item-3]]" not in page43_source, "Page 43 HTML still exposes blank codes", failures)
     toc = json.loads((ROOT / "content/toc.json").read_text(encoding="utf-8"))
 
     require(len(pages) == 114, f"Expected 114 sections, found {len(pages)}", failures)
