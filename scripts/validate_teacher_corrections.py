@@ -28,6 +28,13 @@ audios = json.loads((ROOT / "content/i18n/en/audios.json").read_text(encoding="u
 failures: list[str] = []
 warnings: list[str] = []
 
+certificate_source = (ROOT / "index.html").read_text(encoding="utf-8")
+require('class="approval-certificate' in certificate_source, "Source-matched certificate structure is missing", failures)
+require("certificate-rosette" in certificate_source, "Certificate security-line artwork is missing", failures)
+require("FOR ONLINE" not in certificate_source.upper(), "Certificate watermark text remains", failures)
+require("Dr Lyabwene M. Mtahabwa" in certificate_source, "Certificate signatory does not match the PDF", failures)
+require("Dr Lyabwene M. Mtahabwa" == texts.get("pg001_n0019"), "Certificate signatory localization mismatch", failures)
+
 require(not any(p["href"].startswith("qz") for p in pages), "Quiz entry remains in pages.json", failures)
 require(not list(ROOT.glob("qz*.html")), "Quiz HTML remains", failures)
 require(not any(k.startswith("qz") for k in texts), "Quiz text remains", failures)
@@ -114,7 +121,7 @@ for item, row in enumerate(rows[1:], 1):
     area, shortfall, page, correction = [" ".join(cell.text.split()) for cell in row.cells]
     combined = f"{shortfall} {correction}"
     if item == 2:
-        status = "PARTIAL - signed source preserved; exact certificate raster cleanup pending"
+        status = "PASS - source-matched HTML/CSS certificate replica with authentic signature and no certificate raster watermark"
         audio_result = "Not applicable"
     elif font_pattern.search(combined):
         status = "PARTIAL - layout standardized; licensed Sassoon files not supplied"

@@ -10,6 +10,91 @@
     <link href="./content/tailwind_output.css" rel="stylesheet">
     <link href="./assets/libs/fontawesome/css/all.min.css" rel="stylesheet">
     <link href="./assets/fonts.css" rel="stylesheet">
+    <style>
+      .approval-certificate {
+        position: relative;
+        isolation: isolate;
+        box-sizing: border-box;
+        width: min(100%, 660px);
+        aspect-ratio: 0.68;
+        overflow: hidden;
+        padding: clamp(42px, 8%, 70px) clamp(28px, 8%, 58px) clamp(32px, 7%, 58px);
+        color: #174f3b;
+        background:
+          radial-gradient(ellipse at 50% 34%, transparent 0 22%, rgba(45, 132, 95, .15) 22.3% 22.8%, transparent 23.1% 27%, rgba(45, 132, 95, .12) 27.3% 27.8%, transparent 28.1%),
+          repeating-radial-gradient(ellipse at 50% 50%, rgba(67, 151, 111, .12) 0 1px, transparent 1px 8px),
+          linear-gradient(135deg, #dff1d4, #f4f8dc 49%, #d9edd2);
+        box-shadow: 0 2px 8px rgba(21, 79, 59, .25);
+      }
+      .approval-certificate::before {
+        content: "";
+        position: absolute;
+        inset: 13px;
+        z-index: -1;
+        border: 7px double #65a77c;
+        outline: 2px solid rgba(43, 118, 82, .8);
+        outline-offset: 4px;
+        background:
+          repeating-linear-gradient(38deg, transparent 0 20px, rgba(35, 126, 83, .08) 20px 22px, transparent 22px 40px);
+      }
+      .approval-certificate::after {
+        content: "";
+        position: absolute;
+        inset: -18% -48%;
+        z-index: -2;
+        opacity: .7;
+        transform: rotate(-28deg);
+        background:
+          linear-gradient(90deg, transparent 0 30%, rgba(54, 140, 96, .27) 30% 37%, transparent 37% 63%, rgba(54, 140, 96, .27) 63% 70%, transparent 70%),
+          repeating-linear-gradient(0deg, transparent 0 7px, rgba(45, 125, 87, .12) 7px 8px);
+      }
+      .certificate-rosette {
+        position: absolute;
+        inset: 17% 7% 16%;
+        z-index: -1;
+        opacity: .38;
+        border: 2px solid #61a27a;
+        border-radius: 48% 52% 45% 55% / 52% 47% 53% 48%;
+        box-shadow: 0 0 0 8px rgba(81, 153, 111, .16), inset 0 0 0 9px rgba(81, 153, 111, .13);
+        transform: rotate(12deg);
+      }
+      .certificate-rosette::before,
+      .certificate-rosette::after {
+        content: "";
+        position: absolute;
+        inset: 5% -4%;
+        border: 2px solid #61a27a;
+        border-radius: 54% 46% 55% 45% / 46% 55% 45% 54%;
+        transform: rotate(23deg);
+      }
+      .certificate-rosette::after { inset: -4% 5%; transform: rotate(49deg); }
+      .certificate-heading { letter-spacing: .035em; text-shadow: 0 1px rgba(255,255,255,.8); }
+      .certificate-script {
+        font-family: "Apple Chancery", "URW Chancery L", "Brush Script MT", cursive;
+        color: #df4b62;
+        font-size: clamp(1.65rem, 4.7vw, 2.65rem);
+        font-weight: 700;
+        line-height: 1.05;
+        text-shadow: 1px 1px #fff, -1px -1px #fff;
+      }
+      .certificate-fields { font-family: Georgia, "Times New Roman", serif; }
+      .certificate-field {
+        border-bottom: 2px dotted rgba(23, 79, 59, .72);
+        padding: 0 .25rem .1rem;
+      }
+      .certificate-approval {
+        padding-top: .35rem;
+        line-height: 1.95;
+        background-image: repeating-linear-gradient(to bottom, transparent 0 1.65em, rgba(23,79,59,.48) 1.65em calc(1.65em + 1px), transparent calc(1.65em + 1px) 1.95em);
+      }
+      .certificate-signature { width: 12rem; height: 3.25rem; object-fit: cover; object-position: top; }
+      @media (max-width: 1024px) { .certificate-signature { width: 10rem; height: 2.75rem; } }
+      @media (max-width: 480px) {
+        .approval-certificate { padding: 40px 28px 30px; }
+        .approval-certificate::before { inset: 9px; border-width: 5px; }
+        .certificate-signature { width: 6rem; height: 1.65rem; }
+      }
+    </style>
 </head>
 
 <body class="min-h-screen flex items-center justify-center">
@@ -30,35 +115,32 @@
         <div data-id="pg001_n0006" class="text-center text-[48px] font-extrabold leading-none text-sky-500 max-lg:text-[36px] max-sm:text-[24px]">Standard Two</div>
       </div>
 
-      <div class="relative mt-10 w-full max-w-[660px] bg-gradient-to-br from-green-100 via-emerald-50 to-lime-100 px-8 py-8 ring-1 ring-emerald-200 max-lg:max-w-[540px] max-lg:px-6 max-lg:py-6 max-sm:mt-8 max-sm:max-w-[320px] max-sm:px-4 max-sm:py-4">
-        <div class="absolute inset-0 bg-[repeating-linear-gradient(45deg,rgba(34,197,94,0.08),rgba(34,197,94,0.08)_10px,transparent_10px,transparent_20px)]"></div>
-        <div class="absolute inset-4 border-2 border-emerald-200 max-sm:inset-3"></div>
-        <div class="absolute inset-0 z-0 flex items-center justify-center overflow-hidden">
-        </div>
-        <div class="relative z-10 flex flex-col items-center text-center text-emerald-900">
-          <div class="mt-12 space-y-3 max-lg:mt-10 max-sm:mt-8 max-sm:space-y-2">
-            <div data-id="pg001_n0009" class="text-[18px] font-bold leading-tight max-lg:text-[16px] max-sm:text-[11px]">THE UNITED REPUBLIC OF TANZANIA</div>
-            <div data-id="pg001_n0010" class="text-[18px] font-bold leading-tight max-lg:text-[16px] max-sm:text-[11px]">MINISTRY OF EDUCATION,</div>
-            <div data-id="pg001_n0011" class="text-[18px] font-bold leading-tight max-lg:text-[16px] max-sm:text-[11px]">SCIENCE AND TECHNOLOGY</div>
+      <div class="approval-certificate mt-10 max-lg:max-w-[540px] max-sm:mt-8 max-sm:max-w-[330px]" aria-label="Certificate of Approval">
+        <div class="certificate-rosette" aria-hidden="true"></div>
+        <div class="relative z-10 flex h-full flex-col items-center text-center">
+          <header class="certificate-heading space-y-1 text-[18px] font-bold leading-tight max-lg:text-[16px] max-sm:text-[10px]">
+            <div data-id="pg001_n0009">THE UNITED REPUBLIC OF TANZANIA</div>
+            <div data-id="pg001_n0010">MINISTRY OF EDUCATION,</div>
+            <div data-id="pg001_n0011">SCIENCE AND TECHNOLOGY</div>
+          </header>
+
+          <div class="mt-[11%] w-full">
+            <div data-id="pg001_n0012" class="certificate-script">Certificate of Approval</div>
+            <div data-id="pg001_n0013" class="mt-3 text-right text-[18px] max-sm:mt-1 max-sm:text-[10px]">No. 1619</div>
           </div>
 
-          <div class="mt-16 w-full max-lg:mt-12 max-sm:mt-10">
-            <div data-id="pg001_n0012" class="text-center text-[28px] italic font-semibold text-rose-500 max-lg:text-[24px] max-sm:text-[18px]">Certificate of Approval</div>
-            <div data-id="pg001_n0013" class="mt-4 text-right text-[18px] max-lg:text-[17px] max-sm:mt-2 max-sm:text-[11px]">No. 1619</div>
+          <div class="certificate-fields mt-[8%] w-full space-y-3 text-left text-[15px] leading-[1.55] max-lg:text-[13px] max-sm:mt-[6%] max-sm:space-y-1.5 max-sm:text-[8px]">
+            <div data-id="pg001_n0014" class="certificate-field">Title of Publication: Culture, Art and Sports Pupil&apos;s Book Standard Two</div>
+            <div data-id="pg001_n0015" class="certificate-field">Publisher: Tanzania Institute of Education</div>
+            <div data-id="pg001_n0016" class="certificate-field">Author: Tanzania Institute of Education</div>
+            <div data-id="pg001_n0017" class="certificate-field">ISBN: 978-9912-753-72-3</div>
+            <div data-id="pg001_n0018" class="certificate-approval mt-2">This book was approved by the Ministry of Education, Science and Technology on 11th September 2024 as a Textbook for Standard Two in Primary Schools in Tanzania as per 2023 Syllabus.</div>
           </div>
 
-          <div class="mt-14 w-full space-y-5 text-left text-[15px] leading-[1.8] max-lg:mt-12 max-lg:text-[14px] max-sm:mt-10 max-sm:space-y-4 max-sm:text-[10px] max-sm:leading-[1.6]">
-            <div data-id="pg001_n0014" class="w-full">Title of Publication: Culture, Art and Sports Pupil&apos;s Book Standard Two</div>
-            <div data-id="pg001_n0015" class="w-full">Publisher: Tanzania Institute of Education</div>
-            <div data-id="pg001_n0016" class="w-full">Author: Tanzania Institute of Education</div>
-            <div data-id="pg001_n0017" class="w-full">ISBN: 978-9912-753-72-3</div>
-            <div data-id="pg001_n0018" class="pt-3">This book was approved by the Ministry of Education, Science and Technology on 11th September 2024, as a Textbook for Standard Two, in Primary Schools in Tanzania as per 2023 Syllabus.</div>
-          </div>
-
-          <div class="mt-20 w-full text-left max-lg:mt-16 max-sm:mt-12">
-            <img src="images/pg001_signature.png" alt="Signature of the Commissioner for Education" class="mb-2 h-auto w-48 max-sm:w-32">
-            <div data-id="pg001_n0019" class="text-[16px] font-semibold max-lg:text-[15px] max-sm:text-[11px]">Dr Lyabwene M. Mtabwa</div>
-            <div data-id="pg001_n0020" class="mt-2 text-[15px] max-lg:text-[14px] max-sm:text-[10px]">Commissioner for Education</div>
+          <div class="mt-auto w-full pb-[2%] text-left">
+            <img src="images/pg001_signature.png" alt="Signature of the Commissioner for Education" class="certificate-signature mb-1">
+            <div data-id="pg001_n0019" class="text-[16px] font-semibold max-lg:text-[14px] max-sm:text-[9px]">Dr Lyabwene M. Mtahabwa</div>
+            <div data-id="pg001_n0020" class="mt-1 text-[15px] max-lg:text-[13px] max-sm:text-[8px]">Commissioner for Education</div>
           </div>
         </div>
       </div>
@@ -71,7 +153,7 @@
 
     <div class="relative z-50" id="interface-container"></div>
     <div class="relative z-50" id="nav-container"></div>
-    <script src="./assets/offline-preloader.js?v=4"></script>
+    <script src="./assets/offline-preloader.js?v=5"></script>
     <script src="./assets/scorm.js"></script>
     <script src="./assets/base.bundle.local.js"></script>
 </body>
