@@ -47,6 +47,14 @@ for stale_id in ("pg003_n0005", "pg003_n0007", "pg003_n0011", "pg003_n0016", "pg
 toc_audio_report = json.loads((ROOT / "toc-audio-report.json").read_text(encoding="utf-8"))
 require(toc_audio_report.get("romanNumerals") == {"iv": "Roman four", "vi": "Roman six"}, "Roman numeral narration is incorrect", failures)
 
+page5_source = (ROOT / "pg005_sec001.html").read_text(encoding="utf-8")
+require('<p data-id="pg005_n0002"' in page5_source, "Page-five acknowledgement is not a regular paragraph", failures)
+require('<h1 data-id="pg005_n0002"' not in page5_source, "Page-five acknowledgement remains a bold heading", failures)
+require('src="images/pg005_signature.jpg"' in page5_source, "Page-five signature is not displayed", failures)
+page5_signature = ROOT / "images/pg005_signature.jpg"
+require(page5_signature.exists() and page5_signature.stat().st_size > 9_000, "Authentic page-five signature is missing", failures)
+require("teachers and standard two pupils" in texts.get("pg005_n0002", ""), "Page-five wording does not match the PDF", failures)
+
 require(not any(p["href"].startswith("qz") for p in pages), "Quiz entry remains in pages.json", failures)
 require(not list(ROOT.glob("qz*.html")), "Quiz HTML remains", failures)
 require(not any(k.startswith("qz") for k in texts), "Quiz text remains", failures)
