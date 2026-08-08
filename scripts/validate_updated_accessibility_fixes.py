@@ -102,6 +102,13 @@ def main() -> None:
     require('data-id="pg023_n0002"' in activity_source and '>Activity 1<' in activity_source, "Activity 1 is not combined", failures)
     require('data-id="pg023_n0003"' not in activity_source, "Separate Activity number remains in HTML", failures)
 
+    activity_two_source = (ROOT / "pg011_sec002.html").read_text(encoding="utf-8")
+    require(texts.get("pg011_n0014") == "Activity 2", "Activity 2 heading text is not combined", failures)
+    require('data-id="pg011_n0014"' in activity_two_source and '>Activity 2<' in activity_two_source, "Activity 2 is not combined in HTML", failures)
+    require('data-id="pg011_n0013"' not in activity_two_source, "Separate Activity 2 number remains in HTML", failures)
+    require("pg011_n0013" not in texts and "pg011_n0013_easy_read" not in texts, "Separate Activity 2 number remains in localized text", failures)
+    require("pg011_n0013" not in audios and "pg011_n0013_easy_read" not in audios, "Separate Activity 2 number audio remains mapped", failures)
+
     circus_source = (ROOT / "pg049_sec001.html").read_text(encoding="utf-8")
     for text_id in ["pg049_im001", "pg049_im002", "pg049_n0005", "pg049_n0008", "pg049_n0013", "pg049_n0014"]:
         require(f'data-id="{text_id}"' in circus_source, f"Circus continuous page missing {text_id}", failures)
