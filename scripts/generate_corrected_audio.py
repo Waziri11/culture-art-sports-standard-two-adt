@@ -36,6 +36,10 @@ PRONUNCIATIONS = [
 
 
 def speech_text(text_id: str, text: str) -> str:
+    # Alphabetic list labels must be spoken as letter names. Without this
+    # override Tessa reads the isolated "(a)" label as the article "ah".
+    if text_id in {"pg052_n0021", "pg052_n0021_easy_read"}:
+        return "ay"
     text = re.sub(r"_+", " ", text)
     text = text.replace("•", ". ").replace("–", ", ")
     text = apply_pronunciations(text)
