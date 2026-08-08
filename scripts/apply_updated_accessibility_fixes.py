@@ -29,7 +29,7 @@ TEXT_UPDATES = {
     "pg049_n0008": "What type of performing art involving body movement do you identify in these pictures?",
     "pg050_n0006": "Study at the pictures and answer the following questions:",
     "pg053_n0004": "Draw or use cones to make a circle on the ground with a diameter of 25 steps;",
-    "pg056_n0017": "Mention a circle for running with a stick game.",
+    "pg056_n0017": "Draw a circle for running with a stick game.",
 }
 
 EASY_READ_UPDATES = {
