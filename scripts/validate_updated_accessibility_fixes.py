@@ -154,6 +154,10 @@ def main() -> None:
     require(farm_page.count('style="max-width: 100%; height: auto;"') == 0, "Farm image heights are not aligned", failures)
     require('aria-hidden="true" class="flex h-14 w-14' not in farm_page, "Circled duplicate question numbers remain on page 27", failures)
     require(farm_page.count('data-id="pg017_n0020"') == 1 and farm_page.count('data-id="pg017_n0022"') == 1, "Page 27 question numbers are not unique", failures)
+    activity_five_page = (ROOT / "pg018_sec002.html").read_text(encoding="utf-8")
+    require('relative mt-8 rounded-[28px] border-4 border-sky-300' in activity_five_page, "Activity 5 content is not enclosed in the standard activity panel", failures)
+    require('absolute left-8 -top-7' in activity_five_page, "Activity 5 badge does not overlap the activity panel", failures)
+    require(activity_five_page.count('data-id="pg018_n0029"') == 1 and activity_five_page.count('data-id="pg018_n0030"') == 1, "Activity 5 read-aloud IDs are not unique", failures)
     require(all(f'data-id="{text_id}"' in final_table for text_id in ["pg072_n0016", "pg072_n0018", "pg072_n0021", "pg072_n0023"]), "Final Group A/B table is not accessible", failures)
 
     # A repeated data-id inside one table makes read-aloud play the same clip twice.
