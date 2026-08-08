@@ -1,0 +1,391 @@
+{
+  "voice": "Tessa",
+  "locale": "en_ZA",
+  "speakingRateWordsPerMinute": 155,
+  "clips": [
+    {
+      "textId": "pg009_n0014",
+      "visibleTextSha256": "b92c00ba6010c76fab26e2c46896aa72f6fe254529751ea76d74865737c8cf55",
+      "spokenTextSha256": "ba7ce9249c2fc82a710274d5f383cd58700a710ac678635176e553e4750bbe6b",
+      "audioBytes": 105600
+    },
+    {
+      "textId": "pg009_n0014_easy_read",
+      "visibleTextSha256": "b92c00ba6010c76fab26e2c46896aa72f6fe254529751ea76d74865737c8cf55",
+      "spokenTextSha256": "ba7ce9249c2fc82a710274d5f383cd58700a710ac678635176e553e4750bbe6b",
+      "audioBytes": 105600
+    },
+    {
+      "textId": "pg011_n0009",
+      "visibleTextSha256": "4eead507111a9002874f3ae5c546232179b4e7657451ba7285576ecbb3e4cddd",
+      "spokenTextSha256": "9db8fb548b19ceb1782873e84915ac47022781fcf0e76e1f74acf30998ba6694",
+      "audioBytes": 58368
+    },
+    {
+      "textId": "pg011_n0009_easy_read",
+      "visibleTextSha256": "4eead507111a9002874f3ae5c546232179b4e7657451ba7285576ecbb3e4cddd",
+      "spokenTextSha256": "9db8fb548b19ceb1782873e84915ac47022781fcf0e76e1f74acf30998ba6694",
+      "audioBytes": 58368
+    },
+    {
+      "textId": "pg011_n0015",
+      "visibleTextSha256": "65d4219f84a0d10f822949625b658134c2ee4fbe2e2727c3c68bae5dfff508dc",
+      "spokenTextSha256": "7a33ec898e80768f6fb4c749bb01b42b846c77cc94ef6822340b155930870f80",
+      "audioBytes": 99456
+    },
+    {
+      "textId": "pg011_n0015_easy_read",
+      "visibleTextSha256": "46fe3a1a41ec8970464d548f6cf350e6b1f9492486767362f62779d612d1a168",
+      "spokenTextSha256": "1b7b84b2928dee7049cf8de0fda3c9cf5c97050b76164d49e5b73323b1b18c09",
+      "audioBytes": 104832
+    },
+    {
+      "textId": "pg013_n0009",
+      "visibleTextSha256": "fa486a57880053a88c94cc34db5e20c48aabfdc47add698aa67488e66df6daf9",
+      "spokenTextSha256": "2f7e25b0c950f2e95314960696b0e8f853aca402e0a6c86ff4bcc805910fb2cd",
+      "audioBytes": 51456
+    },
+    {
+      "textId": "pg013_n0009_easy_read",
+      "visibleTextSha256": "fa486a57880053a88c94cc34db5e20c48aabfdc47add698aa67488e66df6daf9",
+      "spokenTextSha256": "2f7e25b0c950f2e95314960696b0e8f853aca402e0a6c86ff4bcc805910fb2cd",
+      "audioBytes": 51456
+    },
+    {
+      "textId": "pg013_n0014",
+      "visibleTextSha256": "172fe2aad6311e715467c3fd513bb65bc3f3ec744e1ea8019751a4692814861b",
+      "spokenTextSha256": "684b8188bc51ac8890862fa6668a5a480eb03bde8b1409ed69e92106f8823a7a",
+      "audioBytes": 92544
+    },
+    {
+      "textId": "pg013_n0014_easy_read",
+      "visibleTextSha256": "172fe2aad6311e715467c3fd513bb65bc3f3ec744e1ea8019751a4692814861b",
+      "spokenTextSha256": "684b8188bc51ac8890862fa6668a5a480eb03bde8b1409ed69e92106f8823a7a",
+      "audioBytes": 92544
+    },
+    {
+      "textId": "pg013_n0018",
+      "visibleTextSha256": "5b019dbb7da17fbeb96ee5de8c9fe7bdd4be3470b67571c1d81450c74cd2eb3c",
+      "spokenTextSha256": "5b019dbb7da17fbeb96ee5de8c9fe7bdd4be3470b67571c1d81450c74cd2eb3c",
+      "audioBytes": 19968
+    },
+    {
+      "textId": "pg017_im003",
+      "visibleTextSha256": "8fe404720b3f32d15ea9e7d995e893ce4ed345e61362817b45e7adf6f4e3269e",
+      "spokenTextSha256": "8fe404720b3f32d15ea9e7d995e893ce4ed345e61362817b45e7adf6f4e3269e",
+      "audioBytes": 58368
+    },
+    {
+      "textId": "pg018_n0039",
+      "visibleTextSha256": "84ab908cc5aa67658909bc4f057910bf116921c5c4756313420c12906899feb2",
+      "spokenTextSha256": "84ab908cc5aa67658909bc4f057910bf116921c5c4756313420c12906899feb2",
+      "audioBytes": 123264
+    },
+    {
+      "textId": "pg018_n0039_easy_read",
+      "visibleTextSha256": "c667c07b2836364c8134bf15c2acbee60e958c25bbcb4b8a58a2a9bba53c83f5",
+      "spokenTextSha256": "d3edd054a32aad5a53ae2d88d59047bcbf251f730e754334eb7218ca1600dd45",
+      "audioBytes": 96768
+    },
+    {
+      "textId": "pg019_n0015",
+      "visibleTextSha256": "5bc5f53b34c48653cf18d505c6fda7df8536bf466167a0d5993aa5c57c089ec6",
+      "spokenTextSha256": "d1eb2ac3cfb4f354f806ff14f6bad4791b628a1870938f5db20bc70ec5e7c440",
+      "audioBytes": 78720
+    },
+    {
+      "textId": "pg019_n0015_easy_read",
+      "visibleTextSha256": "022ff613bd4e30f192760bd6e991f4bf3740d57c8e2cab86aaed726f50d3c9e2",
+      "spokenTextSha256": "5ee4669c9b0f7eeb9635ba347bc96213031100cc1b8df23840c43ea2a14b2d5b",
+      "audioBytes": 84096
+    },
+    {
+      "textId": "pg020_n0006",
+      "visibleTextSha256": "88d41075221acae23a3266e1d88641c25ff7038f4ddd520f9b40df7e60cf8d34",
+      "spokenTextSha256": "88d41075221acae23a3266e1d88641c25ff7038f4ddd520f9b40df7e60cf8d34",
+      "audioBytes": 89472
+    },
+    {
+      "textId": "pg020_n0006_easy_read",
+      "visibleTextSha256": "4ec01a6d2e8ddb3c28524e8f43f06cdaec6a44c2aaeac6104c775f2f9e76b052",
+      "spokenTextSha256": "4ec01a6d2e8ddb3c28524e8f43f06cdaec6a44c2aaeac6104c775f2f9e76b052",
+      "audioBytes": 89856
+    },
+    {
+      "textId": "pg020_n0013",
+      "visibleTextSha256": "a8322a33f8a9815bae84b0f78acbfcdef73c9c09778e4a7f8acb3624f685b25b",
+      "spokenTextSha256": "b2734bc7db097143f14fea0a03410fe2bf33b5735ae62c8c740813554c5cab44",
+      "audioBytes": 52608
+    },
+    {
+      "textId": "pg020_n0013_easy_read",
+      "visibleTextSha256": "a8322a33f8a9815bae84b0f78acbfcdef73c9c09778e4a7f8acb3624f685b25b",
+      "spokenTextSha256": "b2734bc7db097143f14fea0a03410fe2bf33b5735ae62c8c740813554c5cab44",
+      "audioBytes": 52608
+    },
+    {
+      "textId": "pg023_n0002",
+      "visibleTextSha256": "7bf54fdbdce7ef8f7bb3fcd89519c3cc42e38a06e7a19ffc0958dadd21a177aa",
+      "spokenTextSha256": "7bf54fdbdce7ef8f7bb3fcd89519c3cc42e38a06e7a19ffc0958dadd21a177aa",
+      "audioBytes": 18432
+    },
+    {
+      "textId": "pg023_n0002_easy_read",
+      "visibleTextSha256": "7bf54fdbdce7ef8f7bb3fcd89519c3cc42e38a06e7a19ffc0958dadd21a177aa",
+      "spokenTextSha256": "7bf54fdbdce7ef8f7bb3fcd89519c3cc42e38a06e7a19ffc0958dadd21a177aa",
+      "audioBytes": 18432
+    },
+    {
+      "textId": "pg029_n0002",
+      "visibleTextSha256": "5ae5b3395627c5ea78942edbeab1b837b22306b19d85ba7f66017d9e3ce3693b",
+      "spokenTextSha256": "5ae5b3395627c5ea78942edbeab1b837b22306b19d85ba7f66017d9e3ce3693b",
+      "audioBytes": 56064
+    },
+    {
+      "textId": "pg029_n0002_easy_read",
+      "visibleTextSha256": "5ae5b3395627c5ea78942edbeab1b837b22306b19d85ba7f66017d9e3ce3693b",
+      "spokenTextSha256": "5ae5b3395627c5ea78942edbeab1b837b22306b19d85ba7f66017d9e3ce3693b",
+      "audioBytes": 56064
+    },
+    {
+      "textId": "pg030_n0023",
+      "visibleTextSha256": "50cd404fb7075453b1246a86d7737858381a878b8f5727a994c4106410fb36ac",
+      "spokenTextSha256": "50cd404fb7075453b1246a86d7737858381a878b8f5727a994c4106410fb36ac",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg030_n0023_easy_read",
+      "visibleTextSha256": "50cd404fb7075453b1246a86d7737858381a878b8f5727a994c4106410fb36ac",
+      "spokenTextSha256": "50cd404fb7075453b1246a86d7737858381a878b8f5727a994c4106410fb36ac",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg032_n0002",
+      "visibleTextSha256": "5ae5b3395627c5ea78942edbeab1b837b22306b19d85ba7f66017d9e3ce3693b",
+      "spokenTextSha256": "5ae5b3395627c5ea78942edbeab1b837b22306b19d85ba7f66017d9e3ce3693b",
+      "audioBytes": 56064
+    },
+    {
+      "textId": "pg032_n0002_easy_read",
+      "visibleTextSha256": "5ae5b3395627c5ea78942edbeab1b837b22306b19d85ba7f66017d9e3ce3693b",
+      "spokenTextSha256": "5ae5b3395627c5ea78942edbeab1b837b22306b19d85ba7f66017d9e3ce3693b",
+      "audioBytes": 56064
+    },
+    {
+      "textId": "pg033_n0016",
+      "visibleTextSha256": "5ae5b3395627c5ea78942edbeab1b837b22306b19d85ba7f66017d9e3ce3693b",
+      "spokenTextSha256": "5ae5b3395627c5ea78942edbeab1b837b22306b19d85ba7f66017d9e3ce3693b",
+      "audioBytes": 56064
+    },
+    {
+      "textId": "pg033_n0016_easy_read",
+      "visibleTextSha256": "5ae5b3395627c5ea78942edbeab1b837b22306b19d85ba7f66017d9e3ce3693b",
+      "spokenTextSha256": "5ae5b3395627c5ea78942edbeab1b837b22306b19d85ba7f66017d9e3ce3693b",
+      "audioBytes": 56064
+    },
+    {
+      "textId": "pg035_n0006",
+      "visibleTextSha256": "ce0deacf4c3b621b9dfa2c0cfe60eb614e7ece482fa879c74823f0b0abeed317",
+      "spokenTextSha256": "47a34e0869d8d21ebf7a2bc13e9d02bc8543d84615a777bd331765de78e56df4",
+      "audioBytes": 44160
+    },
+    {
+      "textId": "pg035_n0006_easy_read",
+      "visibleTextSha256": "ce0deacf4c3b621b9dfa2c0cfe60eb614e7ece482fa879c74823f0b0abeed317",
+      "spokenTextSha256": "47a34e0869d8d21ebf7a2bc13e9d02bc8543d84615a777bd331765de78e56df4",
+      "audioBytes": 44160
+    },
+    {
+      "textId": "pg035_n0013",
+      "visibleTextSha256": "6ab00d04662880f73640543cdbee667cf8393f9b5c7a1716b3f988aeade403c5",
+      "spokenTextSha256": "6ab00d04662880f73640543cdbee667cf8393f9b5c7a1716b3f988aeade403c5",
+      "audioBytes": 18816
+    },
+    {
+      "textId": "pg035_n0014",
+      "visibleTextSha256": "a024ab9fc554b2ff733298462950d22e749ca243032e422e29a9fdfb213dd3f7",
+      "spokenTextSha256": "a024ab9fc554b2ff733298462950d22e749ca243032e422e29a9fdfb213dd3f7",
+      "audioBytes": 76032
+    },
+    {
+      "textId": "pg035_n0021",
+      "visibleTextSha256": "5efddb6a8688811549c3b0cd4c38739e58a9f0d42b2f840ed7078d3f3d7173cb",
+      "spokenTextSha256": "5efddb6a8688811549c3b0cd4c38739e58a9f0d42b2f840ed7078d3f3d7173cb",
+      "audioBytes": 52608
+    },
+    {
+      "textId": "pg035_n0021_easy_read",
+      "visibleTextSha256": "09524b160f0d195f92c4821c12194c7575730f9c986f061e4cfa1e2d19e75d89",
+      "spokenTextSha256": "1218aefb86798bdb3150cb5fd1bab672f29c66507cc4193cedf4f1e578847da9",
+      "audioBytes": 59136
+    },
+    {
+      "textId": "pg037_n0002",
+      "visibleTextSha256": "50cd404fb7075453b1246a86d7737858381a878b8f5727a994c4106410fb36ac",
+      "spokenTextSha256": "50cd404fb7075453b1246a86d7737858381a878b8f5727a994c4106410fb36ac",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg037_n0002_easy_read",
+      "visibleTextSha256": "50cd404fb7075453b1246a86d7737858381a878b8f5727a994c4106410fb36ac",
+      "spokenTextSha256": "50cd404fb7075453b1246a86d7737858381a878b8f5727a994c4106410fb36ac",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg037_n0015",
+      "visibleTextSha256": "38da1505ca8373288489495101b14f24ac95078f520ad64df18272aa6054f750",
+      "spokenTextSha256": "38da1505ca8373288489495101b14f24ac95078f520ad64df18272aa6054f750",
+      "audioBytes": 13824
+    },
+    {
+      "textId": "pg037_n0016",
+      "visibleTextSha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+      "spokenTextSha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+      "audioBytes": 9600
+    },
+    {
+      "textId": "pg038_n0007",
+      "visibleTextSha256": "e4552317d98a0fedaa0a08a078a74f5061fdaa0b2641f39ac2741729ce0ade42",
+      "spokenTextSha256": "e4552317d98a0fedaa0a08a078a74f5061fdaa0b2641f39ac2741729ce0ade42",
+      "audioBytes": 56064
+    },
+    {
+      "textId": "pg038_n0007_easy_read",
+      "visibleTextSha256": "e4552317d98a0fedaa0a08a078a74f5061fdaa0b2641f39ac2741729ce0ade42",
+      "spokenTextSha256": "e4552317d98a0fedaa0a08a078a74f5061fdaa0b2641f39ac2741729ce0ade42",
+      "audioBytes": 56064
+    },
+    {
+      "textId": "pg039_n0002",
+      "visibleTextSha256": "5b019dbb7da17fbeb96ee5de8c9fe7bdd4be3470b67571c1d81450c74cd2eb3c",
+      "spokenTextSha256": "5b019dbb7da17fbeb96ee5de8c9fe7bdd4be3470b67571c1d81450c74cd2eb3c",
+      "audioBytes": 19968
+    },
+    {
+      "textId": "pg045_n0015",
+      "visibleTextSha256": "eefff30090dfe265034b6b5778f6edc9b3ca520e30e2822ee6929f96ab18ab33",
+      "spokenTextSha256": "ebd5d30a969204763565d5e111629c1c45de5fd9b6d055106da99864d0f078cf",
+      "audioBytes": 115584
+    },
+    {
+      "textId": "pg045_n0015_easy_read",
+      "visibleTextSha256": "eefff30090dfe265034b6b5778f6edc9b3ca520e30e2822ee6929f96ab18ab33",
+      "spokenTextSha256": "ebd5d30a969204763565d5e111629c1c45de5fd9b6d055106da99864d0f078cf",
+      "audioBytes": 115584
+    },
+    {
+      "textId": "pg046_n0014",
+      "visibleTextSha256": "0c810e18520777ba704f74495a0c45d3984bcb425176c65ac2b391d3595f094a",
+      "spokenTextSha256": "0c810e18520777ba704f74495a0c45d3984bcb425176c65ac2b391d3595f094a",
+      "audioBytes": 52608
+    },
+    {
+      "textId": "pg046_n0014_easy_read",
+      "visibleTextSha256": "875ec4929648eb24d9aa6f7fc69c6db96a8b3aa6d9685001aae13873cfbb3769",
+      "spokenTextSha256": "726e9aa0ef0e658eeed1fa9edaa2856889b5ddcac9960b736e2c84806bb4aec5",
+      "audioBytes": 51072
+    },
+    {
+      "textId": "pg048_n0006",
+      "visibleTextSha256": "feabf2d6044d9ab2d67f62e6af36cc527821b23f2fe6e9ed48bfec113a9b5f45",
+      "spokenTextSha256": "feabf2d6044d9ab2d67f62e6af36cc527821b23f2fe6e9ed48bfec113a9b5f45",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg048_n0006_easy_read",
+      "visibleTextSha256": "feabf2d6044d9ab2d67f62e6af36cc527821b23f2fe6e9ed48bfec113a9b5f45",
+      "spokenTextSha256": "feabf2d6044d9ab2d67f62e6af36cc527821b23f2fe6e9ed48bfec113a9b5f45",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg049_n0008",
+      "visibleTextSha256": "cd4574d9d40c2c3e8344ed33eac3f1e5f2da4ca2540161f42bd3749d60cb6133",
+      "spokenTextSha256": "cd4574d9d40c2c3e8344ed33eac3f1e5f2da4ca2540161f42bd3749d60cb6133",
+      "audioBytes": 87936
+    },
+    {
+      "textId": "pg049_n0008_easy_read",
+      "visibleTextSha256": "cd4574d9d40c2c3e8344ed33eac3f1e5f2da4ca2540161f42bd3749d60cb6133",
+      "spokenTextSha256": "cd4574d9d40c2c3e8344ed33eac3f1e5f2da4ca2540161f42bd3749d60cb6133",
+      "audioBytes": 87936
+    },
+    {
+      "textId": "pg050_n0006",
+      "visibleTextSha256": "feabf2d6044d9ab2d67f62e6af36cc527821b23f2fe6e9ed48bfec113a9b5f45",
+      "spokenTextSha256": "feabf2d6044d9ab2d67f62e6af36cc527821b23f2fe6e9ed48bfec113a9b5f45",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg050_n0006_easy_read",
+      "visibleTextSha256": "feabf2d6044d9ab2d67f62e6af36cc527821b23f2fe6e9ed48bfec113a9b5f45",
+      "spokenTextSha256": "feabf2d6044d9ab2d67f62e6af36cc527821b23f2fe6e9ed48bfec113a9b5f45",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg051_n0016",
+      "visibleTextSha256": "267c23695b6e8fc29bd88b9f5d1962d3d208fa9c2fafd974614e6ab3b84fa55c",
+      "spokenTextSha256": "29dfa88d1df8dc2841687f12a327ceadb9308cf185a3882df64517a4defbeaa8",
+      "audioBytes": 8832
+    },
+    {
+      "textId": "pg053_n0004",
+      "visibleTextSha256": "2b693ff1460d496ee942e217e2e9864b5c0858aa885a94c702305c5caaa1d038",
+      "spokenTextSha256": "2b693ff1460d496ee942e217e2e9864b5c0858aa885a94c702305c5caaa1d038",
+      "audioBytes": 92544
+    },
+    {
+      "textId": "pg053_n0004_easy_read",
+      "visibleTextSha256": "2b693ff1460d496ee942e217e2e9864b5c0858aa885a94c702305c5caaa1d038",
+      "spokenTextSha256": "2b693ff1460d496ee942e217e2e9864b5c0858aa885a94c702305c5caaa1d038",
+      "audioBytes": 92544
+    },
+    {
+      "textId": "pg056_n0008",
+      "visibleTextSha256": "b3d3524d9f3eaaf3d020ee1735b4f5f46715eb5d4811a16d2458f527ab0608c8",
+      "spokenTextSha256": "8195a59b25ade13b8609ee15ebd10439aca63dafc1ad1a9a3eec483d2e70e9a8",
+      "audioBytes": 52224
+    },
+    {
+      "textId": "pg056_n0010",
+      "visibleTextSha256": "3c5cbcaacf7ba05ad108f778572fa863c4d82954cdc871132e834b28bb4badc6",
+      "spokenTextSha256": "e374d469225cd99604d4ed5c67973b14ffa3d0757fbf477f172e6e0bfc676f72",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg056_n0012",
+      "visibleTextSha256": "7fd9efc64e58f42c03c24e37f6627a666bae45650cb0400c1712da5334f1c6b3",
+      "spokenTextSha256": "d7d4ac49699b33b06c8d8a5340453d8113829ac45154bf0ecf920001f5fc30ca",
+      "audioBytes": 56448
+    },
+    {
+      "textId": "pg056_n0017",
+      "visibleTextSha256": "3244a63ab1f95cad0c9386724d7de3d26ecde64bf893e21e58365f73d03f17a9",
+      "spokenTextSha256": "3244a63ab1f95cad0c9386724d7de3d26ecde64bf893e21e58365f73d03f17a9",
+      "audioBytes": 44160
+    },
+    {
+      "textId": "pg056_n0017_easy_read",
+      "visibleTextSha256": "3244a63ab1f95cad0c9386724d7de3d26ecde64bf893e21e58365f73d03f17a9",
+      "spokenTextSha256": "3244a63ab1f95cad0c9386724d7de3d26ecde64bf893e21e58365f73d03f17a9",
+      "audioBytes": 44160
+    },
+    {
+      "textId": "pg067_n0010",
+      "visibleTextSha256": "7812cab305a5acada8b7520edc9cd9621c7dd9845cb6f0b532daf22a46cc958a",
+      "spokenTextSha256": "99736f367552abfeb851a06c510c9e4816459277c051e2fdd8947d6a88b4d6f0",
+      "audioBytes": 43008
+    },
+    {
+      "textId": "pg070_n0002",
+      "visibleTextSha256": "8979ecd6c01109c8bcfba2768290d65c679dd9a8f8bb6dc78acae6620f86f0f7",
+      "spokenTextSha256": "8979ecd6c01109c8bcfba2768290d65c679dd9a8f8bb6dc78acae6620f86f0f7",
+      "audioBytes": 19584
+    },
+    {
+      "textId": "pg070_n0004",
+      "visibleTextSha256": "8979ecd6c01109c8bcfba2768290d65c679dd9a8f8bb6dc78acae6620f86f0f7",
+      "spokenTextSha256": "8979ecd6c01109c8bcfba2768290d65c679dd9a8f8bb6dc78acae6620f86f0f7",
+      "audioBytes": 19584
+    }
+  ]
+}
