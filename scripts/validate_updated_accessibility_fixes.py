@@ -72,6 +72,12 @@ def main() -> None:
     require(len(pages) == 114, f"Expected 114 sections, found {len(pages)}", failures)
     require(not any(row["href"] in {"pg049_sec002.html", "pg049_sec003.html"} for row in pages), "Superseded circus sections remain in spine", failures)
     require(any(row.get("section_id") == "pg004_sec001" for row in toc), "Acknowledgements missing from contents", failures)
+    require(texts.get("pg008_im001", "").startswith("Picture 1."), "Page 8 first image audio omits picture number 1", failures)
+    require(texts.get("pg008_im002", "").startswith("Picture 2."), "Page 8 second image audio omits picture number 2", failures)
+    for text_id in ("pg008_im001", "pg008_im002"):
+        filename = audios.get(text_id, "")
+        audio_path = I18N / "audio" / filename
+        require(audio_path.exists() and audio_path.stat().st_size > 100_000, f"Page 8 numbered image audio is invalid: {text_id}", failures)
 
     for index, entry in enumerate(pages, 1):
         path = ROOT / entry["href"]
