@@ -329,15 +329,15 @@
     },
     {
       "textId": "pg053_n0004",
-      "visibleTextSha256": "2b693ff1460d496ee942e217e2e9864b5c0858aa885a94c702305c5caaa1d038",
-      "spokenTextSha256": "2b693ff1460d496ee942e217e2e9864b5c0858aa885a94c702305c5caaa1d038",
-      "audioBytes": 92544
+      "visibleTextSha256": "761ba7ec2ba1ca2ef899d4c084d8fc73cd479b6c5d3f68fae4faf1fb1f425f87",
+      "spokenTextSha256": "1beea194dfa75c3e14668d32cb72bff60a6906d1e7ba2fef0d07088202aa6f65",
+      "audioBytes": 97152
     },
     {
       "textId": "pg053_n0004_easy_read",
-      "visibleTextSha256": "2b693ff1460d496ee942e217e2e9864b5c0858aa885a94c702305c5caaa1d038",
-      "spokenTextSha256": "2b693ff1460d496ee942e217e2e9864b5c0858aa885a94c702305c5caaa1d038",
-      "audioBytes": 92544
+      "visibleTextSha256": "761ba7ec2ba1ca2ef899d4c084d8fc73cd479b6c5d3f68fae4faf1fb1f425f87",
+      "spokenTextSha256": "1beea194dfa75c3e14668d32cb72bff60a6906d1e7ba2fef0d07088202aa6f65",
+      "audioBytes": 97152
     },
     {
       "textId": "pg056_n0008",

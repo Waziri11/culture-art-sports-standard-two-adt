@@ -28,7 +28,7 @@ TEXT_UPDATES = {
     "pg048_n0006": "Study at the pictures and answer the following questions:",
     "pg049_n0008": "What type of performing art involving body movement do you identify in these pictures?",
     "pg050_n0006": "Study at the pictures and answer the following questions:",
-    "pg053_n0004": "Mention or use cones to make a circle on the ground with a diameter of 25 steps;",
+    "pg053_n0004": "Draw or use cones to make a circle on the ground with a diameter of 25 steps;",
     "pg056_n0017": "Mention a circle for running with a stick game.",
 }
 
