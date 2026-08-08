@@ -125,12 +125,16 @@ def main() -> None:
     require('rounded-[1.75rem] bg-white/40' not in page53_source, "Page 53 question 2 remains visually separated from the other questions", failures)
     numbered_report = json.loads((ROOT / "numbered-item-audio-report.json").read_text(encoding="utf-8"))
     numbered_items = {item["textId"]: item for item in numbered_report.get("clips", [])}
+    list_marker_numbered_ids = {
+        "pg056_n0008": "1", "pg056_n0010": "2", "pg056_n0012": "3",
+    }
     expected_numbered_ids = {
         text_id for text_id, visible in texts.items()
         if text_id in audios and re.match(r"^\s*(?:10|[1-9])[.)]\s+", str(visible))
         and not text_id.startswith("pg023_")
         and text_id not in page39_table_ids
     }
+    expected_numbered_ids.update(list_marker_numbered_ids)
     require(set(numbered_items) == expected_numbered_ids, "Book-wide numbered narration audit is incomplete", failures)
     require(len(numbered_items) == 244, f"Expected 244 numbered narration clips, found {len(numbered_items)}", failures)
     for text_id, item in numbered_items.items():
@@ -138,7 +142,8 @@ def main() -> None:
             continue
         visible = str(texts.get(text_id, ""))
         require(item.get("visibleTextSha256") == hashlib.sha256(visible.encode("utf-8")).hexdigest(), f"Numbered narration evidence is stale: {text_id}", failures)
-        number = re.match(r"^\s*(10|[1-9])[.)]", visible).group(1)
+        number_match = re.match(r"^\s*(10|[1-9])[.)]", visible)
+        number = number_match.group(1) if number_match else list_marker_numbered_ids[text_id]
         words = {"1":"one","2":"two","3":"three","4":"four","5":"five","6":"six","7":"seven","8":"eight","9":"nine","10":"ten"}
         require(item.get("spokenText", "").startswith(f"Number {words[number]}."), f"Visible number is not explicitly spoken: {text_id}", failures)
         filename = audios.get(text_id)

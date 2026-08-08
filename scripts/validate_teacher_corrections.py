@@ -100,9 +100,9 @@ assertions = {
     "pg042_n0008": "I am a cow!",
     "pg045_n0015": "Take a mirror or use an accessible application",
     "pg051_n0016": "3.",
-    "pg056_n0008": "1.",
-    "pg056_n0010": "2.",
-    "pg056_n0012": "3.",
+    "pg056_n0008": "Mention the steps",
+    "pg056_n0010": "What are the benefits",
+    "pg056_n0012": "To win this game",
     "pg067_n0010": "__________",
     "pg070_n0002": "The football game",
 }
