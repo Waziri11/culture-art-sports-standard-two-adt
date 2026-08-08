@@ -109,6 +109,14 @@ def main() -> None:
     require("pg011_n0013" not in texts and "pg011_n0013_easy_read" not in texts, "Separate Activity 2 number remains in localized text", failures)
     require("pg011_n0013" not in audios and "pg011_n0013_easy_read" not in audios, "Separate Activity 2 number audio remains mapped", failures)
 
+    exercise_first = (ROOT / "pg013_sec003.html").read_text(encoding="utf-8")
+    exercise_second = (ROOT / "pg013_sec004.html").read_text(encoding="utf-8")
+    exercise_order = exercise_first + exercise_second
+    positions = [exercise_order.find(f'data-id="{text_id}"') for text_id in ("pg013_n0020", "pg013_n0025", "pg013_n0022")]
+    require(all(position >= 0 for position in positions) and positions == sorted(positions), "Exercise 1 questions are not ordered 1, 2, 3", failures)
+    for material_id in ("pg013_n0037", "pg013_n0041", "pg013_n0045", "pg013_n0049"):
+        require(exercise_second.count(f'data-id="{material_id}"') == 1, f"Exercise 1 material is duplicated in read-aloud order: {material_id}", failures)
+
     circus_source = (ROOT / "pg049_sec001.html").read_text(encoding="utf-8")
     for text_id in ["pg049_im001", "pg049_im002", "pg049_n0005", "pg049_n0008", "pg049_n0013", "pg049_n0014"]:
         require(f'data-id="{text_id}"' in circus_source, f"Circus continuous page missing {text_id}", failures)
