@@ -68,6 +68,22 @@ def main() -> None:
     texts = json.loads((I18N / "texts.json").read_text(encoding="utf-8"))
     audios = json.loads((I18N / "audios.json").read_text(encoding="utf-8"))
     pages = json.loads((ROOT / "content/pages.json").read_text(encoding="utf-8"))
+    blank_report = json.loads((ROOT / "bookwide-blank-audio-report.json").read_text(encoding="utf-8"))
+    blank_items = {item["textId"]: item for item in blank_report.get("clips", [])}
+    expected_blank_ids = {"pg033_n0005", "pg033_n0005_easy_read", "pg051_n0034", "pg051_n0034_easy_read", "pg067_n0010_easy_read"}
+    require(set(blank_items) == expected_blank_ids, "Book-wide answer-line audio evidence is incomplete", failures)
+    require(not any("[[blank:" in str(value) for value in texts.values()), "Exposed blank placeholder remains in localized text", failures)
+    require(not any("[[blank:" in path.read_text(encoding="utf-8") for path in ROOT.glob("*.html")), "Exposed blank placeholder remains in page HTML", failures)
+    for text_id, item in blank_items.items():
+        visible = str(texts.get(text_id, ""))
+        require("__________" in visible, f"Real answer line is missing: {text_id}", failures)
+        require(item.get("visibleTextSha256") == hashlib.sha256(visible.encode("utf-8")).hexdigest(), f"Answer-line narration evidence is stale: {text_id}", failures)
+        require("_" not in item.get("spokenText", "") and "blank" not in item.get("spokenText", "").lower(), f"Answer-line markup is spoken: {text_id}", failures)
+        filename = audios.get(text_id)
+        path = I18N / "audio" / filename if filename else None
+        require(bool(path and path.exists() and path.stat().st_size == item.get("audioBytes") and path.stat().st_size > 768), f"Answer-line narration file does not match evidence: {text_id}", failures)
+    page53_source = (ROOT / "pg033_sec001.html").read_text(encoding="utf-8")
+    require('rounded-[1.75rem] bg-white/40' not in page53_source, "Page 53 question 2 remains visually separated from the other questions", failures)
     numbered_report = json.loads((ROOT / "numbered-item-audio-report.json").read_text(encoding="utf-8"))
     numbered_items = {item["textId"]: item for item in numbered_report.get("clips", [])}
     expected_numbered_ids = {
@@ -78,6 +94,8 @@ def main() -> None:
     require(set(numbered_items) == expected_numbered_ids, "Book-wide numbered narration audit is incomplete", failures)
     require(len(numbered_items) == 244, f"Expected 244 numbered narration clips, found {len(numbered_items)}", failures)
     for text_id, item in numbered_items.items():
+        if text_id in blank_items:
+            continue
         visible = str(texts.get(text_id, ""))
         require(item.get("visibleTextSha256") == hashlib.sha256(visible.encode("utf-8")).hexdigest(), f"Numbered narration evidence is stale: {text_id}", failures)
         number = re.match(r"^\s*(10|[1-9])[.)]", visible).group(1)
@@ -127,12 +145,12 @@ def main() -> None:
         if text_id not in numbered_items and text_id not in dialogue_items:
             require(bool(audio_path and audio_path.exists() and audio_path.stat().st_size == item.get("audioBytes") and audio_path.stat().st_size > 768), f"Kiswahili narration file does not match evidence: {text_id}", failures)
     page43_source = (ROOT / "pg026_sec002.html").read_text(encoding="utf-8")
-    blank_report = json.loads((ROOT / "page43-blank-audio-report.json").read_text(encoding="utf-8"))
-    blank_items = {item["textId"]: item for item in blank_report.get("clips", [])}
+    page43_blank_report = json.loads((ROOT / "page43-blank-audio-report.json").read_text(encoding="utf-8"))
+    page43_blank_items = {item["textId"]: item for item in page43_blank_report.get("clips", [])}
     for text_id in ("pg026_n0023", "pg026_n0025", "pg026_n0023_easy_read", "pg026_n0025_easy_read"):
         require("[[blank:" not in str(texts.get(text_id, "")), f"Exposed blank placeholder remains: {text_id}", failures)
         require("__________" in str(texts.get(text_id, "")), f"Printed answer line is missing: {text_id}", failures)
-        item = blank_items.get(text_id, {})
+        item = page43_blank_items.get(text_id, {})
         require("_" not in item.get("spokenText", "") and "blank" not in item.get("spokenText", "").lower(), f"Answer-line markup is spoken: {text_id}", failures)
         filename = audios.get(text_id)
         path = I18N / "audio" / filename if filename else None
@@ -279,7 +297,7 @@ def main() -> None:
     require(len(changed_audio_items) == 64, f"Expected 64 regenerated corrected-text clips, found {len(changed_audio_items)}", failures)
     require("pg019_n0015" in changed_audio_items and "pg019_n0015_easy_read" in changed_audio_items, "Fishing Activity 6 narration was not regenerated", failures)
     for text_id, item in changed_audio_items.items():
-        if text_id in newer_audio_evidence_ids or text_id in numbered_items or text_id in dialogue_items:
+        if text_id in newer_audio_evidence_ids or text_id in numbered_items or text_id in dialogue_items or text_id in blank_items:
             continue
         current_text = str(texts.get(text_id, ""))
         current_hash = hashlib.sha256(current_text.encode("utf-8")).hexdigest()

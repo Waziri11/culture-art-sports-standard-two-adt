@@ -1,0 +1,36 @@
+{
+  "voice": "Tessa",
+  "speakingRateWordsPerMinute": 145,
+  "clips": [
+    {
+      "textId": "pg033_n0005",
+      "visibleTextSha256": "f2ca12587471b9e7548c94bcb54353bd1ffcfc9e659f619a8fca843b0e59f583",
+      "spokenText": "Number two. The materials needed for this work of art include two materials.",
+      "audioBytes": 91392
+    },
+    {
+      "textId": "pg033_n0005_easy_read",
+      "visibleTextSha256": "f2ca12587471b9e7548c94bcb54353bd1ffcfc9e659f619a8fca843b0e59f583",
+      "spokenText": "Number two. The materials needed for this work of art include two materials.",
+      "audioBytes": 91392
+    },
+    {
+      "textId": "pg051_n0034",
+      "visibleTextSha256": "8e8f25d1bb5990dc58e7e2a28e582d32532b9e04c73e64caeba87ab7b7c13d0c",
+      "spokenText": "The imitation of actions done by people or animals is called.",
+      "audioBytes": 69120
+    },
+    {
+      "textId": "pg051_n0034_easy_read",
+      "visibleTextSha256": "cc08fc9eba4c3b5804f1240d54486fe48a9b276b46822f607b7d91d3c4dd7747",
+      "spokenText": "The copying of actions done by people or animals is called.",
+      "audioBytes": 65280
+    },
+    {
+      "textId": "pg067_n0010_easy_read",
+      "visibleTextSha256": "fa1ae98b5bbe0e28fca978facdd68ba57fc6d4ad9b68d5929d10404542568e5e",
+      "spokenText": "The player behind the other team is called.",
+      "audioBytes": 41856
+    }
+  ]
+}
