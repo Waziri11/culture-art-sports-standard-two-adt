@@ -1,0 +1,126 @@
+{
+  "voice": "Tessa",
+  "speakingRateWordsPerMinute": 145,
+  "clips": [
+    {
+      "textId": "pg039_n0016",
+      "visibleTextSha256": "c0b11a70fb9dcc4b4e8a0e90c0c5def12787ae608191809d132250e566550f14",
+      "spokenText": "Number one. Painting.",
+      "audioBytes": 32256
+    },
+    {
+      "textId": "pg039_n0017",
+      "visibleTextSha256": "f903823e6e4f6506ab29f001b87a89ee886d6c08a31f1bf224769eba9078b9e3",
+      "spokenText": "Letter A. Sewing.",
+      "audioBytes": 21504
+    },
+    {
+      "textId": "pg039_n0018",
+      "visibleTextSha256": "c99d9a481251721466455ef80fd84eafb1e2c40ae46a3ee9c23632bca37c516d",
+      "spokenText": "Number two. Making a pot.",
+      "audioBytes": 36864
+    },
+    {
+      "textId": "pg039_n0019",
+      "visibleTextSha256": "3a5c43bfa67e9c3c963587873c1978e16cb6353457622d504fef678f38a9c6ae",
+      "spokenText": "Letter B. Moulding.",
+      "audioBytes": 23808
+    },
+    {
+      "textId": "pg039_n0020",
+      "visibleTextSha256": "981032d07803bb41d9cec84f3825147be9fbcefd4be709c1a1e615bb82f99ffa",
+      "spokenText": "Number three. Stitching two pieces of fabric together.",
+      "audioBytes": 66048
+    },
+    {
+      "textId": "pg039_n0021",
+      "visibleTextSha256": "5f44c36be05db77c9e13a1b377837a8a607114a2ba3aeacc45df36f05c581be2",
+      "spokenText": "Letter C. Decorating.",
+      "audioBytes": 28032
+    },
+    {
+      "textId": "pg039_n0022",
+      "visibleTextSha256": "37748eb1f69d82ccc471d237e829f07b8c39deb7fe9d0919570acb5172a5a283",
+      "spokenText": "Number four. Making masks, wooden spoons and combs.",
+      "audioBytes": 73728
+    },
+    {
+      "textId": "pg039_n0023",
+      "visibleTextSha256": "719c16225342ffaa08b0e2d37af5d382f8c798cbb8ec985ab6258711af818c9e",
+      "spokenText": "Letter D. Weaving.",
+      "audioBytes": 20736
+    },
+    {
+      "textId": "pg039_n0024",
+      "visibleTextSha256": "2f4e82321d3d9a0ae875fbd1aa2f584c8895f3098a350da0be74fd3ad19e877b",
+      "spokenText": "Number five. Making sweaters, hats and socks.",
+      "audioBytes": 65664
+    },
+    {
+      "textId": "pg039_n0025",
+      "visibleTextSha256": "8e13dbc4574bd42f1c9b845ec99759b23abe80f44cb3d88769f1064c4dabc57e",
+      "spokenText": "Letter E. Carving.",
+      "audioBytes": 21504
+    },
+    {
+      "textId": "pg039_n0016_easy_read",
+      "visibleTextSha256": "c0b11a70fb9dcc4b4e8a0e90c0c5def12787ae608191809d132250e566550f14",
+      "spokenText": "Number one. Painting.",
+      "audioBytes": 32256
+    },
+    {
+      "textId": "pg039_n0017_easy_read",
+      "visibleTextSha256": "f903823e6e4f6506ab29f001b87a89ee886d6c08a31f1bf224769eba9078b9e3",
+      "spokenText": "Letter A. Sewing.",
+      "audioBytes": 21504
+    },
+    {
+      "textId": "pg039_n0018_easy_read",
+      "visibleTextSha256": "c99d9a481251721466455ef80fd84eafb1e2c40ae46a3ee9c23632bca37c516d",
+      "spokenText": "Number two. Making a pot.",
+      "audioBytes": 36864
+    },
+    {
+      "textId": "pg039_n0019_easy_read",
+      "visibleTextSha256": "3a5c43bfa67e9c3c963587873c1978e16cb6353457622d504fef678f38a9c6ae",
+      "spokenText": "Letter B. Moulding.",
+      "audioBytes": 23808
+    },
+    {
+      "textId": "pg039_n0020_easy_read",
+      "visibleTextSha256": "981032d07803bb41d9cec84f3825147be9fbcefd4be709c1a1e615bb82f99ffa",
+      "spokenText": "Number three. Stitching two pieces of fabric together.",
+      "audioBytes": 66048
+    },
+    {
+      "textId": "pg039_n0021_easy_read",
+      "visibleTextSha256": "5f44c36be05db77c9e13a1b377837a8a607114a2ba3aeacc45df36f05c581be2",
+      "spokenText": "Letter C. Decorating.",
+      "audioBytes": 28032
+    },
+    {
+      "textId": "pg039_n0022_easy_read",
+      "visibleTextSha256": "37748eb1f69d82ccc471d237e829f07b8c39deb7fe9d0919570acb5172a5a283",
+      "spokenText": "Number four. Making masks, wooden spoons and combs.",
+      "audioBytes": 73728
+    },
+    {
+      "textId": "pg039_n0023_easy_read",
+      "visibleTextSha256": "719c16225342ffaa08b0e2d37af5d382f8c798cbb8ec985ab6258711af818c9e",
+      "spokenText": "Letter D. Weaving.",
+      "audioBytes": 20736
+    },
+    {
+      "textId": "pg039_n0024_easy_read",
+      "visibleTextSha256": "2f4e82321d3d9a0ae875fbd1aa2f584c8895f3098a350da0be74fd3ad19e877b",
+      "spokenText": "Number five. Making sweaters, hats and socks.",
+      "audioBytes": 65664
+    },
+    {
+      "textId": "pg039_n0025_easy_read",
+      "visibleTextSha256": "8e13dbc4574bd42f1c9b845ec99759b23abe80f44cb3d88769f1064c4dabc57e",
+      "spokenText": "Letter E. Carving.",
+      "audioBytes": 21504
+    }
+  ]
+}

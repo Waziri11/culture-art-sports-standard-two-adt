@@ -89,6 +89,24 @@ def main() -> None:
         filename = audios.get(text_id)
         path = I18N / "audio" / filename if filename else None
         require(bool(path and path.exists() and path.stat().st_size == item.get("audioBytes") and path.stat().st_size > 768), f"Study-at narration file does not match evidence: {text_id}", failures)
+    page39_source = (ROOT / "pg039_sec002.html").read_text(encoding="utf-8")
+    page39_report = json.loads((ROOT / "page39-accessible-table-audio-report.json").read_text(encoding="utf-8"))
+    page39_items = {item["textId"]: item for item in page39_report.get("clips", [])}
+    page39_base_ids = {f"pg039_n{number:04d}" for number in range(16, 26)}
+    page39_table_ids = page39_base_ids | {f"{text_id}_easy_read" for text_id in page39_base_ids}
+    require(set(page39_items) == page39_table_ids, "Page 39 accessible-table narration evidence is incomplete", failures)
+    require(page39_source.count("<table") == 1 and page39_source.count("<tbody") == 1, "Page 39 is not represented by one native table", failures)
+    require(page39_source.count('<tr class="border-t"') == 5, "Page 39 table does not have five aligned rows", failures)
+    require('class="sr-only"' in page39_source and '<img src="images/pg039_im002.png"' in page39_source, "Page 39 source image is not retained as a hidden description fallback", failures)
+    for text_id in sorted(page39_base_ids):
+        require(page39_source.count(f'data-id="{text_id}"') == 1, f"Page 39 table cell is missing or duplicated: {text_id}", failures)
+    for text_id, item in page39_items.items():
+        visible = str(texts.get(text_id, ""))
+        require(item.get("visibleTextSha256") == hashlib.sha256(visible.encode("utf-8")).hexdigest(), f"Page 39 table narration evidence is stale: {text_id}", failures)
+        require(item.get("spokenText", "").startswith(("Number ", "Letter ")), f"Page 39 number or letter is not explicitly spoken: {text_id}", failures)
+        filename = audios.get(text_id)
+        path = I18N / "audio" / filename if filename else None
+        require(bool(path and path.exists() and path.stat().st_size == item.get("audioBytes") and path.stat().st_size > 768), f"Page 39 table narration file does not match evidence: {text_id}", failures)
     blank_report = json.loads((ROOT / "bookwide-blank-audio-report.json").read_text(encoding="utf-8"))
     blank_items = {item["textId"]: item for item in blank_report.get("clips", [])}
     expected_blank_ids = {"pg033_n0005", "pg033_n0005_easy_read", "pg051_n0034", "pg051_n0034_easy_read", "pg067_n0010_easy_read"}
@@ -111,6 +129,7 @@ def main() -> None:
         text_id for text_id, visible in texts.items()
         if text_id in audios and re.match(r"^\s*(?:10|[1-9])[.)]\s+", str(visible))
         and not text_id.startswith("pg023_")
+        and text_id not in page39_table_ids
     }
     require(set(numbered_items) == expected_numbered_ids, "Book-wide numbered narration audit is incomplete", failures)
     require(len(numbered_items) == 244, f"Expected 244 numbered narration clips, found {len(numbered_items)}", failures)
