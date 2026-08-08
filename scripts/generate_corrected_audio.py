@@ -40,6 +40,9 @@ def speech_text(text_id: str, text: str) -> str:
     # override Tessa reads the isolated "(a)" label as the article "ah".
     if text_id in {"pg052_n0021", "pg052_n0021_easy_read"}:
         return "ay"
+    # Speak the list number without verbalising its punctuation.
+    if text_id in {"pg060_n0023", "pg060_n0023_easy_read"}:
+        return "six"
     text = re.sub(r"_+", " ", text)
     text = text.replace("•", ". ").replace("–", ", ")
     text = apply_pronunciations(text)
