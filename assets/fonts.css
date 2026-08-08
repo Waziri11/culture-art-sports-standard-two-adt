@@ -47,6 +47,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Sassoon Primary';
+  src: url('./fonts/SassoonPrimary-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Apply the font globally */
 body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select {
   font-family: "Merriweather", serif;
@@ -55,4 +63,10 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select {
 #nav-container, #nav-container *,
 #interface-container, #interface-container * {
   font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+/* The textbook itself uses the licensed pupil-facing Sassoon typeface. */
+#content section,
+#content section *:not(.fa):not(.fas):not(.far):not(.fab):not([class*="fa-"]) {
+  font-family: 'Sassoon Primary', sans-serif !important;
 }
