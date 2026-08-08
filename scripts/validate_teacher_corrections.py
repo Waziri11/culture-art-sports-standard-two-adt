@@ -37,6 +37,14 @@ require("FOR ONLINE" not in certificate_source.upper(), "Certificate watermark t
 require("Dr Lyabwene M. Mtahabwa" in certificate_source, "Certificate signatory does not match the PDF", failures)
 require("Dr Lyabwene M. Mtahabwa" == texts.get("pg001_n0019"), "Certificate signatory localization mismatch", failures)
 
+toc_source = (ROOT / "pg003_sec001.html").read_text(encoding="utf-8")
+require('data-id="pg003_n0002" class="sr-only"' in toc_source, "Duplicate visible table-of-contents heading remains", failures)
+require(toc_source.count('class="toc-entry') == 6, "Table-of-contents dotted rows are incomplete", failures)
+require(toc_source.count('class="toc-leader"') == 6, "Table-of-contents dotted leaders are incomplete", failures)
+require(texts.get("pg003_n0006") == "iv" and texts.get("pg003_n0008") == "vi", "Roman page numbers are not separated", failures)
+toc_audio_report = json.loads((ROOT / "toc-audio-report.json").read_text(encoding="utf-8"))
+require(toc_audio_report.get("romanNumerals") == {"iv": "Roman four", "vi": "Roman six"}, "Roman numeral narration is incorrect", failures)
+
 require(not any(p["href"].startswith("qz") for p in pages), "Quiz entry remains in pages.json", failures)
 require(not list(ROOT.glob("qz*.html")), "Quiz HTML remains", failures)
 require(not any(k.startswith("qz") for k in texts), "Quiz text remains", failures)
