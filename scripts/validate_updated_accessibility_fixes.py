@@ -137,6 +137,9 @@ def main() -> None:
     house_table = (ROOT / "pg014_sec001.html").read_text(encoding="utf-8")
     final_table = (ROOT / "pg072_sec002.html").read_text(encoding="utf-8")
     require(all(f'data-id="{text_id}"' in house_table for text_id in ["pg014_n0008", "pg014_n0010", "pg014_n0013", "pg014_n0016"]), "Traditional-house table is not accessible", failures)
+    require('<table class="w-full table-fixed border-collapse' in house_table, "Traditional-house matching rows do not share one aligned table", failures)
+    require(house_table.count('<tr class="border-t border-pink-500">') == 3, "Traditional-house matching table does not have three aligned rows", failures)
+    require(house_table.count('data-id="pg014_im002"') == 1, "Traditional-house table image description is duplicated", failures)
     require(all(f'data-id="{text_id}"' in final_table for text_id in ["pg072_n0016", "pg072_n0018", "pg072_n0021", "pg072_n0023"]), "Final Group A/B table is not accessible", failures)
 
     doc = Document(str(FORM))
