@@ -88,6 +88,28 @@ def main() -> None:
         require(bool(path and path.exists() and path.stat().st_size == item.get("audioBytes") and path.stat().st_size > 768), f"Numbered narration file does not match evidence: {text_id}", failures)
     for text_id in ("pg031_n0008", "pg031_n0010", "pg031_n0012", "pg031_n0008_easy_read", "pg031_n0010_easy_read", "pg031_n0012_easy_read"):
         require(text_id in numbered_items, f"Page 49 numbered question was not regenerated: {text_id}", failures)
+    dialogue_report = json.loads((ROOT / "adhana-dialogue-audio-report.json").read_text(encoding="utf-8"))
+    dialogue_items = {item["textId"]: item for item in dialogue_report.get("clips", [])}
+    dialogue_base_ids = []
+    for dialogue_page in (ROOT / "pg025_sec001.html", ROOT / "pg026_sec001.html"):
+        dialogue_base_ids.extend(re.findall(r'data-id="(pg02[56]_[^"]+)"', dialogue_page.read_text(encoding="utf-8")))
+    dialogue_base_ids = list(dict.fromkeys(dialogue_base_ids))
+    dialogue_ids = dialogue_base_ids + [f"{text_id}_easy_read" for text_id in dialogue_base_ids if str(texts.get(f"{text_id}_easy_read", "")).strip()]
+    require(set(dialogue_items) == set(dialogue_ids), "Two-voice dialogue narration is incomplete", failures)
+    require(dialogue_report.get("voices") == {"Kabula": "Tessa", "Mzee Masanja": "Daniel"}, "Dialogue does not use distinct character voices", failures)
+    require(dialogue_report.get("adhanaPronunciation") == "ah-THAA-nah", "Dialogue uses the wrong Adhana pronunciation", failures)
+    require({item.get("voice") for item in dialogue_items.values()} == {"Tessa", "Daniel"}, "Both dialogue voices are not present", failures)
+    for text_id, item in dialogue_items.items():
+        visible = str(texts.get(text_id, ""))
+        require(item.get("visibleTextSha256") == hashlib.sha256(visible.encode("utf-8")).hexdigest(), f"Dialogue narration evidence is stale: {text_id}", failures)
+        filename = audios.get(text_id)
+        path = I18N / "audio" / filename if filename else None
+        require(bool(path and path.exists() and path.stat().st_size == item.get("audioBytes") and path.stat().st_size > 768), f"Dialogue narration file does not match evidence: {text_id}", failures)
+    dialogue_spoken = " ".join(item.get("spokenText", "") for item in dialogue_items.values())
+    for rendering in ("em-ZEH-eh", "ah-THAA-nah", "kah-BOO-lah", "mah-SAHN-jah"):
+        require(rendering in dialogue_spoken, f"Dialogue is missing tuned pronunciation: {rendering}", failures)
+    require('aria-label="Dialogue between Kabula and Mzee Masanja"' in (ROOT / "pg025_sec001.html").read_text(encoding="utf-8"), "Page 41 is not structurally identified as a dialogue", failures)
+    require('aria-label="Dialogue between Kabula and Mzee Masanja"' in (ROOT / "pg026_sec001.html").read_text(encoding="utf-8"), "Page 42 is not structurally identified as a dialogue", failures)
     swahili_report = json.loads((ROOT / "swahili-pronunciation-audio-report.json").read_text(encoding="utf-8"))
     swahili_items = {item["textId"]: item for item in swahili_report.get("clips", [])}
     page41_source = (ROOT / "pg025_sec001.html").read_text(encoding="utf-8")
@@ -102,11 +124,8 @@ def main() -> None:
         require(item.get("visibleTextSha256") == hashlib.sha256(current.encode("utf-8")).hexdigest(), f"Kiswahili narration evidence is stale: {text_id}", failures)
         filename = audios.get(text_id)
         audio_path = I18N / "audio" / filename if filename else None
-        if text_id not in numbered_items:
+        if text_id not in numbered_items and text_id not in dialogue_items:
             require(bool(audio_path and audio_path.exists() and audio_path.stat().st_size == item.get("audioBytes") and audio_path.stat().st_size > 768), f"Kiswahili narration file does not match evidence: {text_id}", failures)
-    page41_spoken = " ".join(swahili_items[text_id].get("spokenText", "") for text_id in page41_ids)
-    for rendering in ("m-ZEH-eh", "ah-DHAH-nah", "kah-BOO-lah", "mah-SAHN-jah"):
-        require(rendering in page41_spoken, f"Page 41 narration is missing tuned pronunciation: {rendering}", failures)
     page43_source = (ROOT / "pg026_sec002.html").read_text(encoding="utf-8")
     blank_report = json.loads((ROOT / "page43-blank-audio-report.json").read_text(encoding="utf-8"))
     blank_items = {item["textId"]: item for item in blank_report.get("clips", [])}
@@ -247,7 +266,7 @@ def main() -> None:
     require(len(changed_audio_items) == 64, f"Expected 64 regenerated corrected-text clips, found {len(changed_audio_items)}", failures)
     require("pg019_n0015" in changed_audio_items and "pg019_n0015_easy_read" in changed_audio_items, "Fishing Activity 6 narration was not regenerated", failures)
     for text_id, item in changed_audio_items.items():
-        if text_id in newer_audio_evidence_ids or text_id in numbered_items:
+        if text_id in newer_audio_evidence_ids or text_id in numbered_items or text_id in dialogue_items:
             continue
         current_text = str(texts.get(text_id, ""))
         current_hash = hashlib.sha256(current_text.encode("utf-8")).hexdigest()

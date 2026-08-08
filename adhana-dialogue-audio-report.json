@@ -1,0 +1,522 @@
+{
+  "speakingRateWordsPerMinute": 142,
+  "voices": {
+    "Kabula": "Tessa",
+    "Mzee Masanja": "Daniel"
+  },
+  "adhanaPronunciation": "ah-THAA-nah",
+  "clips": [
+    {
+      "textId": "pg025_n0002",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0003",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "570464e94665fb7a623d695fccb1dc9edfaa5d05c7144b70afd769541d834b25",
+      "spokenText": "I’m fine, em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 48000
+    },
+    {
+      "textId": "pg025_n0004",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "10363d875e9c3dce504a1ad0648f4590896b6255e11312a0d96f5a55289aa18c",
+      "spokenText": "Where are you going, it is very early in the morning.",
+      "audioBytes": 57984
+    },
+    {
+      "textId": "pg025_n0006",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 26112
+    },
+    {
+      "textId": "pg025_n0007",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "529cccff38c9d087513f344a451400faa08713035f408d9a378f2e0f8366e9bb",
+      "spokenText": "I’m going to the Mosque to pray.",
+      "audioBytes": 30720
+    },
+    {
+      "textId": "pg025_n0009",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0010",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "e83b19f8e769caef6e6ec972fb4bd421089fe2c0bdcd0698f4ad9ed5f077ab56",
+      "spokenText": "Okay em-ZEH-eh mah-SAHN-jah!",
+      "audioBytes": 38400
+    },
+    {
+      "textId": "pg025_n0011",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "a1dd2ff2d1ef6bebab69104306ae84d3c67f9a82c853f802e7b3ddc7a9ad247e",
+      "spokenText": "Can I ask you a question?",
+      "audioBytes": 31488
+    },
+    {
+      "textId": "pg025_n0013",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 26112
+    },
+    {
+      "textId": "pg025_n0014",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "33b5e9cd364af4803829959aeb9a8dc0048eb9c9eb62469e9142713dee7be8fe",
+      "spokenText": "Of course, you may ask, kah-BOO-lah.",
+      "audioBytes": 47616
+    },
+    {
+      "textId": "pg025_n0016",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0017",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "52e0ca10123415b713d66913589936410b69a3caf7cf872fd0eda2c09032de91",
+      "spokenText": "I usually hear the sound coming from the Mosque early in the morning, What does that sound mean?",
+      "audioBytes": 97920
+    },
+    {
+      "textId": "pg025_n0019",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 26112
+    },
+    {
+      "textId": "pg025_n0020",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "a20c37c076d8edd005b5ce1edffb7f5ba47717d2b9f07b801794e7ef639d6fe7",
+      "spokenText": "That’s a good question, kah-BOO-lah.",
+      "audioBytes": 38784
+    },
+    {
+      "textId": "pg025_n0021",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "726164264bf73a0de2c671ee0e0ac5cb83b003d96a953f8eebf85a01d9f408b7",
+      "spokenText": "That sound is called ah-THAA-nah.",
+      "audioBytes": 41856
+    },
+    {
+      "textId": "pg025_n0022",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "e430520d28a3c2e0c76f8bc0882fa3e20babf86f4ccfcbdf8705c67fe278302c",
+      "spokenText": "For us Muslims, when we hear the ah-THAA-nah, we prepare and go to the Mosque to pray.",
+      "audioBytes": 101376
+    },
+    {
+      "textId": "pg025_n0024",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0025",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "c412868557c3a93f090b2ab98423c86a74061583bb1a927e8d1d4d4bcb27bc38",
+      "spokenText": "Oh! So, the ah-THAA-nah is like the bell that rings at the church?",
+      "audioBytes": 92544
+    },
+    {
+      "textId": "pg025_n0027",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 26112
+    },
+    {
+      "textId": "pg025_n0028",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "9f4bfee65aea0af1b6302d19b01c73aa1ce4ee73275edf55e372632fed4b53c5",
+      "spokenText": "Yes, kah-BOO-lah.",
+      "audioBytes": 26112
+    },
+    {
+      "textId": "pg025_n0029",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "bd1c802e09a23ea0167373cad7f562a1d18f2b666e042e0afc9a1c0adfd4cb85",
+      "spokenText": "In Churches, they use a bell, and in the Mosque, we use the ah-THAA-nah to remind people that it is time for prayers.",
+      "audioBytes": 130176
+    },
+    {
+      "textId": "pg026_n0003",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg026_n0004",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "ddb2cea725292f6f10379373aac6406a804a71d6a84aef1b0f548d8886bd2462",
+      "spokenText": "Oh! I see! Therefore, the ah-THAA-nah and the bell should be respected in the community.",
+      "audioBytes": 115584
+    },
+    {
+      "textId": "pg026_n0005",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "bd14c240a4dde5e1e61b1bd2b9e8ffa43e27242ba2c4666b4f46fb9cebe9c95e",
+      "spokenText": "Also, the ah-THAA-nah helps me wake up early to get ready for school.",
+      "audioBytes": 95616
+    },
+    {
+      "textId": "pg026_n0007",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 26112
+    },
+    {
+      "textId": "pg026_n0008",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "9cbd13d9fa2778a905d5d8843aba69c5d7826a4c2d530563eaf17525e943b989",
+      "spokenText": "Oh! Okay, kah-BOO-lah, let me hurry to the Mosque.",
+      "audioBytes": 65280
+    },
+    {
+      "textId": "pg026_n0010",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg026_n0011",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "7bf3574c3b1a9a9d1676cb53cf633a43113a5093520dea345658a76ef0ef0144",
+      "spokenText": "Thank you very much, em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 57984
+    },
+    {
+      "textId": "pg026_n0012",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "3b016232cbf885b0acf283518cb7be546d491ce0b33eabf9988e8f02b47296a4",
+      "spokenText": "Now I understand what the sound means.",
+      "audioBytes": 46080
+    },
+    {
+      "textId": "pg026_n0013",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "57d0942608919c70d6063bcd7bbfa9bbd773d1c118d698096fea9a6350203e42",
+      "spokenText": "I will also hurry to get ready for school.",
+      "audioBytes": 46848
+    },
+    {
+      "textId": "pg026_n0015",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 26112
+    },
+    {
+      "textId": "pg026_n0016",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "0d3a7748cfa0ec58d32b8f2e27bab1b8050e3f579ad174678628eb8f03fc85b2",
+      "spokenText": "Okay, kah-BOO-lah! Thank you.",
+      "audioBytes": 43776
+    },
+    {
+      "textId": "pg025_n0002_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0003_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "64238515872ed24e65d5fe66d5114000a64d1499d98423ff8385d1b6f562fded",
+      "spokenText": "I am fine, em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 51072
+    },
+    {
+      "textId": "pg025_n0004_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "302054e7493773adf5049dd19d56280b372d4dc41b003be294ca851d01d185ec",
+      "spokenText": "Where are you going?. It is very early in the morning.",
+      "audioBytes": 58368
+    },
+    {
+      "textId": "pg025_n0006_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 28032
+    },
+    {
+      "textId": "pg025_n0007_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "f2432ea780196af16652f3a38f477274a0b0d9d04558c073759bce29428f83e1",
+      "spokenText": "I am going to the Mosque to pray.",
+      "audioBytes": 32640
+    },
+    {
+      "textId": "pg025_n0009_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0010_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "039e3b2042a7bf96dfd356647f2ea475d037c910216469c466bb34d6096fdaf7",
+      "spokenText": "Okay, em-ZEH-eh mah-SAHN-jah!",
+      "audioBytes": 44160
+    },
+    {
+      "textId": "pg025_n0011_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "a1dd2ff2d1ef6bebab69104306ae84d3c67f9a82c853f802e7b3ddc7a9ad247e",
+      "spokenText": "Can I ask you a question?",
+      "audioBytes": 31488
+    },
+    {
+      "textId": "pg025_n0013_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 28032
+    },
+    {
+      "textId": "pg025_n0014_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "8ca50434f21fcf345e060f23cbc93d8ba475554ae5853965a017785d2e860c6e",
+      "spokenText": "Of course, kah-BOO-lah.. You may ask.",
+      "audioBytes": 48384
+    },
+    {
+      "textId": "pg025_n0016_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0017_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "365c152b83d04a204eecd3b8a94df8a1e818ae7ac5162a08a233e801f52b2c96",
+      "spokenText": "I usually hear a sound from the Mosque early in the morning.. What does that sound mean?",
+      "audioBytes": 91008
+    },
+    {
+      "textId": "pg025_n0019_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 28032
+    },
+    {
+      "textId": "pg025_n0020_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "e6fbf1348866dfe665ec9f9eae39cc72bae56803e2c46f8d8ab1e08d4b536c26",
+      "spokenText": "That is a good question, kah-BOO-lah.",
+      "audioBytes": 41088
+    },
+    {
+      "textId": "pg025_n0021_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "726164264bf73a0de2c671ee0e0ac5cb83b003d96a953f8eebf85a01d9f408b7",
+      "spokenText": "That sound is called ah-THAA-nah.",
+      "audioBytes": 44544
+    },
+    {
+      "textId": "pg025_n0022_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "c817c0145f81e691e3fdcaacb0f62f33989c35368c35f00aac5f47129457098e",
+      "spokenText": "For us Muslims, when we hear the ah-THAA-nah, we get ready and go to the Mosque to pray.",
+      "audioBytes": 105216
+    },
+    {
+      "textId": "pg025_n0024_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg025_n0025_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "153dcd176cea457328a44e0d3d835a5ce91d301b8fae3fa5c20be50204be6a88",
+      "spokenText": "Oh! So, is the ah-THAA-nah like the bell that rings at the church?",
+      "audioBytes": 92160
+    },
+    {
+      "textId": "pg025_n0027_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 28032
+    },
+    {
+      "textId": "pg025_n0028_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "9f4bfee65aea0af1b6302d19b01c73aa1ce4ee73275edf55e372632fed4b53c5",
+      "spokenText": "Yes, kah-BOO-lah.",
+      "audioBytes": 27264
+    },
+    {
+      "textId": "pg025_n0029_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "e69be903018145f034941d51c066b23d8a6eb5240f4d24b76abc85ef6c7dd8bd",
+      "spokenText": "In churches, they use a bell.. In the Mosque, we use the ah-THAA-nah to remind people that it is time to pray.",
+      "audioBytes": 127104
+    },
+    {
+      "textId": "pg026_n0003_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg026_n0004_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "9ad31a487807bbfeab21efaac7c3c98b97ee62d8ff462e1d1c56db3998d2cff9",
+      "spokenText": "Oh! I see!. So, people in the community should respect the ah-THAA-nah and the bell.",
+      "audioBytes": 115200
+    },
+    {
+      "textId": "pg026_n0005_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "438b8e8329b1ff2210613879594a5b700c312de35aeb17a6fdbd680ba9e3d7f1",
+      "spokenText": "Also, the ah-THAA-nah helps me wake up early and get ready for school.",
+      "audioBytes": 97536
+    },
+    {
+      "textId": "pg026_n0007_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 28032
+    },
+    {
+      "textId": "pg026_n0008_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "4c41363b7b4a1254643a021e9eae40a93c768290865ed6e4f37c206c647a3c01",
+      "spokenText": "Oh! Okay, kah-BOO-lah.. Let me hurry to the Mosque.",
+      "audioBytes": 66816
+    },
+    {
+      "textId": "pg026_n0010_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "03185a058f2b96db7e02cea57c09a586d0dbce6eda9e7d1af5f1931140ee6e27",
+      "spokenText": "kah-BOO-lah.",
+      "audioBytes": 17280
+    },
+    {
+      "textId": "pg026_n0011_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "7bf3574c3b1a9a9d1676cb53cf633a43113a5093520dea345658a76ef0ef0144",
+      "spokenText": "Thank you very much, em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 57984
+    },
+    {
+      "textId": "pg026_n0012_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "9c175d6bdbc12b80b490d6f5fa952c96ee62ecadf5b6c2341b3e7c944d6224c1",
+      "spokenText": "Now I understand the meaning of the sound.",
+      "audioBytes": 44544
+    },
+    {
+      "textId": "pg026_n0013_easy_read",
+      "speaker": "Kabula",
+      "voice": "Tessa",
+      "visibleTextSha256": "57d0942608919c70d6063bcd7bbfa9bbd773d1c118d698096fea9a6350203e42",
+      "spokenText": "I will also hurry to get ready for school.",
+      "audioBytes": 46848
+    },
+    {
+      "textId": "pg026_n0015_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "ce86ad05ca5acc4a50eac4da9879871bce9ced2d6fc3c1fcd788ce2804774570",
+      "spokenText": "em-ZEH-eh mah-SAHN-jah.",
+      "audioBytes": 28032
+    },
+    {
+      "textId": "pg026_n0016_easy_read",
+      "speaker": "Mzee Masanja",
+      "voice": "Daniel",
+      "visibleTextSha256": "0d3a7748cfa0ec58d32b8f2e27bab1b8050e3f579ad174678628eb8f03fc85b2",
+      "spokenText": "Okay, kah-BOO-lah! Thank you.",
+      "audioBytes": 44928
+    }
+  ]
+}

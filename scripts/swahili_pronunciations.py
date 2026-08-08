@@ -12,7 +12,7 @@ PRONUNCIATIONS = {
     "Mzee Masanja": "m-ZEH-eh mah-SAHN-jah",
     "Mzee": "m-ZEH-eh",
     "Masanja": "mah-SAHN-jah",
-    "Adhana": "ah-DHAH-nah",
+    "Adhana": "ah-THAA-nah",
     "Kabula": "kah-BOO-lah",
     "Msonge": "m-SOHN-geh",
     "Tembe": "TEM-beh",
