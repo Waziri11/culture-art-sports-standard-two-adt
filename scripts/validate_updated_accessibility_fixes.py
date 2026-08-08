@@ -68,6 +68,26 @@ def main() -> None:
     texts = json.loads((I18N / "texts.json").read_text(encoding="utf-8"))
     audios = json.loads((I18N / "audios.json").read_text(encoding="utf-8"))
     pages = json.loads((ROOT / "content/pages.json").read_text(encoding="utf-8"))
+    numbered_report = json.loads((ROOT / "numbered-item-audio-report.json").read_text(encoding="utf-8"))
+    numbered_items = {item["textId"]: item for item in numbered_report.get("clips", [])}
+    expected_numbered_ids = {
+        text_id for text_id, visible in texts.items()
+        if text_id in audios and re.match(r"^\s*(?:10|[1-9])[.)]\s+", str(visible))
+        and not text_id.startswith("pg023_")
+    }
+    require(set(numbered_items) == expected_numbered_ids, "Book-wide numbered narration audit is incomplete", failures)
+    require(len(numbered_items) == 244, f"Expected 244 numbered narration clips, found {len(numbered_items)}", failures)
+    for text_id, item in numbered_items.items():
+        visible = str(texts.get(text_id, ""))
+        require(item.get("visibleTextSha256") == hashlib.sha256(visible.encode("utf-8")).hexdigest(), f"Numbered narration evidence is stale: {text_id}", failures)
+        number = re.match(r"^\s*(10|[1-9])[.)]", visible).group(1)
+        words = {"1":"one","2":"two","3":"three","4":"four","5":"five","6":"six","7":"seven","8":"eight","9":"nine","10":"ten"}
+        require(item.get("spokenText", "").startswith(f"Number {words[number]}."), f"Visible number is not explicitly spoken: {text_id}", failures)
+        filename = audios.get(text_id)
+        path = I18N / "audio" / filename if filename else None
+        require(bool(path and path.exists() and path.stat().st_size == item.get("audioBytes") and path.stat().st_size > 768), f"Numbered narration file does not match evidence: {text_id}", failures)
+    for text_id in ("pg031_n0008", "pg031_n0010", "pg031_n0012", "pg031_n0008_easy_read", "pg031_n0010_easy_read", "pg031_n0012_easy_read"):
+        require(text_id in numbered_items, f"Page 49 numbered question was not regenerated: {text_id}", failures)
     swahili_report = json.loads((ROOT / "swahili-pronunciation-audio-report.json").read_text(encoding="utf-8"))
     swahili_items = {item["textId"]: item for item in swahili_report.get("clips", [])}
     page41_source = (ROOT / "pg025_sec001.html").read_text(encoding="utf-8")
@@ -82,7 +102,8 @@ def main() -> None:
         require(item.get("visibleTextSha256") == hashlib.sha256(current.encode("utf-8")).hexdigest(), f"Kiswahili narration evidence is stale: {text_id}", failures)
         filename = audios.get(text_id)
         audio_path = I18N / "audio" / filename if filename else None
-        require(bool(audio_path and audio_path.exists() and audio_path.stat().st_size == item.get("audioBytes") and audio_path.stat().st_size > 768), f"Kiswahili narration file does not match evidence: {text_id}", failures)
+        if text_id not in numbered_items:
+            require(bool(audio_path and audio_path.exists() and audio_path.stat().st_size == item.get("audioBytes") and audio_path.stat().st_size > 768), f"Kiswahili narration file does not match evidence: {text_id}", failures)
     page41_spoken = " ".join(swahili_items[text_id].get("spokenText", "") for text_id in page41_ids)
     for rendering in ("m-ZEH-eh", "ah-DHAH-nah", "kah-BOO-lah", "mah-SAHN-jah"):
         require(rendering in page41_spoken, f"Page 41 narration is missing tuned pronunciation: {rendering}", failures)
@@ -226,7 +247,7 @@ def main() -> None:
     require(len(changed_audio_items) == 64, f"Expected 64 regenerated corrected-text clips, found {len(changed_audio_items)}", failures)
     require("pg019_n0015" in changed_audio_items and "pg019_n0015_easy_read" in changed_audio_items, "Fishing Activity 6 narration was not regenerated", failures)
     for text_id, item in changed_audio_items.items():
-        if text_id in newer_audio_evidence_ids:
+        if text_id in newer_audio_evidence_ids or text_id in numbered_items:
             continue
         current_text = str(texts.get(text_id, ""))
         current_hash = hashlib.sha256(current_text.encode("utf-8")).hexdigest()

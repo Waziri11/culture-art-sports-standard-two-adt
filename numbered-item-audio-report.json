@@ -1,0 +1,1471 @@
+{
+  "voice": "Tessa",
+  "speakingRateWordsPerMinute": 145,
+  "selectionRule": "Mapped visible text beginning with 1.-10. or 1)-10), excluding complete page 38 batch",
+  "clips": [
+    {
+      "textId": "pg006_n0009",
+      "visibleTextSha256": "cf4a60e37e197807a423d8766b7f88e14de8b6a6c7eeb49ce4990c1fe1846673",
+      "spokenText": "Number one. Appreciate one’s culture and that of other people;",
+      "audioBytes": 73728
+    },
+    {
+      "textId": "pg006_n0011",
+      "visibleTextSha256": "d62f8e1d76d3733d2e59e981596885bf71a151ba38b099875a78c62a6daccd89",
+      "spokenText": "Number two. Demonstrate religious tolerance;",
+      "audioBytes": 55680
+    },
+    {
+      "textId": "pg006_n0013",
+      "visibleTextSha256": "47453c0559ccf2b9316649ddf3b3c25d3dc1183f6063f83dfddb6632223d0fe4",
+      "spokenText": "Number three. Demonstrate ethical practice;",
+      "audioBytes": 56064
+    },
+    {
+      "textId": "pg006_n0015",
+      "visibleTextSha256": "1bff7c2cb7ba6221b2bf826c725857fc101fc6b472e91a58cf1e06d4ed4de64a",
+      "spokenText": "Number four. Creative works of art; and",
+      "audioBytes": 56832
+    },
+    {
+      "textId": "pg006_n0017",
+      "visibleTextSha256": "3b3bc806cfe292a0996c4c0fe98fefecced8d8aec998264abaf3697cf19a0dbc",
+      "spokenText": "Number five. Participate in various sports and games.",
+      "audioBytes": 71808
+    },
+    {
+      "textId": "pg008_n0002",
+      "visibleTextSha256": "fd91bbb5392b0fd43a95d477fdba27b95d99880968ea0876373f703bfacb7c75",
+      "spokenText": "Number one. m-SOHN-geh house",
+      "audioBytes": 37248
+    },
+    {
+      "textId": "pg008_n0004",
+      "visibleTextSha256": "eab8d73b2456257c356e7995c29dc3de8c0a6a30f5a8057ae5a066bfc9a449fb",
+      "spokenText": "Number two. m-SOHN-geh house",
+      "audioBytes": 36096
+    },
+    {
+      "textId": "pg009_n0006",
+      "visibleTextSha256": "02dcf97a5efdaa1ecc142ed7c4e93bfb03ef78c4ce9416db8339cbb814173949",
+      "spokenText": "Number one. What are the differences between the houses in pictures 1 and 2?",
+      "audioBytes": 89856
+    },
+    {
+      "textId": "pg009_n0008",
+      "visibleTextSha256": "61c24aa2373bf865daa6ddbefe29399922e51bea206e0ddba48d4c3825c5b69d",
+      "spokenText": "Number two. Mention the materials that are used to build houses number 1 and 2.",
+      "audioBytes": 98688
+    },
+    {
+      "textId": "pg009_n0010",
+      "visibleTextSha256": "cc0b1ca6a0bb921502e24dff1be0f7f65c23550d84cb40c201f7ae98b5e09103",
+      "spokenText": "Number three. Compare m-SOHN-geh houses in pictures 1 and 2 with the house you live in.",
+      "audioBytes": 104064
+    },
+    {
+      "textId": "pg009_n0014",
+      "visibleTextSha256": "b92c00ba6010c76fab26e2c46896aa72f6fe254529751ea76d74865737c8cf55",
+      "spokenText": "Number one. Look at the pictures or watch video clips about m-SOHN-geh houses in Tanzanian communities.",
+      "audioBytes": 124416
+    },
+    {
+      "textId": "pg009_n0015",
+      "visibleTextSha256": "4c2a36ecc1465d8e4c3aaf45a475d064d99a215ec6b29c14e1e39b39ba44d460",
+      "spokenText": "Number two. Draw a picture of m-SOHN-geh house.",
+      "audioBytes": 60672
+    },
+    {
+      "textId": "pg010_n0002",
+      "visibleTextSha256": "0411f693d2f039fa12e2c1ffb63dfa8255ba6882aedb7bafaac1489d9b2c7181",
+      "spokenText": "Number one. BAHN-dah house",
+      "audioBytes": 39168
+    },
+    {
+      "textId": "pg010_n0004",
+      "visibleTextSha256": "b9f07442593d94fa2f24ca0b1c74fc673db87ace9e2b732d8a1ec306244d4f07",
+      "spokenText": "Number two. BAHN-dah house",
+      "audioBytes": 39168
+    },
+    {
+      "textId": "pg011_n0005",
+      "visibleTextSha256": "9e383e4deabc20c26b6836ea217f958712fe89d391ff2bec89269d5695b94fc8",
+      "spokenText": "Number one. Mention the materials used to build the houses in pictures 1 and 2.",
+      "audioBytes": 97920
+    },
+    {
+      "textId": "pg011_n0007",
+      "visibleTextSha256": "57e89ba5417ea6523f769c9105bb4840ab70f6da59ad3bba18f489f03a763847",
+      "spokenText": "Number two. What is the difference between the house in pictures 1 and 2?",
+      "audioBytes": 84864
+    },
+    {
+      "textId": "pg011_n0009",
+      "visibleTextSha256": "4eead507111a9002874f3ae5c546232179b4e7657451ba7285576ecbb3e4cddd",
+      "spokenText": "Number three. In which areas have you observe BAHN-dah houses?",
+      "audioBytes": 74880
+    },
+    {
+      "textId": "pg011_n0011",
+      "visibleTextSha256": "dad8cdbb11b740660732bc1b5a6fa08132c99fc949abb03b1f92f06c186e37e1",
+      "spokenText": "Number four. Which Tanzanian communities use BAHN-dah houses?",
+      "audioBytes": 78720
+    },
+    {
+      "textId": "pg011_n0015",
+      "visibleTextSha256": "65d4219f84a0d10f822949625b658134c2ee4fbe2e2727c3c68bae5dfff508dc",
+      "spokenText": "Number one. Observe the pictures or watch video clips about BAHN-dah houses in Tanzanian communities.",
+      "audioBytes": 121344
+    },
+    {
+      "textId": "pg011_n0016",
+      "visibleTextSha256": "bc5020e914f3d005be2cc896bff2821c417b81039e24455f1d1721655a9b1970",
+      "spokenText": "Number two. Draw a picture of BAHN-dah house.",
+      "audioBytes": 56448
+    },
+    {
+      "textId": "pg012_n0002",
+      "visibleTextSha256": "5398def144078273fea97e4a6843fc25236f68ac271b71e22d9ccb5c2a1cc531",
+      "spokenText": "Number one. TEM-beh house",
+      "audioBytes": 37248
+    },
+    {
+      "textId": "pg012_n0004",
+      "visibleTextSha256": "58300007eb7e8f01607352ec0a0c6732914bdf27894f9c55d5eba5cf3dc85596",
+      "spokenText": "Number two. TEM-beh house",
+      "audioBytes": 37248
+    },
+    {
+      "textId": "pg014_n0013",
+      "visibleTextSha256": "1b75fb530c0b91a56e5cdb71a667fa150e08845a1021cb8d6ac66102af01af31",
+      "spokenText": "Number one. The m-SOHN-geh house",
+      "audioBytes": 46080
+    },
+    {
+      "textId": "pg014_n0019",
+      "visibleTextSha256": "39044c1fc1d6a06abf989fa4819850c7cb7ad47c49f699823fa56f43eb1350df",
+      "spokenText": "Number two. The TEM-beh house",
+      "audioBytes": 39936
+    },
+    {
+      "textId": "pg014_n0025",
+      "visibleTextSha256": "eae992ba47558f6012336710ec603321ca3ae19b5a7e72d0da37118a5b506021",
+      "spokenText": "Number three. The BAHN-dah house",
+      "audioBytes": 42240
+    },
+    {
+      "textId": "pg015_n0002",
+      "visibleTextSha256": "b3a0c0c0a4740cc0c6996e9a41d462fbaa45b4f9960cf3c06c16007acf068b9b",
+      "spokenText": "Number one. Cows, goats and sheep at the field",
+      "audioBytes": 62976
+    },
+    {
+      "textId": "pg015_n0004",
+      "visibleTextSha256": "3e29e6f3aa996b995874402268183d0717882c1c04cba39b2c5c93d66ce51dc4",
+      "spokenText": "Number two. Chickens and ducks",
+      "audioBytes": 40320
+    },
+    {
+      "textId": "pg017_n0005",
+      "visibleTextSha256": "fba0804d3d81559bd53361a3fd2e4541498f6fbe624d6879ea1cfd13f722edb7",
+      "spokenText": "Number one. Maize",
+      "audioBytes": 29952
+    },
+    {
+      "textId": "pg017_n0008",
+      "visibleTextSha256": "0ac8a1d9e75b9617b53167e0a6a6f9bb0896b224c8c7b1aa395eee1eb5bcbf37",
+      "spokenText": "Number two. Sisal",
+      "audioBytes": 31104
+    },
+    {
+      "textId": "pg017_n0012",
+      "visibleTextSha256": "c38a5eea38c7a5d8747055ae8c8985f44be53f2a6b57d190d263cf49ffa98c0d",
+      "spokenText": "Number three. Rice farm",
+      "audioBytes": 36864
+    },
+    {
+      "textId": "pg017_n0015",
+      "visibleTextSha256": "1a58ce125be023f9e571fd834a18440cd7e9756891518f813f3fe6caad0a42a2",
+      "spokenText": "Number four. Bananas farm",
+      "audioBytes": 40704
+    },
+    {
+      "textId": "pg017_n0020",
+      "visibleTextSha256": "ea73ff42fbfd67b8f6eec6b0fda3b00dc38494dbd6f61da9023af0d5968dfa5f",
+      "spokenText": "Number one. What crops do you see in pictures 1, 2, 3 and 4?",
+      "audioBytes": 93696
+    },
+    {
+      "textId": "pg017_n0022",
+      "visibleTextSha256": "8129e415f062d686c6e4b31c8dbcd9fc1937373c58fe3010f24456bc0cde6c62",
+      "spokenText": "Number two. Explain the uses of the crops in the following table.",
+      "audioBytes": 74880
+    },
+    {
+      "textId": "pg019_n0007",
+      "visibleTextSha256": "9eafac0386c4fbc67770f0d090b526aee7bda42d08c9e367e9730bedd0b7ca84",
+      "spokenText": "Number one. Where do fishing activities take place?",
+      "audioBytes": 66432
+    },
+    {
+      "textId": "pg019_n0009",
+      "visibleTextSha256": "6c5b56c63ad5a0d7771d84483eea980cc6a89d561fba0ddb7da144123a37d832",
+      "spokenText": "Number two. What tools are used for fishing?",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg019_n0015",
+      "visibleTextSha256": "5bc5f53b34c48653cf18d505c6fda7df8536bf466167a0d5993aa5c57c089ec6",
+      "spokenText": "Number one. Observe the pictures or watch video clips that show how fishing is done.",
+      "audioBytes": 94848
+    },
+    {
+      "textId": "pg019_n0017",
+      "visibleTextSha256": "cce1d7587ff7ef8786f2eab042745b638d63501858f81e425e23ab9db45a3bb4",
+      "spokenText": "Number two. Draw the tools that are used in fishing.",
+      "audioBytes": 61056
+    },
+    {
+      "textId": "pg020_n0013",
+      "visibleTextSha256": "a8322a33f8a9815bae84b0f78acbfcdef73c9c09778e4a7f8acb3624f685b25b",
+      "spokenText": "Number one. What products do you observe in the picture?",
+      "audioBytes": 66048
+    },
+    {
+      "textId": "pg020_n0015",
+      "visibleTextSha256": "e9111480b455f0b35b2855c32d377fe6563ce84624bab0a58e34abb70f89e486",
+      "spokenText": "Number two. What kind of business would you like to do? Why?",
+      "audioBytes": 76032
+    },
+    {
+      "textId": "pg021_n0003",
+      "visibleTextSha256": "d91f4deabdb42404a9b34b10c67e0f26d1ada0960fcf6a7f5ce79c75f14f8191",
+      "spokenText": "Number one. Visit a place where business activities happen, then write five items sold and bought.",
+      "audioBytes": 118656
+    },
+    {
+      "textId": "pg021_n0004",
+      "visibleTextSha256": "259e54468540f7ddebb6eb7d783a70d77a8e10da72a2214139ceffe26438db34",
+      "spokenText": "Number two. Draw two items you saw at the place you visited.",
+      "audioBytes": 73728
+    },
+    {
+      "textId": "pg021_n0007",
+      "visibleTextSha256": "43a805592a3a71ba11ec705941a62db14960c72c9e38630fbbae0224d207c626",
+      "spokenText": "Number one. Identify the benefits of farming for your family and the community around you.",
+      "audioBytes": 104832
+    },
+    {
+      "textId": "pg021_n0008",
+      "visibleTextSha256": "af68407e0b5d8ec9d4673bec8441074c871a936f53dde2157ffe274bdb770bfa",
+      "spokenText": "Number two. Mention the benefits of fishing for the community.",
+      "audioBytes": 71808
+    },
+    {
+      "textId": "pg021_n0009",
+      "visibleTextSha256": "6476e6af8cb5ce82b9d602d25be3dc4b345a1a32c6d02519df4d58cfb7491f15",
+      "spokenText": "Number three. What is the importance of learning business?",
+      "audioBytes": 64512
+    },
+    {
+      "textId": "pg021_n0010",
+      "visibleTextSha256": "6f3d7f414cee94d812ac09a772f63abad366e5c1e6aa443f3fc0c554d543b4f7",
+      "spokenText": "Number four. What types of business do people do in your community?",
+      "audioBytes": 77952
+    },
+    {
+      "textId": "pg021_n0011",
+      "visibleTextSha256": "038f0f8f73d063f6fbc7f82feade850fc2478ef73031e8633b8bc222d11ac1a6",
+      "spokenText": "Number five. Mention the benefits of domestic animals and birds.",
+      "audioBytes": 78336
+    },
+    {
+      "textId": "pg021_n0013",
+      "visibleTextSha256": "0aaec1059009efec3dae1c62fb0f23b9a43d5d36e0a16852543a2cc31e72f3c5",
+      "spokenText": "Number six. Read the items listed in the table and choose the activity from the bracket that is related. (farming, fishing, livestock and business)",
+      "audioBytes": 167424
+    },
+    {
+      "textId": "pg022_n0020",
+      "visibleTextSha256": "d1914eeb3b94c8206e381ee4315f0ed1238274cc891af104cf8b9314bbc4e289",
+      "spokenText": "Number one. What are the good behaviours mentioned in the passage you have read?",
+      "audioBytes": 83328
+    },
+    {
+      "textId": "pg022_n0022",
+      "visibleTextSha256": "6b1e94ec866cb0fd9222d849da68b22ff4883ee0b8500b02e2bd68382dd207fe",
+      "spokenText": "Number two. Why do people pray?",
+      "audioBytes": 45312
+    },
+    {
+      "textId": "pg024_n0010",
+      "visibleTextSha256": "0ad0a327b8b89b09e67323a4d657dc93c33b9b83b4dc2deacc70e457e7161cf9",
+      "spokenText": "Number one. What have you learnt from the story?",
+      "audioBytes": 54144
+    },
+    {
+      "textId": "pg024_n0012",
+      "visibleTextSha256": "7736eac3ef6b932ec3b3b47721b65cdf3b2278c9400b4ebfec94dfd3e0d467ad",
+      "spokenText": "Number two. Who did not like to attend religious sessions?",
+      "audioBytes": 69888
+    },
+    {
+      "textId": "pg024_n0014",
+      "visibleTextSha256": "426f23f097754f50756f3d22b6df72a68c204d6843b51737e9eb91490ebcde4f",
+      "spokenText": "Number three. Name important issues that are taught in the religious session.",
+      "audioBytes": 81792
+    },
+    {
+      "textId": "pg027_n0003",
+      "visibleTextSha256": "88ca9aeb81d282142297556101f14c7efd5ec9957a32c8af6108a76d9838c478",
+      "spokenText": "Number one. What are the benefits of prayers?",
+      "audioBytes": 53376
+    },
+    {
+      "textId": "pg027_n0004",
+      "visibleTextSha256": "7d2bc8a6f92fcb7d2998be1f05793a4ccc52f672ac9a1f74489189f0238f25ca",
+      "spokenText": "Number two. Where do people go to pray in your community?",
+      "audioBytes": 69120
+    },
+    {
+      "textId": "pg027_n0005",
+      "visibleTextSha256": "3a978e98b3b59d9b0a99c66c358b2788986562fce5b227487f6083641726ed24",
+      "spokenText": "Number three. Mention some of the religious holidays celebrated in your community.",
+      "audioBytes": 91392
+    },
+    {
+      "textId": "pg027_n0006",
+      "visibleTextSha256": "63357a0dc7ce2f1131baf1084e2d350f4f3587241a947f51ddecb8643308af0a",
+      "spokenText": "Number four. What actions show that you care for people with different beliefs?",
+      "audioBytes": 88704
+    },
+    {
+      "textId": "pg030_n0006",
+      "visibleTextSha256": "dc9e572b6b3c4634225e798b28e2c4a89fd4124668a6a0873ab39a5094430b7d",
+      "spokenText": "Number one. What kind of work of art is being done in these pictures?",
+      "audioBytes": 79872
+    },
+    {
+      "textId": "pg030_n0008",
+      "visibleTextSha256": "48867cae0ac3334f9c275583775631bf0ad03f4505aa9d95ef0edbce7540ebc4",
+      "spokenText": "Number two. What tools have been used in the pictures?",
+      "audioBytes": 62208
+    },
+    {
+      "textId": "pg030_n0010",
+      "visibleTextSha256": "bab2f7f6b339f8af876708f21f52fcb5ca8968e42bf8d0da25730dac7eb7180b",
+      "spokenText": "Number three. Mention items which are made from this kind of work.",
+      "audioBytes": 76416
+    },
+    {
+      "textId": "pg030_n0012",
+      "visibleTextSha256": "d1f0315c810e544353eda0e553aff83aa1d9909af052d784e0f751170e9ce110",
+      "spokenText": "Number four. Have you ever done this work?",
+      "audioBytes": 48384
+    },
+    {
+      "textId": "pg030_n0025",
+      "visibleTextSha256": "abeeefaa7e25fe935a1cfbc1a56434bf32a7cde5caee8244364cbe45a161f094",
+      "spokenText": "Number one. Sewing a torn cloth",
+      "audioBytes": 45312
+    },
+    {
+      "textId": "pg031_n0002",
+      "visibleTextSha256": "45900173beafdac73bd72957fd292cfb4b3de6771c2ce0a3da5ef00a0dc3edb3",
+      "spokenText": "Number two. Joining two pieces of cloth",
+      "audioBytes": 53760
+    },
+    {
+      "textId": "pg031_n0008",
+      "visibleTextSha256": "71144e11d04969003f60cd8077ecfaa79f51e6347c8d877ee9cfed4153cd8e5d",
+      "spokenText": "Number one. What work is being done in pictures 1 and 2?",
+      "audioBytes": 72576
+    },
+    {
+      "textId": "pg031_n0010",
+      "visibleTextSha256": "d79c56eaecb14fb90090d4261d9503c3551d7fab9afa3be873b31aced081b722",
+      "spokenText": "Number two. What tools are used in this work?",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg031_n0012",
+      "visibleTextSha256": "0bb3eb9184d6a81f986786bf196bb284489bf6c02d69f7906634d8cd5dab8052",
+      "spokenText": "Number three. Have you ever done this work?",
+      "audioBytes": 49152
+    },
+    {
+      "textId": "pg032_n0004",
+      "visibleTextSha256": "238bc17357c608c1c8bc9065dac0141299876b6aa96ffbb1163e139041aa742a",
+      "spokenText": "Number one. Moulding pots",
+      "audioBytes": 39168
+    },
+    {
+      "textId": "pg032_n0006",
+      "visibleTextSha256": "b01f01755d18cf4908faf2ef729fc3bdfc0fe006be5dd2aff170923f2204d223",
+      "spokenText": "Number two. Moulding different items",
+      "audioBytes": 49920
+    },
+    {
+      "textId": "pg033_n0004",
+      "visibleTextSha256": "6e6b0c78a41cd0042c76bf9fad61916949b116bb5a0daf254dec3687597b491a",
+      "spokenText": "Number one. What work of art is being done in these pictures 1 and 2?",
+      "audioBytes": 84480
+    },
+    {
+      "textId": "pg033_n0005",
+      "visibleTextSha256": "3e1a7261465320b4a215d6e900ff3bbee5f297ea8ecdb10a3101cb48b0e12498",
+      "spokenText": "Number two. The materials needed for this work of art include [[blank:item-1]] and [[blank:item-2]].",
+      "audioBytes": 148608
+    },
+    {
+      "textId": "pg033_n0006",
+      "visibleTextSha256": "b86e391620e5142ac6012745121daacd092b8c61893f713acdca00a627b84401",
+      "spokenText": "Number three. What other items that can be made by using clay soil?",
+      "audioBytes": 84096
+    },
+    {
+      "textId": "pg033_n0018",
+      "visibleTextSha256": "626f9542050be4536a07fa839c12e9657be8e955b8144620d186be5d574775b7",
+      "spokenText": "Number one. Carving work",
+      "audioBytes": 35712
+    },
+    {
+      "textId": "pg034_n0002",
+      "visibleTextSha256": "5673a0708b5688d81f95e51546a8063af03ba8ee31255142bf9b28f41fb9ea54",
+      "spokenText": "Number two. Carved items",
+      "audioBytes": 38784
+    },
+    {
+      "textId": "pg035_n0006",
+      "visibleTextSha256": "ce0deacf4c3b621b9dfa2c0cfe60eb614e7ece482fa879c74823f0b0abeed317",
+      "spokenText": "Number one. Study of pictures 1 and 2.",
+      "audioBytes": 56448
+    },
+    {
+      "textId": "pg035_n0009",
+      "visibleTextSha256": "1cfafb6169de5b03aac319e0a16b9e18bbe0e8fa579c654b20200136a761b33e",
+      "spokenText": "Number two. What materials are used to do this work of art?",
+      "audioBytes": 72576
+    },
+    {
+      "textId": "pg035_n0011",
+      "visibleTextSha256": "cd5707ea8eaf0e8096cd879b37c6fe857302868623bd9470c0d4c90cb370a741",
+      "spokenText": "Number three. What other items can be made by using this artistic creativity?",
+      "audioBytes": 97152
+    },
+    {
+      "textId": "pg037_n0009",
+      "visibleTextSha256": "b0c059fc9864d27cef6b50fb7a067b00579ec18b31c77f498109b545e18c861c",
+      "spokenText": "Number one. What is the pupil in the picture doing?",
+      "audioBytes": 58368
+    },
+    {
+      "textId": "pg037_n0011",
+      "visibleTextSha256": "2088719b16aa1fe054a0f170f51c618cb7f046581e3a289bc1dddf0d9fbb94c9",
+      "spokenText": "Number two. List the tools used in that work.",
+      "audioBytes": 55680
+    },
+    {
+      "textId": "pg037_n0013",
+      "visibleTextSha256": "04189f8f13716fc40d54799907765c783d15557443fbeba9c92ccaf572f4eba8",
+      "spokenText": "Number three. Why is it important to learn drawing and painting?",
+      "audioBytes": 71040
+    },
+    {
+      "textId": "pg041_n0023",
+      "visibleTextSha256": "2186e67b71391862ba6b1abf5771e998d855eb55d97c681f79780069ab9fc177",
+      "spokenText": "Number one. What have you learnt from this ngohn-JEH-rah?",
+      "audioBytes": 62976
+    },
+    {
+      "textId": "pg041_n0025",
+      "visibleTextSha256": "98f51ea43269bfe1d0597d29b7336bdcdc31805471d70c6f962347491985b685",
+      "spokenText": "Number two. What issues are mentioned in this ngohn-JEH-rah?",
+      "audioBytes": 69120
+    },
+    {
+      "textId": "pg041_n0027",
+      "visibleTextSha256": "ac6f87349e4782030cf45d9b531e76fb2123e699a7a4c59a81d8a9b8eae21d1c",
+      "spokenText": "Number three. What did you enjoy while reciting ngohn-JEH-rah?",
+      "audioBytes": 74112
+    },
+    {
+      "textId": "pg043_n0005",
+      "visibleTextSha256": "3c3f476aec83900eb892e1887a3ddc9bd91f0e930f2842e42b4fa48916987c0c",
+      "spokenText": "Number one. Name another animal that gives us milk.",
+      "audioBytes": 60288
+    },
+    {
+      "textId": "pg043_n0007",
+      "visibleTextSha256": "e0a0b1ac58e58cfd7765f56cf7e289de2e905ae7843e58fd40b88eb6e25a7d87",
+      "spokenText": "Number two. What is the benefit of a giraffe’s long neck?",
+      "audioBytes": 65280
+    },
+    {
+      "textId": "pg043_n0009",
+      "visibleTextSha256": "ee2691a37310da91f71331e2f7043a86b80ca865b3f0fa2341298195b9d33679",
+      "spokenText": "Number three. What other animal with attractive colours do you know?",
+      "audioBytes": 76032
+    },
+    {
+      "textId": "pg043_n0011",
+      "visibleTextSha256": "96fd12b9d4f6927b0efee13de50c95510a0a60b5de4a6cab15508bd2e4dd77b7",
+      "spokenText": "Number four. What do you have to consider while performing heroic recitation?",
+      "audioBytes": 89472
+    },
+    {
+      "textId": "pg043_n0014",
+      "visibleTextSha256": "ce772130891a5b0c4c2f7e035b9a9bf51eba821aaed1e10847e3b35e93bdd8d7",
+      "spokenText": "Number one. Imitate the sounds of different animals.",
+      "audioBytes": 61824
+    },
+    {
+      "textId": "pg043_n0015",
+      "visibleTextSha256": "1ec038636faf5fb643a44480f87d2a98bc80686456d15fece48a43b1f555318f",
+      "spokenText": "Number two. Choose your favorite animal, then imitate its sound and how it moves.",
+      "audioBytes": 97920
+    },
+    {
+      "textId": "pg045_n0007",
+      "visibleTextSha256": "2a9eaf1cbd4ebe3b2e912dd84dd370eb1e50802e15a2620238d081a0cb92f21b",
+      "spokenText": "Number one. What have you learnt from the comedics?",
+      "audioBytes": 57984
+    },
+    {
+      "textId": "pg045_n0008",
+      "visibleTextSha256": "588fd11b75a40682802b6ad4be8df6f857e01769ee7e22ef75e1b1a21d633430",
+      "spokenText": "Number two. If you were KEE-boh, what would you advise mah-WEHN-zee to do?",
+      "audioBytes": 92928
+    },
+    {
+      "textId": "pg045_n0009",
+      "visibleTextSha256": "f49290d24eadc0e728f409495c2320a98cb9f93f370f4b3175bef3647f5dec51",
+      "spokenText": "Number three. What object was the rabbit looking at, that made it to see another rabbit?",
+      "audioBytes": 99840
+    },
+    {
+      "textId": "pg045_n0015",
+      "visibleTextSha256": "eefff30090dfe265034b6b5778f6edc9b3ca520e30e2822ee6929f96ab18ab33",
+      "spokenText": "Number one. Take a mirror or use an accessible application while changing your facial expression. What do you observe?",
+      "audioBytes": 135168
+    },
+    {
+      "textId": "pg045_n0017",
+      "visibleTextSha256": "10973caf4b96f1c85f5419833a297ca6186f079e0fe09ca6a875868b23c01406",
+      "spokenText": "Number two. Prepare a funny story.",
+      "audioBytes": 47616
+    },
+    {
+      "textId": "pg046_n0003",
+      "visibleTextSha256": "ba277a1edef69cf61d44bdaa57e9161847eb7e073759116f437677d1645cabaf",
+      "spokenText": "Number one. Mention artistic activities that involve sounds.",
+      "audioBytes": 77568
+    },
+    {
+      "textId": "pg046_n0004",
+      "visibleTextSha256": "1b1747f7ba0eff82bc5a3bd0c4e77525a65bcf9b54087f413cea37fe59925c4c",
+      "spokenText": "Number two. Explain the uses of artistic activities that involve sounds.",
+      "audioBytes": 91392
+    },
+    {
+      "textId": "pg046_n0005",
+      "visibleTextSha256": "fd98a86234a5f0f64c2a6a97cceea5ed6010f2fb4ee0c14f655f22be49516c42",
+      "spokenText": "Number three. Write a short story about a rabbit performing a heroic recitation.",
+      "audioBytes": 94848
+    },
+    {
+      "textId": "pg046_n0016",
+      "visibleTextSha256": "52e90352ae9712924533cc90ddc4d3d8c4a78a4004f5fe071e0a88f5667bd833",
+      "spokenText": "Number one. Acting the ostrich walk",
+      "audioBytes": 46464
+    },
+    {
+      "textId": "pg047_n0002",
+      "visibleTextSha256": "e29dd9a41adbb37b2d4fd30e93767ed3fd145c882897978b7b7cb4f5bb63d6c6",
+      "spokenText": "Number two. Acting like a lion chasing children",
+      "audioBytes": 62592
+    },
+    {
+      "textId": "pg047_n0007",
+      "visibleTextSha256": "118ba59a1d17feed651d4b2070c9bfbd7cb9e6d2d3b1237d49e08a6f3091ad5c",
+      "spokenText": "Number one. What action is taking place in the pictures 1 and 2?",
+      "audioBytes": 82560
+    },
+    {
+      "textId": "pg047_n0009",
+      "visibleTextSha256": "839f3ab93b6c6a8003a3347f57abd9ed8bc1a9de2307895e09125a60d07bfb38",
+      "spokenText": "Number two. What animal do you think is the pupil wearing a mask in the picture 2?",
+      "audioBytes": 96768
+    },
+    {
+      "textId": "pg047_n0011",
+      "visibleTextSha256": "26e2efb7c7e4ee043b48738eee87e28d1280a216c1fef0b7e72d76b5a58f6a66",
+      "spokenText": "Number three. Have you ever acted?",
+      "audioBytes": 42240
+    },
+    {
+      "textId": "pg047_n0017",
+      "visibleTextSha256": "46ea9b455850746e7e90b4e57d5d7825e4b7a1eb2a9e5317f852389fdc397eee",
+      "spokenText": "Number one. Act like the pupil wearing a mask in the picture 1.",
+      "audioBytes": 76800
+    },
+    {
+      "textId": "pg047_n0019",
+      "visibleTextSha256": "0aef495f711b62509d518b72cd91473cf8dcbb91450a5082e8abcf7f067a6612",
+      "spokenText": "Number two. Make a mask similar to an animal or bird’s face and use it to portray its behaviours.",
+      "audioBytes": 112512
+    },
+    {
+      "textId": "pg056_n0008",
+      "visibleTextSha256": "b3d3524d9f3eaaf3d020ee1735b4f5f46715eb5d4811a16d2458f527ab0608c8",
+      "spokenText": "Number one. Mention the steps for running with a stick game.",
+      "audioBytes": 65664
+    },
+    {
+      "textId": "pg056_n0010",
+      "visibleTextSha256": "3c5cbcaacf7ba05ad108f778572fa863c4d82954cdc871132e834b28bb4badc6",
+      "spokenText": "Number two. What are the benefits of running with a stick game?",
+      "audioBytes": 68352
+    },
+    {
+      "textId": "pg056_n0012",
+      "visibleTextSha256": "7fd9efc64e58f42c03c24e37f6627a666bae45650cb0400c1712da5334f1c6b3",
+      "spokenText": "Number three. To win this game, what do you need to do?",
+      "audioBytes": 69120
+    },
+    {
+      "textId": "pg065_n0003",
+      "visibleTextSha256": "209cfa6db130696aa0bf6de74e70b312e82a616968bff66d377a117819e1da4f",
+      "spokenText": "Number three. Form two teams of six players each;",
+      "audioBytes": 62976
+    },
+    {
+      "textId": "pg065_n0005",
+      "visibleTextSha256": "f279d3654496dfa86efe4e227d34fab054acd7702c01a89f45ddb4b74e381525",
+      "spokenText": "Number four. Five players will stay inside the defending zone, and one will play behind the opposing team in the search zone;",
+      "audioBytes": 140928
+    },
+    {
+      "textId": "pg065_n0007",
+      "visibleTextSha256": "f03632f866ded5d3bc7805bc2351841cfd8c7b6d406a90fa017085e73f2f94e1",
+      "spokenText": "Number five. Team members are not allowed to enter the free zone and search zone.",
+      "audioBytes": 89472
+    },
+    {
+      "textId": "pg065_n0010",
+      "visibleTextSha256": "53f29576a80aa8238ae730454ac54cf490b0dbebb5cc859cd0032299195e8357",
+      "spokenText": "Number six. Each team will pass the ball with hands to find a space to pass it to their searcher to score points;",
+      "audioBytes": 121728
+    },
+    {
+      "textId": "pg065_n0012",
+      "visibleTextSha256": "4ab404d6e8c31c6a0f7e8744fca152054acb99fb2778dd8b402aecfc3e82af96",
+      "spokenText": "Number seven. Each team has the responsibility to prevent the opposing team from passing the ball through their zone; and",
+      "audioBytes": 129792
+    },
+    {
+      "textId": "pg065_n0014",
+      "visibleTextSha256": "a5cf22fa101d8c29c1663721acdb20716bb0cd30539298a59b3a79f9bbd4393f",
+      "spokenText": "Number eight. If the searcher catches the ball, they will return to the team, and the one who passed the ball through will become the searcher",
+      "audioBytes": 142080
+    },
+    {
+      "textId": "pg069_n0005",
+      "visibleTextSha256": "0ce35b78f3b1dceafa1593143efa66ffadb068927f62095cb25c9b82bacebd58",
+      "spokenText": "Number one. Download the GCompris App on your smartphone, tablet or computer;",
+      "audioBytes": 99456
+    },
+    {
+      "textId": "pg069_n0007",
+      "visibleTextSha256": "5ef1ad5e601aa8bbc1da988c5397ee720eaeb8a5e514123fccce354ccbc6b5e7",
+      "spokenText": "Number two. Choose the penalty kick game;",
+      "audioBytes": 52608
+    },
+    {
+      "textId": "pg069_n0009",
+      "visibleTextSha256": "e8f64cc2266d94871d03c919e8dc79c1c498985cc4a8c1936d5ee2934714b517",
+      "spokenText": "Number three. Observe the goal and where the goalkeeper is positioned;",
+      "audioBytes": 77568
+    },
+    {
+      "textId": "pg069_n0011",
+      "visibleTextSha256": "631af16b6112bcc8e371e5a31a2ded3d98f05a00a8f7afbd941a41bf68724910",
+      "spokenText": "Number four. Choose the side you want to direct the ball to avoid the goalkeeper catching it;",
+      "audioBytes": 101760
+    },
+    {
+      "textId": "pg069_n0013",
+      "visibleTextSha256": "baab8145899a93b2c36b1ca1b4b6f95bffc63f2d9cb335c72ba5a36acdb3e480",
+      "spokenText": "Number five. Double-click or touch quickly twice to kick the ball; and",
+      "audioBytes": 84480
+    },
+    {
+      "textId": "pg069_n0015",
+      "visibleTextSha256": "9fb9ab28e38eadf9ae8d9fb24430c6889923af5594870385b8550c429ab3e925",
+      "spokenText": "Number six. If the goalkeeper catches the ball, click the ball once to return.",
+      "audioBytes": 94080
+    },
+    {
+      "textId": "pg071_n0011",
+      "visibleTextSha256": "c0cdb78ee21f841fc59ffabd7e278942f9e6dfa9faba0e5dce39b5047a2a15c0",
+      "spokenText": "Number one. Mention simple games you know.",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg071_n0012",
+      "visibleTextSha256": "d69bd6334e22000bdedc95c8f86ce3a30d232ca837a29bd731f025c3153b08bf",
+      "spokenText": "Number two. What do games help us in everyday life?",
+      "audioBytes": 67584
+    },
+    {
+      "textId": "pg071_n0013",
+      "visibleTextSha256": "ded18b9a55b840a7af7d55daeb60b80b8d83b67957a919d7e5ceddbd4dcc636d",
+      "spokenText": "Number three. Which game is similar to the ball-searching game?",
+      "audioBytes": 72192
+    },
+    {
+      "textId": "pg072_n0021",
+      "visibleTextSha256": "7e6d2ff86f2f67eadc0ce9f73dcefb7fd59417ef80a870c7dc0c020bb3b2ca52",
+      "spokenText": "Number one. Five players for each team will stay inside the defending zone, and one will stay behind the opposing team",
+      "audioBytes": 136320
+    },
+    {
+      "textId": "pg072_n0026",
+      "visibleTextSha256": "fc942695c07741eac268baaf8dcffc494007655d835e97ee94b655c8df86eb50",
+      "spokenText": "Number two. Type of a game where players stand behind the playing mark at a distance of 10 to 15 steps",
+      "audioBytes": 121728
+    },
+    {
+      "textId": "pg072_n0031",
+      "visibleTextSha256": "f56cd9517a76d4e04486ae4bdb330c665261edc258ab5fe531145e2e77fe9992",
+      "spokenText": "Number three. Type of a game played by two players in a team",
+      "audioBytes": 72960
+    },
+    {
+      "textId": "pg072_n0036",
+      "visibleTextSha256": "b48092e32c459ebd1edf0e4dc71be397cf375bce5e1baf1c071fd31dbdc54591",
+      "spokenText": "Number four. A program to develop ICT skills and football-playing skills",
+      "audioBytes": 90240
+    },
+    {
+      "textId": "pg006_n0009_easy_read",
+      "visibleTextSha256": "bcd03d3a40caff6a0efd2dcb53c24c12a81f86e565ff068323ec66b64f5a88fe",
+      "spokenText": "Number one. Value your own culture and the culture of other people.",
+      "audioBytes": 75648
+    },
+    {
+      "textId": "pg006_n0011_easy_read",
+      "visibleTextSha256": "8144c48ed3cb58f77651dbe4233ca9f020e0ee4020767ba1999e86b1035b5f53",
+      "spokenText": "Number two. Show religious tolerance.",
+      "audioBytes": 48384
+    },
+    {
+      "textId": "pg006_n0013_easy_read",
+      "visibleTextSha256": "405ca5b96db1e3161daae7db28439d9ce200df8cd791ab7e68bf7d407e6f145b",
+      "spokenText": "Number three. Show ethical practice.",
+      "audioBytes": 48000
+    },
+    {
+      "textId": "pg006_n0015_easy_read",
+      "visibleTextSha256": "810c006e10ee0ff1944299591a17b1bf52a8522eaa05adcfe630561c529d3177",
+      "spokenText": "Number four. Create works of art.",
+      "audioBytes": 44160
+    },
+    {
+      "textId": "pg006_n0017_easy_read",
+      "visibleTextSha256": "743b9b394fd44e511bd6bfe826fe3733fbe92aca8d7f2ead1cbdffc2e9df2a93",
+      "spokenText": "Number five. Take part in different sports and games.",
+      "audioBytes": 66048
+    },
+    {
+      "textId": "pg008_n0002_easy_read",
+      "visibleTextSha256": "fd91bbb5392b0fd43a95d477fdba27b95d99880968ea0876373f703bfacb7c75",
+      "spokenText": "Number one. m-SOHN-geh house",
+      "audioBytes": 37248
+    },
+    {
+      "textId": "pg008_n0004_easy_read",
+      "visibleTextSha256": "eab8d73b2456257c356e7995c29dc3de8c0a6a30f5a8057ae5a066bfc9a449fb",
+      "spokenText": "Number two. m-SOHN-geh house",
+      "audioBytes": 36096
+    },
+    {
+      "textId": "pg009_n0006_easy_read",
+      "visibleTextSha256": "099b9b6678e7e07c72a94102182d1da8826f5386f9631e0b1a3eb4045d4da4c4",
+      "spokenText": "Number one. What differences are there between the houses in pictures 1 and 2?",
+      "audioBytes": 90240
+    },
+    {
+      "textId": "pg009_n0008_easy_read",
+      "visibleTextSha256": "1759cda838752cf2eb5fefe40049261aa573e8c64d4e0f3aac51966dbf0a7773",
+      "spokenText": "Number two. Say which materials people use to build houses 1 and 2.",
+      "audioBytes": 91392
+    },
+    {
+      "textId": "pg009_n0010_easy_read",
+      "visibleTextSha256": "6ef1e93ca0f8b6e7393796eb841a49accaff1aa86ee23aae2851b962a3ba58d6",
+      "spokenText": "Number three. Compare the m-SOHN-geh houses in pictures 1 and 2 with the house you live in.",
+      "audioBytes": 105984
+    },
+    {
+      "textId": "pg009_n0014_easy_read",
+      "visibleTextSha256": "b92c00ba6010c76fab26e2c46896aa72f6fe254529751ea76d74865737c8cf55",
+      "spokenText": "Number one. Look at the pictures or watch video clips about m-SOHN-geh houses in Tanzanian communities.",
+      "audioBytes": 124416
+    },
+    {
+      "textId": "pg009_n0015_easy_read",
+      "visibleTextSha256": "eff4d0cb44953b7cf20905f79b68bed01d0b2c129cd6a1009d96d59053121169",
+      "spokenText": "Number two. Draw a picture of a m-SOHN-geh house.",
+      "audioBytes": 61440
+    },
+    {
+      "textId": "pg010_n0002_easy_read",
+      "visibleTextSha256": "0411f693d2f039fa12e2c1ffb63dfa8255ba6882aedb7bafaac1489d9b2c7181",
+      "spokenText": "Number one. BAHN-dah house",
+      "audioBytes": 39168
+    },
+    {
+      "textId": "pg010_n0004_easy_read",
+      "visibleTextSha256": "b9f07442593d94fa2f24ca0b1c74fc673db87ace9e2b732d8a1ec306244d4f07",
+      "spokenText": "Number two. BAHN-dah house",
+      "audioBytes": 39168
+    },
+    {
+      "textId": "pg011_n0005_easy_read",
+      "visibleTextSha256": "1eb9d3971228fece6a8a51638a59b5f67181e8f8593fc9333a24227739249daf",
+      "spokenText": "Number one. Say which materials people used to build the houses in pictures 1 and 2.",
+      "audioBytes": 106368
+    },
+    {
+      "textId": "pg011_n0007_easy_read",
+      "visibleTextSha256": "0a533d3e32244d928b0636cdb675f70e4d5434a5cf48ffeb6c19b8447c9a4a34",
+      "spokenText": "Number two. What is different between the house in picture 1 and the house in picture 2?",
+      "audioBytes": 99840
+    },
+    {
+      "textId": "pg011_n0009_easy_read",
+      "visibleTextSha256": "4eead507111a9002874f3ae5c546232179b4e7657451ba7285576ecbb3e4cddd",
+      "spokenText": "Number three. In which areas have you observe BAHN-dah houses?",
+      "audioBytes": 74880
+    },
+    {
+      "textId": "pg011_n0011_easy_read",
+      "visibleTextSha256": "dad8cdbb11b740660732bc1b5a6fa08132c99fc949abb03b1f92f06c186e37e1",
+      "spokenText": "Number four. Which Tanzanian communities use BAHN-dah houses?",
+      "audioBytes": 78720
+    },
+    {
+      "textId": "pg011_n0015_easy_read",
+      "visibleTextSha256": "46fe3a1a41ec8970464d548f6cf350e6b1f9492486767362f62779d612d1a168",
+      "spokenText": "Number one. Observe the pictures.. Or watch video clips about BAHN-dah houses in Tanzanian communities.",
+      "audioBytes": 127104
+    },
+    {
+      "textId": "pg011_n0016_easy_read",
+      "visibleTextSha256": "520446356f059ec9a9d27aae367c9d32e844692c4f9d60e9b711538be0ce0baa",
+      "spokenText": "Number two. Draw a picture of a BAHN-dah house.",
+      "audioBytes": 57600
+    },
+    {
+      "textId": "pg012_n0002_easy_read",
+      "visibleTextSha256": "5398def144078273fea97e4a6843fc25236f68ac271b71e22d9ccb5c2a1cc531",
+      "spokenText": "Number one. TEM-beh house",
+      "audioBytes": 37248
+    },
+    {
+      "textId": "pg012_n0004_easy_read",
+      "visibleTextSha256": "58300007eb7e8f01607352ec0a0c6732914bdf27894f9c55d5eba5cf3dc85596",
+      "spokenText": "Number two. TEM-beh house",
+      "audioBytes": 37248
+    },
+    {
+      "textId": "pg014_n0013_easy_read",
+      "visibleTextSha256": "1b75fb530c0b91a56e5cdb71a667fa150e08845a1021cb8d6ac66102af01af31",
+      "spokenText": "Number one. The m-SOHN-geh house",
+      "audioBytes": 46080
+    },
+    {
+      "textId": "pg014_n0019_easy_read",
+      "visibleTextSha256": "39044c1fc1d6a06abf989fa4819850c7cb7ad47c49f699823fa56f43eb1350df",
+      "spokenText": "Number two. The TEM-beh house",
+      "audioBytes": 39936
+    },
+    {
+      "textId": "pg014_n0025_easy_read",
+      "visibleTextSha256": "eae992ba47558f6012336710ec603321ca3ae19b5a7e72d0da37118a5b506021",
+      "spokenText": "Number three. The BAHN-dah house",
+      "audioBytes": 42240
+    },
+    {
+      "textId": "pg015_n0002_easy_read",
+      "visibleTextSha256": "4e1d20359fcc559a6a238b8794d255440f915e59716c71b6c4e162b5f67cde92",
+      "spokenText": "Number one. Cows, goats, and sheep in the field",
+      "audioBytes": 68736
+    },
+    {
+      "textId": "pg015_n0004_easy_read",
+      "visibleTextSha256": "3e29e6f3aa996b995874402268183d0717882c1c04cba39b2c5c93d66ce51dc4",
+      "spokenText": "Number two. Chickens and ducks",
+      "audioBytes": 40320
+    },
+    {
+      "textId": "pg017_n0005_easy_read",
+      "visibleTextSha256": "fba0804d3d81559bd53361a3fd2e4541498f6fbe624d6879ea1cfd13f722edb7",
+      "spokenText": "Number one. Maize",
+      "audioBytes": 29952
+    },
+    {
+      "textId": "pg017_n0008_easy_read",
+      "visibleTextSha256": "0ac8a1d9e75b9617b53167e0a6a6f9bb0896b224c8c7b1aa395eee1eb5bcbf37",
+      "spokenText": "Number two. Sisal",
+      "audioBytes": 31104
+    },
+    {
+      "textId": "pg017_n0012_easy_read",
+      "visibleTextSha256": "c38a5eea38c7a5d8747055ae8c8985f44be53f2a6b57d190d263cf49ffa98c0d",
+      "spokenText": "Number three. Rice farm",
+      "audioBytes": 36864
+    },
+    {
+      "textId": "pg017_n0015_easy_read",
+      "visibleTextSha256": "1a58ce125be023f9e571fd834a18440cd7e9756891518f813f3fe6caad0a42a2",
+      "spokenText": "Number four. Bananas farm",
+      "audioBytes": 40704
+    },
+    {
+      "textId": "pg017_n0020_easy_read",
+      "visibleTextSha256": "396be2921551b682100e13ec6aeaf44c9e0688d22efd032f7f8f6d747d9b6383",
+      "spokenText": "Number one. What crops do you see in pictures 1, 2, 3, and 4?",
+      "audioBytes": 100992
+    },
+    {
+      "textId": "pg017_n0022_easy_read",
+      "visibleTextSha256": "08cb2014307e2b87892e5a33164de55ad174a0f3f9387240e8545b35c26901e4",
+      "spokenText": "Number two. Explain the uses of the crops in the table below.",
+      "audioBytes": 72192
+    },
+    {
+      "textId": "pg019_n0007_easy_read",
+      "visibleTextSha256": "22217ec97c13046ac24dab9de4d779a31032988a42cadbb5f05d69674c02d055",
+      "spokenText": "Number one. Where does fishing activity take place?",
+      "audioBytes": 64512
+    },
+    {
+      "textId": "pg019_n0009_easy_read",
+      "visibleTextSha256": "3c325db4a3316daa4c8d1a6c5d4ed1d1055711bf5ae2229a0ca11fe0a9abc6a9",
+      "spokenText": "Number two. What tools do people use for fishing?",
+      "audioBytes": 62208
+    },
+    {
+      "textId": "pg019_n0015_easy_read",
+      "visibleTextSha256": "022ff613bd4e30f192760bd6e991f4bf3740d57c8e2cab86aaed726f50d3c9e2",
+      "spokenText": "Number one. Observe the pictures.. Or watch video clips that show how fishing is done.",
+      "audioBytes": 100608
+    },
+    {
+      "textId": "pg019_n0017_easy_read",
+      "visibleTextSha256": "39a64a270535efbe9e662eea2065b9313a445704c6e5df5ab5002a4ceca2b003",
+      "spokenText": "Number two. Draw the tools people use for fishing.",
+      "audioBytes": 60672
+    },
+    {
+      "textId": "pg020_n0013_easy_read",
+      "visibleTextSha256": "a8322a33f8a9815bae84b0f78acbfcdef73c9c09778e4a7f8acb3624f685b25b",
+      "spokenText": "Number one. What products do you observe in the picture?",
+      "audioBytes": 66048
+    },
+    {
+      "textId": "pg020_n0015_easy_read",
+      "visibleTextSha256": "e9111480b455f0b35b2855c32d377fe6563ce84624bab0a58e34abb70f89e486",
+      "spokenText": "Number two. What kind of business would you like to do? Why?",
+      "audioBytes": 76032
+    },
+    {
+      "textId": "pg021_n0003_easy_read",
+      "visibleTextSha256": "f99e3a288b45c7024d28dc3d67f0a088324a0c1e9a1b1a16397715627076af23",
+      "spokenText": "Number one. Visit a place where business activities happen.. Then write 5 items that people sell and buy there.",
+      "audioBytes": 132864
+    },
+    {
+      "textId": "pg021_n0004_easy_read",
+      "visibleTextSha256": "69208dc5bf4fa9986de705e1b4ebaffe5778d3d702df82f4d94770904b1219c3",
+      "spokenText": "Number two. Draw 2 items you saw at the place you visited.",
+      "audioBytes": 73728
+    },
+    {
+      "textId": "pg021_n0007_easy_read",
+      "visibleTextSha256": "92df9dfae8a0e36d58d8d94ee9648d4d36fa7b958f0b6a527f2c5942ee83d90f",
+      "spokenText": "Number one. Identify the benefits of farming for your family and for the community around you.",
+      "audioBytes": 108672
+    },
+    {
+      "textId": "pg021_n0008_easy_read",
+      "visibleTextSha256": "af68407e0b5d8ec9d4673bec8441074c871a936f53dde2157ffe274bdb770bfa",
+      "spokenText": "Number two. Mention the benefits of fishing for the community.",
+      "audioBytes": 71808
+    },
+    {
+      "textId": "pg021_n0009_easy_read",
+      "visibleTextSha256": "721365e5cec8509682efbea1967c7ff485518eed1b0a8f4330c84cd79cabc5d8",
+      "spokenText": "Number three. Why is it important to learn business?",
+      "audioBytes": 61056
+    },
+    {
+      "textId": "pg021_n0010_easy_read",
+      "visibleTextSha256": "6f3d7f414cee94d812ac09a772f63abad366e5c1e6aa443f3fc0c554d543b4f7",
+      "spokenText": "Number four. What types of business do people do in your community?",
+      "audioBytes": 77952
+    },
+    {
+      "textId": "pg021_n0011_easy_read",
+      "visibleTextSha256": "038f0f8f73d063f6fbc7f82feade850fc2478ef73031e8633b8bc222d11ac1a6",
+      "spokenText": "Number five. Mention the benefits of domestic animals and birds.",
+      "audioBytes": 78336
+    },
+    {
+      "textId": "pg021_n0013_easy_read",
+      "visibleTextSha256": "3c73e3f9b5324978feeaea1cfc44f7c2aab250a85f11092a494777d5453bb9ff",
+      "spokenText": "Number six. Read the items in the table.. Then choose the related activity from the bracket:. - farming. - fishing. - livestock. - business",
+      "audioBytes": 162816
+    },
+    {
+      "textId": "pg022_n0020_easy_read",
+      "visibleTextSha256": "918b8f051da2455ed3b29ce2c703675fb9d1ea7f8dbbe5ba95448ccc3cbbf4e2",
+      "spokenText": "Number one. What good behaviours are mentioned in the passage you read?",
+      "audioBytes": 77952
+    },
+    {
+      "textId": "pg022_n0022_easy_read",
+      "visibleTextSha256": "6b1e94ec866cb0fd9222d849da68b22ff4883ee0b8500b02e2bd68382dd207fe",
+      "spokenText": "Number two. Why do people pray?",
+      "audioBytes": 45312
+    },
+    {
+      "textId": "pg024_n0010_easy_read",
+      "visibleTextSha256": "32de08ef9ddf923dbbb93e03ee02d2f651d9fdc51b1e480dbe337afefc684bf3",
+      "spokenText": "Number one. What did you learn from the story?",
+      "audioBytes": 55296
+    },
+    {
+      "textId": "pg024_n0012_easy_read",
+      "visibleTextSha256": "93aa7090ec28bd3d5154c368494c6286a1da6d7d5ae5a6900bc6fcf3bd09cb21",
+      "spokenText": "Number two. Who did not like to go to religious sessions?",
+      "audioBytes": 69120
+    },
+    {
+      "textId": "pg024_n0014_easy_read",
+      "visibleTextSha256": "3e5927d7e4714eec3f4df01ff15d120da94db17285aec986e39089c451618376",
+      "spokenText": "Number three. Name the important things that people teach in the religious session.",
+      "audioBytes": 86400
+    },
+    {
+      "textId": "pg027_n0003_easy_read",
+      "visibleTextSha256": "135746d3ac1017d38cd1cc48fde4fedfbd78f3bdd019f8af0e894375b7f3c2e0",
+      "spokenText": "Number one. What are the benefits of prayer?",
+      "audioBytes": 51840
+    },
+    {
+      "textId": "pg027_n0004_easy_read",
+      "visibleTextSha256": "7d2bc8a6f92fcb7d2998be1f05793a4ccc52f672ac9a1f74489189f0238f25ca",
+      "spokenText": "Number two. Where do people go to pray in your community?",
+      "audioBytes": 69120
+    },
+    {
+      "textId": "pg027_n0005_easy_read",
+      "visibleTextSha256": "6b57004159a6683b1f9adb08d15a44bf900f452873971b8d1407ebfb5c1c9e03",
+      "spokenText": "Number three. Name some religious holidays in your community.",
+      "audioBytes": 71040
+    },
+    {
+      "textId": "pg027_n0006_easy_read",
+      "visibleTextSha256": "63357a0dc7ce2f1131baf1084e2d350f4f3587241a947f51ddecb8643308af0a",
+      "spokenText": "Number four. What actions show that you care for people with different beliefs?",
+      "audioBytes": 88704
+    },
+    {
+      "textId": "pg030_n0006_easy_read",
+      "visibleTextSha256": "95514d3740bbbcbaa3d41a50bb5a667c943daf29664fc9c13176885ae73d63fd",
+      "spokenText": "Number one. What kind of art work is happening in these pictures?",
+      "audioBytes": 77184
+    },
+    {
+      "textId": "pg030_n0008_easy_read",
+      "visibleTextSha256": "529fc2e9f257d7e77f28d71a261e68d5b9f90006fdf3061880b53850f876673a",
+      "spokenText": "Number two. What tools are used in the pictures?",
+      "audioBytes": 57600
+    },
+    {
+      "textId": "pg030_n0010_easy_read",
+      "visibleTextSha256": "c092bfd30d89dfbe348746aa1f2699a6b40b13459869bf3f35c3878a39ed3041",
+      "spokenText": "Number three. Name items made from this kind of work.",
+      "audioBytes": 65664
+    },
+    {
+      "textId": "pg030_n0012_easy_read",
+      "visibleTextSha256": "d1f0315c810e544353eda0e553aff83aa1d9909af052d784e0f751170e9ce110",
+      "spokenText": "Number four. Have you ever done this work?",
+      "audioBytes": 48384
+    },
+    {
+      "textId": "pg030_n0025_easy_read",
+      "visibleTextSha256": "abeeefaa7e25fe935a1cfbc1a56434bf32a7cde5caee8244364cbe45a161f094",
+      "spokenText": "Number one. Sewing a torn cloth",
+      "audioBytes": 45312
+    },
+    {
+      "textId": "pg031_n0002_easy_read",
+      "visibleTextSha256": "07aecc61b449cc29dbcbeadfd202b55103470c0206811b5d2eea72ca20b74286",
+      "spokenText": "Number two. Joining 2 pieces of cloth",
+      "audioBytes": 53760
+    },
+    {
+      "textId": "pg031_n0008_easy_read",
+      "visibleTextSha256": "2f8b7f6ac99cbb7241ae48bae01e5214b287f4691c481cd9877c601fff157ec7",
+      "spokenText": "Number one. What work is happening in pictures 1 and 2?",
+      "audioBytes": 72192
+    },
+    {
+      "textId": "pg031_n0010_easy_read",
+      "visibleTextSha256": "d79c56eaecb14fb90090d4261d9503c3551d7fab9afa3be873b31aced081b722",
+      "spokenText": "Number two. What tools are used in this work?",
+      "audioBytes": 54912
+    },
+    {
+      "textId": "pg031_n0012_easy_read",
+      "visibleTextSha256": "0bb3eb9184d6a81f986786bf196bb284489bf6c02d69f7906634d8cd5dab8052",
+      "spokenText": "Number three. Have you ever done this work?",
+      "audioBytes": 49152
+    },
+    {
+      "textId": "pg032_n0004_easy_read",
+      "visibleTextSha256": "238bc17357c608c1c8bc9065dac0141299876b6aa96ffbb1163e139041aa742a",
+      "spokenText": "Number one. Moulding pots",
+      "audioBytes": 39168
+    },
+    {
+      "textId": "pg032_n0006_easy_read",
+      "visibleTextSha256": "b01f01755d18cf4908faf2ef729fc3bdfc0fe006be5dd2aff170923f2204d223",
+      "spokenText": "Number two. Moulding different items",
+      "audioBytes": 49920
+    },
+    {
+      "textId": "pg033_n0004_easy_read",
+      "visibleTextSha256": "1fcb18bf69de6f4358fa392afa6c6068b45832ba8a4e9478a4b6b27dc1978977",
+      "spokenText": "Number one. What work of art is being done in pictures 1 and 2?",
+      "audioBytes": 79872
+    },
+    {
+      "textId": "pg033_n0005_easy_read",
+      "visibleTextSha256": "3e1a7261465320b4a215d6e900ff3bbee5f297ea8ecdb10a3101cb48b0e12498",
+      "spokenText": "Number two. The materials needed for this work of art include [[blank:item-1]] and [[blank:item-2]].",
+      "audioBytes": 148608
+    },
+    {
+      "textId": "pg033_n0006_easy_read",
+      "visibleTextSha256": "6922c76f3c1922b3cd032b185f5d77857ce7cee066297d967c33af2f77dcd992",
+      "spokenText": "Number three. What other items can be made by using clay soil?",
+      "audioBytes": 79488
+    },
+    {
+      "textId": "pg033_n0018_easy_read",
+      "visibleTextSha256": "626f9542050be4536a07fa839c12e9657be8e955b8144620d186be5d574775b7",
+      "spokenText": "Number one. Carving work",
+      "audioBytes": 35712
+    },
+    {
+      "textId": "pg035_n0006_easy_read",
+      "visibleTextSha256": "ce0deacf4c3b621b9dfa2c0cfe60eb614e7ece482fa879c74823f0b0abeed317",
+      "spokenText": "Number one. Study of pictures 1 and 2.",
+      "audioBytes": 56448
+    },
+    {
+      "textId": "pg035_n0009_easy_read",
+      "visibleTextSha256": "492958e114eb6c38ca13e1eaf39cc56a88737c614dc402f0a40c0eccdc0d17e4",
+      "spokenText": "Number two. What materials are used to make this work of art?",
+      "audioBytes": 73728
+    },
+    {
+      "textId": "pg035_n0011_easy_read",
+      "visibleTextSha256": "689d12c252481e2605c324d32435112979e06d43a11e0fe55cdf9dd846297a74",
+      "spokenText": "Number three. What other items can be made with this artistic creativity?",
+      "audioBytes": 89088
+    },
+    {
+      "textId": "pg037_n0009_easy_read",
+      "visibleTextSha256": "b0c059fc9864d27cef6b50fb7a067b00579ec18b31c77f498109b545e18c861c",
+      "spokenText": "Number one. What is the pupil in the picture doing?",
+      "audioBytes": 58368
+    },
+    {
+      "textId": "pg037_n0011_easy_read",
+      "visibleTextSha256": "2088719b16aa1fe054a0f170f51c618cb7f046581e3a289bc1dddf0d9fbb94c9",
+      "spokenText": "Number two. List the tools used in that work.",
+      "audioBytes": 55680
+    },
+    {
+      "textId": "pg037_n0013_easy_read",
+      "visibleTextSha256": "04189f8f13716fc40d54799907765c783d15557443fbeba9c92ccaf572f4eba8",
+      "spokenText": "Number three. Why is it important to learn drawing and painting?",
+      "audioBytes": 71040
+    },
+    {
+      "textId": "pg041_n0023_easy_read",
+      "visibleTextSha256": "2186e67b71391862ba6b1abf5771e998d855eb55d97c681f79780069ab9fc177",
+      "spokenText": "Number one. What have you learnt from this ngohn-JEH-rah?",
+      "audioBytes": 62976
+    },
+    {
+      "textId": "pg041_n0025_easy_read",
+      "visibleTextSha256": "98f51ea43269bfe1d0597d29b7336bdcdc31805471d70c6f962347491985b685",
+      "spokenText": "Number two. What issues are mentioned in this ngohn-JEH-rah?",
+      "audioBytes": 69120
+    },
+    {
+      "textId": "pg041_n0027_easy_read",
+      "visibleTextSha256": "ac6f87349e4782030cf45d9b531e76fb2123e699a7a4c59a81d8a9b8eae21d1c",
+      "spokenText": "Number three. What did you enjoy while reciting ngohn-JEH-rah?",
+      "audioBytes": 74112
+    },
+    {
+      "textId": "pg043_n0005_easy_read",
+      "visibleTextSha256": "3c3f476aec83900eb892e1887a3ddc9bd91f0e930f2842e42b4fa48916987c0c",
+      "spokenText": "Number one. Name another animal that gives us milk.",
+      "audioBytes": 60288
+    },
+    {
+      "textId": "pg043_n0007_easy_read",
+      "visibleTextSha256": "0d0fb522b01be9f28691bb4aa825b7b6ac28e5592032e8f9a367a48f1f124903",
+      "spokenText": "Number two. What is the benefit of a giraffe's long neck?",
+      "audioBytes": 65280
+    },
+    {
+      "textId": "pg043_n0009_easy_read",
+      "visibleTextSha256": "ee2691a37310da91f71331e2f7043a86b80ca865b3f0fa2341298195b9d33679",
+      "spokenText": "Number three. What other animal with attractive colours do you know?",
+      "audioBytes": 76032
+    },
+    {
+      "textId": "pg043_n0011_easy_read",
+      "visibleTextSha256": "355421a1bb55cadcd7b4078f75a5e8da7c59df2201c0a4217e003727e27e328e",
+      "spokenText": "Number four. What do you need to consider when you perform heroic recitation?",
+      "audioBytes": 91008
+    },
+    {
+      "textId": "pg043_n0014_easy_read",
+      "visibleTextSha256": "9c0dc504480300c0fb1fb036fddc39ae5985607307012dc72904c156cd2260e0",
+      "spokenText": "Number one. Copy the sounds of different animals.",
+      "audioBytes": 58752
+    },
+    {
+      "textId": "pg043_n0015_easy_read",
+      "visibleTextSha256": "7bd83960dfcf0e5f3016ab86d98870f2b801a119d6359b57300010d68d61e51a",
+      "spokenText": "Number two. Choose your favorite animal.. Then copy its sound and how it moves.",
+      "audioBytes": 95616
+    },
+    {
+      "textId": "pg045_n0007_easy_read",
+      "visibleTextSha256": "5e03031ce8f82c6f02fe1e346066c5eb5bd3ecb4b87129b39aebd3c3c66851e4",
+      "spokenText": "Number one. What have you learned from the comedics?",
+      "audioBytes": 58368
+    },
+    {
+      "textId": "pg045_n0008_easy_read",
+      "visibleTextSha256": "588fd11b75a40682802b6ad4be8df6f857e01769ee7e22ef75e1b1a21d633430",
+      "spokenText": "Number two. If you were KEE-boh, what would you advise mah-WEHN-zee to do?",
+      "audioBytes": 92928
+    },
+    {
+      "textId": "pg045_n0009_easy_read",
+      "visibleTextSha256": "74d2f78e3daf5c5c4c02592b75a5f710ad29a7a6653da6eac43cd652ee2f0af7",
+      "spokenText": "Number three. What object was the rabbit looking at that made it see another rabbit?",
+      "audioBytes": 91008
+    },
+    {
+      "textId": "pg045_n0015_easy_read",
+      "visibleTextSha256": "eefff30090dfe265034b6b5778f6edc9b3ca520e30e2822ee6929f96ab18ab33",
+      "spokenText": "Number one. Take a mirror or use an accessible application while changing your facial expression. What do you observe?",
+      "audioBytes": 135168
+    },
+    {
+      "textId": "pg045_n0017_easy_read",
+      "visibleTextSha256": "10973caf4b96f1c85f5419833a297ca6186f079e0fe09ca6a875868b23c01406",
+      "spokenText": "Number two. Prepare a funny story.",
+      "audioBytes": 47616
+    },
+    {
+      "textId": "pg046_n0003_easy_read",
+      "visibleTextSha256": "36797232e91c0b78656764a16213e0fa6f3746d17adc4e5e5536fca6b0756099",
+      "spokenText": "Number one. Mention artistic activities that use sounds.",
+      "audioBytes": 73728
+    },
+    {
+      "textId": "pg046_n0004_easy_read",
+      "visibleTextSha256": "763617664fd12d0b2acc32c0b55fe20e26d77b29fc4b7fec5ca461de3e51555e",
+      "spokenText": "Number two. Explain what artistic activities that use sounds are for.",
+      "audioBytes": 86016
+    },
+    {
+      "textId": "pg046_n0005_easy_read",
+      "visibleTextSha256": "41e0a91633a59da209bfc2274e7296df17aed3b7dc8a230e8f1ade315e63f539",
+      "spokenText": "Number three. Write a short story about a rabbit doing a heroic recitation.",
+      "audioBytes": 89856
+    },
+    {
+      "textId": "pg046_n0016_easy_read",
+      "visibleTextSha256": "cfdb95e07e80753ad8345401b83f7e55631cb09c11cf0b4c242c84bd9d678a95",
+      "spokenText": "Number one. Act the ostrich walk",
+      "audioBytes": 44160
+    },
+    {
+      "textId": "pg047_n0002_easy_read",
+      "visibleTextSha256": "13b6c396a5343dae790c267065d817197ba954bf2e5bd6d86e906d79b6b362c5",
+      "spokenText": "Number two. Acting like a lion that is chasing children",
+      "audioBytes": 69888
+    },
+    {
+      "textId": "pg047_n0007_easy_read",
+      "visibleTextSha256": "9e15553771acb70afdb94d3edb89d44694ecac97182a01da95730a97c118508b",
+      "spokenText": "Number one. What action is happening in pictures 1 and 2?",
+      "audioBytes": 73728
+    },
+    {
+      "textId": "pg047_n0009_easy_read",
+      "visibleTextSha256": "9c73ca2610cf9817eb48470c4702794b2f160113ab7cc27366234955298b7654",
+      "spokenText": "Number two. What animal do you think the pupil in picture 2 is, wearing a mask?",
+      "audioBytes": 101376
+    },
+    {
+      "textId": "pg047_n0011_easy_read",
+      "visibleTextSha256": "26e2efb7c7e4ee043b48738eee87e28d1280a216c1fef0b7e72d76b5a58f6a66",
+      "spokenText": "Number three. Have you ever acted?",
+      "audioBytes": 42240
+    },
+    {
+      "textId": "pg047_n0017_easy_read",
+      "visibleTextSha256": "6901c64c92b3ad5d1607ef6abfbd3ca4af59874198d8837f8a8520f2c117ba49",
+      "spokenText": "Number one. Act like the pupil who is wearing a mask in picture 1.",
+      "audioBytes": 81792
+    },
+    {
+      "textId": "pg047_n0019_easy_read",
+      "visibleTextSha256": "287b1515c1caf3abd23f5e7588bac37f9055e52ad194756f4434b4add19fe424",
+      "spokenText": "Number two. Make a mask like the face of an animal or a bird.. Use the mask to show its behaviour.",
+      "audioBytes": 115200
+    },
+    {
+      "textId": "pg065_n0003_easy_read",
+      "visibleTextSha256": "c24c81cd4474ef775623268b27a95e365082e7771fbbe17a1437751c6c4a7578",
+      "spokenText": "Number three. Make 2 teams.. Each team has 6 players.",
+      "audioBytes": 75264
+    },
+    {
+      "textId": "pg065_n0005_easy_read",
+      "visibleTextSha256": "98c3153d25dc356d7f0353ec75c5a9d76e9d3c86fdea598df3040da4af929f76",
+      "spokenText": "Number four. 5 players stay inside the defending zone.. 1 player stays behind the other team in the search zone.",
+      "audioBytes": 129792
+    },
+    {
+      "textId": "pg065_n0007_easy_read",
+      "visibleTextSha256": "258a6295dedeef12f1513c2444871820d72e0b8a15006071b9888a218457b0a5",
+      "spokenText": "Number five. Team members cannot enter the free zone or the search zone.",
+      "audioBytes": 81792
+    },
+    {
+      "textId": "pg065_n0010_easy_read",
+      "visibleTextSha256": "93be550a1595ac434061072dfa76e3b7fd5fd1713184af1e8a6301ff94d326ef",
+      "spokenText": "Number six. Each team passes the ball with their hands.. They look for an open space to pass the ball to their searcher and score points.",
+      "audioBytes": 147456
+    },
+    {
+      "textId": "pg065_n0012_easy_read",
+      "visibleTextSha256": "9d25c691bf62069591bcaa8b34c21fb33b0347e56bbc06543735bb145c6ee074",
+      "spokenText": "Number seven. Each team must stop the other team from passing the ball through their zone.",
+      "audioBytes": 91392
+    },
+    {
+      "textId": "pg065_n0014_easy_read",
+      "visibleTextSha256": "f5d3f24d528b9648ee9b4f285cc7d956050e7c013b69ecbaa69defa7e87330f0",
+      "spokenText": "Number eight. If the searcher catches the ball, the searcher returns to the team.. Then the player who passed the ball through becomes the new searcher.",
+      "audioBytes": 156288
+    },
+    {
+      "textId": "pg069_n0005_easy_read",
+      "visibleTextSha256": "6064b81fbdd6f3be2f205feaab84f7258be9310e7c276e385619b2cf041ad971",
+      "spokenText": "Number one. Download the GCompris App on your smartphone, tablet, or computer.",
+      "audioBytes": 104064
+    },
+    {
+      "textId": "pg069_n0007_easy_read",
+      "visibleTextSha256": "cb2f5b2eded512a375bce821389cae455ed119187da3612deccedbac4c06f890",
+      "spokenText": "Number two. Choose the penalty kick game.",
+      "audioBytes": 52608
+    },
+    {
+      "textId": "pg069_n0009_easy_read",
+      "visibleTextSha256": "989f5b7b2c3f4e9b5585ce4223a71e0a23cb971b2aea21c94fe87b8fff3a371f",
+      "spokenText": "Number three. Look at the goal.. Look at where the goalkeeper is.",
+      "audioBytes": 74496
+    },
+    {
+      "textId": "pg069_n0011_easy_read",
+      "visibleTextSha256": "020cc220defaa9f96c7b278074a27281619f6910e4764d75c13105767abb3216",
+      "spokenText": "Number four. Choose which side to send the ball to.. This helps you avoid the goalkeeper catching the ball.",
+      "audioBytes": 118656
+    },
+    {
+      "textId": "pg069_n0013_easy_read",
+      "visibleTextSha256": "843c88506bf8831e2c7c3949d7d49d8c91bb2bd530b816c9aeed7480e0658e65",
+      "spokenText": "Number five. Double-click, or touch quickly 2 times, to kick the ball.",
+      "audioBytes": 91776
+    },
+    {
+      "textId": "pg069_n0015_easy_read",
+      "visibleTextSha256": "7e18348af8eddfe22387d95e8e63d5e4e896d765077f06a8a8c9f67f4d9c6df1",
+      "spokenText": "Number six. If the goalkeeper catches the ball, click the ball 1 time to go back.",
+      "audioBytes": 99072
+    },
+    {
+      "textId": "pg071_n0011_easy_read",
+      "visibleTextSha256": "bda60e78cf4e596f3484588c017177b24de3c8bae8e77b01ff2ad606f5a00645",
+      "spokenText": "Number one. Name simple games you know.",
+      "audioBytes": 51840
+    },
+    {
+      "textId": "pg071_n0012_easy_read",
+      "visibleTextSha256": "2ba8f5047959653218ac7e3f5db5a666706639ca6e8060ecaf1d326d91f46c4e",
+      "spokenText": "Number two. How do games help us in everyday life?",
+      "audioBytes": 67968
+    },
+    {
+      "textId": "pg071_n0013_easy_read",
+      "visibleTextSha256": "5c91221158c650a8a68f2f39257a4b94f1e4a3c4c39a6a7c0853eae30309e76d",
+      "spokenText": "Number three. Which game is like the ball-searching game?",
+      "audioBytes": 67584
+    },
+    {
+      "textId": "pg072_n0021_easy_read",
+      "visibleTextSha256": "30408c0f190e320a1fa1e2cab9cd9c173930a7ae1ce9ecfc47d3927e3772bf63",
+      "spokenText": "Number one. 5 players from each team stay inside the defending zone. 1 player stays behind the other team.",
+      "audioBytes": 120960
+    },
+    {
+      "textId": "pg072_n0026_easy_read",
+      "visibleTextSha256": "352fe97ebab20d89992d25203e0a03d07cc876714af0c8c2443fa0e94b6b19bc",
+      "spokenText": "Number two. A type of game.. In this game, players stand behind the playing mark.. They stand 10 to 15 steps away.",
+      "audioBytes": 148608
+    },
+    {
+      "textId": "pg072_n0031_easy_read",
+      "visibleTextSha256": "ae46255672191b6620253f2318f2e7fbb255abf27a19aac560e8fc6b1f7f8e62",
+      "spokenText": "Number three. A type of game played by 2 players in a team.",
+      "audioBytes": 74112
+    },
+    {
+      "textId": "pg072_n0036_easy_read",
+      "visibleTextSha256": "86e2f8716c82cf62d2ea0737e01e36e2a631b754d5a9a878d3cba84351220936",
+      "spokenText": "Number four. A program to develop ICT skills and football skills.",
+      "audioBytes": 82560
+    }
+  ]
+}
