@@ -2138,22 +2138,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "1 The"
-        },
-        {
-          "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "msonge"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "house"
+          "voice": "Tessa",
+          "text": "1. The msonge house"
         }
       ],
       "duration": 2.232,
-      "fileSize": 87936,
+      "fileSize": 74496,
       "status": "passed"
     },
     {
@@ -2162,22 +2152,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "2 The"
-        },
-        {
-          "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "tembe"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "house"
+          "voice": "Tessa",
+          "text": "2. The tembe house"
         }
       ],
       "duration": 1.865,
-      "fileSize": 79488,
+      "fileSize": 45312,
       "status": "passed"
     },
     {
@@ -2186,22 +2166,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "3 The"
-        },
-        {
-          "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "banda"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "house"
+          "voice": "Tessa",
+          "text": "3. The banda house"
         }
       ],
       "duration": 1.89,
-      "fileSize": 81792,
+      "fileSize": 47616,
       "status": "passed"
     },
     {
@@ -2269,7 +2239,7 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter C"
+          "text": "Letter C"
         },
         {
           "language": "sw",
@@ -2288,7 +2258,7 @@
         }
       ],
       "duration": 3.836,
-      "fileSize": 130560,
+      "fileSize": 134400,
       "status": "passed"
     },
     {
@@ -6247,12 +6217,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
+          "voice": "Tessa",
           "text": "C"
         }
       ],
       "duration": 0.444,
-      "fileSize": 10656,
+      "fileSize": 8064,
       "status": "passed"
     },
     {
@@ -6275,12 +6245,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
+          "voice": "Tessa",
           "text": "D"
         }
       ],
       "duration": 0.36,
-      "fileSize": 10656,
+      "fileSize": 6528,
       "status": "passed"
     },
     {
@@ -6331,12 +6301,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
+          "voice": "Tessa",
           "text": "What colour would you like to use to decorate the hall shape D?"
         }
       ],
       "duration": 3.406,
-      "fileSize": 26784,
+      "fileSize": 85248,
       "status": "passed"
     },
     {
@@ -6359,12 +6329,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
+          "voice": "Tessa",
           "text": "What does the hall shape B look like?"
         }
       ],
       "duration": 2.237,
-      "fileSize": 19296,
+      "fileSize": 62592,
       "status": "passed"
     },
     {
@@ -6387,12 +6357,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "Mention the colour that has been used to decorate the hall shape C"
+          "voice": "Tessa",
+          "text": "Mention the colour that has been used to decorate the hall shape C."
         }
       ],
       "duration": 3.732,
-      "fileSize": 28800,
+      "fileSize": 89088,
       "status": "passed"
     },
     {
@@ -6579,16 +6549,16 @@
     },
     {
       "textId": "pg037_n0015",
-      "visibleTextSha256": "38da1505ca8373288489495101b14f24ac95078f520ad64df18272aa6054f750",
+      "visibleTextSha256": "d51d7a12b55b23425c0b7d0dc325e6c080914c5904981c0c53507bed161ef983",
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "Activity"
+          "voice": "Tessa",
+          "text": "Activity 6"
         }
       ],
       "duration": 0.811,
-      "fileSize": 11232,
+      "fileSize": 21504,
       "status": "passed"
     },
     {
@@ -7474,28 +7444,13 @@
       "visibleTextSha256": "89b6487ad4f77d710c43e178c20154093aa21a53df2f38bdd27d9bce71dcc550",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "Bahari"
-        },
-        {
           "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "kwetu"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "fahari, buluu"
-        },
-        {
-          "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "uchumiwetu,"
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Bahari kwetu fahari, buluu uchumi wetu,"
         }
       ],
       "duration": 3.976,
-      "fileSize": 131328,
+      "fileSize": 24336,
       "status": "passed"
     },
     {
@@ -7504,17 +7459,12 @@
       "spans": [
         {
           "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "Nchi"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "kavu twasafiri, baharini meli zetu,"
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Nchi kavu twasafiri, baharini meli zetu,"
         }
       ],
       "duration": 3.625,
-      "fileSize": 91392,
+      "fileSize": 25344,
       "status": "passed"
     },
     {
@@ -7522,33 +7472,13 @@
       "visibleTextSha256": "a7c2d30f7b8da6547b82b89fe4e6a2c66ce542a57ee99e7399467d04ad348468",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "Angani"
-        },
-        {
           "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "pia"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "fikiri, twaruka"
-        },
-        {
-          "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "kwa"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "ndege zetu,"
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Angani pia fikiri, twaruka kwa ndege zetu,"
         }
       ],
       "duration": 4.314,
-      "fileSize": 160896,
+      "fileSize": 25488,
       "status": "passed"
     },
     {
@@ -7557,12 +7487,12 @@
       "spans": [
         {
           "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "Hakinawajibuwetu, kukuzawetuuchumi"
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Haki na wajibu wetu, kukuza wetu uchumi."
         }
       ],
       "duration": 2.982,
-      "fileSize": 23904,
+      "fileSize": 22896,
       "status": "passed"
     },
     {
@@ -7585,17 +7515,12 @@
       "spans": [
         {
           "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "Tuunganekwa"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "pamoja, kuwapinga wahujumu,"
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Tuungane kwa pamoja, kuwapinga wahujumu,"
         }
       ],
       "duration": 3.601,
-      "fileSize": 92160,
+      "fileSize": 23472,
       "status": "passed"
     },
     {
@@ -7604,27 +7529,12 @@
       "spans": [
         {
           "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "Na"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "wale wanaokuja,"
-        },
-        {
-          "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "kwa"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "nia ya kudhurumu,"
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Na wale wanaokuja, kwa nia ya kudhurumu,"
         }
       ],
       "duration": 3.719,
-      "fileSize": 132864,
+      "fileSize": 23040,
       "status": "passed"
     },
     {
@@ -7633,17 +7543,12 @@
       "spans": [
         {
           "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "Tuwakemee"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "wakija, warudisha gurudumu,"
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Tuwakemee wakija, warudisha gurudumu,"
         }
       ],
       "duration": 3.517,
-      "fileSize": 90624,
+      "fileSize": 22896,
       "status": "passed"
     },
     {
@@ -7652,12 +7557,12 @@
       "spans": [
         {
           "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "Hakinawajibuwetu, kukuzawetuuchumi"
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Haki na wajibu wetu, kukuza wetu uchumi."
         }
       ],
       "duration": 2.982,
-      "fileSize": 23904,
+      "fileSize": 22896,
       "status": "passed"
     },
     {
@@ -7680,17 +7585,12 @@
       "spans": [
         {
           "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "Maneno"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "nimesikia, yote mliyoyanena,"
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Maneno nimesikia, yote mliyoyanena,"
         }
       ],
       "duration": 3.264,
-      "fileSize": 87552,
+      "fileSize": 22608,
       "status": "passed"
     },
     {
@@ -7698,13 +7598,13 @@
       "visibleTextSha256": "474f62a11cc820ac408dfed77621b863d89ec602e87124c789e507498c3f2d77",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
+          "language": "sw",
+          "voice": "sw-TZ-DaudiNeural",
           "text": "Kumbe mmeshafikia, kujua yenu amana,"
         }
       ],
       "duration": 2.754,
-      "fileSize": 22752,
+      "fileSize": 23040,
       "status": "passed"
     },
     {
@@ -7713,27 +7613,12 @@
       "spans": [
         {
           "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "Utajiri"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "mwaujua, wa"
-        },
-        {
-          "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "nchi"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "yetu hazina,"
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Utajiri mwaujua, wa nchi yetu hazina,"
         }
       ],
       "duration": 4.263,
-      "fileSize": 137088,
+      "fileSize": 23184,
       "status": "passed"
     },
     {
@@ -7741,28 +7626,13 @@
       "visibleTextSha256": "c85c6094a139d856a02f692243d13eb92d7823160ea302c41265c58373e90f7e",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "Daima nitaipenda,"
-        },
-        {
           "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "nchi"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "yangu"
-        },
-        {
-          "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "Tanzania"
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Daima nitaipenda, nchi yangu Tanzania."
         }
       ],
       "duration": 3.727,
-      "fileSize": 130176,
+      "fileSize": 23472,
       "status": "passed"
     },
     {
@@ -13106,16 +12976,16 @@
     },
     {
       "textId": "pg070_im001",
-      "visibleTextSha256": "67bfe9ecde1b6aa3f75ef03044571c1d96b68c541f2578c3cf84e100725dfa6c",
+      "visibleTextSha256": "5f5c11e2c3eebd5008b0eace89add5ea9cda55a1248d5b6c79521b3ba6ac262e",
       "spans": [
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "A football game logo with a big black-and-white soccer ball on a light blue background. A yellow star and a gray sun shape are at the top"
+          "text": "A football game logo with a big black-and-white soccer ball on a white background. A yellow star and a gray sun shape are at the top."
         }
       ],
       "duration": 8.777,
-      "fileSize": 58752,
+      "fileSize": 57312,
       "status": "passed"
     },
     {
@@ -20960,22 +20830,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "1 The"
-        },
-        {
-          "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "msonge"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "house"
+          "voice": "Tessa",
+          "text": "1. The msonge house"
         }
       ],
       "duration": 2.232,
-      "fileSize": 87936,
+      "fileSize": 74496,
       "status": "passed"
     },
     {
@@ -20984,22 +20844,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "2 The"
-        },
-        {
-          "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "tembe"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "house"
+          "voice": "Tessa",
+          "text": "2. The tembe house"
         }
       ],
       "duration": 1.865,
-      "fileSize": 79488,
+      "fileSize": 45312,
       "status": "passed"
     },
     {
@@ -21008,22 +20858,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "3 The"
-        },
-        {
-          "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "banda"
-        },
-        {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "house"
+          "voice": "Tessa",
+          "text": "3. The banda house"
         }
       ],
       "duration": 1.89,
-      "fileSize": 81792,
+      "fileSize": 47616,
       "status": "passed"
     },
     {
@@ -21091,7 +20931,7 @@
         {
           "language": "en",
           "voice": "en-TZ-ImaniNeural",
-          "text": "letter C"
+          "text": "Letter C"
         },
         {
           "language": "sw",
@@ -21110,7 +20950,7 @@
         }
       ],
       "duration": 3.836,
-      "fileSize": 130560,
+      "fileSize": 134400,
       "status": "passed"
     },
     {
@@ -24420,12 +24260,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
+          "voice": "Tessa",
           "text": "C"
         }
       ],
       "duration": 0.444,
-      "fileSize": 10656,
+      "fileSize": 8064,
       "status": "passed"
     },
     {
@@ -24434,12 +24274,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
+          "voice": "Tessa",
           "text": "D"
         }
       ],
       "duration": 0.36,
-      "fileSize": 10656,
+      "fileSize": 6528,
       "status": "passed"
     },
     {
@@ -24476,12 +24316,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
+          "voice": "Tessa",
           "text": "Which colour would you like to use to decorate hall shape D?"
         }
       ],
       "duration": 3.351,
-      "fileSize": 26352,
+      "fileSize": 83328,
       "status": "passed"
     },
     {
@@ -24504,12 +24344,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
+          "voice": "Tessa",
           "text": "What does hall shape B look like?"
         }
       ],
       "duration": 2.21,
-      "fileSize": 19152,
+      "fileSize": 60288,
       "status": "passed"
     },
     {
@@ -24532,12 +24372,12 @@
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "Say the colour used to decorate hall shape C"
+          "voice": "Tessa",
+          "text": "Say the colour used to decorate hall shape C."
         }
       ],
       "duration": 2.767,
-      "fileSize": 23040,
+      "fileSize": 73344,
       "status": "passed"
     },
     {
@@ -24682,16 +24522,16 @@
     },
     {
       "textId": "pg037_n0015_easy_read",
-      "visibleTextSha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+      "visibleTextSha256": "d51d7a12b55b23425c0b7d0dc325e6c080914c5904981c0c53507bed161ef983",
       "spans": [
         {
           "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "6"
+          "voice": "Tessa",
+          "text": "Activity 6"
         }
       ],
       "duration": 0.675,
-      "fileSize": 10080,
+      "fileSize": 21504,
       "status": "passed"
     },
     {
@@ -25441,13 +25281,13 @@
       "visibleTextSha256": "cc37add97b117263f69c756f4539dd5c51c47f37925a32730ec427c3bd4bc050",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "The sea is our pride.. The blue economy is our economy"
+          "language": "sw",
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "The sea is our pride.. The blue economy is our economy."
         }
       ],
       "duration": 4.715,
-      "fileSize": 34704,
+      "fileSize": 37152,
       "status": "passed"
     },
     {
@@ -25455,13 +25295,13 @@
       "visibleTextSha256": "7e12f80f196db88f1e96b8617198a58a10bf7207d903ef88d7e79ff5697eaff9",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "We travel on land.. Our ships travel on the sea"
+          "language": "sw",
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "We travel on land.. Our ships travel on the sea."
         }
       ],
       "duration": 4.212,
-      "fileSize": 31680,
+      "fileSize": 31824,
       "status": "passed"
     },
     {
@@ -25469,13 +25309,13 @@
       "visibleTextSha256": "557d0230945290ada4611c5a14e2abaf1a9992a597b3c0b62c3048ea779d2e08",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "Think about the sky too.. We fly in our planes"
+          "language": "sw",
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Think about the sky too.. We fly in our planes."
         }
       ],
       "duration": 4.062,
-      "fileSize": 30384,
+      "fileSize": 32256,
       "status": "passed"
     },
     {
@@ -25483,13 +25323,13 @@
       "visibleTextSha256": "fae99a97683197cac34616e0a64416aed9ecaabd838e038b16c1ca035d8e9390",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "It is our right and our duty to grow our economy"
+          "language": "sw",
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "It is our right and our duty to grow our economy."
         }
       ],
       "duration": 3.066,
-      "fileSize": 24768,
+      "fileSize": 27936,
       "status": "passed"
     },
     {
@@ -25511,13 +25351,13 @@
       "visibleTextSha256": "68103ff1e8f8db51b19384be4336ff5d618e0d731087d784000c746403834f44",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "Let us join together.. Let us oppose people who destroy things"
+          "language": "sw",
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Let us join together.. Let us oppose people who destroy things."
         }
       ],
       "duration": 5.177,
-      "fileSize": 37008,
+      "fileSize": 38160,
       "status": "passed"
     },
     {
@@ -25525,13 +25365,13 @@
       "visibleTextSha256": "76c784c4a1516c794e6419e3723c7d610d438ee9eaad0a32810ba68b5b9f5ab2",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "And let us oppose the people who come with the aim to do harm"
+          "language": "sw",
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "And let us oppose the people who come with the aim to do harm."
         }
       ],
       "duration": 3.309,
-      "fileSize": 26352,
+      "fileSize": 32976,
       "status": "passed"
     },
     {
@@ -25539,13 +25379,13 @@
       "visibleTextSha256": "e042be190ddfb5a4040e872d8036aaef1934550478d3f1e45913e692e9106574",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "Let us speak against them when they come.. Let them turn back"
+          "language": "sw",
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Let us speak against them when they come.. Let them turn back."
         }
       ],
       "duration": 4.851,
-      "fileSize": 35280,
+      "fileSize": 37296,
       "status": "passed"
     },
     {
@@ -25553,13 +25393,13 @@
       "visibleTextSha256": "fae99a97683197cac34616e0a64416aed9ecaabd838e038b16c1ca035d8e9390",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "It is our right and our duty to grow our economy"
+          "language": "sw",
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "It is our right and our duty to grow our economy."
         }
       ],
       "duration": 3.066,
-      "fileSize": 24768,
+      "fileSize": 27936,
       "status": "passed"
     },
     {
@@ -25581,13 +25421,13 @@
       "visibleTextSha256": "83db8e617f6abfca94d3fbd89c3ce7ee1a5f4bd4a1e6d44726847015c736eceb",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "I have heard all the words you said"
+          "language": "sw",
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "I have heard all the words you said."
         }
       ],
       "duration": 2.074,
-      "fileSize": 18864,
+      "fileSize": 19872,
       "status": "passed"
     },
     {
@@ -25595,13 +25435,13 @@
       "visibleTextSha256": "295628a0ae88a18094b40c006e89c1fd6114d3790e043c0f0d18ea22f8892345",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "Now you have come to understand your trust"
+          "language": "sw",
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "Now you have come to understand your trust."
         }
       ],
       "duration": 2.591,
-      "fileSize": 22176,
+      "fileSize": 24192,
       "status": "passed"
     },
     {
@@ -25609,13 +25449,13 @@
       "visibleTextSha256": "a65702e18ee55dc73785ad1cf15234f37003d8cb7de4e58408ced38262b8c992",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "You know the wealth, the treasure of our country"
+          "language": "sw",
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "You know the wealth, the treasure of our country."
         }
       ],
       "duration": 2.795,
-      "fileSize": 23328,
+      "fileSize": 26496,
       "status": "passed"
     },
     {
@@ -25623,18 +25463,13 @@
       "visibleTextSha256": "ed58dbcef317898ff720c42a4a165bffe53672bd9da3b28521db9ddb22d926a9",
       "spans": [
         {
-          "language": "en",
-          "voice": "en-TZ-ImaniNeural",
-          "text": "I will always love my country,"
-        },
-        {
           "language": "sw",
-          "voice": "sw-TZ-RehemaNeural",
-          "text": "Tanzania"
+          "voice": "sw-TZ-DaudiNeural",
+          "text": "I will always love my country, Tanzania."
         }
       ],
       "duration": 2.862,
-      "fileSize": 82176,
+      "fileSize": 23328,
       "status": "passed"
     },
     {
