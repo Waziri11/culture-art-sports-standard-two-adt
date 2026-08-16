@@ -35,6 +35,7 @@ def main() -> None:
         "./content/i18n/en/texts.json",
         "./content/i18n/en/audios.json",
         "./content/i18n/en/videos.json",
+        "./content/i18n/en/media-sync.json",
         "./content/i18n/en/images.json",
         "./content/i18n/en/glossary.json",
         "./content/i18n/en/timecode/timecode_output.json",
