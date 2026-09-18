@@ -1,5 +1,19 @@
 [
   {
+    "section_id": "pg000_sec001",
+    "href": "index.html",
+    "title": "Front cover",
+    "chapter_id": "pg000_gp001_tx001",
+    "level": 1
+  },
+  {
+    "section_id": "pg001_sec001",
+    "href": "pg001_sec001.html",
+    "title": "Title and approval",
+    "chapter_id": "pg001_n0002",
+    "level": 1
+  },
+  {
     "section_id": "pg004_sec001",
     "href": "pg004_sec001.html",
     "title": "Acknowledgements",
@@ -516,5 +530,12 @@
     "title": "Group A",
     "chapter_id": "pg072_n0016",
     "level": 3
+  },
+  {
+    "section_id": "pg073_sec001",
+    "href": "pg073_sec001.html",
+    "title": "Back cover",
+    "chapter_id": "pg073_gp001_tx001",
+    "level": 1
   }
 ]

@@ -7,11 +7,12 @@
     "swahiliMale": "sw-TZ-DaudiNeural"
   },
   "lexiconReviewStatus": "approved-2026-08-08",
-  "clipCount": 2120,
+  "clipCount": 2139,
   "voiceSpanCounts": {
-    "en-TZ-ImaniNeural": 2152,
-    "sw-TZ-RehemaNeural": 205,
-    "sw-TZ-DaudiNeural": 62,
+    "en-TZ-ImaniNeural": 2119,
+    "sw-TZ-RehemaNeural": 182,
+    "Tessa": 18,
+    "sw-TZ-DaudiNeural": 86,
     "en-TZ-ElimuNeural": 27
   },
   "clips": [
@@ -31158,6 +31159,272 @@
       ],
       "duration": 1.599,
       "fileSize": 15696,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_gp001_tx001",
+      "visibleTextSha256": "8afc1f21acacdf2fb218ced99c38e4edbcba92703050c6e9901b08230c8dcfa6",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Culture, Art and Sports"
+        }
+      ],
+      "duration": 3.12,
+      "fileSize": 18720,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_gp001_tx002",
+      "visibleTextSha256": "14060ab60a76b20c8c58fbaad0799e219b3070f80c94062efb16e86783a0d8db",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Pupil’s Book"
+        }
+      ],
+      "duration": 2.064,
+      "fileSize": 12384,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_gp001_tx003",
+      "visibleTextSha256": "13e30889474cbbb3b9cee554734d608baf6ddb310cf6db19c195e3bf8c183ba9",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Standard Two"
+        }
+      ],
+      "duration": 1.968,
+      "fileSize": 11808,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_im001",
+      "visibleTextSha256": "b1e0aab710f0e31c6f8b87c39b304ac87acc5cff57853c175539bcc34b6b5520",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Four people in traditional dress play drums together."
+        }
+      ],
+      "duration": 4.272,
+      "fileSize": 25632,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_im002",
+      "visibleTextSha256": "fa529c72bcbf22214d1abe8ebb067ff1de555fddeed374f7aac02f1ca553b7aa",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "A traditional round house has woven walls and a cone-shaped thatched roof."
+        }
+      ],
+      "duration": 5.328,
+      "fileSize": 31968,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_im003",
+      "visibleTextSha256": "08862d80a685a005b506420bff3a2c1cb0a32edf37b3706ecb7d6756b90e15e5",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "A pupil throws a ball towards a group of bottles in a target game."
+        }
+      ],
+      "duration": 4.968,
+      "fileSize": 29808,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_im004",
+      "visibleTextSha256": "e18daf9714808609756cba2544c4225e2a354f2ef3c78f422c7b5392cdb2c7fe",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Pupils, including a pupil with a visual impairment, model objects from clay at a table."
+        }
+      ],
+      "duration": 6.888,
+      "fileSize": 41328,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_gp002_tx001",
+      "visibleTextSha256": "d6fabf523ba45172ff30e590d90a989a71177e2ebedac0c61691b0bb944e188a",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Tanzania Institute of Education"
+        }
+      ],
+      "duration": 3.456,
+      "fileSize": 20736,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_gp003_tx001",
+      "visibleTextSha256": "66ebf7584c5029f12658c397ba6b455937d38bc651e2dd5499a84971c4054673",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Property of the Government of the United Republic of Tanzania. Not for Sale."
+        }
+      ],
+      "duration": 6.6,
+      "fileSize": 39600,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp001_tx001",
+      "visibleTextSha256": "3a65e353e79f97b8b6baac4b7dd9989674d32d37ee4c2530a7fb8935da97ac41",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Other Books by"
+        }
+      ],
+      "duration": 2.16,
+      "fileSize": 12960,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp001_tx002",
+      "visibleTextSha256": "d6fabf523ba45172ff30e590d90a989a71177e2ebedac0c61691b0bb944e188a",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Tanzania Institute of Education"
+        }
+      ],
+      "duration": 3.456,
+      "fileSize": 20736,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp001_tx003",
+      "visibleTextSha256": "13e30889474cbbb3b9cee554734d608baf6ddb310cf6db19c195e3bf8c183ba9",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Standard Two"
+        }
+      ],
+      "duration": 1.968,
+      "fileSize": 11808,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp002_tx001",
+      "visibleTextSha256": "a8bfae3eee941527f2568d7e1ae4d526cc1c764fd09ee1e62deb13e5f00c6078",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Writing"
+        }
+      ],
+      "duration": 1.704,
+      "fileSize": 10224,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp002_tx002",
+      "visibleTextSha256": "cec525fe4c2757ee223e4095ae52473666b74306a89e2d4f2d623d9dd06101e1",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Kusoma"
+        }
+      ],
+      "duration": 1.872,
+      "fileSize": 11232,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp002_tx003",
+      "visibleTextSha256": "641b3acc713901e892ad835e88155ab3089c13942f032a07b7fdf9fb9bba2b21",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Arithmetic"
+        }
+      ],
+      "duration": 1.992,
+      "fileSize": 11952,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp002_tx004",
+      "visibleTextSha256": "db280b33c5b574d53093875e6b35c9db0c50807e411a697046dea22071491c00",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Learn English"
+        }
+      ],
+      "duration": 2.136,
+      "fileSize": 12816,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp002_tx005",
+      "visibleTextSha256": "a4d12485535e27c123e5a9f7e75dee3eda54bcc76799f5365daf9b28a501e5d9",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Health and Environment"
+        }
+      ],
+      "duration": 2.736,
+      "fileSize": 16416,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp003_tx001",
+      "visibleTextSha256": "c82e6b68e9f0da5ca27724b6bc60e3beddef95744cfbaf4e1d08a74abfb45aa0",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "ISBN: 978-9912-753-72-3"
+        }
+      ],
+      "duration": 7.608,
+      "fileSize": 45648,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp004_tx001",
+      "visibleTextSha256": "66ebf7584c5029f12658c397ba6b455937d38bc651e2dd5499a84971c4054673",
+      "spans": [
+        {
+          "language": "en",
+          "voice": "en-TZ-ImaniNeural",
+          "text": "Property of the Government of the United Republic of Tanzania. Not for Sale."
+        }
+      ],
+      "duration": 6.6,
+      "fileSize": 39600,
       "status": "passed"
     }
   ]

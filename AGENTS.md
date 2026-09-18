@@ -8,11 +8,36 @@ This document describes the structure of this Accessible Digital Textbook (ADT) 
 
 - **Source language**: `en`
 - **Available languages in this bundle**: `en`
-- **Total pages**: 121
+- **Total reader pages**: 116 (including front and back covers)
 - **Quizzes**: yes
 - **Glossary**: yes
 
 ## Quick Overview
+
+The current reader lives directly in this repository root. `index.html` is the
+front cover (reader page 1), `pg001_sec001.html` is the title and approval page
+(reader page 2), and `pg073_sec001.html` is the back cover (reader page 116).
+Source-page IDs are intentionally stable because a printed page can have several
+reader sections. `page-section-id` and `video-N` use the position in `pages.json`;
+the video files are named `page_1.mp4` through `page_116.mp4`.
+Cover narration uses Imani (`en-TZ-ImaniNeural`, rate `-8%`, pitch `+0Hz`).
+`scripts/validate_cover_media.py` checks the inserted covers and media mappings.
+
+For web publishing and the current validation commands, use `README.md`.
+`scripts/validate_deployment.py` checks local links, filename case, and unused
+runtime files. The active runtime is `assets/base.bundle.local.js`; the obsolete
+minified runtime, its map, unused media, and stale output reports were removed.
+The pipeline layout examples below describe the original export, not the current
+repository layout. Keep maintenance inputs and favicon license attribution even
+though they are not loaded by page HTML. Publish this book through GitHub Pages
+without generating ZIP or SCORM packages.
+
+The reader toolbar is copied from the Writing Standard 1 book using
+`scripts/sync_responsive_toolbar.py`. Its runtime, `reader-toolbar.css`, and
+`mobile-sheet-drag.js`/`.css` stay identical to the reference. Keep this book's
+`content/tailwind_output.css` before `reader-toolbar.css` so lesson utilities
+remain available. `reader-toolbar-layout.css` reserves mobile scroll space,
+keeps playback controls within narrow screens, and bounds landscape drawers.
 
 An ADT bundle is a self-contained, offline-capable web app for reading a book. It has:
 

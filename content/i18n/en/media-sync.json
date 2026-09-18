@@ -2135,7 +2135,26 @@
     "pg072_n0033.mp3": 3.288,
     "pg072_n0036.mp3": 5.64,
     "pg072_n0036_easy_read.mp3": 5.304,
-    "pg072_n0038.mp3": 2.592
+    "pg072_n0038.mp3": 2.592,
+    "page_1_standard_two.mp3": 1.968,
+    "page_1_title.mp3": 3.12,
+    "page_1_pupils_book.mp3": 2.064,
+    "page_1_drummers_description.mp3": 4.272,
+    "page_1_traditional_house_description.mp3": 5.328,
+    "page_1_target_game_description.mp3": 4.968,
+    "page_1_publisher.mp3": 3.456,
+    "page_1_not_for_sale.mp3": 6.6,
+    "page_1_modelling_clay_description.mp3": 6.888,
+    "page_116_other_books.mp3": 2.16,
+    "page_116_publisher.mp3": 3.456,
+    "page_116_writing.mp3": 1.704,
+    "page_116_standard_two.mp3": 1.968,
+    "page_116_kusoma.mp3": 1.872,
+    "page_116_arithmetic.mp3": 1.992,
+    "page_116_learn_english.mp3": 2.136,
+    "page_116_health_and_environment.mp3": 2.736,
+    "page_116_isbn.mp3": 7.608,
+    "page_116_not_for_sale.mp3": 6.6
   },
   "missingAudioFiles": []
 }

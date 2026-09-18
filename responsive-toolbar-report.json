@@ -1,0 +1,59 @@
+{
+  "referenceBook": "Writing-Pupil-s-Book-Standard-1-adt",
+  "bundleVersion": "60",
+  "pagesUpdated": 116,
+  "mobileBreakpoint": "max-width: 767.98px",
+  "files": [
+    {
+      "source": "assets/base.bundle.local.js",
+      "target": "assets/base.bundle.local.js",
+      "sha256": "a1d59c0afbc44100e47e531f0702eeb1a92410e11c93061691bf23140787f680"
+    },
+    {
+      "source": "content/tailwind_output.css",
+      "target": "assets/reader-toolbar.css",
+      "sha256": "b7d65f8e0d8890cc268176c3a9c0ba566c6e7a33cf00d32249ef29413bf308f0"
+    },
+    {
+      "source": "assets/mobile-sheet-drag.js",
+      "target": "assets/mobile-sheet-drag.js",
+      "sha256": "5f9970f858bcc244f38b72b412a5ba9851175ddf908edb115712dabade53ba2a"
+    },
+    {
+      "source": "assets/mobile-sheet-drag.css",
+      "target": "assets/mobile-sheet-drag.css",
+      "sha256": "aed7aa80ac1691134906560bbfbe410b53c15e48924e112c487761005e32957c"
+    }
+  ],
+  "bookSpecificResponsiveAdjustments": [
+    "Keep all playback controls visible below 380px without reducing the 44px transport buttons.",
+    "Limit the mobile tools drawer to 85dvh and allow scrolling on short landscape screens."
+  ],
+  "verification": {
+    "viewportWidths": [
+      320,
+      390,
+      767,
+      768,
+      1024
+    ],
+    "landscapeViewport": {
+      "width": 568,
+      "height": 320
+    },
+    "drawers": [
+      "Contents",
+      "Accessibility menu",
+      "Glossary",
+      "Language",
+      "Settings"
+    ],
+    "dismissal": [
+      "drag down",
+      "Escape",
+      "Enter on drag handle"
+    ],
+    "narrationAndVideo": "Playable together on page 2",
+    "pageCount": 116
+  }
+}

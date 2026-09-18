@@ -1,0 +1,178 @@
+{
+  "voice": "en-TZ-ImaniNeural",
+  "rate": "-8%",
+  "pitch": "+0Hz",
+  "clips": [
+    {
+      "textId": "pg000_gp001_tx001",
+      "filename": "page_1_title.mp3",
+      "text": "Culture, Art and Sports",
+      "duration": 3.12,
+      "wordCount": 4,
+      "fileSize": 18720,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_gp001_tx002",
+      "filename": "page_1_pupils_book.mp3",
+      "text": "Pupil’s Book",
+      "duration": 2.064,
+      "wordCount": 2,
+      "fileSize": 12384,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_gp001_tx003",
+      "filename": "page_1_standard_two.mp3",
+      "text": "Standard Two",
+      "duration": 1.968,
+      "wordCount": 2,
+      "fileSize": 11808,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_im001",
+      "filename": "page_1_drummers_description.mp3",
+      "text": "Four people in traditional dress play drums together.",
+      "duration": 4.272,
+      "wordCount": 8,
+      "fileSize": 25632,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_im002",
+      "filename": "page_1_traditional_house_description.mp3",
+      "text": "A traditional round house has woven walls and a cone-shaped thatched roof.",
+      "duration": 5.328,
+      "wordCount": 12,
+      "fileSize": 31968,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_im003",
+      "filename": "page_1_target_game_description.mp3",
+      "text": "A pupil throws a ball towards a group of bottles in a target game.",
+      "duration": 4.968,
+      "wordCount": 14,
+      "fileSize": 29808,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_im004",
+      "filename": "page_1_modelling_clay_description.mp3",
+      "text": "Pupils, including a pupil with a visual impairment, model objects from clay at a table.",
+      "duration": 6.888,
+      "wordCount": 15,
+      "fileSize": 41328,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_gp002_tx001",
+      "filename": "page_1_publisher.mp3",
+      "text": "Tanzania Institute of Education",
+      "duration": 3.456,
+      "wordCount": 4,
+      "fileSize": 20736,
+      "status": "passed"
+    },
+    {
+      "textId": "pg000_gp003_tx001",
+      "filename": "page_1_not_for_sale.mp3",
+      "text": "Property of the Government of the United Republic of Tanzania. Not for Sale.",
+      "duration": 6.6,
+      "wordCount": 13,
+      "fileSize": 39600,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp001_tx001",
+      "filename": "page_116_other_books.mp3",
+      "text": "Other Books by",
+      "duration": 2.16,
+      "wordCount": 3,
+      "fileSize": 12960,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp001_tx002",
+      "filename": "page_116_publisher.mp3",
+      "text": "Tanzania Institute of Education",
+      "duration": 3.456,
+      "wordCount": 4,
+      "fileSize": 20736,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp001_tx003",
+      "filename": "page_116_standard_two.mp3",
+      "text": "Standard Two",
+      "duration": 1.968,
+      "wordCount": 2,
+      "fileSize": 11808,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp002_tx001",
+      "filename": "page_116_writing.mp3",
+      "text": "Writing",
+      "duration": 1.704,
+      "wordCount": 1,
+      "fileSize": 10224,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp002_tx002",
+      "filename": "page_116_kusoma.mp3",
+      "text": "Kusoma",
+      "duration": 1.872,
+      "wordCount": 1,
+      "fileSize": 11232,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp002_tx003",
+      "filename": "page_116_arithmetic.mp3",
+      "text": "Arithmetic",
+      "duration": 1.992,
+      "wordCount": 1,
+      "fileSize": 11952,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp002_tx004",
+      "filename": "page_116_learn_english.mp3",
+      "text": "Learn English",
+      "duration": 2.136,
+      "wordCount": 2,
+      "fileSize": 12816,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp002_tx005",
+      "filename": "page_116_health_and_environment.mp3",
+      "text": "Health and Environment",
+      "duration": 2.736,
+      "wordCount": 3,
+      "fileSize": 16416,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp003_tx001",
+      "filename": "page_116_isbn.mp3",
+      "text": "ISBN: 978-9912-753-72-3",
+      "duration": 7.608,
+      "wordCount": 2,
+      "fileSize": 45648,
+      "status": "passed"
+    },
+    {
+      "textId": "pg073_gp004_tx001",
+      "filename": "page_116_not_for_sale.mp3",
+      "text": "Property of the Government of the United Republic of Tanzania. Not for Sale.",
+      "duration": 6.6,
+      "wordCount": 13,
+      "fileSize": 39600,
+      "status": "passed"
+    }
+  ]
+}

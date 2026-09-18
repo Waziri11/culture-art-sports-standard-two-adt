@@ -1,0 +1,1161 @@
+{
+  "readerPagesBefore": 114,
+  "readerPagesAfter": 116,
+  "frontCover": {
+    "readerPage": 1,
+    "href": "index.html",
+    "video": "page_1.mp4",
+    "source": "FRONT.mp4",
+    "videoSha256": "ff82f247329ae232ee1af7502b82cb0bc4913df485846a595683f7dae4ed4d4e"
+  },
+  "backCover": {
+    "readerPage": 116,
+    "href": "pg073_sec001.html",
+    "video": "page_116.mp4",
+    "source": "BACK.mp4",
+    "videoSha256": "d42124308bf0366fa78f500ab7b638faf30f22782d5ace60df26f797323f87d5"
+  },
+  "existingNarrationIdsPreserved": 2135,
+  "shiftedPages": [
+    {
+      "sectionId": "pg001_sec001",
+      "oldReaderPage": 1,
+      "readerPage": 2,
+      "oldHref": "index.html",
+      "href": "pg001_sec001.html",
+      "oldVideo": "page_1.mp4",
+      "video": "page_2.mp4",
+      "videoSha256": "092096b23c6c1ded165441250f0d083a868027e10044b734e56675a4b01d8ab8"
+    },
+    {
+      "sectionId": "pg002_sec001",
+      "oldReaderPage": 2,
+      "readerPage": 3,
+      "oldHref": "pg002_sec001.html",
+      "href": "pg002_sec001.html",
+      "oldVideo": "page_2.mp4",
+      "video": "page_3.mp4",
+      "videoSha256": "8cad83e97d4e6c8758e6a9325a4dacab5a52b7698186a833934ef35aad943315"
+    },
+    {
+      "sectionId": "pg003_sec001",
+      "oldReaderPage": 3,
+      "readerPage": 4,
+      "oldHref": "pg003_sec001.html",
+      "href": "pg003_sec001.html",
+      "oldVideo": "page_3.mp4",
+      "video": "page_4.mp4",
+      "videoSha256": "885230ee7af3b37ecefe52ed1f712ea0b7b5f30fe45e87c6166e6786333f9704"
+    },
+    {
+      "sectionId": "pg004_sec001",
+      "oldReaderPage": 4,
+      "readerPage": 5,
+      "oldHref": "pg004_sec001.html",
+      "href": "pg004_sec001.html",
+      "oldVideo": "page_4.mp4",
+      "video": "page_5.mp4",
+      "videoSha256": "23c63ef4d54c2aaa54060b390ca09b2455727377823280af8f6c3c3b478dbb77"
+    },
+    {
+      "sectionId": "pg005_sec001",
+      "oldReaderPage": 5,
+      "readerPage": 6,
+      "oldHref": "pg005_sec001.html",
+      "href": "pg005_sec001.html",
+      "oldVideo": "page_5.mp4",
+      "video": "page_6.mp4",
+      "videoSha256": "77489d827036fa0811d9e73f390126a70360a593228ed0e400a927d629b6f1d8"
+    },
+    {
+      "sectionId": "pg006_sec001",
+      "oldReaderPage": 6,
+      "readerPage": 7,
+      "oldHref": "pg006_sec001.html",
+      "href": "pg006_sec001.html",
+      "oldVideo": "page_6.mp4",
+      "video": "page_7.mp4",
+      "videoSha256": "19bf644015fb9d57d067e7e3d3234caf7ff22996302554910e9625d592ba6cd9"
+    },
+    {
+      "sectionId": "pg007_sec001",
+      "oldReaderPage": 7,
+      "readerPage": 8,
+      "oldHref": "pg007_sec001.html",
+      "href": "pg007_sec001.html",
+      "oldVideo": "page_7.mp4",
+      "video": "page_8.mp4",
+      "videoSha256": "49283a173695e252d06494ada934de423237bdfbe51ca3fc5854286834d89149"
+    },
+    {
+      "sectionId": "pg008_sec001",
+      "oldReaderPage": 8,
+      "readerPage": 9,
+      "oldHref": "pg008_sec001.html",
+      "href": "pg008_sec001.html",
+      "oldVideo": "page_8.mp4",
+      "video": "page_9.mp4",
+      "videoSha256": "dc13ceccf827ebecf69539d29569936822cc01e7ab80b5c5f3293814a5598355"
+    },
+    {
+      "sectionId": "pg009_sec001",
+      "oldReaderPage": 9,
+      "readerPage": 10,
+      "oldHref": "pg009_sec001.html",
+      "href": "pg009_sec001.html",
+      "oldVideo": "page_9.mp4",
+      "video": "page_10.mp4",
+      "videoSha256": "0d3db6861542b53daf862c547c417b2fb9e556e51f446e1257a100702dc5c855"
+    },
+    {
+      "sectionId": "pg009_sec002",
+      "oldReaderPage": 10,
+      "readerPage": 11,
+      "oldHref": "pg009_sec002.html",
+      "href": "pg009_sec002.html",
+      "oldVideo": "page_10.mp4",
+      "video": "page_11.mp4",
+      "videoSha256": "208993d91598779d835af9639d7dec721b7bfe092ae08bc0791d586578c37448"
+    },
+    {
+      "sectionId": "pg009_sec003",
+      "oldReaderPage": 11,
+      "readerPage": 12,
+      "oldHref": "pg009_sec003.html",
+      "href": "pg009_sec003.html",
+      "oldVideo": "page_11.mp4",
+      "video": "page_12.mp4",
+      "videoSha256": "f4a252b7fc3dbeca6e83ba6122f25a1169c442f80d4ea0ae3e9776e539daa16c"
+    },
+    {
+      "sectionId": "pg010_sec001",
+      "oldReaderPage": 12,
+      "readerPage": 13,
+      "oldHref": "pg010_sec001.html",
+      "href": "pg010_sec001.html",
+      "oldVideo": "page_12.mp4",
+      "video": "page_13.mp4",
+      "videoSha256": "e0a81eccf77967b1937fb494bd2dd49dced8dcec1e5a837330b7d38386505253"
+    },
+    {
+      "sectionId": "pg011_sec001",
+      "oldReaderPage": 13,
+      "readerPage": 14,
+      "oldHref": "pg011_sec001.html",
+      "href": "pg011_sec001.html",
+      "oldVideo": "page_13.mp4",
+      "video": "page_14.mp4",
+      "videoSha256": "38748ce2bcf87172be6f6222811c44d9d29ee5b260dbf5b57c5526f0a56fbaae"
+    },
+    {
+      "sectionId": "pg011_sec002",
+      "oldReaderPage": 14,
+      "readerPage": 15,
+      "oldHref": "pg011_sec002.html",
+      "href": "pg011_sec002.html",
+      "oldVideo": "page_14.mp4",
+      "video": "page_15.mp4",
+      "videoSha256": "266395801b0a891e2bb83a65b2b4e25559e2da26f76ac363a4c96180f6bfbc9b"
+    },
+    {
+      "sectionId": "pg011_sec003",
+      "oldReaderPage": 15,
+      "readerPage": 16,
+      "oldHref": "pg011_sec003.html",
+      "href": "pg011_sec003.html",
+      "oldVideo": "page_15.mp4",
+      "video": "page_16.mp4",
+      "videoSha256": "44d82697d4f16ebe436df1847ae150f6600d26ba5fbb97dac4dbf588b6777a71"
+    },
+    {
+      "sectionId": "pg012_sec001",
+      "oldReaderPage": 16,
+      "readerPage": 17,
+      "oldHref": "pg012_sec001.html",
+      "href": "pg012_sec001.html",
+      "oldVideo": "page_16.mp4",
+      "video": "page_17.mp4",
+      "videoSha256": "8a1c935338339aa54124c54dd97508344bbd7f02c64b7227ab40ffe4e637a981"
+    },
+    {
+      "sectionId": "pg013_sec001",
+      "oldReaderPage": 17,
+      "readerPage": 18,
+      "oldHref": "pg013_sec001.html",
+      "href": "pg013_sec001.html",
+      "oldVideo": "page_17.mp4",
+      "video": "page_18.mp4",
+      "videoSha256": "00c78ddae02e627a0146c1673a828766fdf7e1a4211a05f3aa1f7386c1405d68"
+    },
+    {
+      "sectionId": "pg013_sec002",
+      "oldReaderPage": 18,
+      "readerPage": 19,
+      "oldHref": "pg013_sec002.html",
+      "href": "pg013_sec002.html",
+      "oldVideo": "page_18.mp4",
+      "video": "page_19.mp4",
+      "videoSha256": "0562bd0fa36e7294e531de191c5be060832f8ad56c01568c5ae40eb307bd69e9"
+    },
+    {
+      "sectionId": "pg013_sec003",
+      "oldReaderPage": 19,
+      "readerPage": 20,
+      "oldHref": "pg013_sec003.html",
+      "href": "pg013_sec003.html",
+      "oldVideo": "page_19.mp4",
+      "video": "page_20.mp4",
+      "videoSha256": "c0915bf3cabc87cc0ef89a6de529d52fefb321b39bc3034f7b365e610fdf9c20"
+    },
+    {
+      "sectionId": "pg013_sec004",
+      "oldReaderPage": 20,
+      "readerPage": 21,
+      "oldHref": "pg013_sec004.html",
+      "href": "pg013_sec004.html",
+      "oldVideo": "page_20.mp4",
+      "video": "page_21.mp4",
+      "videoSha256": "319fa87eba29da61c2ab9c0563ebd210c70ae7287912f23833ce1c7e536492a0"
+    },
+    {
+      "sectionId": "pg014_sec001",
+      "oldReaderPage": 21,
+      "readerPage": 22,
+      "oldHref": "pg014_sec001.html",
+      "href": "pg014_sec001.html",
+      "oldVideo": "page_21.mp4",
+      "video": "page_22.mp4",
+      "videoSha256": "053bb8b6eeddac603961cf88fe4ed7eacdf43727f58a268509f99e0273bb6b03"
+    },
+    {
+      "sectionId": "pg014_sec002",
+      "oldReaderPage": 22,
+      "readerPage": 23,
+      "oldHref": "pg014_sec002.html",
+      "href": "pg014_sec002.html",
+      "oldVideo": "page_22.mp4",
+      "video": "page_23.mp4",
+      "videoSha256": "614bcbbed89c4c69a6f52199588e46863f79e1414e1c5980e1588e8e4abd2882"
+    },
+    {
+      "sectionId": "pg015_sec001",
+      "oldReaderPage": 23,
+      "readerPage": 24,
+      "oldHref": "pg015_sec001.html",
+      "href": "pg015_sec001.html",
+      "oldVideo": "page_23.mp4",
+      "video": "page_24.mp4",
+      "videoSha256": "ba0f44086c03ee18043eeb347992a4169f571471ad3fe06ba73c747101cc6282"
+    },
+    {
+      "sectionId": "pg016_sec001",
+      "oldReaderPage": 24,
+      "readerPage": 25,
+      "oldHref": "pg016_sec001.html",
+      "href": "pg016_sec001.html",
+      "oldVideo": "page_24.mp4",
+      "video": "page_25.mp4",
+      "videoSha256": "5881193e1611175b3761fda1394608f26320b6c010dc336387933111d4c8d109"
+    },
+    {
+      "sectionId": "pg016_sec002",
+      "oldReaderPage": 25,
+      "readerPage": 26,
+      "oldHref": "pg016_sec002.html",
+      "href": "pg016_sec002.html",
+      "oldVideo": "page_25.mp4",
+      "video": "page_26.mp4",
+      "videoSha256": "f0f3e1387de8cfb2d2183a04bb5383ffcc75940d6d6a3392ae3232ad275f0334"
+    },
+    {
+      "sectionId": "pg016_sec003",
+      "oldReaderPage": 26,
+      "readerPage": 27,
+      "oldHref": "pg016_sec003.html",
+      "href": "pg016_sec003.html",
+      "oldVideo": "page_26.mp4",
+      "video": "page_27.mp4",
+      "videoSha256": "3f1dcab017540739c1eb3e2a97f6712c06da290fbe334d393babab873f762fb4"
+    },
+    {
+      "sectionId": "pg017_sec001",
+      "oldReaderPage": 27,
+      "readerPage": 28,
+      "oldHref": "pg017_sec001.html",
+      "href": "pg017_sec001.html",
+      "oldVideo": "page_27.mp4",
+      "video": "page_28.mp4",
+      "videoSha256": "5c4707dc7c9fd8c86e8e0a390c8536f9e401b7aad8379053a4bb62ed4c8c1fa0"
+    },
+    {
+      "sectionId": "pg018_sec001",
+      "oldReaderPage": 28,
+      "readerPage": 29,
+      "oldHref": "pg018_sec001.html",
+      "href": "pg018_sec001.html",
+      "oldVideo": "page_28.mp4",
+      "video": "page_29.mp4",
+      "videoSha256": "2dc2643bc2d09a3f9a6ae83c3bf243b1b1d183e0e85fa048c4bb80342f46c6de"
+    },
+    {
+      "sectionId": "pg018_sec002",
+      "oldReaderPage": 29,
+      "readerPage": 30,
+      "oldHref": "pg018_sec002.html",
+      "href": "pg018_sec002.html",
+      "oldVideo": "page_29.mp4",
+      "video": "page_30.mp4",
+      "videoSha256": "7c558ac1476d18785b87f237a1527fcfd8d1081bc2744d0b2a6cd479b3eb42f6"
+    },
+    {
+      "sectionId": "pg018_sec003",
+      "oldReaderPage": 30,
+      "readerPage": 31,
+      "oldHref": "pg018_sec003.html",
+      "href": "pg018_sec003.html",
+      "oldVideo": "page_30.mp4",
+      "video": "page_31.mp4",
+      "videoSha256": "cd754466adac54d09baa1f0a3ad4f85394e86d4f975d7d8a18ddad96d354e097"
+    },
+    {
+      "sectionId": "pg019_sec001",
+      "oldReaderPage": 31,
+      "readerPage": 32,
+      "oldHref": "pg019_sec001.html",
+      "href": "pg019_sec001.html",
+      "oldVideo": "page_31.mp4",
+      "video": "page_32.mp4",
+      "videoSha256": "48c9e2598310341dd5c050d7ce45bb01a94479dc3714a47ce8c9aa842f47f109"
+    },
+    {
+      "sectionId": "pg019_sec002",
+      "oldReaderPage": 32,
+      "readerPage": 33,
+      "oldHref": "pg019_sec002.html",
+      "href": "pg019_sec002.html",
+      "oldVideo": "page_32.mp4",
+      "video": "page_33.mp4",
+      "videoSha256": "0ce8019913a0202336d8e6f4baddb7ccfc6ddd3b4764a413dc20a9a599e41789"
+    },
+    {
+      "sectionId": "pg020_sec001",
+      "oldReaderPage": 33,
+      "readerPage": 34,
+      "oldHref": "pg020_sec001.html",
+      "href": "pg020_sec001.html",
+      "oldVideo": "page_33.mp4",
+      "video": "page_34.mp4",
+      "videoSha256": "e70d17f58071dc06393b69498be7e3832c8503dcccfcef670ac0cc5eebdc990b"
+    },
+    {
+      "sectionId": "pg021_sec001",
+      "oldReaderPage": 34,
+      "readerPage": 35,
+      "oldHref": "pg021_sec001.html",
+      "href": "pg021_sec001.html",
+      "oldVideo": "page_34.mp4",
+      "video": "page_35.mp4",
+      "videoSha256": "87cd3f172a14859c351f80e51e8e8f1d70ec3e4e479e50d3cdd3668f66d60b1a"
+    },
+    {
+      "sectionId": "pg021_sec002",
+      "oldReaderPage": 35,
+      "readerPage": 36,
+      "oldHref": "pg021_sec002.html",
+      "href": "pg021_sec002.html",
+      "oldVideo": "page_35.mp4",
+      "video": "page_36.mp4",
+      "videoSha256": "9d8357fcfa51b2f4e9946b3a99a23276c4530060afc8f3c16eb4392578f49491"
+    },
+    {
+      "sectionId": "pg021_sec003",
+      "oldReaderPage": 36,
+      "readerPage": 37,
+      "oldHref": "pg021_sec003.html",
+      "href": "pg021_sec003.html",
+      "oldVideo": "page_36.mp4",
+      "video": "page_37.mp4",
+      "videoSha256": "0ca96b3a2dc8f3445c190563597955f37e7444e47895750a1fe344f826815993"
+    },
+    {
+      "sectionId": "pg022_sec001",
+      "oldReaderPage": 37,
+      "readerPage": 38,
+      "oldHref": "pg022_sec001.html",
+      "href": "pg022_sec001.html",
+      "oldVideo": "page_37.mp4",
+      "video": "page_38.mp4",
+      "videoSha256": "4795e48e897a88cc0ea1786e07d7c23cdff43c6180b1df34439f6ccb91aba060"
+    },
+    {
+      "sectionId": "pg023_sec001",
+      "oldReaderPage": 38,
+      "readerPage": 39,
+      "oldHref": "pg023_sec001.html",
+      "href": "pg023_sec001.html",
+      "oldVideo": "page_38.mp4",
+      "video": "page_39.mp4",
+      "videoSha256": "d97d167f77ebf88dd7eef061699022d8ce8ff9f8dc3fbed43073caed9bae0966"
+    },
+    {
+      "sectionId": "pg024_sec001",
+      "oldReaderPage": 39,
+      "readerPage": 40,
+      "oldHref": "pg024_sec001.html",
+      "href": "pg024_sec001.html",
+      "oldVideo": "page_39.mp4",
+      "video": "page_40.mp4",
+      "videoSha256": "704221dd789b9abfc6580427fdf8c2ef2531e6d431c43ba077159cd4504c27df"
+    },
+    {
+      "sectionId": "pg024_sec002",
+      "oldReaderPage": 40,
+      "readerPage": 41,
+      "oldHref": "pg024_sec002.html",
+      "href": "pg024_sec002.html",
+      "oldVideo": "page_40.mp4",
+      "video": "page_41.mp4",
+      "videoSha256": "98a434e94ecf0cdfc614aee5a856d926e98d188969cb9590e283a24225100a5a"
+    },
+    {
+      "sectionId": "pg025_sec001",
+      "oldReaderPage": 41,
+      "readerPage": 42,
+      "oldHref": "pg025_sec001.html",
+      "href": "pg025_sec001.html",
+      "oldVideo": "page_41.mp4",
+      "video": "page_42.mp4",
+      "videoSha256": "4c4c364a5eccfce5cdec7672515611a5b11a179efb2c04b2fca080b1f85ab475"
+    },
+    {
+      "sectionId": "pg026_sec001",
+      "oldReaderPage": 42,
+      "readerPage": 43,
+      "oldHref": "pg026_sec001.html",
+      "href": "pg026_sec001.html",
+      "oldVideo": "page_42.mp4",
+      "video": "page_43.mp4",
+      "videoSha256": "98d782595cf1ee44d0c475b7a4c6ca379a5eb92f70d3c3dd9fa8ab26086752ab"
+    },
+    {
+      "sectionId": "pg026_sec002",
+      "oldReaderPage": 43,
+      "readerPage": 44,
+      "oldHref": "pg026_sec002.html",
+      "href": "pg026_sec002.html",
+      "oldVideo": "page_43.mp4",
+      "video": "page_44.mp4",
+      "videoSha256": "5bca603ecdeff6fd53f8a2f9cc5b92f56f5af45cddccf46b6d80d44211aa5a9b"
+    },
+    {
+      "sectionId": "pg026_sec003",
+      "oldReaderPage": 44,
+      "readerPage": 45,
+      "oldHref": "pg026_sec003.html",
+      "href": "pg026_sec003.html",
+      "oldVideo": "page_44.mp4",
+      "video": "page_45.mp4",
+      "videoSha256": "2da02e24e8db917e0a1bcea7718b3471d2dc4a6ab7fdf48baaf101f10bf424ce"
+    },
+    {
+      "sectionId": "pg027_sec001",
+      "oldReaderPage": 45,
+      "readerPage": 46,
+      "oldHref": "pg027_sec001.html",
+      "href": "pg027_sec001.html",
+      "oldVideo": "page_45.mp4",
+      "video": "page_46.mp4",
+      "videoSha256": "eb103f62770a5481ba99c881befeaa023d652e0ae44a90d1c5a6a9303a565902"
+    },
+    {
+      "sectionId": "pg028_sec001",
+      "oldReaderPage": 46,
+      "readerPage": 47,
+      "oldHref": "pg028_sec001.html",
+      "href": "pg028_sec001.html",
+      "oldVideo": "Page_46.mp4",
+      "video": "page_47.mp4",
+      "videoSha256": "a3ad6597b76d9733ad0a1361210425503a4e849d642d6e5de52bf8e734569651"
+    },
+    {
+      "sectionId": "pg029_sec001",
+      "oldReaderPage": 47,
+      "readerPage": 48,
+      "oldHref": "pg029_sec001.html",
+      "href": "pg029_sec001.html",
+      "oldVideo": "Page_47.mp4",
+      "video": "page_48.mp4",
+      "videoSha256": "10f149214d796b3dfce5336f8861b85b5b9855fe0bb04bdcc1b7bc0ca690a54d"
+    },
+    {
+      "sectionId": "pg030_sec001",
+      "oldReaderPage": 48,
+      "readerPage": 49,
+      "oldHref": "pg030_sec001.html",
+      "href": "pg030_sec001.html",
+      "oldVideo": "Page_48.mp4",
+      "video": "page_49.mp4",
+      "videoSha256": "c06c3ac4fc83a139f520421f5b72f708d511d75fce17512c7c8b82a731d3d8fd"
+    },
+    {
+      "sectionId": "pg031_sec001",
+      "oldReaderPage": 49,
+      "readerPage": 50,
+      "oldHref": "pg031_sec001.html",
+      "href": "pg031_sec001.html",
+      "oldVideo": "Page_49.mp4",
+      "video": "page_50.mp4",
+      "videoSha256": "e1bb49623fae1af9a35faffefe45b2ecd36782e1f4c141fa377707cf67dbef9d"
+    },
+    {
+      "sectionId": "pg031_sec002",
+      "oldReaderPage": 50,
+      "readerPage": 51,
+      "oldHref": "pg031_sec002.html",
+      "href": "pg031_sec002.html",
+      "oldVideo": "Page_50.mp4",
+      "video": "page_51.mp4",
+      "videoSha256": "8448e009e96cb5e115eb24cba2633f86773a8e43b85a0accfc7e970f2bd0322c"
+    },
+    {
+      "sectionId": "pg031_sec003",
+      "oldReaderPage": 51,
+      "readerPage": 52,
+      "oldHref": "pg031_sec003.html",
+      "href": "pg031_sec003.html",
+      "oldVideo": "Page_51.mp4",
+      "video": "page_52.mp4",
+      "videoSha256": "92eb27ebd56d21edc08cc8c229a6c8847748bf81e98d0c569ff1580431c989ab"
+    },
+    {
+      "sectionId": "pg032_sec001",
+      "oldReaderPage": 52,
+      "readerPage": 53,
+      "oldHref": "pg032_sec001.html",
+      "href": "pg032_sec001.html",
+      "oldVideo": "Page_52.mp4",
+      "video": "page_53.mp4",
+      "videoSha256": "d06e8c8b19a927a6c06f51aa3210fc4317d3ffb1fa2862ed23b9a377ba3518f5"
+    },
+    {
+      "sectionId": "pg033_sec001",
+      "oldReaderPage": 53,
+      "readerPage": 54,
+      "oldHref": "pg033_sec001.html",
+      "href": "pg033_sec001.html",
+      "oldVideo": "Page_53.mp4",
+      "video": "page_54.mp4",
+      "videoSha256": "c2c2a5ad5f64ced8122219287e7114d9a0eeaf0c266c0ce15dbb87d08f20d053"
+    },
+    {
+      "sectionId": "pg033_sec002",
+      "oldReaderPage": 54,
+      "readerPage": 55,
+      "oldHref": "pg033_sec002.html",
+      "href": "pg033_sec002.html",
+      "oldVideo": "Page_54.mp4",
+      "video": "page_55.mp4",
+      "videoSha256": "76aa6c0406c313fc4bd3e01707145263b1fa01d1932e8bc700c4845bfeb5723b"
+    },
+    {
+      "sectionId": "pg034_sec001",
+      "oldReaderPage": 55,
+      "readerPage": 56,
+      "oldHref": "pg034_sec001.html",
+      "href": "pg034_sec001.html",
+      "oldVideo": "Page_55.mp4",
+      "video": "page_56.mp4",
+      "videoSha256": "7825307624e90a90674fb8c214cebb056ce2232293456f6e135b7415cebeff28"
+    },
+    {
+      "sectionId": "pg035_sec001",
+      "oldReaderPage": 56,
+      "readerPage": 57,
+      "oldHref": "pg035_sec001.html",
+      "href": "pg035_sec001.html",
+      "oldVideo": "Page_56.mp4",
+      "video": "page_57.mp4",
+      "videoSha256": "460b63a2b6213293c272a0972a96e08f7e138f02a4be571067f3732a82f13af6"
+    },
+    {
+      "sectionId": "pg035_sec002",
+      "oldReaderPage": 57,
+      "readerPage": 58,
+      "oldHref": "pg035_sec002.html",
+      "href": "pg035_sec002.html",
+      "oldVideo": "Page_57.mp4",
+      "video": "page_58.mp4",
+      "videoSha256": "57aef34694a14f2c755b2d81314c352b451f3a0e7623441ab40632bec84c45fa"
+    },
+    {
+      "sectionId": "pg036_sec001",
+      "oldReaderPage": 58,
+      "readerPage": 59,
+      "oldHref": "pg036_sec001.html",
+      "href": "pg036_sec001.html",
+      "oldVideo": "Page_58.mp4",
+      "video": "page_59.mp4",
+      "videoSha256": "aa19f77202a597659d56fa19efc2123bc14473433511734328283b44f2fa49b5"
+    },
+    {
+      "sectionId": "pg036_sec002",
+      "oldReaderPage": 59,
+      "readerPage": 60,
+      "oldHref": "pg036_sec002.html",
+      "href": "pg036_sec002.html",
+      "oldVideo": "Page_59.mp4",
+      "video": "page_60.mp4",
+      "videoSha256": "0bca65ad046829e49959305471197cdaa431753d220c970226365b9da5e77b2c"
+    },
+    {
+      "sectionId": "pg037_sec001",
+      "oldReaderPage": 60,
+      "readerPage": 61,
+      "oldHref": "pg037_sec001.html",
+      "href": "pg037_sec001.html",
+      "oldVideo": "Page_60.mp4",
+      "video": "page_61.mp4",
+      "videoSha256": "f0f69522068c954d83ebdab425e9834b39d60793bbc63b9a2841042f755ec490"
+    },
+    {
+      "sectionId": "pg037_sec002",
+      "oldReaderPage": 61,
+      "readerPage": 62,
+      "oldHref": "pg037_sec002.html",
+      "href": "pg037_sec002.html",
+      "oldVideo": "Page_61.mp4",
+      "video": "page_62.mp4",
+      "videoSha256": "4d30600361aad3293f2846e46ecb9eb5acd071af0b8999d5d6257dca047bf9e1"
+    },
+    {
+      "sectionId": "pg038_sec001",
+      "oldReaderPage": 62,
+      "readerPage": 63,
+      "oldHref": "pg038_sec001.html",
+      "href": "pg038_sec001.html",
+      "oldVideo": "Page_62.mp4",
+      "video": "page_63.mp4",
+      "videoSha256": "aa4d86f5e491228fc72e5be624ce75675952ef78860eb8d3f22020c9e5af46d9"
+    },
+    {
+      "sectionId": "pg038_sec002",
+      "oldReaderPage": 63,
+      "readerPage": 64,
+      "oldHref": "pg038_sec002.html",
+      "href": "pg038_sec002.html",
+      "oldVideo": "Page_63.mp4",
+      "video": "page_64.mp4",
+      "videoSha256": "b77619d7c7ec04da94f0716d5cc45588df90ca41437606265375ebc6c356fc26"
+    },
+    {
+      "sectionId": "pg039_sec001",
+      "oldReaderPage": 64,
+      "readerPage": 65,
+      "oldHref": "pg039_sec001.html",
+      "href": "pg039_sec001.html",
+      "oldVideo": "Page_64.mp4",
+      "video": "page_65.mp4",
+      "videoSha256": "e75d2002e47968222d647054c8609c45ee7eb4fd10db0693a6c9d2b9163061d2"
+    },
+    {
+      "sectionId": "pg039_sec002",
+      "oldReaderPage": 65,
+      "readerPage": 66,
+      "oldHref": "pg039_sec002.html",
+      "href": "pg039_sec002.html",
+      "oldVideo": "Page_65.mp4",
+      "video": "page_66.mp4",
+      "videoSha256": "279395a2fc50eb590812f560625a615762938fde43f28a4863bf2a01e29498e0"
+    },
+    {
+      "sectionId": "pg040_sec001",
+      "oldReaderPage": 66,
+      "readerPage": 67,
+      "oldHref": "pg040_sec001.html",
+      "href": "pg040_sec001.html",
+      "oldVideo": "Page_66.mp4",
+      "video": "page_67.mp4",
+      "videoSha256": "201efa5ce4bc2dd94c56e7051eddd5230a11a7fa3adc89af7f46ef69597f46ec"
+    },
+    {
+      "sectionId": "pg041_sec001",
+      "oldReaderPage": 67,
+      "readerPage": 68,
+      "oldHref": "pg041_sec001.html",
+      "href": "pg041_sec001.html",
+      "oldVideo": "Page_67.mp4",
+      "video": "page_68.mp4",
+      "videoSha256": "a0dd99a104eb00d357c2785cea92f1bcef38c6056e0036e292a804f4bff2b729"
+    },
+    {
+      "sectionId": "pg041_sec002",
+      "oldReaderPage": 68,
+      "readerPage": 69,
+      "oldHref": "pg041_sec002.html",
+      "href": "pg041_sec002.html",
+      "oldVideo": "Page_68.mp4",
+      "video": "page_69.mp4",
+      "videoSha256": "485dfa80551c33d6b2f685530750ac79bea69893fdd1becaa3eaff7e489f9c64"
+    },
+    {
+      "sectionId": "pg042_sec001",
+      "oldReaderPage": 69,
+      "readerPage": 70,
+      "oldHref": "pg042_sec001.html",
+      "href": "pg042_sec001.html",
+      "oldVideo": "Page_69.mp4",
+      "video": "page_70.mp4",
+      "videoSha256": "353579b35ec2a977e60d335bad26977bb69eacad286cd025cbf20e2d842b81c7"
+    },
+    {
+      "sectionId": "pg043_sec001",
+      "oldReaderPage": 70,
+      "readerPage": 71,
+      "oldHref": "pg043_sec001.html",
+      "href": "pg043_sec001.html",
+      "oldVideo": "Page_70.mp4",
+      "video": "page_71.mp4",
+      "videoSha256": "326e9e056aecfb4d85e3acc77558a309ac21c19b2a66e25284411f6f7c3782bb"
+    },
+    {
+      "sectionId": "pg043_sec002",
+      "oldReaderPage": 71,
+      "readerPage": 72,
+      "oldHref": "pg043_sec002.html",
+      "href": "pg043_sec002.html",
+      "oldVideo": "Page_71.mp4",
+      "video": "page_72.mp4",
+      "videoSha256": "4a20950ee15a835e7fabaa9cb58045f9da80b350c570df2a409448cb4c0b974e"
+    },
+    {
+      "sectionId": "pg043_sec003",
+      "oldReaderPage": 72,
+      "readerPage": 73,
+      "oldHref": "pg043_sec003.html",
+      "href": "pg043_sec003.html",
+      "oldVideo": "page_72.mp4",
+      "video": "page_73.mp4",
+      "videoSha256": "a01fc289b7c1adfbe66d82be49ca7f6bd232f5965ef7364db1da8753e493cf52"
+    },
+    {
+      "sectionId": "pg044_sec001",
+      "oldReaderPage": 73,
+      "readerPage": 74,
+      "oldHref": "pg044_sec001.html",
+      "href": "pg044_sec001.html",
+      "oldVideo": "Page_73.mp4",
+      "video": "page_74.mp4",
+      "videoSha256": "c1d9a8928f9bbada6371802245a57bfd9e4d429e5000b9ee3d3560518d6b21ae"
+    },
+    {
+      "sectionId": "pg045_sec001",
+      "oldReaderPage": 74,
+      "readerPage": 75,
+      "oldHref": "pg045_sec001.html",
+      "href": "pg045_sec001.html",
+      "oldVideo": "Page_74.mp4",
+      "video": "page_75.mp4",
+      "videoSha256": "d247810c50091415f977b4ef209ff378bad2bdab7178fb915fdb586c4fa9a595"
+    },
+    {
+      "sectionId": "pg045_sec002",
+      "oldReaderPage": 75,
+      "readerPage": 76,
+      "oldHref": "pg045_sec002.html",
+      "href": "pg045_sec002.html",
+      "oldVideo": "Page_75.mp4",
+      "video": "page_76.mp4",
+      "videoSha256": "4ca2033c0d59927af1230cfb50bb3cc83bb66228960931869fa5dcdacfe0a63a"
+    },
+    {
+      "sectionId": "pg045_sec003",
+      "oldReaderPage": 76,
+      "readerPage": 77,
+      "oldHref": "pg045_sec003.html",
+      "href": "pg045_sec003.html",
+      "oldVideo": "Page_76.mp4",
+      "video": "page_77.mp4",
+      "videoSha256": "0a1a14022235eb113d4fc111d92283d8c92c9e569252de0313db4707aab19984"
+    },
+    {
+      "sectionId": "pg046_sec001",
+      "oldReaderPage": 77,
+      "readerPage": 78,
+      "oldHref": "pg046_sec001.html",
+      "href": "pg046_sec001.html",
+      "oldVideo": "Page_77.mp4",
+      "video": "page_78.mp4",
+      "videoSha256": "96a51103dade441e35a8f07adcea3093162f658715845251f3b14cfb79a472aa"
+    },
+    {
+      "sectionId": "pg046_sec002",
+      "oldReaderPage": 78,
+      "readerPage": 79,
+      "oldHref": "pg046_sec002.html",
+      "href": "pg046_sec002.html",
+      "oldVideo": "Page_78.mp4",
+      "video": "page_79.mp4",
+      "videoSha256": "2ccea83907fca71db5098ebaacda5ff16ecb5c43ba9e5f6753db43a735900d95"
+    },
+    {
+      "sectionId": "pg047_sec001",
+      "oldReaderPage": 79,
+      "readerPage": 80,
+      "oldHref": "pg047_sec001.html",
+      "href": "pg047_sec001.html",
+      "oldVideo": "Page_79.mp4",
+      "video": "page_80.mp4",
+      "videoSha256": "a6cdc8a965cbe6f16529381cf145795f2d2339e1241168bd79907fd2342dc015"
+    },
+    {
+      "sectionId": "pg047_sec002",
+      "oldReaderPage": 80,
+      "readerPage": 81,
+      "oldHref": "pg047_sec002.html",
+      "href": "pg047_sec002.html",
+      "oldVideo": "Page_80.mp4",
+      "video": "page_81.mp4",
+      "videoSha256": "7cfb133a5937c1ae2807fa44108d2db0be4e78ccf6483ba399d2b5562ed6945a"
+    },
+    {
+      "sectionId": "pg048_sec001",
+      "oldReaderPage": 81,
+      "readerPage": 82,
+      "oldHref": "pg048_sec001.html",
+      "href": "pg048_sec001.html",
+      "oldVideo": "Page_81.mp4",
+      "video": "page_82.mp4",
+      "videoSha256": "2eeeb64a51503a29a9064d580d0ec9fbea9a9fad5a831d5eeec5c6c1b0f4ca6a"
+    },
+    {
+      "sectionId": "pg049_sec001",
+      "oldReaderPage": 82,
+      "readerPage": 83,
+      "oldHref": "pg049_sec001.html",
+      "href": "pg049_sec001.html",
+      "oldVideo": "Page_82.mp4",
+      "video": "page_83.mp4",
+      "videoSha256": "50286174ecb7791e4018b48796bb2677829047eb304e33b7d7d0fce72f54b61a"
+    },
+    {
+      "sectionId": "pg049_sec004",
+      "oldReaderPage": 83,
+      "readerPage": 84,
+      "oldHref": "pg049_sec004.html",
+      "href": "pg049_sec004.html",
+      "oldVideo": "Page_83.mp4",
+      "video": "page_84.mp4",
+      "videoSha256": "e734d685ce4916c193b1e91eea4facf84d626b2d17cc3213c5818bef74081f1e"
+    },
+    {
+      "sectionId": "pg050_sec001",
+      "oldReaderPage": 84,
+      "readerPage": 85,
+      "oldHref": "pg050_sec001.html",
+      "href": "pg050_sec001.html",
+      "oldVideo": "Page_84.mp4",
+      "video": "page_85.mp4",
+      "videoSha256": "7d8ed5f709a0c55eae234133086e762634d47abb821196b50aabb660fa4e4e5c"
+    },
+    {
+      "sectionId": "pg051_sec001",
+      "oldReaderPage": 85,
+      "readerPage": 86,
+      "oldHref": "pg051_sec001.html",
+      "href": "pg051_sec001.html",
+      "oldVideo": "Page_85.mp4",
+      "video": "page_86.mp4",
+      "videoSha256": "9029ec2725691e51e18fb198dddb51ef6bfa75c6d11bf7e9e440a365844bc118"
+    },
+    {
+      "sectionId": "pg051_sec002",
+      "oldReaderPage": 86,
+      "readerPage": 87,
+      "oldHref": "pg051_sec002.html",
+      "href": "pg051_sec002.html",
+      "oldVideo": "Page_86.mp4",
+      "video": "page_87.mp4",
+      "videoSha256": "27206b9e84506269ad043e97ff5013552f07ace34f1f83aeaefb7932d14b89aa"
+    },
+    {
+      "sectionId": "pg051_sec003",
+      "oldReaderPage": 87,
+      "readerPage": 88,
+      "oldHref": "pg051_sec003.html",
+      "href": "pg051_sec003.html",
+      "oldVideo": "Page_87.mp4",
+      "video": "page_88.mp4",
+      "videoSha256": "f7aa06c048d5e4aef74a66eb73fc224bf5b7349679569d1bbeed066a3a1993d5"
+    },
+    {
+      "sectionId": "pg052_sec001",
+      "oldReaderPage": 88,
+      "readerPage": 89,
+      "oldHref": "pg052_sec001.html",
+      "href": "pg052_sec001.html",
+      "oldVideo": "page_88.mp4",
+      "video": "page_89.mp4",
+      "videoSha256": "843917f9ef0928e43810b1fab0fdb78c713a9518d59214722689b06eabae3002"
+    },
+    {
+      "sectionId": "pg053_sec001",
+      "oldReaderPage": 89,
+      "readerPage": 90,
+      "oldHref": "pg053_sec001.html",
+      "href": "pg053_sec001.html",
+      "oldVideo": "Page_89.mp4",
+      "video": "page_90.mp4",
+      "videoSha256": "4465dd90f13f6beec6e49b5548dfc984e2dbac3b02066c5847a25429f1214e0f"
+    },
+    {
+      "sectionId": "pg054_sec001",
+      "oldReaderPage": 90,
+      "readerPage": 91,
+      "oldHref": "pg054_sec001.html",
+      "href": "pg054_sec001.html",
+      "oldVideo": "Page_90.mp4",
+      "video": "page_91.mp4",
+      "videoSha256": "942992f039505a97ec6eb94d6551856adb672f645f89d6ff8319923b52b4480b"
+    },
+    {
+      "sectionId": "pg055_sec001",
+      "oldReaderPage": 91,
+      "readerPage": 92,
+      "oldHref": "pg055_sec001.html",
+      "href": "pg055_sec001.html",
+      "oldVideo": "page_91.mp4",
+      "video": "page_92.mp4",
+      "videoSha256": "a40fbe569e606271c8e22ded7c5e0a313e4475504066917a8addaf2e5b7aec7f"
+    },
+    {
+      "sectionId": "pg056_sec001",
+      "oldReaderPage": 92,
+      "readerPage": 93,
+      "oldHref": "pg056_sec001.html",
+      "href": "pg056_sec001.html",
+      "oldVideo": "Page_92.mp4",
+      "video": "page_93.mp4",
+      "videoSha256": "b65df319b8e73087370fb7ace6e6ab03bf3f01005b5259ae283573721f8b8736"
+    },
+    {
+      "sectionId": "pg056_sec002",
+      "oldReaderPage": 93,
+      "readerPage": 94,
+      "oldHref": "pg056_sec002.html",
+      "href": "pg056_sec002.html",
+      "oldVideo": "Page_93.mp4",
+      "video": "page_94.mp4",
+      "videoSha256": "5197f8bcbf019a5ef0ea0fdc8338897da9a9226369b96f54d8821a4794831000"
+    },
+    {
+      "sectionId": "pg057_sec001",
+      "oldReaderPage": 94,
+      "readerPage": 95,
+      "oldHref": "pg057_sec001.html",
+      "href": "pg057_sec001.html",
+      "oldVideo": "Page_94.mp4",
+      "video": "page_95.mp4",
+      "videoSha256": "ffcc55993ff21f31ad7b21d00b47d89f7b45057f996567663c3b64fc69a672e1"
+    },
+    {
+      "sectionId": "pg058_sec001",
+      "oldReaderPage": 95,
+      "readerPage": 96,
+      "oldHref": "pg058_sec001.html",
+      "href": "pg058_sec001.html",
+      "oldVideo": "page_95.mp4",
+      "video": "page_96.mp4",
+      "videoSha256": "94833abc33bd42fd4915ad967b8e50c7dec8987d5709d372f329e3d142bfcbab"
+    },
+    {
+      "sectionId": "pg059_sec001",
+      "oldReaderPage": 96,
+      "readerPage": 97,
+      "oldHref": "pg059_sec001.html",
+      "href": "pg059_sec001.html",
+      "oldVideo": "Page_96.mp4",
+      "video": "page_97.mp4",
+      "videoSha256": "11c1758b4bbaf50129ff8db9d3bba88104817f5b5722eec5e33de9dd19a0f647"
+    },
+    {
+      "sectionId": "pg060_sec001",
+      "oldReaderPage": 97,
+      "readerPage": 98,
+      "oldHref": "pg060_sec001.html",
+      "href": "pg060_sec001.html",
+      "oldVideo": "Page_97.mp4",
+      "video": "page_98.mp4",
+      "videoSha256": "6198e78f05f4bc1b869c96db734f1a96188131780f8505d0555f1eef9b8eefd1"
+    },
+    {
+      "sectionId": "pg061_sec001",
+      "oldReaderPage": 98,
+      "readerPage": 99,
+      "oldHref": "pg061_sec001.html",
+      "href": "pg061_sec001.html",
+      "oldVideo": "Page_98.mp4",
+      "video": "page_99.mp4",
+      "videoSha256": "d95234577982519ffcf393f322f0b5be2d0866fdaeb132082eebc700d48fa8dd"
+    },
+    {
+      "sectionId": "pg062_sec001",
+      "oldReaderPage": 99,
+      "readerPage": 100,
+      "oldHref": "pg062_sec001.html",
+      "href": "pg062_sec001.html",
+      "oldVideo": "Page_99.mp4",
+      "video": "page_100.mp4",
+      "videoSha256": "649d7a75289c643e2e2312d05873c8aed617f9018b2d1ab0a25de365375c98d2"
+    },
+    {
+      "sectionId": "pg063_sec001",
+      "oldReaderPage": 100,
+      "readerPage": 101,
+      "oldHref": "pg063_sec001.html",
+      "href": "pg063_sec001.html",
+      "oldVideo": "Page_100.mp4",
+      "video": "page_101.mp4",
+      "videoSha256": "b04ec176f2a7e31b7e67ef201ea3c6ea8e8e695595e5d2875590fb11b3d8157d"
+    },
+    {
+      "sectionId": "pg063_sec002",
+      "oldReaderPage": 101,
+      "readerPage": 102,
+      "oldHref": "pg063_sec002.html",
+      "href": "pg063_sec002.html",
+      "oldVideo": "Page_101.mp4",
+      "video": "page_102.mp4",
+      "videoSha256": "0e92d5185b2ad9f994f56a4fc30440c6a77c298bc587400b5f8ed78333b2df71"
+    },
+    {
+      "sectionId": "pg064_sec001",
+      "oldReaderPage": 102,
+      "readerPage": 103,
+      "oldHref": "pg064_sec001.html",
+      "href": "pg064_sec001.html",
+      "oldVideo": "Page_102.mp4",
+      "video": "page_103.mp4",
+      "videoSha256": "9238f51d6df39b2220fdc50597d770d89511e1e84fccc68e89bf19f37651068b"
+    },
+    {
+      "sectionId": "pg065_sec001",
+      "oldReaderPage": 103,
+      "readerPage": 104,
+      "oldHref": "pg065_sec001.html",
+      "href": "pg065_sec001.html",
+      "oldVideo": "Page_103.mp4",
+      "video": "page_104.mp4",
+      "videoSha256": "168cc1131ceba8f20ad8e85bdce3892f9078dfa88d59b0e726badf84e0d4dd58"
+    },
+    {
+      "sectionId": "pg066_sec001",
+      "oldReaderPage": 104,
+      "readerPage": 105,
+      "oldHref": "pg066_sec001.html",
+      "href": "pg066_sec001.html",
+      "oldVideo": "Page_104.mp4",
+      "video": "page_105.mp4",
+      "videoSha256": "3cf774f86f377e522e8396f8201197ae86ddf11ae15e87ac5bd98367eede38ec"
+    },
+    {
+      "sectionId": "pg067_sec001",
+      "oldReaderPage": 105,
+      "readerPage": 106,
+      "oldHref": "pg067_sec001.html",
+      "href": "pg067_sec001.html",
+      "oldVideo": "Page_105.mp4",
+      "video": "page_106.mp4",
+      "videoSha256": "13bff4b7d2eadb2be362e0ffb9ef4b20e27b0465b003a2473af8099a4ec37be9"
+    },
+    {
+      "sectionId": "pg067_sec002",
+      "oldReaderPage": 106,
+      "readerPage": 107,
+      "oldHref": "pg067_sec002.html",
+      "href": "pg067_sec002.html",
+      "oldVideo": "Page_106.mp4",
+      "video": "page_107.mp4",
+      "videoSha256": "58fb5624c387344d8203c08e5d532bf7d5e3a787ce27854b67039b9a76809a32"
+    },
+    {
+      "sectionId": "pg067_sec003",
+      "oldReaderPage": 107,
+      "readerPage": 108,
+      "oldHref": "pg067_sec003.html",
+      "href": "pg067_sec003.html",
+      "oldVideo": "Page_107.mp4",
+      "video": "page_108.mp4",
+      "videoSha256": "5fe3e8e56fa098c4b3f8958288c76a7c61763fcf454c62faf2c47d64069fa2d7"
+    },
+    {
+      "sectionId": "pg068_sec001",
+      "oldReaderPage": 108,
+      "readerPage": 109,
+      "oldHref": "pg068_sec001.html",
+      "href": "pg068_sec001.html",
+      "oldVideo": "Page_108.mp4",
+      "video": "page_109.mp4",
+      "videoSha256": "5c97e2f881f3d14f6a51b0514b4a22e645c27d277a2d44358add2b1ef76ee0f6"
+    },
+    {
+      "sectionId": "pg069_sec001",
+      "oldReaderPage": 109,
+      "readerPage": 110,
+      "oldHref": "pg069_sec001.html",
+      "href": "pg069_sec001.html",
+      "oldVideo": "page_109.mp4",
+      "video": "page_110.mp4",
+      "videoSha256": "d6e82be90a2bfc97cad3ae8be3fcc40fad1cc616ce90f7acd0d5ae5c470b04f5"
+    },
+    {
+      "sectionId": "pg070_sec001",
+      "oldReaderPage": 110,
+      "readerPage": 111,
+      "oldHref": "pg070_sec001.html",
+      "href": "pg070_sec001.html",
+      "oldVideo": "Page_110.mp4",
+      "video": "page_111.mp4",
+      "videoSha256": "c0f7bc211e8748ff96d38b17cbd5b6e377d8a2c7667fd4344bd9fb8ad05973cb"
+    },
+    {
+      "sectionId": "pg071_sec001",
+      "oldReaderPage": 111,
+      "readerPage": 112,
+      "oldHref": "pg071_sec001.html",
+      "href": "pg071_sec001.html",
+      "oldVideo": "Page_111.mp4",
+      "video": "page_112.mp4",
+      "videoSha256": "990d7ce69fdc66635def7fad6dd76ffe4b6b07a8a8d062e1dd99ae7633e0fad4"
+    },
+    {
+      "sectionId": "pg071_sec002",
+      "oldReaderPage": 112,
+      "readerPage": 113,
+      "oldHref": "pg071_sec002.html",
+      "href": "pg071_sec002.html",
+      "oldVideo": "Page_112.mp4",
+      "video": "page_113.mp4",
+      "videoSha256": "1d8ae5fb0919f82067764670391fdf0b3dae3b0a1c2db5cae19afcd1546f736b"
+    },
+    {
+      "sectionId": "pg072_sec001",
+      "oldReaderPage": 113,
+      "readerPage": 114,
+      "oldHref": "pg072_sec001.html",
+      "href": "pg072_sec001.html",
+      "oldVideo": "Page_113.mp4",
+      "video": "page_114.mp4",
+      "videoSha256": "830a1fa65f66d347c172c69161e22888c634e4c64d31d072e63c6ba14c888db3"
+    },
+    {
+      "sectionId": "pg072_sec002",
+      "oldReaderPage": 114,
+      "readerPage": 115,
+      "oldHref": "pg072_sec002.html",
+      "href": "pg072_sec002.html",
+      "oldVideo": "Page_114.mp4",
+      "video": "page_115.mp4",
+      "videoSha256": "3dc3e6ad05b73059e6d8f10a7108aa456bdd9eb5657de273de0151549ac5fc4a"
+    }
+  ]
+}
