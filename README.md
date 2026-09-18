@@ -13,7 +13,8 @@ image descriptions, and printed page numbers remain attached to their content.
 1. Update the canonical HTML and localization files, then advance `bundleVersion`
    and the changed assets' version query strings when making reader changes.
 2. Run `python -B scripts/rebuild_offline_preloader.py`.
-3. Run `python -B scripts/validate_deployment.py`,
+3. Run `node --test scripts/test_cover_playback.cjs`,
+   `python -B scripts/validate_deployment.py`,
    `python -B scripts/validate_cover_media.py`, and
    `python -B scripts/validate_bilingual_audio.py` (Python UTF-8 mode is required
    on Windows; the cover validator uses `mutagen`).
@@ -38,3 +39,9 @@ stylesheets. `assets/favicon_io/about.txt` contains required icon attribution.
 The active reader runtime, UI stylesheet, and mobile drawer helpers come from
 the Writing Standard 1 reference book. See `scripts/sync_responsive_toolbar.py`
 and `responsive-toolbar-report.json` for their source and verification details.
+
+Cover narration follows the playback selector directly: Slow 0.5×, Normal 1×,
+Fast 1.5×, and Very fast 2×. The short cover videos retain their own timelines;
+they do not determine narration speed. Interior pages keep their existing media
+synchronization. `scripts/test_cover_playback.cjs` checks this distinction using
+the real page and narration metadata, including image descriptions.

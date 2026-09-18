@@ -18,9 +18,12 @@ class DataIdParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
         self.items: list[tuple[str, str]] = []
+        self.is_cover = False
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         values = dict(attrs)
+        if values.get("data-section-type") in {"front_cover", "back_cover"}:
+            self.is_cover = True
         text_id = values.get("data-id")
         if text_id:
             self.items.append((tag.lower(), text_id))
@@ -62,6 +65,7 @@ def main() -> None:
     audio_rates: list[tuple[float, int]] = []
     playable = 0
     precise = 0
+    cover_pages = []
 
     if len(pages) != len(videos):
         errors.append(f"pages/videos mismatch: {len(pages)} pages, {len(videos)} videos")
@@ -103,7 +107,10 @@ def main() -> None:
             errors.append(f"page {index}: no playable narration")
             continue
         video_duration = media_duration(args.ffprobe, video_path)
-        audio_rate = total_audio / video_duration
+        # Cover narration obeys the speed selector, independent of video length.
+        audio_rate = 1.0 if data_ids.is_cover else total_audio / video_duration
+        if data_ids.is_cover:
+            cover_pages.append(index)
         audio_rates.append((audio_rate, index))
         if audio_rate < 0.25 or audio_rate > 4:
             errors.append(
@@ -127,6 +134,7 @@ def main() -> None:
     print(f"- narration tracks: {playable}")
     print(f"- tracks with precise word timing: {precise}")
     print("- sign video rate: 1.000x at the default reading speed")
+    print(f"- covers at natural 1.000x narration speed: {cover_pages}")
     print(
         f"- synchronized narration range: {low[0]:.3f}x (page {low[1]}) "
         f"to {high[0]:.3f}x (page {high[1]})"

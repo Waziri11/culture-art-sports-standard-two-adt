@@ -3,6 +3,13 @@
 
   if (window.__adtAccessibleMediaSync) return;
 
+  // Cover videos have their own short presentation, while narration also reads
+  // the publisher, notices, ISBN and optional image descriptions. Keep the
+  // selected speech speed instead of squeezing all that text into the video.
+  const isCoverPage = document.querySelector(
+    '#content [data-section-type="front_cover"], #content [data-section-type="back_cover"]',
+  ) !== null;
+
   const NativeAudio = window.Audio;
   const mediaPrototype = window.HTMLMediaElement.prototype;
   const nativePlay = mediaPrototype.play;
@@ -174,7 +181,7 @@
     const plan = state.plan;
     if (!audio || !video || !plan || plan.totalDuration <= 0 || !video.duration) return;
     const requestedSpeed = Math.max(0.25, Math.min(4, storedNumber("audioSpeed", 1)));
-    const audioRate = Math.max(
+    const audioRate = isCoverPage ? requestedSpeed : Math.max(
       0.25,
       Math.min(4, (plan.totalDuration / video.duration) * requestedSpeed),
     );
@@ -190,6 +197,7 @@
   }
 
   function correctDrift() {
+    if (isCoverPage) return;
     const audio = state.audio;
     const video = state.video;
     const plan = state.plan;
@@ -226,6 +234,11 @@
       const filename = filenameFromUrl(audio.currentSrc || audio.src);
       if (!plan || !plan.byFilename.has(filename)) return;
       synchronizeRates();
+      if (isCoverPage && video.ended) {
+        // Replay with a new read-through, not with every remaining audio clip.
+        if (filename !== plan.tracks[0]?.filename) return;
+        video.currentTime = 0;
+      }
       correctDrift();
       if (video.paused) nativePlay.call(video).catch(() => {});
     });
@@ -263,7 +276,9 @@
       if (finalTrack && state.video) {
         state.correcting = true;
         try {
-          state.video.currentTime = state.video.duration || state.video.currentTime;
+          if (!isCoverPage) {
+            state.video.currentTime = state.video.duration || state.video.currentTime;
+          }
         } finally {
           state.correcting = false;
         }
@@ -372,7 +387,7 @@
   );
 
   window.__adtAccessibleMediaSync = {
-    version: 1,
+    version: 2,
     state,
     nativePlay,
     nativePause,
