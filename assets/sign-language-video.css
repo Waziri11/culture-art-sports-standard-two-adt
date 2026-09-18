@@ -3,7 +3,8 @@
   display: block !important;
   visibility: visible !important;
   opacity: 1 !important;
-  z-index: 59 !important;
+  /* Reader popovers use layer 50; speed controls must stay clickable. */
+  z-index: 49 !important;
   max-width: calc(100vw - 2rem) !important;
 }
 [data-sign-language-player] video {
